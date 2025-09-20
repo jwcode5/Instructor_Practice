@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test Bank Practice</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.question {
+			margin-bottom: 20px;
+			padding: 15px;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+		}
+
+		.options {
+			margin-left: 20px;
+		}
+
+		.correct {
+			background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+		}
+
+		.incorrect {
+			background-color: #ffe6e6;
+		}
+
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+
+		#results {
+			margin-top: 30px;
+			padding: 15px;
+			border: 1px solid #333;
+			border-radius: 5px;
+			display: none;
+		}
+
+		#score {
+			font-weight: bold;
+			font-size: 1.2em;
+		}
+
+		button {
+			padding: 10px 15px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+		   min-height: 44px; /* Better touch target */
+    		-webkit-appearance: none; /* Remove iOS styling */
+		}
+
+		button:hover {
+			background-color: #45a049;
+		}
+	</style>
+</head>
+<body>
+	<h1>v3 Test Bank Practice</h1>
+	
+	<form id="quizForm">
+<!-- Question 1 -->
+<div class="question" id="q1">
+	<p>1.   A lesson plan format includes:</p>
+   <div class="options">           
+		<label><input type="radio" name="q1" value="a"> a)    learner evaluations of instructor.</label><br>
+		<label><input type="radio" name="q1" value="b"> b)    acceptable references.</label><br>
+		<label><input type="radio" name="q1" value="c"> c)    a list of acceptable instructors.</label><br>
+		<label><input type="radio" name="q1" value="d"> d)    test item analysis.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+                        
+<!-- Question 2 -->
+<div class="question" id="q2">
+	<p>2.   Students have the opportunity to have hands-on training during the ___ step.</p>
+	<div class="options">
+		<label><input type="radio" name="q2" value="a"> a)    presentation</label><br>
+		<label><input type="radio" name="q2" value="b"> b)    application</label><br>
+		<label><input type="radio" name="q2" value="c"> c)    evaluation</label><br>
+		<label><input type="radio" name="q2" value="d"> d)    preparation</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 3 -->      
+<div class="question" id="q3">
+	<p>3.   Which step in the communication process is considered the completion part?</p>
+	<div class="options">
+		<label><input type="radio" name="q3" value="a"> a)    The medium</label><br>
+		<label><input type="radio" name="q3" value="b"> b)    Feedback</label><br>
+		<label><input type="radio" name="q3" value="c"> c)    The environment</label><br>
+		<label><input type="radio" name="q3" value="d"> d)    The message</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 4 -->
+<div class="question" id="q4">
+	<p>4.   The more true to life the learning situation, the greater the change in student behavior is the Law of:</p>
+   <div class="options">
+		<label><input type="radio" name="q4" value="a"> a)    Effect.</label><br>
+		<label><input type="radio" name="q4" value="b"> b)    Association.</label><br>
+		<label><input type="radio" name="q4" value="c"> c)    Intensity.</label><br>
+		<label><input type="radio" name="q4" value="d"> d)    Readiness.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 5 -->
+<div class="question" id="q5">
+	<p>5.   The value of humor in the classroom is to:</p>
+	<div class="options">
+		<label><input type="radio" name="q5" value="a"> a)    as a substitute for knowledge.</label><br>
+		<label><input type="radio" name="q5" value="b"> b)    make learning more interesting and relaxing.</label><br>
+		<label><input type="radio" name="q5" value="c"> c)    satisfy basic human needs.</label><br>
+		<label><input type="radio" name="q5" value="d"> d)    identify with the students.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 6 -->
+<div class="question" id="q6">
+	<p>6.   What can you do to modify or adapt a lesson plan?</p>
+	<div class="options">
+		<label><input type="radio" name="q6" value="a"> a)    Skip the assignment for a class due to the reading levels of the students</label><br>
+		<label><input type="radio" name="q6" value="b"> b)    Alter the content or lesson objectives</label><br>
+		<label><input type="radio" name="q6" value="c"> c)    Modify the method of instruction</label><br>
+		<label><input type="radio" name="q6" value="d"> d)    Eliminate the demonstration skills due to lack of equipment</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+    
+<!-- Question 7 -->
+<div class="question" id="q7">
+	<p>7.   The primary responsibility for controlling the learning environment belongs to the:</p>
+	<div class="options">
+		<label><input type="radio" name="q7" value="a"> a)    instructor.</label><br>
+		<label><input type="radio" name="q7" value="b"> b)    lead instructor.</label><br>
+		<label><input type="radio" name="q7" value="c"> c)    company officer.</label><br>
+		<label><input type="radio" name="q7" value="d"> d)    safety officer.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 8 -->
+<div class="question" id="q8">
+	<p>8.   An instructor should:</p>
+	<div class="options">
+		<label><input type="radio" name="q8" value="a"> a)     allow students to select their own personal protective equipment.</label><br>
+		<label><input type="radio" name="q8" value="b"> b)     allow students to teach other students without interference.</label><br>
+		<label><input type="radio" name="q8" value="c"> c)     demonstrate a strong, authoritarian role.</label><br>
+		<label><input type="radio" name="q8" value="d"> d)     be a primary role model for safety.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 9 -->
+<div class="question" id="q9">
+	<p>9.   When preparing for a presentation, the instructor must consider logistical support prior to the class and:</p>
+	<div class="options">
+ 		<label><input type="radio" name="q9" value="a"> a)    logistical time to purchase the equipment.</label><br>
+		<label><input type="radio" name="q9" value="b"> b)    classroom time to refill SCBA bottles after use.</label><br>
+		<label><input type="radio" name="q9" value="c"> c)    cost associated with replacing spent resources from class activities.</label><br>
+		<label><input type="radio" name="q9" value="d"> d)    logistical time to develop an evaluation tool.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 10 -->
+<div class="question" id="q10">
+	<p>10.   An effective Instructor I should have experience in:</p>
+	<div class="options">
+		<label><input type="radio" name="q10" value="a"> a)    writing test items.</label><br>
+		<label><input type="radio" name="q10" value="b"> b)    developing a lesson plan.</label><br>
+		<label><input type="radio" name="q10" value="c"> c)    student diversity.</label><br>
+		<label><input type="radio" name="q10" value="d"> d)    designing tests.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 11 -->
+<div class="question" id="q11">
+	<p>11.   An instructor should give challenging assignments to:</p>
+	<div class="options">
+		<label><input type="radio" name="q11" value="a"> a)    gifted learners.</label><br>
+		<label><input type="radio" name="q11" value="b"> b)    show-offs.</label><br>
+		<label><input type="radio" name="q11" value="c"> c)    all learners.</label><br>
+		<label><input type="radio" name="q11" value="d"> d)    timid learners.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 12 -->
+<div class="question" id="q12">
+	<p>12.   A shy or timid learner can be helped by:</p>
+   <div class="options">
+		<label><input type="radio" name="q12" value="a"> a)    a personal talk.</label><br>
+		<label><input type="radio" name="q12" value="b"> b)    encouraging participation when discussion is informal.</label><br>
+		<label><input type="radio" name="q12" value="c"> c)    giving frequent praise.</label><br>
+		<label><input type="radio" name="q12" value="d"> d)    coupling with a fast learner.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 13 -->
+<div class="question" id="q13">
+	<p>13.   Which is a type of question asked of just one person?</p>
+	<div class="options">
+		<label><input type="radio" name="q13" value="a"> a)    Redirected</label><br>
+		<label><input type="radio" name="q13" value="b"> b)    Direct</label><br>
+		<label><input type="radio" name="q13" value="c"> c)    Rhetorical</label><br>
+		<label><input type="radio" name="q13" value="d"> d)    Overhead</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 14 -->
+<div class="question" id="q14">
+	<p>14.   It is estimated that ___ to ___ percent of the general population of the United States has some type of learning disability.</p>
+	<div class="options">
+		<label><input type="radio" name="q14" value="a"> a)    15, 21</label><br>
+		<label><input type="radio" name="q14" value="b"> b)    3, 13</label><br>
+		<label><input type="radio" name="q14" value="c"> c)    25, 30</label><br>
+		<label><input type="radio" name="q14" value="d"> d)    1, 2</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 15 -->
+<div class="question" id="q15">
+	<p>15.   The course feedback is a method of evaluation that can be used to determine:</p>
+	<div class="options">
+		<label><input type="radio" name="q15" value="a"> a)    student competence.</label><br>
+		<label><input type="radio" name="q15" value="b"> b)    course or instructor weaknesses.</label><br>
+		<label><input type="radio" name="q15" value="c"> c)    removal of instructors from the course.</label><br>
+		<label><input type="radio" name="q15" value="d"> d)    whether the training budget is adequate.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 16 -->
+<div class="question" id="q16">
+	<p>16.   An attribute of an effective instructor is:</p>
+	<div class="options">
+		<label><input type="radio" name="q16" value="a"> a)    authoritarian role model.</label><br>
+		<label><input type="radio" name="q16" value="b"> b)    empathy.</label><br>
+		<label><input type="radio" name="q16" value="c"> c)    rigidity in instruction.</label><br>
+		<label><input type="radio" name="q16" value="d"> d)    flexibility in fairness.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 17 -->
+<div class="question" id="q17">
+	<p>17.   The greatest concern in the outdoor classroom environment is:</p>
+   <div class="options">
+		<label><input type="radio" name="q17" value="a"> a)    safety.</label><br>
+		<label><input type="radio" name="q17" value="b"> b)    weather.</label><br>
+		<label><input type="radio" name="q17" value="c"> c)    interruptions.</label><br>
+		<label><input type="radio" name="q17" value="d"> d)    noise.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 18 -->
+<div class="question" id="q18">
+	<p>18.   A ___ is awarded after a student has passed an examination process that is based on a set standard.</p>
+	<div class="options">
+		<label><input type="radio" name="q18" value="a"> a)    diploma</label><br>
+		<label><input type="radio" name="q18" value="b"> b)    degree</label><br>
+		<label><input type="radio" name="q18" value="c"> c)    certificate</label><br>
+		<label><input type="radio" name="q18" value="d"> d)    certification</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+              
+<!-- Question 19 -->
+<div class="question" id="q19">
+	<p>19.   Instructors should slow their speaking speed when:</p>
+	<div class="options">
+		<label><input type="radio" name="q19" value="a"> a)    talking with gifted students.</label><br>
+		<label><input type="radio" name="q19" value="b"> b)    students are taking a test.</label><br>
+		<label><input type="radio" name="q19" value="c"> c)    ending a class.</label><br>
+		<label><input type="radio" name="q19" value="d"> d)    presenting new information.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+          
+<!-- Question 20 -->
+<div class="question" id="q20">
+	<p>20.   An instructor who provides training for experienced first responders through discussion is best described as a:</p>
+	<div class="options">          
+		<label><input type="radio" name="q20" value="a"> a)    facilitator.</label><br>
+		<label><input type="radio" name="q20" value="b"> b)    technical tutor.</label><br>
+		<label><input type="radio" name="q20" value="c"> c)    coach.</label><br>
+		<label><input type="radio" name="q20" value="d"> d)    technical advisor.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 21 -->
+<div class="question" id="q21">
+	<p>21.   The uninterested learner displays little ___ and ___.</p>
+	<div class="options">
+   	<label><input type="radio" name="q21" value="a"> a)    common sense, judgment</label><br>
+   	<label><input type="radio" name="q21" value="b"> b)    energy, attention</label><br>
+    	<label><input type="radio" name="q21" value="c"> c)    ability, desire</label><br>
+     	<label><input type="radio" name="q21" value="d"> d)    enthusiasm, intelligence</label><br>
+		 <div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 22 -->
+<div class="question" id="q22">
+	<p>22.   Which unit is used to measure the brightness of the light emitted by a data projector?</p>
+	<div class="options">
+		<label><input type="radio" name="q22" value="a"> a)    Pixels</label><br>
+		<label><input type="radio" name="q22" value="b"> b)    Lumens</label><br>
+   		<label><input type="radio" name="q22" value="c"> c)    Candle power</label><br>
+     	<label><input type="radio" name="q22" value="d"> d)    Megapixels</label><br>
+		 <div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 23 -->
+<div class="question" id="q23">
+	<p>23.   In the learning environment, the student is the:</p>
+	<div class="options">
+		<label><input type="radio" name="q23" value="a"> a)    sender.</label><br>
+		<label><input type="radio" name="q23" value="b"> b)    medium.</label><br>
+		<label><input type="radio" name="q23" value="c"> c)    environment.</label><br>
+		<label><input type="radio" name="q23" value="d"> d)    receiver.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 24 -->
+<div class="question" id="q24">
+	<p>24.   A presentation where the student learns online, then meets with classmates and the instructor for hands-on training is:</p>
+	<div class="options">
+		<label><input type="radio" name="q24" value="a"> a)    browser based training.</label><br>
+		<label><input type="radio" name="q24" value="b"> b)    hybrid training.</label><br>
+		<label><input type="radio" name="q24" value="c"> c)    a demonstrative lecture.</label><br>
+		<label><input type="radio" name="q24" value="d"> d)    focal web-based training.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 25 -->
+<div class="question" id="q25">
+	<p>25.   ___ tests may be used in conjunction with performance tests.</p>
+	<div class="options">
+		<label><input type="radio" name="q25" value="a"> a)    Multiple choice</label><br>
+		<label><input type="radio" name="q25" value="b"> b)    Essay</label><br>
+		<label><input type="radio" name="q25" value="c"> c)    Written</label><br>
+		<label><input type="radio" name="q25" value="d"> d)    Oral</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 26 -->
+<div class="question" id="q26">
+	<p>26.   Which most accurately describes the term consistency?</p>
+	<div class="options">
+		<label><input type="radio" name="q26" value="a"> a)    The methodical examination of the various parts of a project, program, or incident.</label><br>
+		<label><input type="radio" name="q26" value="b"> b)    The flow of information has no interruption or change.</label><br>
+		<label><input type="radio" name="q26" value="c"> c)    The information is not contradictory and conforms to the principles that a course is attempting to teach.</label><br>
+		<label><input type="radio" name="q26" value="d"> d)    The mechanisms implemented to ensure that objectives are attained.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 27 -->
+<div class="question" id="q27">
+	<p>27.   Which is true of adult learners?</p>
+	<div class="options">
+		<label><input type="radio" name="q27" value="a"> a)    Adults have little incentives to learn.</label><br>
+		<label><input type="radio" name="q27" value="b"> b)    Adults learn by ignoring previous experience.</label><br>
+		<label><input type="radio" name="q27" value="c"> c)    Adult orientation to learning is subject centered.</label><br>
+		<label><input type="radio" name="q27" value="d"> d)    Adult orientation to learning is real world problem-centered.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+<!-- Question 28 -->
+<div class="question" id="q28">
+	<p>28.   At the beginning of a presentation, the instructor should clearly state:</p>
+	<div class="options">
+		<label><input type="radio" name="q28" value="a"> a)    The objective of the lesson.</label><br>
+		<label><input type="radio" name="q28" value="b"> b)    which teaching method is about to be employed.</label><br>
+		<label><input type="radio" name="q28" value="c"> c)    what reference material will be used.</label><br>
+		<label><input type="radio" name="q28" value="d"> d)    how participants will be evaluated.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 29 -->
+<div class="question" id="q29">
+	<p>29.   A positive learner/instructor relationship is built on:</p>
+	<div class="options">
+		<label><input type="radio" name="q29" value="a"> a)    ingenuity and creativity.</label><br>
+		<label><input type="radio" name="q29" value="b"> b)    knowledge and skills.</label><br>
+		<label><input type="radio" name="q29" value="c"> c)    enthusiasm and personal experience.</label><br>
+		<label><input type="radio" name="q29" value="d"> d)    mutual respect and confidence.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 30 -->
+<div class="question" id="q30">
+	<p>30.   Which purpose of communication controls, directs, or manipulates behavior?</p>
+	<div class="options">
+		<label><input type="radio" name="q30" value="a"> a)    Relating</label><br>
+		<label><input type="radio" name="q30" value="b"> b)    Helping</label><br>
+		<label><input type="radio" name="q30" value="c"> c)    Influencing</label><br>
+		<label><input type="radio" name="q30" value="d"> d)    Role Playing</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 31 -->
+<div class="question" id="q31">
+	<p>31.   During a training evolution, a new recruit approaches you and asks for an accommodation because they cannot perform a task, you should:</p>
+	<div class="options">
+		<label><input type="radio" name="q31" value="a"> a)    allow the recruits to pass the skill to the best of their ability.</label><br>
+		<label><input type="radio" name="q31" value="b"> b)    make a decision based on professional opinion.</label><br>
+		<label><input type="radio" name="q31" value="c"> c)    contact the student's doctor to discuss the incident.</label><br>
+		<label><input type="radio" name="q31" value="d"> d)    contact the department for legal interpretation.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 32 -->
+<div class="question" id="q32">
+	<p>32.   When it comes to safety, you should:</p>
+	<div class="options">
+		<label><input type="radio" name="q32" value="a"> a)    expect others to do as they are directed without asking questions.</label><br>
+		<label><input type="radio" name="q32" value="b"> b)    delegate safety to the safety officer.</label><br>
+		<label><input type="radio" name="q32" value="c"> c)    follow National Fire Protection Association standards at all times.</label><br>
+		<label><input type="radio" name="q32" value="d"> d)    lead by example in everything they do.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 33 -->
+<div class="question" id="q33">
+	<p>33.   The function of lesson plans is to:</p>
+	<div class="options">
+		<label><input type="radio" name="q33" value="a"> a)    promote flexibility and change.</label><br>
+		<label><input type="radio" name="q33" value="b"> b)    act as a combination of various instructor notes.</label><br>
+		<label><input type="radio" name="q33" value="c"> c)    ensure continuity/consistency.</label><br>
+		<label><input type="radio" name="q33" value="d"> d)    provide a rigid procedure that must be followed for successful teaching.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 34 -->
+<div class="question" id="q34">
+	<p>34.   Which is a role/responsibility of the Fire Instructor I?</p>
+	<div class="options">
+		<label><input type="radio" name="q34" value="a"> a)    Evaluate instructors</label><br>
+		<label><input type="radio" name="q34" value="b"> b)    Formulate budget needs</label><br>
+		<label><input type="radio" name="q34" value="c"> c)    Acquire training resources</label><br>
+		<label><input type="radio" name="q34" value="d"> d)    Assemble course materials</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 35 -->
+<div class="question" id="q35">
+	<p>35.   Which is considered a multimedia component?</p>
+	<div class="options">
+		<label><input type="radio" name="q35" value="a"> a)    Skill sheet</label><br>
+		<label><input type="radio" name="q35" value="b"> b)    Simulator</label><br>
+		<label><input type="radio" name="q35" value="c"> c)    Assignment</label><br>
+		<label><input type="radio" name="q35" value="d"> d)    Information sheet</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+                      
+<!-- Question 36 -->
+<div class="question" id="q36">
+	<p>36.   The best way to handle a failure of audio-visual equipment is to:</p>
+	<div class="options">
+		<label><input type="radio" name="q36" value="a"> a)    call the training officer.</label><br>
+		<label><input type="radio" name="q36" value="b"> b)    implement the contingency plan.</label><br>
+		<label><input type="radio" name="q36" value="c"> c)    reschedule the class.</label><br>
+		<label><input type="radio" name="q36" value="d"> d)    move to the next course section.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 37 -->
+<div class="question" id="q37">
+	<p>37.   Models are best suited for:</p>
+	<div class="options">
+		<label><input type="radio" name="q37" value="a"> a)    discussion.</label><br>
+		<label><input type="radio" name="q37" value="b"> b)    lecturing.</label><br>
+		<label><input type="radio" name="q37" value="c"> c)    simulations.</label><br>
+		<label><input type="radio" name="q37" value="d"> d)    demonstration.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 38 -->
+<div class="question" id="q38">
+	<p>38.   Training records and reports are necessary to document:</p>
+	<div class="options">
+		<label><input type="radio" name="q38" value="a"> a)    what courses students have completed.</label><br>
+		<label><input type="radio" name="q38" value="b"> b)    and compare against area departments.</label><br>
+		<label><input type="radio" name="q38" value="c"> c)    sources of training funds.</label><br>
+		<label><input type="radio" name="q38" value="d"> d)    and justify the competency of lead instructors.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 39 -->
+<div class="question" id="q39">
+	<p>39.   Which written test item is the most widely used in the fire service?</p>
+	<div class="options">
+ 		<label><input type="radio" name="q39" value="a"> a)    Multiple choice</label><br>
+		<label><input type="radio" name="q39" value="b"> b)    True/False</label><br>
+		<label><input type="radio" name="q39" value="c"> c)    Matching</label><br>
+		<label><input type="radio" name="q39" value="d"> d)    Fill-in the blank</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 40 -->
+<div class="question" id="q40">
+	<p>40.   Usually, test results for a student are released or reported to the:</p>
+	<div class="options">
+		<label><input type="radio" name="q40" value="a"> a)    chief of the department.</label><br>
+		<label><input type="radio" name="q40" value="b"> b)    instructor.</label><br>
+		<label><input type="radio" name="q40" value="c"> c)    department administrator.</label><br>
+		<label><input type="radio" name="q40" value="d"> d)    immediate supervisor.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 41 -->
+<div class="question" id="q41">
+	<p>41.   A factor during classroom preparation that can have an effect on the learning environment is:</p>
+	<div class="options">
+		<label><input type="radio" name="q41" value="a"> a)    time of day for the course.</label><br>
+		<label><input type="radio" name="q41" value="b"> b)    prerequisites.</label><br>
+		<label><input type="radio" name="q41" value="c"> c)    seating arrangements.</label><br>
+		<label><input type="radio" name="q41" value="d"> d)    cost of the course.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 42 -->
+<div class="question" id="q42">
+	<p>42.   The prerequisites component of a lesson plan refers to:</p>
+	<div class="options">
+		<label><input type="radio" name="q42" value="a"> a)    the pace of presenting the lesson plan.</label><br>
+		<label><input type="radio" name="q42" value="b"> b)    readings or research to be completed outside the classroom.</label><br>
+		<label><input type="radio" name="q42" value="c"> c)    the conclusion of the lesson to clarify uncertainties.</label><br>
+		<label><input type="radio" name="q42" value="d"> d)    previous requirements that a student must have met.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 43 -->
+<div class="question" id="q43">
+	<p>43.   Which of the following is a limitation of audio systems?</p>
+	<div class="options">
+		<label><input type="radio" name="q43" value="a"> a)    Wired systems have limited output.</label><br>
+		<label><input type="radio" name="q43" value="b"> b)    Wireless systems may have an issue with frequency usage.</label><br>
+		<label><input type="radio" name="q43" value="c"> c)    Wireless system microphones are large and limit freedom of movement.</label><br>
+		<label><input type="radio" name="q43" value="d"> d)    Wired systems provide decreased flexibility for the instructor.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 44 -->
+<div class="question" id="q44">
+	<p>44.   Which refers to students with dysphasia?</p>
+	<div class="options">
+		<label><input type="radio" name="q44" value="a"> a)    Lack ability to write or spell or place words together to complete a sentence</label><br>
+		<label><input type="radio" name="q44" value="b"> b)    Problems in reading such as word recognition and comprehension</label><br>
+		<label><input type="radio" name="q44" value="c"> c)    Problems with auditory and visual perception</label><br>
+		<label><input type="radio" name="q44" value="d"> d)    Difficulty performing precise psychomotor skills</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 45 -->
+<div class="question" id="q45">
+	<p>45.   The effectiveness of the learning process relates directly to the ___ and the adult learner's interactions with the ___.</p>
+	<div class="options">
+		<label><input type="radio" name="q45" value="a"> a)    classroom time, curriculum.</label><br>
+		<label><input type="radio" name="q45" value="b"> b)    learning environment, environment.</label><br>
+		<label><input type="radio" name="q45" value="c"> c)    curriculum, course material.</label><br>
+		<label><input type="radio" name="q45" value="d"> d)    learner's attitude, environment.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 46 -->
+<div class="question" id="q46">
+	<p>46.   The instructor should transition between the lecture and audiovisual aids to reinforce the information since students remember ___ percent of what they see and hear at the same time.</p>
+	<div class="options">
+		<label><input type="radio" name="q46" value="a"> a)    50</label><br>
+		<label><input type="radio" name="q46" value="b"> b)    40</label><br>
+		<label><input type="radio" name="q46" value="c"> c)    30</label><br>
+		<label><input type="radio" name="q46" value="d"> d)    20</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 47 -->
+<div class="question" id="q47">
+	<p>47.   When selecting writing material that will be projected, ___ print should be used.</p>
+	<div class="options">
+		<label><input type="radio" name="q47" value="a"> a)    san serif</label><br>
+		<label><input type="radio" name="q47" value="b"> b)    script</label><br>
+		<label><input type="radio" name="q47" value="c"> c)    block</label><br>
+		<label><input type="radio" name="q47" value="d"> d)    bold</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 48 -->
+<div class="question" id="q48">
+	<p>48.   An initial method for handling disruptive learners is to:</p>
+	<div class="options">
+		<label><input type="radio" name="q48" value="a"> a)    call on them regularly.</label><br>
+		<label><input type="radio" name="q48" value="b"> b)    remove them from the class.</label><br>
+		<label><input type="radio" name="q48" value="c"> c)    notify their superior officers.</label><br>
+		<label><input type="radio" name="q48" value="d"> d)    exert peer pressure on them.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 49 -->
+<div class="question" id="q49">
+	<p>49.   A learner who uses a group situation to gain attention is classified as a:</p>
+	<div class="options">
+		<label><input type="radio" name="q49" value="a"> a)    timid learner.</label><br>
+		<label><input type="radio" name="q49" value="b"> b)    remove them from the class.</label><br>
+		<label><input type="radio" name="q49" value="c"> c)    show-off or know-it-all.</label><br>
+		<label><input type="radio" name="q49" value="d"> d)    troublemaker.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 50 -->
+<div class="question" id="q50">
+	<p>50.   In a skills demonstration, the first thing the instructor should do is:</p>
+	<div class="options">
+		<label><input type="radio" name="q50" value="a"> a)    provide an explanation of the skill.</label><br>
+		<label><input type="radio" name="q50" value="b"> b)    perform the skill at normal speed.</label><br>
+		<label><input type="radio" name="q50" value="c"> c)    perform the skill slowly so learners can observe all steps.</label><br>
+		<label><input type="radio" name="q50" value="d"> d)    have a learner perform the skill while the instructor explains the steps.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 51 -->
+<div class="question" id="q51">
+	<p>51.   Which is one of the domains where learning takes place?</p>
+	<div class="options">
+		<label><input type="radio" name="q51" value="a"> a)    Motivation</label><br>
+		<label><input type="radio" name="q51" value="b"> b)    Affective</label><br>
+		<label><input type="radio" name="q51" value="c"> c)    Environment</label><br>
+		<label><input type="radio" name="q51" value="d"> d)    Empathy</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 52 -->
+<div class="question" id="q52">
+	<p>52.   The type of lecture that uses PowerPoint slides to highlight key points is called a(n):</p>
+	<div class="options">
+		<label><input type="radio" name="q52" value="a"> a)    conference lecture.</label><br>
+		<label><input type="radio" name="q52" value="b"> b)    graphic illustration.</label><br>
+		<label><input type="radio" name="q52" value="c"> c)    guided instruction.</label><br>
+		<label><input type="radio" name="q52" value="d"> d)    illustrative lecture.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 53 -->
+<div class="question" id="q53">
+	<p>53.   You are preparing to teach a Self-Contained Breathing Apparatus (SCBA) class. For which issue would you normally be responsible?</p>
+	<div class="options">
+		<label><input type="radio" name="q53" value="a"> a)    Establishing a budget for the class</label><br>
+		<label><input type="radio" name="q53" value="b"> b)    Writing the exam questions</label><br>
+		<label><input type="radio" name="q53" value="c"> c)    Selecting the type of SCBA for your department</label><br>
+		<label><input type="radio" name="q53" value="d"> d)    Reviewing the lesson plan an assembling the audio/visual aids</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 54 -->
+<div class="question" id="q54">
+	<p>54.   One of the levels of in-service drills is:</p>
+	<div class="options">
+		<label><input type="radio" name="q54" value="a"> a)    assessment testing.</label><br>
+		<label><input type="radio" name="q54" value="b"> b)    certification.</label><br>
+		<label><input type="radio" name="q54" value="c"> c)    advanced training.</label><br>
+		<label><input type="radio" name="q54" value="d"> d)    skill/knowledge maintenance.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 55 -->
+<div class="question" id="q55">
+	<p>55.   The Law of Learning states that no one will ever become proficient at any skill without performing which operation?</p>
+	<div class="options">
+		<label><input type="radio" name="q55" value="a"> a)    Readiness</label><br>
+		<label><input type="radio" name="q55" value="b"> b)    Intensity</label><br>
+		<label><input type="radio" name="q55" value="c"> c)    Recency</label><br>
+		<label><input type="radio" name="q55" value="d"> d)    Exercise</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 56 -->
+<div class="question" id="q56">
+	<p>56.   Coaching involves the instructor:</p>
+	<div class="options">
+		<label><input type="radio" name="q56" value="a"> a)    acting as a trusted and friendly advisor.</label><br>
+		<label><input type="radio" name="q56" value="b"> b)    working with student to develop and master course work.</label><br>
+		<label><input type="radio" name="q56" value="c"> c)    reviewing student's needs and concerns.</label><br>
+		<label><input type="radio" name="q56" value="d"> d)    guiding student activity and reinforcing correct behaviors.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 57 -->
+<div class="question" id="q57">
+	<p>57.   Which is true regarding multiple instructor/evaluators?</p>
+	<div class="options">
+		<label><input type="radio" name="q57" value="a"> a)    Only one instructor/evaluator should score the student.</label><br>
+		<label><input type="radio" name="q57" value="b"> b)    The evaluators must be present.</label><br>
+		<label><input type="radio" name="q57" value="c"> c)    Instructors should come to consensus.</label><br>
+		<label><input type="radio" name="q57" value="d"> d)    They introduce scoring bias.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 58 -->
+<div class="question" id="q58">
+	<p>58.   When should an instructor evaluate the physical setting for a presentation?</p>
+	<div class="options">
+		<label><input type="radio" name="q58" value="a"> a)    During material selection process</label><br>
+		<label><input type="radio" name="q58" value="b"> b)    As the students report for class</label><br>
+		<label><input type="radio" name="q58" value="c"> c)    Before class begins</label><br>
+		<label><input type="radio" name="q58" value="d"> d)    During the application phase</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 59 -->
+<div class="question" id="q59">
+	<p>59.   Which refers to students with low literacy levels?</p>
+	<div class="options">
+		<label><input type="radio" name="q59" value="a"> a)    They have difficulty performing find or precise psychomotor skills</label><br>
+		<label><input type="radio" name="q59" value="b"> b)    Problems with auditory and visual perception</label><br>
+		<label><input type="radio" name="q59" value="c"> c)    Inability to compute and solve problems necessary to function on the job</label><br>
+		<label><input type="radio" name="q59" value="d"> d)    They drift mentally during long lectures</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 60 -->
+<div class="question" id="q60">
+	<p>60.   The communications process exists between two people who are the:</p>
+	<div class="options">
+		<label><input type="radio" name="q60" value="a"> a)    sender and the receiver.</label><br>
+		<label><input type="radio" name="q60" value="b"> b)    developer and the interpreter.</label><br>
+		<label><input type="radio" name="q60" value="c"> c)    speaker and the interpreter.</label><br>
+		<label><input type="radio" name="q60" value="d"> d)    instructor and the receiver.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 61 -->
+<div class="question" id="q61">
+	<p>61.   When using the ABCD Method for developing lesson objectives, the "A" stands for:</p>
+	<div class="options">
+		<label><input type="radio" name="q61" value="a"> a)    attitude.</label><br>
+		<label><input type="radio" name="q61" value="b"> b)    attributes.</label><br>
+		<label><input type="radio" name="q61" value="c"> c)    audience.</label><br>
+		<label><input type="radio" name="q61" value="d"> d)    action.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 62 -->
+<div class="question" id="q62">
+	<p>62.   The Flesch-Kincaid Readability Index is:</p>
+	<div class="options">
+		<label><input type="radio" name="q62" value="a"> a)    based on the average number of syllables used per sentence.</label><br>
+		<label><input type="radio" name="q62" value="b"> b)    based on the number of words read in one minute.</label><br>
+		<label><input type="radio" name="q62" value="c"> c)    based on the average number of words per sentence and the number of syllables per 100 words.</label><br>
+		<label><input type="radio" name="q62" value="d"> d)    used to measure the reading level of students.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 63 -->
+<div class="question" id="q63">
+	<p>63.   Which is an indicator of a learning disability?</p>
+	<div class="options">
+		<label><input type="radio" name="q63" value="a"> a)    Problems at home</label><br>
+		<label><input type="radio" name="q63" value="b"> b)    Problems with time management</label><br>
+		<label><input type="radio" name="q63" value="c"> c)    Color blindness</label><br>
+		<label><input type="radio" name="q63" value="d"> d)    Difficulty walking</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 64 -->
+<div class="question" id="q64">
+	<p>64.   In the Four-Step Method of Instruction, when is a learner given an opportunity to practice what has been learned?</label><br></p>
+	<div class="options">
+		<label><input type="radio" name="q64" value="a"> a)    Presentation</label><br>
+		<label><input type="radio" name="q64" value="b"> b)    Application</label><br>
+		<label><input type="radio" name="q64" value="c"> c)    Evaluation</label><br>
+		<label><input type="radio" name="q64" value="d"> d)    Preparation</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 65 -->
+<div class="question" id="q65">
+	<p>65.   A duty performed by the instructor after administration of a written test is:</label><br></p>
+	<div class="options">
+		<label><input type="radio" name="q65" value="a"> a)    allowing students to change their answers once submitted.</label><br>
+		<label><input type="radio" name="q65" value="b"> b)    eliminating loud talking or noises outside the room.</label><br>
+		<label><input type="radio" name="q65" value="c"> c)    maintaining the security of tests and answer sheets.</label><br>
+		<label><input type="radio" name="q65" value="d"> d)    monitoring the testing area from a desk</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 66 -->
+<div class="question" id="q66">
+	<p>66.   Which statement regarding test administration is true?</label><br></p>
+	<div class="options">
+		<label><input type="radio" name="q66" value="a"> a)    Arrive no sooner than 15 minutes prior to the beginning time for the written test.</label><br>
+		<label><input type="radio" name="q66" value="b"> b)    Remain objective with all test takers.</label><br>
+		<label><input type="radio" name="q66" value="c"> c)    Never leave the testing environment unless it is absolutely necessary.</label><br>
+		<label><input type="radio" name="q66" value="d"> d)    Oral tests are generally given in conjunction with written tests.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 67 -->
+<div class="question" id="q67">
+	<p>67.   An advantage of using handouts as instructional media is:</p>
+	<div class="options">
+		<label><input type="radio" name="q67" value="a"> a)    copyright laws must be applied.</label><br>
+		<label><input type="radio" name="q67" value="b"> b)    they can be three-hole punched so they are not lost.</label><br>
+		<label><input type="radio" name="q67" value="c"> c)    they may be distributed at the beginning of a class for homework assignments.</label><br>
+		<label><input type="radio" name="q67" value="d"> d)    to provide note guides with an outline of the lesson for students to fill in notes during class.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 68 -->
+<div class="question" id="q68">
+	<p>68.   Directions: Read the following statements and choose your answer from alternatives A-D below.<br><br>Statement 1: Instructors must stay on track and teach to the learning speed of the majority of the class.<br>Statement 2: To maintain course schedules, students who are learning new material may be assigned outside reading assignments.<br>Statement 3: When presenting material that is difficult or complex, the instructors should integrate training aids into the lesson plan.</p>
+	<div class="options">
+		<label><input type="radio" name="q68" value="a"> a)    Statement 1 is false; statements 2 and 3 are true.</label><br>
+		<label><input type="radio" name="q68" value="b"> b)    Statement 1 is true; statements 2 and 3 are false.</label><br>
+		<label><input type="radio" name="q68" value="c"> c)    Statements 1 and 2 are true; statement 3 is false.</label><br>
+		<label><input type="radio" name="q68" value="d"> d)    All three statements are true.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 69 -->
+<div class="question" id="q69">
+	<p>69.   Job performance requirements are:</p>
+	<div class="options">
+		<label><input type="radio" name="q69" value="a"> a)    part of the session scheduling.</label><br>
+		<label><input type="radio" name="q69" value="b"> b)    not responsibilities or duties.</label><br>
+		<label><input type="radio" name="q69" value="c"> c)    required for a specific job, based on standards.</label><br>
+		<label><input type="radio" name="q69" value="d"> d)    not used to certify personnel.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 70 -->
+<div class="question" id="q70">
+	<p>70.   The last step in conducting a skills performance evaluation is to:</p>
+	<div class="options">
+		<label><input type="radio" name="q70" value="a"> a)    discuss the results with the instructor.</label><br>
+		<label><input type="radio" name="q70" value="b"> b)    give feedback to the firefighter.</label><br>
+		<label><input type="radio" name="q70" value="c"> c)    record the results of the exam.</label><br>
+		<label><input type="radio" name="q70" value="d"> d)    provide results to the designated person.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 71 -->
+<div class="question" id="q71">
+	<p>71.   Learning will be most effective when a feeling of satisfaction or reward accompanies the learning process is the:</p>
+	<div class="options">
+		<label><input type="radio" name="q71" value="a"> a)    Law of Readiness.</label><br>
+		<label><input type="radio" name="q71" value="b"> b)    Law of Exercise.</label><br>
+		<label><input type="radio" name="q71" value="c"> c)    Law of Effect.</label><br>
+		<label><input type="radio" name="q71" value="d"> d)    Law of Learning.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 72 -->
+<div class="question" id="q72">
+	<p>72.   In Maslow's Hierarchy of Needs, the level that deals with people who feel profound moments of accomplishment is:</p>
+	<div class="options">
+		<label><input type="radio" name="q72" value="a"> a)    safety, security and order.</label><br>
+		<label><input type="radio" name="q72" value="b"> b)    self-actualization.</label><br>
+		<label><input type="radio" name="q72" value="c"> c)    social needs and affection.</label><br>
+		<label><input type="radio" name="q72" value="d"> d)    esteem and status.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 73 -->
+<div class="question" id="q73">
+	<p>73.   A ___ is a road map that guides the instructor.</p>
+	<div class="options">
+		<label><input type="radio" name="q73" value="a"> a)    job/topic</label><br>
+		<label><input type="radio" name="q73" value="b"> b)    task</label><br>
+		<label><input type="radio" name="q73" value="c"> c)    lesson plan</label><br>
+		<label><input type="radio" name="q73" value="d"> d)    lesson objective</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 74 -->
+<div class="question" id="q74">
+	<p>74.   At the most basic level of firefighting, the ___ is the most appropriate presentation method.</p>
+	<div class="options">
+		<label><input type="radio" name="q74" value="a"> a)    discussion</label><br>
+		<label><input type="radio" name="q74" value="b"> b)    lecture</label><br>
+		<label><input type="radio" name="q74" value="c"> c)    conference</label><br>
+		<label><input type="radio" name="q74" value="d"> d)    persuasion</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 75 -->
+<div class="question" id="q75">
+	<p>75.   When demonstrating a skill, which aspect of the demonstration is considered the most important?</p>
+	<div class="options">
+		<label><input type="radio" name="q75" value="a"> a)    Safety</label><br>
+		<label><input type="radio" name="q75" value="b"> b)    Knowledge</label><br>
+		<label><input type="radio" name="q75" value="c"> c)    Time</label><br>
+		<label><input type="radio" name="q75" value="d"> d)    Skill</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 76 -->
+<div class="question" id="q76">
+	<p>76.   The best choice of fuels to use in an acquired structure would be:</p>
+	<div class="options">
+		<label><input type="radio" name="q76" value="a"> a)    fuels that have known burning characteristics and are controllable.</label><br>
+		<label><input type="radio" name="q76" value="b"> b)    debris found in or around the structure.</label><br>
+		<label><input type="radio" name="q76" value="c"> c)    pressure treated wood so lesser amounts will burn better.</label><br>
+		<label><input type="radio" name="q76" value="d"> d)    combustible liquids that meet National Fire Protection Association (NFPA) 30.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 77 -->
+<div class="question" id="q77">
+	<p>77.   When discussion is used to facilitate the learning process, what essential element is needed?</p>
+	<div class="options">
+		<label><input type="radio" name="q77" value="a"> a)    Time keeping</label><br>
+		<label><input type="radio" name="q77" value="b"> b)    Assistant instructor</label><br>
+		<label><input type="radio" name="q77" value="c"> c)    Team points</label><br>
+		<label><input type="radio" name="q77" value="d"> d)    Key points</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 78 -->
+<div class="question" id="q78">
+	<p>78.   A communication style that involves experienced students and encourages them to incorporate their knowledge and experiences into the learning process is:</p>
+	<div class="options">
+		<label><input type="radio" name="q78" value="a"> a)    role playing.</label><br>
+		<label><input type="radio" name="q78" value="b"> b)    discussion.</label><br>
+		<label><input type="radio" name="q78" value="c"> c)    simulation.</label><br>
+		<label><input type="radio" name="q78" value="d"> d)    modeling.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 79 -->
+<div class="question" id="q79">
+	<p>79.   Which types of records or information must be kept confidential?</p>
+	<div class="options">
+	
+		<label><input type="radio" name="q79" value="a"> a)    Accident investigations</label><br>
+		<label><input type="radio" name="q79" value="b"> b)    Incident or NFIRS (National Fire Incidnet Reporting System) reports</label><br>
+		<label><input type="radio" name="q79" value="c"> c)    Individual training records</label><br>
+		<label><input type="radio" name="q79" value="d"> d)    Safety reports</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 80 -->
+<div class="question" id="q80">
+	<p>80.   Which type of wrong can be alleged in a civil case when an injury occurs that can be termed an accident?</p>
+	<div class="options">
+		<label><input type="radio" name="q80" value="a"> a)    Malfeasance</label><br>
+		<label><input type="radio" name="q80" value="b"> b)    Tort liability</label><br>
+		<label><input type="radio" name="q80" value="c"> c)    Civil tort</label><br>
+		<label><input type="radio" name="q80" value="d"> d)    Negligence</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 81 -->
+<div class="question" id="q81">
+	<p>81.   Training records will:</p>
+	<div class="options">
+		<label><input type="radio" name="q81" value="a"> a)    provide detailed medical information.</label><br>
+		<label><input type="radio" name="q81" value="b"> b)    provide ultimate student confidentiality.</label><br>
+		<label><input type="radio" name="q81" value="c"> c)    provide justifications for purchase of fireground equipment.</label><br>
+		<label><input type="radio" name="q81" value="d"> d)    document training that has been completed.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 82 -->
+<div class="question" id="q82">
+	<p>82.   What is a key element of most adult learner presentations?</p>
+	<div class="options">
+		<label><input type="radio" name="q82" value="a"> a)    Classroom arrangements</label><br>
+		<label><input type="radio" name="q82" value="b"> b)    A clear speaker</label><br>
+		<label><input type="radio" name="q82" value="c"> c)    Learning environment</label><br>
+		<label><input type="radio" name="q82" value="d"> d)    Multimedia training aids</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 83 -->
+<div class="question" id="q83">
+	<p>83.   Which has the highest percentage of learning?</p>
+	<div class="options">
+		<label><input type="radio" name="q83" value="a"> a)    Smelling</label><br>
+		<label><input type="radio" name="q83" value="b"> b)    Hearing</label><br>
+		<label><input type="radio" name="q83" value="c"> c)    Seeing</label><br>
+		<label><input type="radio" name="q83" value="d"> d)    Touching</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 84 -->
+<div class="question" id="q84">
+	<p>84.   An important part of a lesson plan that indicates the desired learning level is the:</p>
+	<div class="options">
+		<label><input type="radio" name="q84" value="a"> a)    level of instruction.</label><br>
+		<label><input type="radio" name="q84" value="b"> b)    level of the outline.</label><br>
+		<label><input type="radio" name="q84" value="c"> c)    course contents.</label><br>
+		<label><input type="radio" name="q84" value="d"> d)    performance objective.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 85 -->
+<div class="question" id="q85">
+	<p>85.   Safety program materials, such as Home Safety Council and American Red Cross, are considered:</p>
+	<div class="options">
+		<label><input type="radio" name="q85" value="a"> a)    evaluation tools.</label><br>
+		<label><input type="radio" name="q85" value="b"> b)    resource/instructional materials.</label><br>
+		<label><input type="radio" name="q85" value="c"> c)    course generation.</label><br>
+		<label><input type="radio" name="q85" value="d"> d)    session logistics.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 86 -->
+<div class="question" id="q86">
+	<p>86.   Using the L.E.A.S.T. method of progressive discipline in a classroom environment, "T" stands for:</p>
+	<div class="options">
+		<label><input type="radio" name="q86" value="a"> a)    terminate the student from your class.</label><br>
+		<label><input type="radio" name="q86" value="b"> b)    transfer the student to another class.</label><br>
+		<label><input type="radio" name="q86" value="c"> c)    take action when the behavior continues.</label><br>
+		<label><input type="radio" name="q86" value="d"> d)    transition the student to another instructor.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 87 -->
+<div class="question" id="q87">
+	<p>87.   After determining that a student has a low literacy level, the instructor will typically:</p>
+	<div class="options">
+		<label><input type="radio" name="q87" value="a"> a)    give the student extra assignments.</label><br>
+		<label><input type="radio" name="q87" value="b"> b)    refer the student to a personal tutor.</label><br>
+		<label><input type="radio" name="q87" value="c"> c)    refer the student to the lead instructor.</label><br>
+		<label><input type="radio" name="q87" value="d"> d)    provide remedial instruction in reading or writing.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 88 -->
+<div class="question" id="q88">
+	<p>88.   Since classes may be interrupted, an instructor must be prepared to respond by:</p>
+	<div class="options">
+		<label><input type="radio" name="q88" value="a"> a)    having a contingency plan.</label><br>
+		<label><input type="radio" name="q88" value="b"> b)    rescheduling activities.</label><br>
+		<label><input type="radio" name="q88" value="c"> c)    showing a video.</label><br>
+		<label><input type="radio" name="q88" value="d"> d)    skipping directly to the evaluation.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 89 -->
+<div class="question" id="q89">
+	<p>89.   The instructor who has a timid student should:</p>
+	<div class="options">
+		<label><input type="radio" name="q89" value="a"> a)    call on them frequently.</label><br>
+		<label><input type="radio" name="q89" value="b"> b)    stop the class periodically to allow the student to catch up with the rest of the class.</label><br>
+		<label><input type="radio" name="q89" value="c"> c)    continue with their normal teaching methods.</label><br>
+		<label><input type="radio" name="q89" value="d"> d)    avoid calling on the student until they are comfortable in the class.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 90 -->
+<div class="question" id="q90">
+	<p>90.   A dry-erase marker board allows the instructor to:</p>
+	<div class="options">
+		<label><input type="radio" name="q90" value="a"> a)    provide realistic simulation.</label><br>
+		<label><input type="radio" name="q90" value="b"> b)    capture material written on the board with computer software.</label><br>
+		<label><input type="radio" name="q90" value="c"> c)    maintain a permanent record.</label><br>
+		<label><input type="radio" name="q90" value="d"> d)    use multiple colors to illustrate the lesson material.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 91 -->
+<div class="question" id="q91">
+	<p>91.   During the communication process, messages that are transmitted without words are:</p>
+	<div class="options">
+		<label><input type="radio" name="q91" value="a"> a)    quotes.</label><br>
+		<label><input type="radio" name="q91" value="b"> b)    nonverbal cues.</label><br>
+		<label><input type="radio" name="q91" value="c"> c)    tone of voice.</label><br>
+		<label><input type="radio" name="q91" value="d"> d)    semantics.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 92 -->
+<div class="question" id="q92">
+	<p>92.   When using a PowerPoint presentation, you should:</p>
+	<div class="options">
+		<label><input type="radio" name="q92" value="a"> a)    stand off to the side of the screen while discussing the slide.</label><br>
+		<label><input type="radio" name="q92" value="b"> b)    read from the slide to be accurate.</label><br>
+		<label><input type="radio" name="q92" value="c"> c)    keystone the display to ensure accurate information.</label><br>
+		<label><input type="radio" name="q92" value="d"> d)    turn off the lights so everyone can read the slides.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 93 -->
+<div class="question" id="q93">
+	<p>93.   The description of minimum acceptable behaviors that a student must display is:</p>
+	<div class="options">
+		<label><input type="radio" name="q93" value="a"> a)    motivation of learner.</label><br>
+		<label><input type="radio" name="q93" value="b"> b)    cognitive evaluation.</label><br>
+		<label><input type="radio" name="q93" value="c"> c)    instructions to the instructor.</label><br>
+		<label><input type="radio" name="q93" value="d"> d)    learning objectives.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 94 -->
+<div class="question" id="q94">
+	<p>94.   A written test:</p>
+	<div class="options">
+		<label><input type="radio" name="q94" value="a"> a)    evaluates accomplishment of cognitive learning objective.</label><br>
+		<label><input type="radio" name="q94" value="b"> b)    provides the primary source of outcomes assessment.</label><br>
+		<label><input type="radio" name="q94" value="c"> c)    provides variations or formats in asking oral questions.</label><br>
+		<label><input type="radio" name="q94" value="d"> d)    is useful for measuring the retention of the affective domain.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 95 -->
+<div class="question" id="q95">
+	<p>95.   A lesson plan is a(n):</p>
+	<div class="options">
+		<label><input type="radio" name="q95" value="a"> a)    series of instructor notes about a topic.</label><br>
+		<label><input type="radio" name="q95" value="b"> b)    basic format which provides opportunities for instructors to ad lib at will.</label><br>
+		<label><input type="radio" name="q95" value="c"> c)    outline that must be used due to legal contraints.</label><br>
+		<label><input type="radio" name="q95" value="d"> d)    clear path for instructor and students to follow.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 96 -->
+<div class="question" id="q96">
+	<p>96.   When reviewing reports for an acquired structure and asbestos is noted, the training evolution must ensure:</p>
+	<div class="options">
+		<label><input type="radio" name="q96" value="a"> a)    firefighters wear masks when removing the asbestos.</label><br>
+		<label><input type="radio" name="q96" value="b"> b)    the asbestos is not disturbed.</label><br>
+		<label><input type="radio" name="q96" value="c"> c)    certified personnel are to remove the asbetos.</label><br>
+		<label><input type="radio" name="q96" value="d"> d)    that homeowner removes the asbestos.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 97 -->
+<div class="question" id="q97">
+	<p>97.   Directions: Read the following statement and choose the correct answer from alternatives A-D below.<br><br>Statement 1: To ensure safe training environments, instructors must inspect, maintain, and repair training facilities, props, tools, and equipment<br>Statement 2: The authority having jurisdiction should establish an inspection time schedule based on industry practice, manufacturer's recommendations, and local needs.<br>Statement 3: Inspections do not need to occur before every scenario.</p>
+	<div class="options">
+		<label><input type="radio" name="q97" value="a"> a)    All three statements are true.</label><br>
+		<label><input type="radio" name="q97" value="b"> b)    Statement 1 is true; statements 2 and 3 are false.</label><br>
+		<label><input type="radio" name="q97" value="c"> c)    Statements 1 and 2 are true; statement 3 is false.</label><br>
+		<label><input type="radio" name="q97" value="d"> d)    Statement 1 is false; statements 2 and 3 are true.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 98 -->
+<div class="question" id="q98">
+	<p>98.   The primary role of the instructor is to:</p>
+	<div class="options">
+		<label><input type="radio" name="q98" value="a"> a)    focus on the needs and abilities of the students.</label><br>
+		<label><input type="radio" name="q98" value="b"> b)    foster respect for the fire service.</label><br>
+		<label><input type="radio" name="q98" value="c"> c)    adhere to the policies of the organization.</label><br>
+		<label><input type="radio" name="q98" value="d"> d)    protect the organization from liability.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 99 -->
+<div class="question" id="q99">
+	<p>99.   Which is part of the Evaluation Step of the instructional process?</p>
+	<div class="options">
+		<label><input type="radio" name="q99" value="a"> a)    Assigning projects and activities</label><br>
+		<label><input type="radio" name="q99" value="b"> b)    Having the learner perform the skills unassisted</label><br>
+		<label><input type="radio" name="q99" value="c"> c)    Using textbooks and other reference materials</label><br>
+		<label><input type="radio" name="q99" value="d"> d)    Explaining procedures</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 100 -->
+<div class="question" id="q100">
+	<p>100.   A key factor in the classroom environment is the ___ of both instructor and student.</p>
+	<div class="options">
+		<label><input type="radio" name="q100" value="a"> a)    motivation.</label><br>
+		<label><input type="radio" name="q100" value="b"> b)    discipline.</label><br>
+		<label><input type="radio" name="q100" value="c"> c)    enthusiasm.</label><br>
+		<label><input type="radio" name="q100" value="d"> d)    procedures.</label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+		
+		<button type="button" onclick="gradeQuiz()">Submit Answers</button>
+		
+	</form>
+	
+	<div id="results">
+		<h2>Results</h2>
+		<p id="score"></p>
+		<div id="answerKey"></div>
+	</div>
+	
+	<script>
+		// Correct answers
+		const answerKey = {
+  q1:  "b",  q2: "b",  q3: "b",  q4: "c",  q5: "b",
+  q6:  "c",  q7: "a",  q8: "d",  q9: "b", q10: "c",
+  q11: "a", q12: "b", q13: "b", q14: "b", q15: "b",
+  q16: "b", q17: "a", q18: "d", q19: "d", q20: "a",
+  q21: "b", q22: "b", q23: "d", q24: "b", q25: "d",
+  q26: "c", q27: "d", q28: "a", q29: "d", q30: "c",
+  q31: "d", q32: "d", q33: "c", q34: "d", q35: "b",
+  q36: "b", q37: "d", q38: "a", q39: "a", q40: "b",
+  q41: "c", q42: "d", q43: "b", q44: "a", q45: "b",
+  q46: "a", q47: "c", q48: "a", q49: "c", q50: "a",
+  q51: "b", q52: "d", q53: "d", q54: "d", q55: "d",
+  q56: "d", q57: "c", q58: "c", q59: "c", q60: "a",
+  q61: "c", q62: "c", q63: "c", q64: "b", q65: "c",
+  q66: "b", q67: "d", q68: "a", q69: "c", q70: "d",
+  q71: "c", q72: "b", q73: "c", q74: "b", q75: "a",
+  q76: "a", q77: "a", q78: "b", q79: "c", q80: "d",
+  q81: "d", q82: "d", q83: "c", q84: "a", q85: "b",
+  q86: "a", q87: "b", q88: "a", q89: "d", q90: "d",
+  q91: "b", q92: "a", q93: "d", q94: "a", q95: "d",
+  q96: "c", q97: "c", q98: "a", q99: "b", q100: "a"
+};
+		
+		function gradeQuiz() {
+			let score = 0;
+			const totalQuestions = Object.keys(answerKey).length;
+			const resultsDiv = document.getElementById("results");
+			const scoreDisplay = document.getElementById("score");
+			const answerKeyDisplay = document.getElementById("answerKey");
+			
+			answerKeyDisplay.innerHTML = "";
+			
+			// Check each question
+			for (const [question, correctAnswer] of Object.entries(answerKey)) {
+				const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+				const questionDiv = document.getElementById(question);
+							   				
+                // Get the correct answer display elements
+                const correctAnswerText = questionDiv.querySelector('.answer-text');
+                const correctAnswerContainer = questionDiv.querySelector('.correct-answer');
+                
+                // Show the correct answer with the question
+                const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                const correctText = correctOption.parentElement.textContent.trim();
+                correctAnswerText.textContent = correctText;
+                correctAnswerContainer.style.display = 'block';
+				
+				if (selectedOption) {
+					if (selectedOption.value === correctAnswer) {
+						score++;
+						questionDiv.classList.add("correct");
+						questionDiv.classList.remove("incorrect");
+					} else {
+						questionDiv.classList.add("incorrect");
+						questionDiv.classList.remove("correct");
+					}
+					
+					// Show correct answer in results
+					//answerKeyDisplay.innerHTML += `
+						//<p><strong>Question ${question.substring(1)}:</strong>
+						//You selected ${selectedOption.value.toUpperCase()}.
+						//Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+				} else {
+					// No answer selected
+					//questionDiv.classList.remove("correct", "incorrect");
+					//answerKeyDisplay.innerHTML += `
+						//<p><strong>Question ${question.substring(1)}:</strong>
+						//You didn't answer. Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+				}
+			}
+			
+			// Display Score
+			const percentage = Math.round((score / totalQuestions) * 100);
+			scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+			
+			//show results
+			resultsDiv.style.display = "block";
+		}
+		</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    text-align: center; /* added to center the content */
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 1em;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  main {
+    padding: 2em;
+  }
+
+  .button-link {
+    display: block; /* Allows setting width and centering */
+    width: 200px; /* Sets consistent width for all buttons */
+    padding: 10px 20px; /* Adds space inside the button */
+    background-color: #007bff; /* Blue background */
+    color: white; /* Text color */
+    text-decoration: none; /* Removes underline */
+    border: 1px solid #007bff; /* Border matching background */
+    border-radius: 5px; /* Rounded corners for a modern look */
+    font-size: 16px; /* Readable text size */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth color change on hover */
+    margin: 5px auto; /* Centers horizontally and adds vertical spacing */
+  }
+
+  .button-link:hover {
+    background-color:#0056b3; /* Darker blue on hover */
+    border-color:#0056b3; /* Match border */
+  }
+
+  /* Header Styles */
+  .page-header {
+    background: linear-gradient(135deg, #2c3e50, #34495e); /* Dark gray gradient */
+    color: white;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .header-subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    font-weight: 300;
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .page-header h1 {
+      font-size: 2rem;
+    }
+
+    .header-subtitle {
+      font-size: 1rem;
+    }
+  }

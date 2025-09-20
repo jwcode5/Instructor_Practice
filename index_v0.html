@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test Bank Practice</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			line-height: 1.6;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.question {
+			margin-bottom: 20px;
+			padding: 15px;
+			border: 1px solid #ddd;
+			border-radius: 5px;
+		}
+
+		.options {
+			margin-left: 20px;
+		}
+
+		.correct {
+			background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+		}
+
+		.incorrect {
+			background-color: #ffe6e6;
+		}
+
+      .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+
+		#results {
+			margin-top: 30px;
+			padding: 15px;
+			border: 1px solid #333;
+			border-radius: 5px;
+			display: none;
+		}
+
+		#score {
+			font-weight: bold;
+			font-size: 1.2em;
+		}
+
+		button {
+			padding: 10px 15px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+		   	min-height: 44px; /* Better touch target */
+    		-webkit-appearance: none; /* Remove iOS styling */
+		}
+
+		button:hover {
+			background-color: #45a049;
+		}
+	</style>
+</head>
+<body>
+	<h1>v0 Test Bank Practice</h1>
+	
+	<form id="quizForm">
+<!-- Question 1 -->
+<div class="question" id="q1">
+	<p>1.   </p>
+   <div class="options">           
+		<label><input type="radio" name="q1" value="a"> a)    </label><br>
+		<label><input type="radio" name="q1" value="b"> b)    </label><br>
+		<label><input type="radio" name="q1" value="c"> c)    </label><br>
+		<label><input type="radio" name="q1" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+                        
+<!-- Question 2 -->
+<div class="question" id="q2">
+	<p>2.   </p>
+	<div class="options">
+		<label><input type="radio" name="q2" value="a"> a)    </label><br>
+		<label><input type="radio" name="q2" value="b"> b)    </label><br>
+		<label><input type="radio" name="q2" value="c"> c)    </label><br>
+		<label><input type="radio" name="q2" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 3 -->      
+<div class="question" id="q3">
+	<p>3.   </p>
+	<div class="options">
+		<label><input type="radio" name="q3" value="a"> a)    </label><br>
+		<label><input type="radio" name="q3" value="b"> b)    </label><br>
+		<label><input type="radio" name="q3" value="c"> c)    </label><br>
+		<label><input type="radio" name="q3" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 4 -->
+<div class="question" id="q4">
+	<p>4.   </p>
+   <div class="options">
+		<label><input type="radio" name="q4" value="a"> a)    </label><br>
+		<label><input type="radio" name="q4" value="b"> b)    </label><br>
+		<label><input type="radio" name="q4" value="c"> c)    </label><br>
+		<label><input type="radio" name="q4" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 5 -->
+<div class="question" id="q5">
+	<p>5.   </p>
+	<div class="options">
+		<label><input type="radio" name="q5" value="a"> a)    </label><br>
+		<label><input type="radio" name="q5" value="b"> b)    </label><br>
+		<label><input type="radio" name="q5" value="c"> c)    </label><br>
+		<label><input type="radio" name="q5" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 6 -->
+<div class="question" id="q6">
+	<p>6.   </p>
+	<div class="options">
+		<label><input type="radio" name="q6" value="a"> a)    </label><br>
+		<label><input type="radio" name="q6" value="b"> b)    </label><br>
+		<label><input type="radio" name="q6" value="c"> c)    </label><br>
+		<label><input type="radio" name="q6" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+    
+<!-- Question 7 -->
+<div class="question" id="q7">
+	<p>7.   </p>
+	<div class="options">
+		<label><input type="radio" name="q7" value="a"> a)    </label><br>
+		<label><input type="radio" name="q7" value="b"> b)    </label><br>
+		<label><input type="radio" name="q7" value="c"> c)    </label><br>
+		<label><input type="radio" name="q7" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 8 -->
+<div class="question" id="q8">
+	<p>8.   </p>
+	<div class="options">
+		<label><input type="radio" name="q8" value="a"> a)     </label><br>
+		<label><input type="radio" name="q8" value="b"> b)     </label><br>
+		<label><input type="radio" name="q8" value="c"> c)     </label><br>
+		<label><input type="radio" name="q8" value="d"> d)     </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 9 -->
+<div class="question" id="q9">
+	<p>9.   </p>
+	<div class="options">
+ 		<label><input type="radio" name="q9" value="a"> a)    </label><br>
+		<label><input type="radio" name="q9" value="b"> b)    </label><br>
+		<label><input type="radio" name="q9" value="c"> c)    </label><br>
+		<label><input type="radio" name="q9" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 10 -->
+<div class="question" id="q10">
+	<p>10.   </p>
+	<div class="options">
+		<label><input type="radio" name="q10" value="a"> a)    </label><br>
+		<label><input type="radio" name="q10" value="b"> b)    </label><br>
+		<label><input type="radio" name="q10" value="c"> c)    </label><br>
+		<label><input type="radio" name="q10" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 11 -->
+<div class="question" id="q11">
+	<p>11.   </p>
+	<div class="options">
+		<label><input type="radio" name="q11" value="a"> a)    </label><br>
+		<label><input type="radio" name="q11" value="b"> b)    </label><br>
+		<label><input type="radio" name="q11" value="c"> c)    </label><br>
+		<label><input type="radio" name="q11" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 12 -->
+<div class="question" id="q12">
+	<p>12.   </p>
+   	<div class="options">
+		<label><input type="radio" name="q12" value="a"> a)    </label><br>
+		<label><input type="radio" name="q12" value="b"> b)    </label><br>
+		<label><input type="radio" name="q12" value="c"> c)    </label><br>
+		<label><input type="radio" name="q12" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 13 -->
+<div class="question" id="q13">
+	<p>13.   </p>
+	<div class="options">
+		<label><input type="radio" name="q13" value="a"> a)    </label><br>
+		<label><input type="radio" name="q13" value="b"> b)    </label><br>
+		<label><input type="radio" name="q13" value="c"> c)    </label><br>
+		<label><input type="radio" name="q13" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 14 -->
+<div class="question" id="q14">
+	<p>14.   </p>
+	<div class="options">
+		<label><input type="radio" name="q14" value="a"> a)    </label><br>
+		<label><input type="radio" name="q14" value="b"> b)    </label><br>
+		<label><input type="radio" name="q14" value="c"> c)    </label><br>
+		<label><input type="radio" name="q14" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 15 -->
+<div class="question" id="q15">
+	<p>15.   </p>
+	<div class="options">
+		<label><input type="radio" name="q15" value="a"> a)    </label><br>
+		<label><input type="radio" name="q15" value="b"> b)    </label><br>
+		<label><input type="radio" name="q15" value="c"> c)    </label><br>
+		<label><input type="radio" name="q15" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 16 -->
+<div class="question" id="q16">
+	<p>16.   </p>
+	<div class="options">
+		<label><input type="radio" name="q16" value="a"> a)    </label><br>
+		<label><input type="radio" name="q16" value="b"> b)    </label><br>
+		<label><input type="radio" name="q16" value="c"> c)    </label><br>
+		<label><input type="radio" name="q16" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 17 -->
+<div class="question" id="q17">
+	<p>17.   </p>
+   	<div class="options">
+		<label><input type="radio" name="q17" value="a"> a)    </label><br>
+		<label><input type="radio" name="q17" value="b"> b)    </label><br>
+		<label><input type="radio" name="q17" value="c"> c)    </label><br>
+		<label><input type="radio" name="q17" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 18 -->
+<div class="question" id="q18">
+	<p>18.   </p>
+	<div class="options">
+		<label><input type="radio" name="q18" value="a"> a)    </label><br>
+		<label><input type="radio" name="q18" value="b"> b)    </label><br>
+		<label><input type="radio" name="q18" value="c"> c)    </label><br>
+		<label><input type="radio" name="q18" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+              
+<!-- Question 19 -->
+<div class="question" id="q19">
+	<p>19.   </p>
+	<div class="options">
+		<label><input type="radio" name="q19" value="a"> a)    </label><br>
+		<label><input type="radio" name="q19" value="b"> b)    </label><br>
+		<label><input type="radio" name="q19" value="c"> c)    </label><br>
+		<label><input type="radio" name="q19" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+          
+<!-- Question 20 -->
+<div class="question" id="q20">
+	<p>20.   </p>
+	<div class="options">          
+		<label><input type="radio" name="q20" value="a"> a)    </label><br>
+		<label><input type="radio" name="q20" value="b"> b)    </label><br>
+		<label><input type="radio" name="q20" value="c"> c)    </label><br>
+		<label><input type="radio" name="q20" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 21 -->
+<div class="question" id="q21">
+	<p>21.   </p>
+	<div class="options">
+   	    <label><input type="radio" name="q21" value="a"> a)    </label><br>
+   	    <label><input type="radio" name="q21" value="b"> b)    </label><br>
+    	<label><input type="radio" name="q21" value="c"> c)    </label><br>
+     	<label><input type="radio" name="q21" value="d"> d)    </label><br>
+		 <div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 22 -->
+<div class="question" id="q22">
+	<p>22.   </p>
+	<div class="options">
+		<label><input type="radio" name="q22" value="a"> a)    </label><br>
+		<label><input type="radio" name="q22" value="b"> b)    </label><br>
+   	    <label><input type="radio" name="q22" value="c"> c)    </label><br>
+     	<label><input type="radio" name="q22" value="d"> d)    </label><br>
+		 <div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 23 -->
+<div class="question" id="q23">
+	<p>23.   </p>
+	<div class="options">
+		<label><input type="radio" name="q23" value="a"> a)    </label><br>
+		<label><input type="radio" name="q23" value="b"> b)    </label><br>
+		<label><input type="radio" name="q23" value="c"> c)    </label><br>
+		<label><input type="radio" name="q23" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 24 -->
+<div class="question" id="q24">
+	<p>24.   </p>
+	<div class="options">
+		<label><input type="radio" name="q24" value="a"> a)    </label><br>
+		<label><input type="radio" name="q24" value="b"> b)    </label><br>
+		<label><input type="radio" name="q24" value="c"> c)    </label><br>
+		<label><input type="radio" name="q24" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 25 -->
+<div class="question" id="q25">
+	<p>25.   </p>
+	<div class="options">
+		<label><input type="radio" name="q25" value="a"> a)    </label><br>
+		<label><input type="radio" name="q25" value="b"> b)    </label><br>
+		<label><input type="radio" name="q25" value="c"> c)    </label><br>
+		<label><input type="radio" name="q25" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 26 -->
+<div class="question" id="q26">
+	<p>26.   </p>
+	<div class="options">
+		<label><input type="radio" name="q26" value="a"> a)    </label><br>
+		<label><input type="radio" name="q26" value="b"> b)    </label><br>
+		<label><input type="radio" name="q26" value="c"> c)    </label><br>
+		<label><input type="radio" name="q26" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 27 -->
+<div class="question" id="q27">
+	<p>27.   </p>
+	<div class="options">
+		<label><input type="radio" name="q27" value="a"> a)    </label><br>
+		<label><input type="radio" name="q27" value="b"> b)    </label><br>
+		<label><input type="radio" name="q27" value="c"> c)    </label><br>
+		<label><input type="radio" name="q27" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+<!-- Question 28 -->
+<div class="question" id="q28">
+	<p>28.   </p>
+	<div class="options">
+		<label><input type="radio" name="q28" value="a"> a)    </label><br>
+		<label><input type="radio" name="q28" value="b"> b)    </label><br>
+		<label><input type="radio" name="q28" value="c"> c)    </label><br>
+		<label><input type="radio" name="q28" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 29 -->
+<div class="question" id="q29">
+	<p>29.   </p>
+	<div class="options">
+		<label><input type="radio" name="q29" value="a"> a)    </label><br>
+		<label><input type="radio" name="q29" value="b"> b)    </label><br>
+		<label><input type="radio" name="q29" value="c"> c)    </label><br>
+		<label><input type="radio" name="q29" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 30 -->
+<div class="question" id="q30">
+	<p>30.   </p>
+	<div class="options">
+		<label><input type="radio" name="q30" value="a"> a)    </label><br>
+		<label><input type="radio" name="q30" value="b"> b)    </label><br>
+		<label><input type="radio" name="q30" value="c"> c)    </label><br>
+		<label><input type="radio" name="q30" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 31 -->
+<div class="question" id="q31">
+	<p>31.   </p>
+	<div class="options">
+		<label><input type="radio" name="q31" value="a"> a)    </label><br>
+		<label><input type="radio" name="q31" value="b"> b)    </label><br>
+		<label><input type="radio" name="q31" value="c"> c)    </label><br>
+		<label><input type="radio" name="q31" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 32 -->
+<div class="question" id="q32">
+	<p>32.   </p>
+	<div class="options">
+		<label><input type="radio" name="q32" value="a"> a)    </label><br>
+		<label><input type="radio" name="q32" value="b"> b)    </label><br>
+		<label><input type="radio" name="q32" value="c"> c)    </label><br>
+		<label><input type="radio" name="q32" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 33 -->
+<div class="question" id="q33">
+	<p>33.   </p>
+	<div class="options">
+		<label><input type="radio" name="q33" value="a"> a)    </label><br>
+		<label><input type="radio" name="q33" value="b"> b)    </label><br>
+		<label><input type="radio" name="q33" value="c"> c)    </label><br>
+		<label><input type="radio" name="q33" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 34 -->
+<div class="question" id="q34">
+	<p>34.   </p>
+	<div class="options">
+		<label><input type="radio" name="q34" value="a"> a)    </label><br>
+		<label><input type="radio" name="q34" value="b"> b)    </label><br>
+		<label><input type="radio" name="q34" value="c"> c)    </label><br>
+		<label><input type="radio" name="q34" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 35 -->
+<div class="question" id="q35">
+	<p>35.   </p>
+	<div class="options">
+		<label><input type="radio" name="q35" value="a"> a)    </label><br>
+		<label><input type="radio" name="q35" value="b"> b)    </label><br>
+		<label><input type="radio" name="q35" value="c"> c)    </label><br>
+		<label><input type="radio" name="q35" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+                      
+<!-- Question 36 -->
+<div class="question" id="q36">
+	<p>36.   </p>
+	<div class="options">
+		<label><input type="radio" name="q36" value="a"> a)    </label><br>
+		<label><input type="radio" name="q36" value="b"> b)    </label><br>
+		<label><input type="radio" name="q36" value="c"> c)    </label><br>
+		<label><input type="radio" name="q36" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 37 -->
+<div class="question" id="q37">
+	<p>37.   </p>
+	<div class="options">
+		<label><input type="radio" name="q37" value="a"> a)    </label><br>
+		<label><input type="radio" name="q37" value="b"> b)    </label><br>
+		<label><input type="radio" name="q37" value="c"> c)    </label><br>
+		<label><input type="radio" name="q37" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 38 -->
+<div class="question" id="q38">
+	<p>38.   </p>
+	<div class="options">
+		<label><input type="radio" name="q38" value="a"> a)    </label><br>
+		<label><input type="radio" name="q38" value="b"> b)    </label><br>
+		<label><input type="radio" name="q38" value="c"> c)    </label><br>
+		<label><input type="radio" name="q38" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 39 -->
+<div class="question" id="q39">
+	<p>39.   </p>
+	<div class="options">
+ 		<label><input type="radio" name="q39" value="a"> a)    </label><br>
+		<label><input type="radio" name="q39" value="b"> b)    </label><br>
+		<label><input type="radio" name="q39" value="c"> c)    </label><br>
+		<label><input type="radio" name="q39" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 40 -->
+<div class="question" id="q40">
+	<p>40.   </p>
+	<div class="options">
+		<label><input type="radio" name="q40" value="a"> a)    </label><br>
+		<label><input type="radio" name="q40" value="b"> b)    </label><br>
+		<label><input type="radio" name="q40" value="c"> c)    </label><br>
+		<label><input type="radio" name="q40" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 41 -->
+<div class="question" id="q41">
+	<p>41.   </p>
+	<div class="options">
+		<label><input type="radio" name="q41" value="a"> a)    </label><br>
+		<label><input type="radio" name="q41" value="b"> b)    </label><br>
+		<label><input type="radio" name="q41" value="c"> c)    </label><br>
+		<label><input type="radio" name="q41" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 42 -->
+<div class="question" id="q42">
+	<p>42.   </p>
+	<div class="options">
+		<label><input type="radio" name="q42" value="a"> a)    </label><br>
+		<label><input type="radio" name="q42" value="b"> b)    </label><br>
+		<label><input type="radio" name="q42" value="c"> c)    </label><br>
+		<label><input type="radio" name="q42" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 43 -->
+<div class="question" id="q43">
+	<p>43.   </p>
+	<div class="options">
+		<label><input type="radio" name="q43" value="a"> a)    </label><br>
+		<label><input type="radio" name="q43" value="b"> b)    </label><br>
+		<label><input type="radio" name="q43" value="c"> c)    </label><br>
+		<label><input type="radio" name="q43" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 44 -->
+<div class="question" id="q44">
+	<p>44.   </p>
+	<div class="options">
+		<label><input type="radio" name="q44" value="a"> a)    </label><br>
+		<label><input type="radio" name="q44" value="b"> b)    </label><br>
+		<label><input type="radio" name="q44" value="c"> c)    </label><br>
+		<label><input type="radio" name="q44" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 45 -->
+<div class="question" id="q45">
+	<p>45.   </p>
+	<div class="options">
+		<label><input type="radio" name="q45" value="a"> a)    </label><br>
+		<label><input type="radio" name="q45" value="b"> b)    </label><br>
+		<label><input type="radio" name="q45" value="c"> c)    </label><br>
+		<label><input type="radio" name="q45" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 46 -->
+<div class="question" id="q46">
+	<p>46.   </p>
+	<div class="options">
+		<label><input type="radio" name="q46" value="a"> a)    </label><br>
+		<label><input type="radio" name="q46" value="b"> b)    </label><br>
+		<label><input type="radio" name="q46" value="c"> c)    </label><br>
+		<label><input type="radio" name="q46" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 47 -->
+<div class="question" id="q47">
+	<p>47.   </p>
+	<div class="options">
+		<label><input type="radio" name="q47" value="a"> a)    </label><br>
+		<label><input type="radio" name="q47" value="b"> b)    </label><br>
+		<label><input type="radio" name="q47" value="c"> c)    </label><br>
+		<label><input type="radio" name="q47" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 48 -->
+<div class="question" id="q48">
+	<p>48.   </p>
+	<div class="options">
+		<label><input type="radio" name="q48" value="a"> a)    </label><br>
+		<label><input type="radio" name="q48" value="b"> b)    </label><br>
+		<label><input type="radio" name="q48" value="c"> c)    </label><br>
+		<label><input type="radio" name="q48" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 49 -->
+<div class="question" id="q49">
+	<p>49.   </p>
+	<div class="options">
+		<label><input type="radio" name="q49" value="a"> a)    </label><br>
+		<label><input type="radio" name="q49" value="b"> b)    </label><br>
+		<label><input type="radio" name="q49" value="c"> c)    </label><br>
+		<label><input type="radio" name="q49" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 50 -->
+<div class="question" id="q50">
+	<p>50.   </p>
+	<div class="options">
+		<label><input type="radio" name="q50" value="a"> a)    </label><br>
+		<label><input type="radio" name="q50" value="b"> b)    </label><br>
+		<label><input type="radio" name="q50" value="c"> c)    </label><br>
+		<label><input type="radio" name="q50" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 51 -->
+<div class="question" id="q51">
+	<p>51.   </p>
+	<div class="options">
+		<label><input type="radio" name="q51" value="a"> a)    </label><br>
+		<label><input type="radio" name="q51" value="b"> b)    </label><br>
+		<label><input type="radio" name="q51" value="c"> c)    </label><br>
+		<label><input type="radio" name="q51" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 52 -->
+<div class="question" id="q52">
+	<p>52.   </p>
+	<div class="options">
+		<label><input type="radio" name="q52" value="a"> a)    </label><br>
+		<label><input type="radio" name="q52" value="b"> b)    </label><br>
+		<label><input type="radio" name="q52" value="c"> c)    </label><br>
+		<label><input type="radio" name="q52" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 53 -->
+<div class="question" id="q53">
+	<p>53.   </p>
+	<div class="options">
+		<label><input type="radio" name="q53" value="a"> a)    </label><br>
+		<label><input type="radio" name="q53" value="b"> b)    </label><br>
+		<label><input type="radio" name="q53" value="c"> c)    </label><br>
+		<label><input type="radio" name="q53" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 54 -->
+<div class="question" id="q54">
+	<p>54.   </p>
+	<div class="options">
+		<label><input type="radio" name="q54" value="a"> a)    </label><br>
+		<label><input type="radio" name="q54" value="b"> b)    </label><br>
+		<label><input type="radio" name="q54" value="c"> c)    </label><br>
+		<label><input type="radio" name="q54" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 55 -->
+<div class="question" id="q55">
+	<p>55.   </p>
+	<div class="options">
+		<label><input type="radio" name="q55" value="a"> a)    </label><br>
+		<label><input type="radio" name="q55" value="b"> b)    </label><br>
+		<label><input type="radio" name="q55" value="c"> c)    </label><br>
+		<label><input type="radio" name="q55" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 56 -->
+<div class="question" id="q56">
+	<p>56.   </p>
+	<div class="options">
+		<label><input type="radio" name="q56" value="a"> a)    </label><br>
+		<label><input type="radio" name="q56" value="b"> b)    </label><br>
+		<label><input type="radio" name="q56" value="c"> c)    </label><br>
+		<label><input type="radio" name="q56" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 57 -->
+<div class="question" id="q57">
+	<p>57.   </p>
+	<div class="options">
+		<label><input type="radio" name="q57" value="a"> a)    </label><br>
+		<label><input type="radio" name="q57" value="b"> b)    </label><br>
+		<label><input type="radio" name="q57" value="c"> c)    </label><br>
+		<label><input type="radio" name="q57" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 58 -->
+<div class="question" id="q58">
+	<p>58.   </p>
+	<div class="options">
+		<label><input type="radio" name="q58" value="a"> a)    </label><br>
+		<label><input type="radio" name="q58" value="b"> b)    </label><br>
+		<label><input type="radio" name="q58" value="c"> c)    </label><br>
+		<label><input type="radio" name="q58" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 59 -->
+<div class="question" id="q59">
+	<p>59.   </p>
+	<div class="options">
+		<label><input type="radio" name="q59" value="a"> a)    </label><br>
+		<label><input type="radio" name="q59" value="b"> b)    </label><br>
+		<label><input type="radio" name="q59" value="c"> c)    </label><br>
+		<label><input type="radio" name="q59" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 60 -->
+<div class="question" id="q60">
+	<p>60.   </p>
+	<div class="options">
+		<label><input type="radio" name="q60" value="a"> a)    </label><br>
+		<label><input type="radio" name="q60" value="b"> b)    </label><br>
+		<label><input type="radio" name="q60" value="c"> c)    </label><br>
+		<label><input type="radio" name="q60" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 61 -->
+<div class="question" id="q61">
+	<p>61.   </p>
+	<div class="options">
+		<label><input type="radio" name="q61" value="a"> a)    </label><br>
+		<label><input type="radio" name="q61" value="b"> b)    </label><br>
+		<label><input type="radio" name="q61" value="c"> c)    </label><br>
+		<label><input type="radio" name="q61" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 62 -->
+<div class="question" id="q62">
+	<p>62.   </p>
+	<div class="options">
+		<label><input type="radio" name="q62" value="a"> a)    </label><br>
+		<label><input type="radio" name="q62" value="b"> b)    </label><br>
+		<label><input type="radio" name="q62" value="c"> c)    </label><br>
+		<label><input type="radio" name="q62" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 63 -->
+<div class="question" id="q63">
+	<p>63.   </p>
+	<div class="options">
+		<label><input type="radio" name="q63" value="a"> a)    </label><br>
+		<label><input type="radio" name="q63" value="b"> b)    </label><br>
+		<label><input type="radio" name="q63" value="c"> c)    </label><br>
+		<label><input type="radio" name="q63" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 64 -->
+<div class="question" id="q64">
+	<p>64.   </p>
+	<div class="options">
+		<label><input type="radio" name="q64" value="a"> a)    </label><br>
+		<label><input type="radio" name="q64" value="b"> b)    </label><br>
+		<label><input type="radio" name="q64" value="c"> c)    </label><br>
+		<label><input type="radio" name="q64" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 65 -->
+<div class="question" id="q65">
+	<p>65.   </p>
+	<div class="options">
+		<label><input type="radio" name="q65" value="a"> a)    </label><br>
+		<label><input type="radio" name="q65" value="b"> b)    </label><br>
+		<label><input type="radio" name="q65" value="c"> c)    </label><br>
+		<label><input type="radio" name="q65" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 66 -->
+<div class="question" id="q66">
+	<p>66.   </p>
+	<div class="options">
+		<label><input type="radio" name="q66" value="a"> a)    </label><br>
+		<label><input type="radio" name="q66" value="b"> b)    </label><br>
+		<label><input type="radio" name="q66" value="c"> c)    </label><br>
+		<label><input type="radio" name="q66" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 67 -->
+<div class="question" id="q67">
+	<p>67.   </p>
+	<div class="options">
+		<label><input type="radio" name="q67" value="a"> a)    </label><br>
+		<label><input type="radio" name="q67" value="b"> b)    </label><br>
+		<label><input type="radio" name="q67" value="c"> c)    </label><br>
+		<label><input type="radio" name="q67" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 68 -->
+<div class="question" id="q68">
+	<p>68.   </p>
+	<div class="options">
+		<label><input type="radio" name="q68" value="a"> a)    </label><br>
+		<label><input type="radio" name="q68" value="b"> b)    </label><br>
+		<label><input type="radio" name="q68" value="c"> c)    </label><br>
+		<label><input type="radio" name="q68" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 69 -->
+<div class="question" id="q69">
+	<p>69.   </p>
+	<div class="options">
+		<label><input type="radio" name="q69" value="a"> a)    </label><br>
+		<label><input type="radio" name="q69" value="b"> b)    </label><br>
+		<label><input type="radio" name="q69" value="c"> c)    </label><br>
+		<label><input type="radio" name="q69" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 70 -->
+<div class="question" id="q70">
+	<p>70.   </p>
+	<div class="options">
+		<label><input type="radio" name="q70" value="a"> a)    </label><br>
+		<label><input type="radio" name="q70" value="b"> b)    </label><br>
+		<label><input type="radio" name="q70" value="c"> c)    </label><br>
+		<label><input type="radio" name="q70" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 71 -->
+<div class="question" id="q71">
+	<p>71.   </p>
+	<div class="options">
+		<label><input type="radio" name="q71" value="a"> a)    </label><br>
+		<label><input type="radio" name="q71" value="b"> b)    </label><br>
+		<label><input type="radio" name="q71" value="c"> c)    </label><br>
+		<label><input type="radio" name="q71" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 72 -->
+<div class="question" id="q72">
+	<p>72.   </p>
+	<div class="options">
+		<label><input type="radio" name="q72" value="a"> a)    </label><br>
+		<label><input type="radio" name="q72" value="b"> b)    </label><br>
+		<label><input type="radio" name="q72" value="c"> c)    </label><br>
+		<label><input type="radio" name="q72" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 73 -->
+<div class="question" id="q73">
+	<p>73.   </p>
+	<div class="options">
+		<label><input type="radio" name="q73" value="a"> a)    </label><br>
+		<label><input type="radio" name="q73" value="b"> b)    </label><br>
+		<label><input type="radio" name="q73" value="c"> c)    </label><br>
+		<label><input type="radio" name="q73" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 74 -->
+<div class="question" id="q74">
+	<p>74.   </p>
+	<div class="options">
+		<label><input type="radio" name="q74" value="a"> a)    </label><br>
+		<label><input type="radio" name="q74" value="b"> b)    </label><br>
+		<label><input type="radio" name="q74" value="c"> c)    </label><br>
+		<label><input type="radio" name="q74" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 75 -->
+<div class="question" id="q75">
+	<p>75.   </p>
+	<div class="options">
+		<label><input type="radio" name="q75" value="a"> a)    </label><br>
+		<label><input type="radio" name="q75" value="b"> b)    </label><br>
+		<label><input type="radio" name="q75" value="c"> c)    </label><br>
+		<label><input type="radio" name="q75" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 76 -->
+<div class="question" id="q76">
+	<p>76.   </p>
+	<div class="options">
+		<label><input type="radio" name="q76" value="a"> a)    </label><br>
+		<label><input type="radio" name="q76" value="b"> b)    </label><br>
+		<label><input type="radio" name="q76" value="c"> c)    </label><br>
+		<label><input type="radio" name="q76" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 77 -->
+<div class="question" id="q77">
+	<p>77.   </p>
+	<div class="options">
+		<label><input type="radio" name="q77" value="a"> a)    </label><br>
+		<label><input type="radio" name="q77" value="b"> b)    </label><br>
+		<label><input type="radio" name="q77" value="c"> c)    </label><br>
+		<label><input type="radio" name="q77" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 78 -->
+<div class="question" id="q78">
+	<p>78.   </p>
+	<div class="options">
+		<label><input type="radio" name="q78" value="a"> a)    </label><br>
+		<label><input type="radio" name="q78" value="b"> b)    </label><br>
+		<label><input type="radio" name="q78" value="c"> c)    </label><br>
+		<label><input type="radio" name="q78" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 79 -->
+<div class="question" id="q79">
+	<p>79.   </p>
+	<div class="options">
+	
+		<label><input type="radio" name="q79" value="a"> a)    </label><br>
+		<label><input type="radio" name="q79" value="b"> b)    </label><br>
+		<label><input type="radio" name="q79" value="c"> c)    </label><br>
+		<label><input type="radio" name="q79" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 80 -->
+<div class="question" id="q80">
+	<p>80.   </p>
+	<div class="options">
+		<label><input type="radio" name="q80" value="a"> a)    </label><br>
+		<label><input type="radio" name="q80" value="b"> b)    </label><br>
+		<label><input type="radio" name="q80" value="c"> c)    </label><br>
+		<label><input type="radio" name="q80" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 81 -->
+<div class="question" id="q81">
+	<p>81.   </p>
+	<div class="options">
+		<label><input type="radio" name="q81" value="a"> a)    </label><br>
+		<label><input type="radio" name="q81" value="b"> b)    </label><br>
+		<label><input type="radio" name="q81" value="c"> c)    </label><br>
+		<label><input type="radio" name="q81" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 82 -->
+<div class="question" id="q82">
+	<p>82.   </p>
+	<div class="options">
+		<label><input type="radio" name="q82" value="a"> a)    </label><br>
+		<label><input type="radio" name="q82" value="b"> b)    </label><br>
+		<label><input type="radio" name="q82" value="c"> c)    </label><br>
+		<label><input type="radio" name="q82" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 83 -->
+<div class="question" id="q83">
+	<p>83.   </p>
+	<div class="options">
+		<label><input type="radio" name="q83" value="a"> a)    </label><br>
+		<label><input type="radio" name="q83" value="b"> b)    </label><br>
+		<label><input type="radio" name="q83" value="c"> c)    </label><br>
+		<label><input type="radio" name="q83" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 84 -->
+<div class="question" id="q84">
+	<p>84.   </p>
+	<div class="options">
+		<label><input type="radio" name="q84" value="a"> a)    </label><br>
+		<label><input type="radio" name="q84" value="b"> b)    </label><br>
+		<label><input type="radio" name="q84" value="c"> c)    </label><br>
+		<label><input type="radio" name="q84" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 85 -->
+<div class="question" id="q85">
+	<p>85.   </p>
+	<div class="options">
+		<label><input type="radio" name="q85" value="a"> a)    </label><br>
+		<label><input type="radio" name="q85" value="b"> b)    </label><br>
+		<label><input type="radio" name="q85" value="c"> c)    </label><br>
+		<label><input type="radio" name="q85" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 86 -->
+<div class="question" id="q86">
+	<p>86.   </p>
+	<div class="options">
+		<label><input type="radio" name="q86" value="a"> a)    </label><br>
+		<label><input type="radio" name="q86" value="b"> b)    </label><br>
+		<label><input type="radio" name="q86" value="c"> c)    </label><br>
+		<label><input type="radio" name="q86" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 87 -->
+<div class="question" id="q87">
+	<p>87.   </p>
+	<div class="options">
+		<label><input type="radio" name="q87" value="a"> a)    </label><br>
+		<label><input type="radio" name="q87" value="b"> b)    </label><br>
+		<label><input type="radio" name="q87" value="c"> c)    </label><br>
+		<label><input type="radio" name="q87" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 88 -->
+<div class="question" id="q88">
+	<p>88.   </p>
+	<div class="options">
+		<label><input type="radio" name="q88" value="a"> a)    </label><br>
+		<label><input type="radio" name="q88" value="b"> b)    </label><br>
+		<label><input type="radio" name="q88" value="c"> c)    </label><br>
+		<label><input type="radio" name="q88" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 89 -->
+<div class="question" id="q89">
+	<p>89.   </p>
+	<div class="options">
+		<label><input type="radio" name="q89" value="a"> a)    </label><br>
+		<label><input type="radio" name="q89" value="b"> b)    </label><br>
+		<label><input type="radio" name="q89" value="c"> c)    </label><br>
+		<label><input type="radio" name="q89" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 90 -->
+<div class="question" id="q90">
+	<p>90.   </p>
+	<div class="options">
+		<label><input type="radio" name="q90" value="a"> a)    </label><br>
+		<label><input type="radio" name="q90" value="b"> b)    </label><br>
+		<label><input type="radio" name="q90" value="c"> c)    </label><br>
+		<label><input type="radio" name="q90" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 91 -->
+<div class="question" id="q91">
+	<p>91.   </p>
+	<div class="options">
+		<label><input type="radio" name="q91" value="a"> a)    </label><br>
+		<label><input type="radio" name="q91" value="b"> b)    </label><br>
+		<label><input type="radio" name="q91" value="c"> c)    </label><br>
+		<label><input type="radio" name="q91" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 92 -->
+<div class="question" id="q92">
+	<p>92.   </p>
+	<div class="options">
+		<label><input type="radio" name="q92" value="a"> a)    </label><br>
+		<label><input type="radio" name="q92" value="b"> b)    </label><br>
+		<label><input type="radio" name="q92" value="c"> c)    </label><br>
+		<label><input type="radio" name="q92" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 93 -->
+<div class="question" id="q93">
+	<p>93.   </p>
+	<div class="options">
+		<label><input type="radio" name="q93" value="a"> a)    </label><br>
+		<label><input type="radio" name="q93" value="b"> b)    </label><br>
+		<label><input type="radio" name="q93" value="c"> c)    </label><br>
+		<label><input type="radio" name="q93" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 94 -->
+<div class="question" id="q94">
+	<p>94.   </p>
+	<div class="options">
+		<label><input type="radio" name="q94" value="a"> a)    </label><br>
+		<label><input type="radio" name="q94" value="b"> b)    </label><br>
+		<label><input type="radio" name="q94" value="c"> c)    </label><br>
+		<label><input type="radio" name="q94" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 95 -->
+<div class="question" id="q95">
+	<p>95.   </p>
+	<div class="options">
+		<label><input type="radio" name="q95" value="a"> a)    </label><br>
+		<label><input type="radio" name="q95" value="b"> b)    </label><br>
+		<label><input type="radio" name="q95" value="c"> c)    </label><br>
+		<label><input type="radio" name="q95" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 96 -->
+<div class="question" id="q96">
+	<p>96.   </p>
+	<div class="options">
+		<label><input type="radio" name="q96" value="a"> a)    </label><br>
+		<label><input type="radio" name="q96" value="b"> b)    </label><br>
+		<label><input type="radio" name="q96" value="c"> c)    </label><br>
+		<label><input type="radio" name="q96" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 97 -->
+<div class="question" id="q97">
+	<p>97.   </p>
+	<div class="options">
+		<label><input type="radio" name="q97" value="a"> a)    </label><br>
+		<label><input type="radio" name="q97" value="b"> b)    </label><br>
+		<label><input type="radio" name="q97" value="c"> c)    </label><br>
+		<label><input type="radio" name="q97" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 98 -->
+<div class="question" id="q98">
+	<p>98.   </p>
+	<div class="options">
+		<label><input type="radio" name="q98" value="a"> a)    </label><br>
+		<label><input type="radio" name="q98" value="b"> b)    </label><br>
+		<label><input type="radio" name="q98" value="c"> c)    </label><br>
+		<label><input type="radio" name="q98" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 99 -->
+<div class="question" id="q99">
+	<p>99.   </p>
+	<div class="options">
+		<label><input type="radio" name="q99" value="a"> a)    </label><br>
+		<label><input type="radio" name="q99" value="b"> b)    </label><br>
+		<label><input type="radio" name="q99" value="c"> c)    </label><br>
+		<label><input type="radio" name="q99" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+
+<!-- Question 100 -->
+<div class="question" id="q100">
+	<p>100.   </p>
+	<div class="options">
+		<label><input type="radio" name="q100" value="a"> a)    </label><br>
+		<label><input type="radio" name="q100" value="b"> b)    </label><br>
+		<label><input type="radio" name="q100" value="c"> c)    </label><br>
+		<label><input type="radio" name="q100" value="d"> d)    </label><br>
+		<div class="correct-answer" style="display: none;">
+			Correct answer: <span class="answer-text"></span>
+		</div>
+	</div>
+</div>
+		
+		<button type="button" onclick="gradeQuiz()">Submit Answers</button>
+		
+	</form>
+	
+	<div id="results">
+		<h2>Results</h2>
+		<p id="score"></p>
+		<div id="answerKey"></div>
+	</div>
+	
+	<script>
+		// Correct answers
+		const answerKey = {
+  q1:  "",  q2: "",  q3: "",  q4: "",  q5: "",
+  q6:  "",  q7: "",  q8: "",  q9: "", q10: "",
+  q11: "", q12: "", q13: "", q14: "", q15: "",
+  q16: "", q17: "", q18: "", q19: "", q20: "",
+  q21: "", q22: "", q23: "", q24: "", q25: "",
+  q26: "", q27: "", q28: "", q29: "", q30: "",
+  q31: "", q32: "", q33: "", q34: "", q35: "",
+  q36: "", q37: "", q38: "", q39: "", q40: "",
+  q41: "", q42: "", q43: "", q44: "", q45: "",
+  q46: "", q47: "", q48: "", q49: "", q50: "",
+  q51: "", q52: "", q53: "", q54: "", q55: "",
+  q56: "", q57: "", q58: "", q59: "", q60: "",
+  q61: "", q62: "", q63: "", q64: "", q65: "",
+  q66: "", q67: "", q68: "", q69: "", q70: "",
+  q71: "", q72: "", q73: "", q74: "", q75: "",
+  q76: "", q77: "", q78: "", q79: "", q80: "",
+  q81: "", q82: "", q83: "", q84: "", q85: "",
+  q86: "", q87: "", q88: "", q89: "", q90: "",
+  q91: "", q92: "", q93: "", q94: "", q95: "",
+  q96: "", q97: "", q98: "", q99: "", q100: ""
+};
+		
+		function gradeQuiz() {
+			let score = 0;
+			const totalQuestions = Object.keys(answerKey).length;
+			const resultsDiv = document.getElementById("results");
+			const scoreDisplay = document.getElementById("score");
+			const answerKeyDisplay = document.getElementById("answerKey");
+			
+			answerKeyDisplay.innerHTML = "";
+			
+			// Check each question
+			for (const [question, correctAnswer] of Object.entries(answerKey)) {
+				const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+				const questionDiv = document.getElementById(question);
+								
+                // Get the correct answer display elements
+                const correctAnswerText = questionDiv.querySelector('.answer-text');
+                const correctAnswerContainer = questionDiv.querySelector('.correct-answer');
+                
+                // Show the correct answer with the question
+                const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                const correctText = correctOption.parentElement.textContent.trim();
+                correctAnswerText.textContent = correctText;
+                correctAnswerContainer.style.display = 'block';
+				
+				if (selectedOption) {
+					if (selectedOption.value === correctAnswer) {
+						score++;
+						questionDiv.classList.add("correct");
+						questionDiv.classList.remove("incorrect");
+					} else {
+						questionDiv.classList.add("incorrect");
+						questionDiv.classList.remove("correct");
+					}
+					
+					// Show correct answer in results
+					answerKeyDisplay.innerHTML += `
+						<p><strong>Question ${question.substring(1)}:</strong>
+						You selected ${selectedOption.value.toUpperCase()}.
+						Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+				} else {
+					// No answer selected
+					questionDiv.classList.remove("correct", "incorrect");
+					answerKeyDisplay.innerHTML += `
+						<p><strong>Question ${question.substring(1)}:</strong>
+						You didn't answer. Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+				}
+			}
+			
+			// Display Score
+			const percentage = Math.round((score / totalQuestions) * 100);
+			scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+			
+			//show results
+			resultsDiv.style.display = "block";
+		}
+		</script>
+</body>
+</html>
