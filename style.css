@@ -132,10 +132,10 @@
   body::before {
     content: '';
     position: fixed;
-    top: 60%;
-    left: -350px;
-    width: 700px;
-    height: 700px;
+    top: 61%;
+    left: -30%;
+    width: 72.5%;
+    height: 115%;
     background: #2c3e50;
     opacity: 0.1;
     transform: translateY(-50%);
