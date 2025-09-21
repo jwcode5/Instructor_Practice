@@ -145,16 +145,4 @@
     .header-subtitle {
       font-size: 1rem;
     }
-
-    body::before {
-      width: 550px;
-      height: 550px;
-      left: -275px;
-    }
-
-    body::after {
-      width: 550px;
-      height: 550px;
-      right: -275px;
-    }
   }
