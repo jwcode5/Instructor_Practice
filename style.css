@@ -87,6 +87,18 @@
     .header-subtitle {
       font-size: 1rem;
     }
+
+    body::before {
+      width: 400px;
+      height: 400px;
+      left: -200px;
+    }
+
+    body::after {
+      width: 400px;
+      height: 400px;
+      right: -200px;
+    }
   }
 
   /* Maltese Cross Styles */
@@ -95,6 +107,7 @@
     height: 150px;
     position: relative;
     opacity: 0.5;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
   }
 
   .maltese-cross::before {
