@@ -1,0 +1,82 @@
+[
+    {
+        "question":  "The main purpose of a post-incident critique is to:",
+        "answerTexts":  "serve as an educational tool. | serve as an education tool.",
+        "files":  "officer2_v1.html, officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "Which is correct regarding groups?",
+        "answerTexts":  "A formal group usually defines common goals ina written document. | A formal group usually defines common goals in a written document. | The organization trusts the company officer to be the formal leader of the group.",
+        "files":  "officer2_v1.html, officer2_v2.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Which is correct regarding group dynamics?",
+        "answerTexts":  "Groups that lack a positive image are poor producers. | Group interaction determines group productivity. | Loyalty is to the organization first and not the group.",
+        "files":  "officer2_v1.html, officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "Mentoring requires:",
+        "answerTexts":  "enhancing knowledge and providing training. | ehancing knowledge and providing training.",
+        "files":  "officer2_v1.html, officer2_v2.html"
+    },
+    {
+        "question":  "What is true with regard to employee performance evaluations?",
+        "answerTexts":  "Employee performance evaluations are held on a specific schedule. usually annually. | Employee performance evaluations are held on a specific schedule, usually annually.",
+        "files":  "officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "Which is correct regarding the post incident analysis?",
+        "answerTexts":  "A formal post incident analysis should be developed after every incident to serve as a training tool. | It compares the actions taken with the appropriate Standard Operating Guide.",
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "In terms of searches after a fire:",
+        "answerTexts":  "You do not need a searh warrant as long as the fire department stays on scene for a reasonable period of time. | you do not need a search warrant as long as the fire department stays on scene for a resonable period of time.",
+        "files":  "officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "When interviewing persons from a fire scene, you should:",
+        "answerTexts":  "interview each person separately. | ask who, what, when, where, and why and how questions.",
+        "files":  "officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "Which is correct regarding personnel evaluations?",
+        "answerTexts":  "Evaluations must include definite identifiable criteria. | Evaluations must be based on employee\u0027s assigned work behavior.",
+        "files":  "officer2_v2.html, officer2_v3.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Design requirements, accessories, warranty, training for operational personnel, technical support and penalty for non-delivery are all items to be included in:",
+        "answerTexts":  "bid specifications. | request for proposals.",
+        "files":  "officer2_v2.html, officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "Which is correct regarding risk-benefit analysis?",
+        "answerTexts":  "The potential for saving a life is not an appropriate risk for firefighters. | There should be no firefighter risk when there is significant structural damage.",
+        "files":  "officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "Which is correct regarding a formal post incident critique?",
+        "answerTexts":  "Copies should be provided ahead of time? | copies should be provided ahead of time.",
+        "files":  "officer2_v3.html, officer2_v5.html"
+    },
+    {
+        "question":  "Which describes the term planning?",
+        "answerTexts":  "Responsible for the collection, evaluation and use of information | Responsible for the collection, evaluation, and use of information",
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Directions: Read the following statements, then select the correct answer from choices A-D below. Statement 1: Any member of an informal group not just the leader, can positively influence and guide the group. Statement 2: The total production of a group is determined by the interaction of the group members on an individual basis. Statement 3: The company officer should strive to distance themselves from the informal group.",
+        "answerTexts":  "Statement 1 is false; statements 2 and 3 are false. | Statements 1 and 2 are true; statement 3 is false.",
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "When giving media interviews, you should:",
+        "answerTexts":  "not attempt to answer questions when you don\u0027t know or are unsure. | not attempt to answer question when you don\u0027t know or are unsure.",
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Ideally, problems should be solved:",
+        "answerTexts":  "at the lowest possible level within the organization or those directly involved. | at the lowest possible level within the organization or those directly invovled.",
+        "files":  "officer2_v4.html, officer2_v5.html"
+    }
+]

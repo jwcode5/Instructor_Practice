@@ -1,0 +1,596 @@
+[
+    {
+        "question":  "A certified fire investigator should be called when there is a:",
+        "answer":  "d/c",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v5.html"
+    },
+    {
+        "question":  "A disciplinary hearing is intended to:",
+        "answer":  "b/d/a",
+        "variants":  3,
+        "files":  "officer2_v1.html, officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "A ___ is an experienced member of the unit who can provide personal instruction and encouragement to a new employee.",
+        "answer":  "c/a",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "A key component in the organization\u0027s succession plan is:",
+        "answer":  "a/c",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v3.html"
+    },
+    {
+        "question":  "A process that involves having unit personnel assist each other in learning teamwork is:",
+        "answer":  "b/a",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v5.html"
+    },
+    {
+        "question":  "A purpose of accident investigation is to:",
+        "answer":  "a/d",
+        "variants":  3,
+        "files":  "officer2_v3.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "An employee has violated policy and procedures for the third time; therefore, what type of discipline should be administered?",
+        "answer":  "a/b",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v2.html"
+    },
+    {
+        "question":  "An example of punitive discipline is:",
+        "answer":  "b/c",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "At an emergency scene, the officer needs to display what type of management style?",
+        "answer":  "b/d",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v5.html"
+    },
+    {
+        "question":  "At the beginning of a firefighting counseling session, you should:",
+        "answer":  "a/b",
+        "variants":  2,
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Career development planning usually occurs during:",
+        "answer":  "d/a",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v3.html"
+    },
+    {
+        "question":  "Change process is:",
+        "answer":  "c/b",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "Design requirements, accessories, warranty, training for operational personnel, technical support and penalty for non-delivery are all items to be included in:",
+        "answer":  "a/c",
+        "variants":  3,
+        "files":  "officer2_v2.html, officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "Developing or revising a policy requires:",
+        "answer":  "d/b",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "Directional fire spread from the vehicle passenger compartment to the engine compartment is evident by:",
+        "answer":  "b/a",
+        "variants":  3,
+        "files":  "officer2_v1.html, officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "Directions: Read the following statements regarding firefighter accidents and injuries, then select your answer from alternatives A-D below. Statement 1: By analyzing and understanding the cause of firefighter accidents, it is possible to prevent them from recurring. Statement 2: Safety training can be expensive and still may not reduce the number and severity of accidents. Statement 3: The relationship between an accident and an injury is readily apparent.",
+        "answer":  "a/b",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v3.html"
+    },
+    {
+        "question":  "Directions: Read the following statements, then select the correct answer from choices A-D below. Statement 1: Any member of an informal group not just the leader, can positively influence and guide the group. Statement 2: The total production of a group is determined by the interaction of the group members on an individual basis. Statement 3: The company officer should strive to distance themselves from the informal group.",
+        "answer":  "c/b",
+        "variants":  2,
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "During a fire investigation, examining the vehicle that is sideways in a ditch or parked on a hill is known as:",
+        "answer":  "c/a",
+        "variants":  4,
+        "files":  "officer2_v1.html, officer2_v3.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Effective personnel performance evaluations:",
+        "answer":  "a/d",
+        "variants":  2,
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Feedback in coaching needs to be:",
+        "answer":  "b/a",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v3.html"
+    },
+    {
+        "question":  "For purposes of fire investigation, the vehicle fire scene should be divided into ___ areas for examination.",
+        "answer":  "d/b",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "Ideally, problems should be solved:",
+        "answer":  "b/a",
+        "variants":  2,
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "If unsatisfactory behavior continues after an oral reprimand, the next step would be a(n):",
+        "answer":  "b/a",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v4.html"
+    },
+    {
+        "question":  "In order to prevent errors while preparing press releases, you should:",
+        "answer":  "c/d",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v5.html"
+    },
+    {
+        "question":  "In terms of progressive discipline, in most organizations:",
+        "answer":  "d/a",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "In terms of searches after a fire:",
+        "answer":  "a/c",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "In the change model, the follow-up program includes:",
+        "answer":  "a/d",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v5.html"
+    },
+    {
+        "question":  "Informal communications:",
+        "answer":  "b/a",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "Investigations of accidents must center on ___ -finding and not ___ -finding.",
+        "answer":  "c/a",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v3.html"
+    },
+    {
+        "question":  "Issuing a reprimand for not submitting a report on time is an example of ___ power.",
+        "answer":  "c/d",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "Mentoring requires:",
+        "answer":  "a/c",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v2.html"
+    },
+    {
+        "question":  "Officers performing their duties based on what others expect from them is:",
+        "answer":  "c/d",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v4.html"
+    },
+    {
+        "question":  "One of Layman\u0027s five-step size-up process is:",
+        "answer":  "b/c",
+        "variants":  3,
+        "files":  "officer2_v2.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "One of the benefits of a computer-aided dispatch is the ability to export data to determine:",
+        "answer":  "d/a",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "One of the four steps in firefighter development is:",
+        "answer":  "a/b",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v2.html"
+    },
+    {
+        "question":  "One purpose of an employee evaluation is to:",
+        "answer":  "c/a",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v5.html"
+    },
+    {
+        "question":  "Policies and procedures are most effective when they:",
+        "answer":  "c/b",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "Progressive measures such as reprimands used to get employees to meet departmental standards is:",
+        "answer":  "d/a",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "Property recording a scene requires:",
+        "answer":  "d/b",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v5.html"
+    },
+    {
+        "question":  "Recklessness is generally a result of:",
+        "answer":  "b/d",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "Regarding interagency and intergovernmental agreements, you must be aware of:",
+        "answer":  "d/a",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v5.html"
+    },
+    {
+        "question":  "State governments generally have three functional branches:",
+        "answer":  "d/c",
+        "variants":  3,
+        "files":  "officer2_v1.html, officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "The best control over a group is from:",
+        "answer":  "d/c",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v5.html"
+    },
+    {
+        "question":  "The establishment of Divisions or Groups:",
+        "answer":  "c/a",
+        "variants":  3,
+        "files":  "officer2_v2.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "The first objective of an origin and cause investigation is to:",
+        "answer":  "a/d/b",
+        "variants":  3,
+        "files":  "officer2_v1.html, officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "The first step in developing a budget is to:",
+        "answer":  "c/a",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v5.html"
+    },
+    {
+        "question":  "The focus of an accident investigation is to:",
+        "answer":  "c/d",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v2.html"
+    },
+    {
+        "question":  "The framework for multi-agency and multi-jurisdictional cooperation is outlined by the:",
+        "answer":  "d/a",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v5.html"
+    },
+    {
+        "question":  "The Laissez-Faire style of management is an effective style when:",
+        "answer":  "b/c",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "The leadership style where members see themselves as part of a group is:",
+        "answer":  "a/b",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v4.html"
+    },
+    {
+        "question":  "The leading type of firefighter injuries is:",
+        "answer":  "a/d",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "The main purpose of a post-incident critique is to:",
+        "answer":  "d/a/c",
+        "variants":  3,
+        "files":  "officer2_v1.html, officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "The method of directing and instructing firefighters to reach their potential is:",
+        "answer":  "b/a",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "The most effective candidates in promotional exam role-playing exercises are the ones who:",
+        "answer":  "b/c/a",
+        "variants":  3,
+        "files":  "officer2_v1.html, officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "The most popular reason for arson is:",
+        "answer":  "a/d",
+        "variants":  3,
+        "files":  "officer2_v2.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "The National Incident Management System is required by agencies to follow during disaster response and recover operations and was adopted by the:",
+        "answer":  "a/b",
+        "variants":  3,
+        "files":  "officer2_v1.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "The person who would be responsible for gathering and assembling the information for an incident review is the:",
+        "answer":  "b/a",
+        "variants":  2,
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "The Planning Section includes which unit?",
+        "answer":  "a/c/b",
+        "variants":  3,
+        "files":  "officer2_v2.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "The post incident analysis should be:",
+        "answer":  "b/c",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "The process used to document the history of a piece of evidence is known as:",
+        "answer":  "a/c",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v5.html"
+    },
+    {
+        "question":  "The risk management plan should include risk:",
+        "answer":  "a/c",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "The section that develops and documents the incident action plan is:",
+        "answer":  "d/c",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "The stage of development as relationships grow in the group, trust is developed and members are enthusiastic about new projects is:",
+        "answer":  "c/b",
+        "variants":  2,
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "The statement that identifies what the change is, why it is important, and how it affects the organization is the:",
+        "answer":  "c/d",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v5.html"
+    },
+    {
+        "question":  "The types of problems that you could be expected to encounter can be divided into four broad categories including:",
+        "answer":  "c/d",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "To increase success in the change process, you can:",
+        "answer":  "b/d",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "What is true with regard to employee performance evaluations?",
+        "answer":  "d/c",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "When assigning division/group supervisors, the incident commander should also:",
+        "answer":  "d/b",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "When completing an employee evaluation, the officer should:",
+        "answer":  "c/a",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "When completing the performance review process, the fire officer that compares the performance of one firefighter to the performance of another firefighter is demonstrating:",
+        "answer":  "a/d/b",
+        "variants":  3,
+        "files":  "officer2_v1.html, officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "When developing a policy for post-incident critiques, which is a consideration?",
+        "answer":  "c/b",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "When interviewing persons from a fire scene, you should:",
+        "answer":  "c/d",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "When investigating a fire scene, you find materials used to spread a fire from one area to another, also known as :",
+        "answer":  "b/a/c",
+        "variants":  3,
+        "files":  "officer2_v1.html, officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "When it comes to effecting change:",
+        "answer":  "c/b",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "When preparing press releases, it is important to:",
+        "answer":  "d/b",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v3.html"
+    },
+    {
+        "question":  "When you have a subordinate who is preparing for a promotional exam, you should:",
+        "answer":  "a/b",
+        "variants":  2,
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "When you hear your firefighters using unacceptable language at the station, you should:",
+        "answer":  "b/c",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "Which best describes coaching?",
+        "answer":  "a/b",
+        "variants":  3,
+        "files":  "officer2_v2.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Which describes the term planning?",
+        "answer":  "c/d",
+        "variants":  2,
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Which information source provides building construction information for writing the Post Incident Analysis?",
+        "answer":  "a/c",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v3.html"
+    },
+    {
+        "question":  "Which is correct regarding a formal post incident critique?",
+        "answer":  "a/d",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v5.html"
+    },
+    {
+        "question":  "Which is correct regarding decontamination after an emergency incident?",
+        "answer":  "d/a",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "Which is correct regarding group dynamics?",
+        "answer":  "d/a/b",
+        "variants":  4,
+        "files":  "officer2_v1.html, officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "Which is correct regarding groups?",
+        "answer":  "a/c/b/d",
+        "variants":  4,
+        "files":  "officer2_v1.html, officer2_v2.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Which is correct regarding incident communications?",
+        "answer":  "d/b",
+        "variants":  3,
+        "files":  "officer2_v2.html, officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "Which is correct regarding performance evaluations?",
+        "answer":  "b/d",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v5.html"
+    },
+    {
+        "question":  "Which is correct regarding personnel accountability systems?",
+        "answer":  "d/b",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "Which is correct regarding personnel evaluations?",
+        "answer":  "d/a/b",
+        "variants":  5,
+        "files":  "officer2_v2.html, officer2_v3.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Which is correct regarding professional development?",
+        "answer":  "b/d",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "Which is correct regarding roles within the group?",
+        "answer":  "a/b",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "Which is correct regarding the post incident analysis?",
+        "answer":  "c/d",
+        "variants":  2,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Which is true regarding mentoring?",
+        "answer":  "d/c",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v4.html"
+    },
+    {
+        "question":  "Which is true regarding the use of the bidding process for fire department purchases?",
+        "answer":  "a/c",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v3.html"
+    },
+    {
+        "question":  "Which most accurately describes what occurs during the formation step of the budget process?",
+        "answer":  "a/c/d",
+        "variants":  3,
+        "files":  "officer2_v1.html, officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "Which plan is one of the components of an emergency/disaster management plan?",
+        "answer":  "d/c",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "Which statement is correct regarding U or V shape fire patterns?",
+        "answer":  "d/a",
+        "variants":  3,
+        "files":  "officer2_v2.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Which statement regarding Divisions and Groups is most correct?",
+        "answer":  "d/a",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v5.html"
+    },
+    {
+        "question":  "Which statement regarding the informal approach to personnel evaluation is true?",
+        "answer":  "a/c",
+        "variants":  3,
+        "files":  "officer2_v1.html, officer2_v3.html, officer2_v5.html"
+    },
+    {
+        "question":  "Written policies and procedures may also be called:",
+        "answer":  "c/a",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v2.html"
+    }
+]

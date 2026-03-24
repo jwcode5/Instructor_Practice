@@ -1,0 +1,1478 @@
+[
+    {
+        "question":  "A classification of fire cause is:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "A common motive for starting a fire is:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "A condition, substance or device that can directly cause injury or loss is called a(n):",
+        "answer":  "c",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "A counseling session involves:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "A decrease in revenue may cause a(n):",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "A factor in wildland fire spread is:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "A form of contract between the employee and the supervisor that identifies specific performance improvement that must be completed by specific dates is a:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "A general element in the grievance procedure is:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "A key component in completing an in-basket exercise on a promotional exam is to:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "A(n) ___ budget details major equipment or building purchases.",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "A post-incident critique for a single jurisdictional incident should be attended by:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "A pre-incident plan can be used in the post incident review to note:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "A procedure that places a plan into effect should an emergency occur within a given region is a(n):",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "A process of directing an individual\u0027s skill performance is:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "A program where the firefighter learns a particular skill while under the supervision of different positions within an organization is:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "A program where the firefighter learns a particular skill while under the supervision of different positions within the organization is:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "A reason change fails is:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "A request for proposal:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "A risk control technique is:",
+        "answer":  "d",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "A step in the change process is:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "A subordinate\u0027s perception of a supervisor\u0027s authority to administer discipline as referred to as ___ power.",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "A subordinate\u0027s perception of a supervisor\u0027s authority to administer discipline is referred to as ___ power.",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "A suspension that an employee receives for a second incident is:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Accident report analysis must be conducted in an ___ manner.",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Adding a percentage over last year\u0027s budget is usually based on:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "After a solution has been implemented, you should:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "An element found in a decision document is:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "An example of corrective discipline is:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "An important characteristic of a group is:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "An officer who believes people like to work and just need to be encouraged rather than controlled is demonstrating what management style:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Analysis of safety and health reports helps to:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Analyzing the circumstances surrounding accidents can:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "At an emergency scene, the incident safety officer has the authority to ___ or ___ any unsafe action that is occurring.",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "At an on-going incident, which document addresses water supply issues?",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "At on on-going incident, which document addresses water supply issues?",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Before leaving the scene, you should:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "By evaluating the smoke, you are able to:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Chipping or pitting of concrete or masonry surfaces is usually:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Circumstances that are beyond thos anticipated in the standard operating procedures are:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Circumstances that are beyond those anticipated in the standard operating procedures are:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Common binding interest with a group may include:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Common binding interests with a group may include:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Corrective disciplinary action includes:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Directions: Read the following statements and choose the correct answer from choices A-D below. Statement 1: A requision has more stringent requirements than a purchase order. Statement 2: The issuance of a purchase order means the department acknowledges there are funds available to purchase the item. Statement 3: Bid specifications are general guidelines that vendors use to justify their products.",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Directions: Read the following statements regarding an annual performance evaluation, then select your answer from alternatives A-D below. Statement 1: The officer should begin an evaluation session by explaining that an evaluation is a tool to help document how well the employee is performing their duties. Statement 2: The session should be informal. Statement 3: The annual evaluation should include a discussion of future goals and objectives.",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Directions: Read the following statements regarding annual employee evaluations and select the correct answer from choices A through D below. Statement 1: The completion of the annual evaluation forms should be viewed as a formality. Statement 2: The information that the evaluator enters into the form should not come as a surprise to the employee. Statement 3: The scheduled evaluation should be used primarily as an opportunity to discuss future goals and objectives.",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Directions: Read the following statements regarding discipline or termination of an employee, and select your answer from choices A through D. Statement 1: Discipline or termination proceedings may be justified when it becomes apparent that an employee is unable or unwilling to meet the minimum employment standard. Statement 2: Failure to discipline or terminate an employee can create an unsafe environment for other employees within the workforce. Statement 3: Discipline should not be remedial.",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Directions: Read the following statements regarding discipline or termination of an employee, and select your answer from choices A through D. Statement 1: Discipline or termination proceedings may be justified when it becomes apparent that an employee is unable or unwilling to meet the minimum employment standard. Statement 2: Failure to discipline or terminate an employee can create an unsafe environment within the workforce. Statement 3: Discipline should not be remedial.",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Directions: Read the following statements regarding fire department purchasing and select your answer from choices A-D. Statement 1: Failure of officers to know and understand purchasing policies and procedures can have significant consequences for the fire department. Statement 2: Purchasing violations are usually found during the audit, review, revision process. Statement 3: Because fire departments are either political entities or nonprofit organizations, vendors are required to accept purchase orders.",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Directions: Read the following statements regarding fire department purchasing and select your answer from choices A-D. Statement 1: Typically, once the petty cash limit is exceeded by the cost of an item, the purchase order system is used. Statement 2: Like an operation fund, the purchase order system elimates the need to secure price quotes before purchase. Statement 3: Any fire department member can authorize a purchase order with their signature.",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Directions: Read the following statements regarding fire department purchasing and select your answer from choices A-D. Statement 1: Typically, once the petty cash limit is exceeded by the cost of an item, the purchase order system is used. Statement 2: Like an operation fund, the purchase order system eliminates the need to secure price quotes before purchase. Statement 3: All three statements are true.",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Directions: Read the following statements regarding fire department purchasing and select your answer from choices A-D. Statement 1: Typically, once the petty cash limit is exceeded by the cost of an item, the purchase order system is used. Statement 2: Like an operation fund, the purchase order system eliminates the need to secure price quotes before purchase. Statement 3: Any fire department member can authorize a purchase order with their signature.",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Directions: Read the following statements regarding fire department purchasing and select your answers from choices A-D. Statement 1: Failure of officers to know and understand purchasing policies and procedures can have significant consequences for the fire department. Statement 2: Purchasing violations are usually found during the audit, review, revision process. Statement 3: Because fire departments are either political entities or nonprofit organizations, vendors are required to accept purchase orders.",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Directions: Read the following statements regarding rules, procedures, and guideline changes and then select your answer from choices A-D below: Statement 1: Groups working together usually have their own set of informal rules, guidelines, and procedures. Statement 2: Informal rules, guidelines, and procedures can be much stronger or persuasive than formal ones. Statement 3: When the company officer is recommending a change in rules, guidelines, and procedures, the group\u0027s informal ones should be considered.",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Directions: Read the following statements regarding work performance, then select your answer from alternatives A-D below. Statement 1: Most performance evaluation systems requrie a formal review of each member\u0027s work performance on at least an annual basis. Statement 2: In a formal review, the quality of the work, rather than the quantity of work, is evaluated. Statement 3: The formal review focuses on poor performance.",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Directions: Read the following statements then select your answer from alternatives A-D below. Statement 1: The incident review process may include recommendations for changes in procedures. Statement 2: The incident review process shall be conducted using a free-lance management style. Statement 3: The incident review shall include all company officers, not just those at the actual incident.",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Directions: Read the following statements, then select your answer from choices A-D below. Statement 1: An essential element of a group is that the members have a common binding interest. Statement 2: Any member in a group may emerge as the leader. Statement 3: Leaders of an informal group are usually appointed.",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Documenting inadequate behavior issues usually involves:",
+        "answer":  "a",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "During emergency situation, the span of control for the incident commander is usually considered to be a maximum of ___ subordinates.",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "During emergency situations, the span of control for the incident commander is usually considered to be a maximum of ___ subordinates.",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "During incident radio communications, the sides of a building are:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Each vendor is evaluated to determine how it meets the need and is scored as a component of a:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Feedback is most effective when delivered:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Finding the origin of fire involves:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Finding the origin of the fire involves:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Fires started by children under seven are typically because of:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Fires that are intentionally set are:",
+        "answer":  "b",
+        "variants":  2,
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Following an accident, identification of dangerous conditions, procedures, and equipment can be acomplished through:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "For an effective accountability system, the:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Formal corrective action:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "How do standards and regulations impact the budgeting process?",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Human factors that often contribute to accidents have been classified into three borad categories:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Human factors that often contribute to accidents have been classified into three broad categories:",
+        "answer":  "b",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "If a fire does not have a fresh supply of oxygen, the fire slowly dies down to a decay/smoldering phase. This may occur before:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "If an incident involved multiple jurisdictions, the post incident critique should:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "If it has been determined that the risk management plan has a negative trend, then the plan should be:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "In a formal organization, a group is:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "In a(n) ___ budget, large, one-time purchases are expected to last three or more years.",
+        "answer":  "a",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v3.html"
+    },
+    {
+        "question":  "In communicating with subordinates, you should:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "In documenting a fire investigation, you should:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "In fire investigation, the initial energy source that can produce sufficient heat and energy over a long period of time to raise the temperature of the fuel to its ignition temperature is the:",
+        "answer":  "d",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v4.html"
+    },
+    {
+        "question":  "In group, it is true that:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "In order for organizations to be compliant, all personnel must complete the ___ training.",
+        "answer":  "b",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "In Planning, who tracks the location of personnel and equipment?",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "In risk management, once the risk has been identified, the next step is to:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "In terms of monetary losses, risk is classified as:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "In terms of supervision, which statement is true?",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "In the area of safety, you have a responsibility to:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "In the budgetary process, bonds are:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "In the post incident analysis, you should identify:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "In the problem solving process, the second step is to:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Incident action plan is best described as:",
+        "answer":  "d",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v5.html"
+    },
+    {
+        "question":  "Indications that a fire may be incendiary is:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Interagency agreements help to ensure;",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "___ is responsible for setting strategic objectives and maintaining a comprehensive understanding of the incident.",
+        "answer":  "c",
+        "variants":  2,
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Labor relations refers to:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Line item budgets that contain unusual requests will require:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Logistics, financial agreements, and jurisdictional responsibilities are:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Long-term loans or bonds are usually used to fund:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Mastering current knowledge and skills while acquiring new skills required for a promotion is part of:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Multiple-company incident review/analysis is conducted by the:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "National Fire Protection Association Standard ___ requires fire departments to implement and maintain a safety training and education program.",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "On scene accountability at a large scale incident begins when resources:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Once command is transferred, the former incident commander can:",
+        "answer":  "a",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v5.html"
+    },
+    {
+        "question":  "Once the need for change has been identified, the next step is to:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "One of the basic steps in determining the area of fire origin is to start at the:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "One of the best methods to provide professional development is to:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "One of the elements that demonstrates the fire company as a group is having:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "One of the greatest influences on the success of a group is:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "One of the most effective skill development techniques is:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "One of the purposes of performance evaluations is to:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "One of the steps in the change model is to:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Peer assistance training involves:",
+        "answer":  "b",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v4.html"
+    },
+    {
+        "question":  "Personnel counseling involves:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Personnel performance should include:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Positive discipline includes:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Post incident reviews should review all facts and actions to identify:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Praising correct performance and correcting inadequate performance is:",
+        "answer":  "d",
+        "variants":  3,
+        "files":  "officer2_v2.html, officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "Preliminary budgets for the upcoming fiscal year often start with:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Press releases are:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Press releases should be prepared for the media by the:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Progressive discipline usually starts with:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Punitive actions are warranted when:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Resources for fire departments to generate some of their own income include:",
+        "answer":  "d",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v4.html"
+    },
+    {
+        "question":  "Risk management involves identifying:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Sharing fire investigative reports with state and national sources are used to:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Since firefighters cannot train on every subject, you should:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Small organizations are permitted to benefit from lower purchase prices that result from large-quantity purchases of similar types of equipment. These are:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Suggesting opportunities for challenging work assignments is:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Terms to denote the tiers of potential used to describe personnel\u0027s ability to perform tasks associated with their duties is known as:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "The action used for discipline, determining the cause of inappropriate behavior and correcting it is:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "The action used when you act as an advisor or guide is:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "The age group of juvenile firesetter that starts fires out of revenge or anger is:",
+        "answer":  "b",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v4.html"
+    },
+    {
+        "question":  "The best method to determine if a procedure is effective is to:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "The categories of arson are called:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "The characteristic that is capable of absorbing and retaining heat transferred from ignition source to begin combustion is:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "The correct order of progressive discipline is:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "The criteria for selecting and evaluating candidates for company officers is established by:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "The directive to \"stop the extension of fire to the adjacent building,\" is a(n):",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "The eladership style where members jockey for informal leadership is:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "The fire investigator is focused on:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "The fire pattern that indicates a longer burn duration on one end and a shorter duration on the other end is:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "The fire pattern that results due to fire burning downward through the floor surface above the joist are:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "The fire pattern where ripples extending from a vehicle compartment as the fire progresses across the vehicle body panels is:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "The first critical step that should be taken in problem solving is to:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "The first general step in the purchasing process is to:",
+        "answer":  "b",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "The first step in career development is to:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "The first step in conducting the post-incident critique is to:",
+        "answer":  "b",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "The first step in developming a budget is to:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "THe format of an accident investigative report should contain:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "The goal of fire pattern analysis is to:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "The human factor that involves impatience, fearfulness and phobia is:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "The incident command organization should be based on:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "the Incident Command System (ICS) is which component of the National Incident Management System (NIMS)?",
+        "answer":  "c",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "The initial accident review process starts with the:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "The initial energy source employed to initiate combustion is:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "The intial energy source employed to intitiate combustion is:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "The last phase of juvenile firesetters is:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "The last step in the career development plan is to:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "The leader of an informal group can be identified:",
+        "answer":  "a",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v4.html"
+    },
+    {
+        "question":  "The leadership style where members jockey for informal leadership is:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "The leadership style where the supervisor maintains team spirit as the group accomplishes the objectives is:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "The leading cause of firefighter fatalities is:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "The level of capability that is the highest skill performance accomplished by repetition and experience is:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "The mitigation plan, a component of an emergency/disaster management plan, covers:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "The most common risk-control technique is:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "The narrative section of a report should:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "The objective of disciplinary action is to:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "The Occupational Safety and Health Administration:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "The Officer Development Handbook is a guide used for:",
+        "answer":  "c",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v5.html"
+    },
+    {
+        "question":  "The planning process that evaluates the current situation, develops intermediate objectives and establishes a final goal is used in:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "The post incident analysis should be a(n) ___ assessment of the emergency incident.",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "The preservation of the fire scene should begin with the first arriving:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "The primary consideration when preparing for a coaching interview should be:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "The risk management plan must be reviewed:",
+        "answer":  "c",
+        "variants":  2,
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "The role of an expert witness at a fire investigation proceeding is to:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "The ___ section chief manages the incident tactical activities and implements the Incident Action Plan.",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "The stage of development as relationships grow is the group, trust is developed and members are enthusiastic about new projects is:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "The two basic types of discipline are:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "The type of change in an organization\u0027s short or long-range plans that may results in policy change is known as ___ change.",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Throughout your career, you should:",
+        "answer":  "b",
+        "variants":  2,
+        "files":  "officer2_v2.html, officer2_v3.html"
+    },
+    {
+        "question":  "To ensure accurate communication, you should:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "To produce a productive post incident analysis, you should:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "To secure the scene after a fire, you should:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Typical reports used to export data to track trends are:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Unwanted, uninvited, unwelcome attention and intimacy in a nonreciprocal relationship is:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Ventilation group is an example of:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "What action should you take when firefighters continue to perform substandard work caused by personal problems?",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "What agency is responsible for investigating firefighter fatalities?",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "What best describes counseling?",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "What is a decision-based error in the Human Factors Analysis and Classification System?",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "What is a key point in an interpersonal interaction assessment?",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "What is a substandard practice, according to the Human Factors Analysis and Classification System Level 2?",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "What is an exceptional violation in the Human Factors Analysis and Classification System?",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "When an accident occurs, an investigation should be conducted to determine the:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "When confronted with an unsafe act that presents an unusual or dangerous hazard, the safety officer should:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "When determining the area of origin, you should work from the:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "When documenting an accident, you should:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "When giving a press release, you should:",
+        "answer":  "a",
+        "variants":  2,
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "When giving media interviews, you should:",
+        "answer":  "c",
+        "variants":  2,
+        "files":  "officer2_v4.html, officer2_v5.html"
+    },
+    {
+        "question":  "When interviewing a suspicious subject about a fire, you should have the law enforcement officer:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "When issuing discipline, the employee is entitled to:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "When making assignments, you should:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "When reviewing vendors for purchase of an item, the officer should:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "When scheduling the critique after an incident, you should:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "When sending an e-mail with an attachment, you should:",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "When you recognize and reward your crew for their improved performance, you are displaying:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Which accurately describes the informal approach to personnel evaluation?",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Which best describes mentoring.",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Which describes providing peer assistance?",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Which human factor that can contribute to accidents would be classified as a lack of knowledge or skill category?",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Which is a section of career development?",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Which is a type of motivational theory that you should use?",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Which is an example of a typical resource in an internal aid agreement?",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Which is an indication the risk management plan is working?",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Which is correct about peer assistance?",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Which is correct regarading personnel evaluations?",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Which is correct regarding a sense of continuity?",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Which is correct regarding a wildland fire?",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Which is correct regarding career development?",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Which is correct regarding division/group supervisors?",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Which is correct regarding evidence collection?",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Which is correct regarding fire investigation?",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Which is correct regarding physical characteristics of a fire?",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Which is correct regarding risk-benefit analysis?",
+        "answer":  "d",
+        "variants":  2,
+        "files":  "officer2_v3.html, officer2_v4.html"
+    },
+    {
+        "question":  "Which is correct regarding shared group values?",
+        "answer":  "c",
+        "variants":  2,
+        "files":  "officer2_v1.html, officer2_v4.html"
+    },
+    {
+        "question":  "Which is eligible for federal assistance under the stafford Disaster Relief and Emergency Assistance Act?",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Which is one component in the National Incident Management System?",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Which is part of determining a department\u0027s purchasing needs?",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Which plan is one of the components of an emergency/disaster managment plan?",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Which should you do when preparing press releases?",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Which statement is correct regarding observation of smoke at a fire?",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v4.html"
+    },
+    {
+        "question":  "Which statement is correct regarding staging?",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Which statement regarding the preparation of news releases is true?",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Which step in the systematic approach to decision-making is often the most challenging aspect and assigns responsibility?",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Which would you use to assist your subordinates in reaching their full potential?",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "While handling personnel conflict, the supervisor should consider:",
+        "answer":  "b",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "While the fire investigator is determining the cause of a fire, you may need to:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "With regard to determining the cause of a fire, which is true?",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "Within an Incident Management System (IMS), the ___ manages the tactics relating to the overall incident.",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "Within an Incident Management System (IMS), the ___ manages the tactis relating to the overall incident.",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "Within an Incident Managment System (IMS), the ___ manages the tactics relating to the overall incident.",
+        "answer":  "d",
+        "variants":  1,
+        "files":  "officer2_v2.html"
+    },
+    {
+        "question":  "Written policies and procedures are:",
+        "answer":  "a",
+        "variants":  1,
+        "files":  "officer2_v1.html"
+    },
+    {
+        "question":  "You have been assigned as Operations Chief on a large incident involving a train derailment. To manage the multiple tasks to be assigned you decide to:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v3.html"
+    },
+    {
+        "question":  "You may be able to determine what portions of a material or construction were exposed to the longest duration of a heat source by:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    },
+    {
+        "question":  "You should review all department injury, accident, and health exposure reports in order to:",
+        "answer":  "c",
+        "variants":  1,
+        "files":  "officer2_v5.html"
+    }
+]
