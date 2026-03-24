@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Officer 2 Practice Builder</title>
+	<link rel="stylesheet" href="../style.css">
+	<style>
+		main {
+			max-width: 980px;
+			margin: 0 auto;
+			padding: 0 1rem 3rem;
+		}
+
+		.builder-panel,
+		.results-panel,
+		.quiz-panel {
+			background: white;
+			border-radius: 14px;
+			box-shadow: 0 10px 30px rgba(44, 62, 80, 0.08);
+			padding: 1.5rem;
+			margin-bottom: 1.5rem;
+		}
+
+		.builder-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+			gap: 0.75rem;
+			margin: 1rem 0 1.25rem;
+		}
+
+		.choice-card {
+			border: 2px solid #dbe4ee;
+			border-radius: 12px;
+			padding: 1rem;
+			background: #f8fbff;
+			cursor: pointer;
+			transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+		}
+
+		.choice-card:hover {
+			border-color: #007bff;
+			transform: translateY(-2px);
+			box-shadow: 0 8px 20px rgba(0, 123, 255, 0.14);
+		}
+
+		.choice-card input {
+			display: none;
+		}
+
+		.choice-card.selected {
+			border-color: #007bff;
+			background: #eaf4ff;
+		}
+
+		.choice-card strong {
+			display: block;
+			font-size: 1.2rem;
+			margin-bottom: 0.25rem;
+		}
+
+		.control-row {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.75rem;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.action-button,
+		.secondary-button {
+			border: none;
+			border-radius: 999px;
+			padding: 0.85rem 1.35rem;
+			font-size: 1rem;
+			cursor: pointer;
+			transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease;
+		}
+
+		.action-button {
+			background: #007bff;
+			color: white;
+		}
+
+		.secondary-button {
+			background: #e9eef5;
+			color: #2c3e50;
+		}
+
+		.action-button:hover,
+		.secondary-button:hover {
+			transform: translateY(-1px);
+		}
+
+		.action-button:disabled {
+			opacity: 0.5;
+			cursor: not-allowed;
+			transform: none;
+		}
+
+		.question-card {
+			text-align: left;
+			border: 1px solid #d9e2ec;
+			border-radius: 12px;
+			padding: 1rem;
+			margin-bottom: 1rem;
+			background: #fff;
+		}
+
+		.question-card.correct {
+			border-color: #4caf50;
+			background: #f0fbf2;
+		}
+
+		.question-card.incorrect {
+			border-color: #d9534f;
+			background: #fff3f3;
+		}
+
+		.question-card h3 {
+			font-size: 1rem;
+			margin-bottom: 0.85rem;
+			color: #22313f;
+		}
+
+		.option-list label {
+			display: block;
+			padding: 0.45rem 0;
+			cursor: pointer;
+		}
+
+		.meta-text,
+		.review-text {
+			color: #5b6b79;
+			font-size: 0.95rem;
+		}
+
+		.results-panel {
+			display: none;
+		}
+
+		.results-score {
+			font-size: 1.25rem;
+			font-weight: 700;
+			margin-bottom: 0.35rem;
+		}
+
+		.hidden {
+			display: none;
+		}
+
+		.back-link {
+			display: inline-block;
+			margin-top: 0.75rem;
+			color: #007bff;
+			text-decoration: none;
+		}
+
+		.back-link:hover {
+			text-decoration: underline;
+		}
+
+		@media (max-width: 640px) {
+			.page-header {
+				padding-top: 3rem;
+			}
+
+			.header-cross {
+				width: 110px;
+				height: 110px;
+				right: 10px;
+				top: 10px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header class="page-header">
+		<div class="maltese-cross header-cross"></div>
+		<h1>Officer 2 Practice Builder</h1>
+		<p class="header-subtitle">Choose a question count and build a random practice test from the Officer 2 bank.</p>
+	</header>
+
+	<main>
+		<section class="builder-panel">
+			<p class="meta-text" id="bankStatus">Loading Officer 2 bank...</p>
+			<div class="builder-grid" id="countChoices">
+				<label class="choice-card" data-count="25">
+					<input type="radio" name="questionCount" value="25">
+					<strong>25</strong>
+					<span>Quick review</span>
+				</label>
+				<label class="choice-card" data-count="50">
+					<input type="radio" name="questionCount" value="50">
+					<strong>50</strong>
+					<span>Mid-length practice</span>
+				</label>
+				<label class="choice-card" data-count="100">
+					<input type="radio" name="questionCount" value="100">
+					<strong>100</strong>
+					<span>Full-length session</span>
+				</label>
+				<label class="choice-card" data-count="all">
+					<input type="radio" name="questionCount" value="all">
+					<strong>All</strong>
+					<span>Every bank question</span>
+				</label>
+			</div>
+
+			<div class="control-row">
+				<button class="action-button" id="buildButton" type="button" disabled>Build Practice Test</button>
+				<button class="secondary-button" id="reshuffleButton" type="button" disabled>Generate New Random Set</button>
+			</div>
+			<a class="back-link" href="../index.html">Back to home</a>
+		</section>
+
+		<section class="results-panel" id="resultsPanel">
+			<div class="results-score" id="resultsScore"></div>
+			<p class="review-text" id="resultsDetail"></p>
+		</section>
+
+		<section class="quiz-panel hidden" id="quizPanel">
+			<form id="quizForm"></form>
+			<div class="control-row">
+				<button class="action-button" id="submitButton" type="button">Submit Answers</button>
+			</div>
+		</section>
+	</main>
+
+	<script>
+		const bankStatus = document.getElementById("bankStatus");
+		const countChoices = document.getElementById("countChoices");
+		const buildButton = document.getElementById("buildButton");
+		const reshuffleButton = document.getElementById("reshuffleButton");
+		const quizPanel = document.getElementById("quizPanel");
+		const quizForm = document.getElementById("quizForm");
+		const submitButton = document.getElementById("submitButton");
+		const resultsPanel = document.getElementById("resultsPanel");
+		const resultsScore = document.getElementById("resultsScore");
+		const resultsDetail = document.getElementById("resultsDetail");
+
+		let bankData = null;
+		let activeQuestions = [];
+		let selectedCount = null;
+
+		function shuffle(items) {
+			const clone = [...items];
+			for (let index = clone.length - 1; index > 0; index -= 1) {
+				const swapIndex = Math.floor(Math.random() * (index + 1));
+				[clone[index], clone[swapIndex]] = [clone[swapIndex], clone[index]];
+			}
+			return clone;
+		}
+
+		function getRequestedCount() {
+			if (!bankData) {
+				return 0;
+			}
+			if (selectedCount === "all") {
+				return bankData.questions.length;
+			}
+			return Math.min(Number(selectedCount), bankData.questions.length);
+		}
+
+		function renderQuiz() {
+			quizForm.innerHTML = "";
+			resultsPanel.style.display = "none";
+			const fragment = document.createDocumentFragment();
+
+			activeQuestions.forEach((question, index) => {
+				const card = document.createElement("section");
+				card.className = "question-card";
+				card.dataset.questionId = question.id;
+
+				const title = document.createElement("h3");
+				title.textContent = `${index + 1}. ${question.question}`;
+				card.appendChild(title);
+
+				const optionList = document.createElement("div");
+				optionList.className = "option-list";
+
+				question.choices.forEach((choice) => {
+					const label = document.createElement("label");
+					const input = document.createElement("input");
+					input.type = "radio";
+					input.name = question.id;
+					input.value = choice.id;
+
+					label.appendChild(input);
+					label.append(` ${choice.id.toUpperCase()}) ${choice.text}`);
+					optionList.appendChild(label);
+				});
+
+				const review = document.createElement("p");
+				review.className = "review-text hidden";
+				review.dataset.reviewFor = question.id;
+
+				card.appendChild(optionList);
+				card.appendChild(review);
+				fragment.appendChild(card);
+			});
+
+			quizForm.appendChild(fragment);
+			quizPanel.classList.remove("hidden");
+		}
+
+		function buildQuiz() {
+			const count = getRequestedCount();
+			activeQuestions = shuffle(bankData.questions).slice(0, count);
+			bankStatus.textContent = `Loaded ${bankData.uniqueQuestions} unique questions. Current test size: ${count}.`;
+			renderQuiz();
+		}
+
+		function gradeQuiz() {
+			let score = 0;
+			activeQuestions.forEach((question) => {
+				const card = quizForm.querySelector(`[data-question-id="${question.id}"]`);
+				const selected = quizForm.querySelector(`input[name="${question.id}"]:checked`);
+				const review = quizForm.querySelector(`[data-review-for="${question.id}"]`);
+				card.classList.remove("correct", "incorrect");
+				review.classList.remove("hidden");
+
+				if (selected && selected.value === question.correctChoiceId) {
+					score += 1;
+					card.classList.add("correct");
+					review.textContent = `Correct: ${question.correctChoiceId.toUpperCase()}) ${question.correctChoiceText}`;
+				} else {
+					card.classList.add("incorrect");
+					const selectedText = selected ? selected.value.toUpperCase() : "No answer";
+					review.textContent = `Your answer: ${selectedText}. Correct: ${question.correctChoiceId.toUpperCase()}) ${question.correctChoiceText}`;
+				}
+
+				if (question.reference && (question.reference.section || question.reference.page)) {
+					review.textContent += ` Reference: ${question.reference.section || ""} ${question.reference.page || ""}`.trim();
+				}
+			});
+
+			const total = activeQuestions.length;
+			const percent = total ? Math.round((score / total) * 100) : 0;
+			resultsScore.textContent = `Score: ${score} / ${total} (${percent}%)`;
+			resultsDetail.textContent = "Use Generate New Random Set to build another practice test with the same question count.";
+			resultsPanel.style.display = "block";
+			window.scrollTo({ top: 0, behavior: "smooth" });
+		}
+
+		countChoices.addEventListener("click", (event) => {
+			const card = event.target.closest(".choice-card");
+			if (!card || !bankData) {
+				return;
+			}
+
+			selectedCount = card.dataset.count;
+			countChoices.querySelectorAll(".choice-card").forEach((item) => item.classList.remove("selected"));
+			card.classList.add("selected");
+			card.querySelector("input").checked = true;
+			buildButton.disabled = false;
+			reshuffleButton.disabled = false;
+		});
+
+		buildButton.addEventListener("click", buildQuiz);
+		reshuffleButton.addEventListener("click", () => {
+			if (!selectedCount) {
+				return;
+			}
+			buildQuiz();
+		});
+		submitButton.addEventListener("click", gradeQuiz);
+
+		fetch("./bank_officer2.json")
+			.then((response) => {
+				if (!response.ok) {
+					throw new Error("Unable to load Officer 2 test bank.");
+				}
+				return response.json();
+			})
+			.then((data) => {
+				bankData = data;
+				bankStatus.textContent = `Officer 2 bank ready: ${data.uniqueQuestions} unique questions available.`;
+			})
+			.catch((error) => {
+				bankStatus.textContent = error.message;
+				buildButton.disabled = true;
+				reshuffleButton.disabled = true;
+			});
+	</script>
+</body>
+</html>
