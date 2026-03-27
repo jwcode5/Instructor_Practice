@@ -1,0 +1,685 @@
+Date: Tuesday, August 4, 2020 Time: 8:52:48 AM
+TEST REPORT
+Question file: Fire Officer | - V 9.5
+Copyright:
+
+Test Date: 8/4/2020
+
+Test Name: Fire Officer | V1
+
+Test Form: 0
+
+Test Version: 1
+
+Test Points: 100.00
+
+Test File: Fire Officer | V1
+
+Test Path: C:\Program Files (x86)\LXR\LXRTEST vé6.1\Samples\Fire Officer |
+V1.LXRTest
+1. Letters are effective communication tools if they are:
+
+A. written in very technical language.
+
+B. highly detailed.
+
+C. reviewed for accuracy.
+
+D. general and written with little detail.
+2. Access to the employee's exposure records is given to:
+
+A. the employee. B. the Fire Chief.
+
+C. the department chaplain. D. the employee's company officer.
+3. For the company officer, two generally accepted decision-making models include:
+
+A. assessment and assumption models.
+
+B. analogical and informed models.
+
+C. specific and non-specific models.
+
+D. centralized and decentralized models.
+4. Which statement is true with regard to policies and procedures?
+
+A. Policies are always written.
+
+B. Well conceived policies and/or procedures seldom need monitoring.
+
+C. Policies are created and developed by the company officer of the department.
+
+D. Procedures detail in writing the steps to follow in conducting organizational policy.
+5. Which building type was originally designed to confine any fire?
+
+A. Ordinary B. Wood frame C. Heavy timber D. Fire-resistive
+6. When the evolution requires more than one participant, you should:
+
+A. implement a student-to-instructor ratio of no more than 1 to 15 for
+
+live fire evolutions.
+
+B. allow for safety errors due to the number of personnel completing the tasks.
+
+C. have experienced personnel demonstrate the tasks.
+
+D. have participants perform the skill first and then have each
+
+participant critique it afterwards.
+
+7. Which is correct regarding the assignment of the two-in/two-out rule?
+
+A. Remain in gear breathing on air until called for action.
+
+B. Itis a voluntary standard.
+
+C. Be positioned outside the immediately dangerous to life and health atmosphere.
+
+D. Be positioned next to the command post.
+8. When writing an email, you should proofread the email for:
+A. checking for grammar, spelling, and punctuation.
+B. limiting the amount of information in the report.
+C. decreasing the likelihood that the report reader understands
+the incident.
+D. This would not be necessary if a spell-check tool in a word
+processing program is used.
+9. Reducing the risk of infection in firefighters involves:
+
+A. using engineering procedures.
+B. providing training and education.
+C. developing disciplinary actions.
+D. using a post-incident action plan.
+
+10. Span of control is a management principle based on how
+many people a person can supervise and:
+A. implementing department policies.
+B. can vary with different situations.
+C. breaking down the overall strategy into smaller tasks.
+D. cost analysis.
+
+11. The benefit of conducting a post-incident analysis of a structure fire
+include identifying:
+A. the building code needed for new construction.
+B. benefits of an infectious control officer.
+C. the fire flow calculations of the fire protection system.
+D. training needs.
+
+12. Directions: Read the following statements, then select the correct answer from
+choices A-D below.
+
+Statement 1: One of the skills required of the company officer when dealing
+with irate citizens is the ability to react in a courteous and
+professional manner.
+
+Statement 2: Once the real problem of the citizen's complaint is identified,
+the company officer should refer the citizen to the next level
+of supervision.
+
+Statement 3: A company officer should take a personal interest in seeing that a
+citizen's concern/complaint is resolved as soon as possible to the
+citizen's satisfaction.
+
+A. All three statements are true.
+
+B. Statement 1 is true; statements 2 and 3 are false.
+C. Statements 1 and 2 are true; statement 3 is false.
+D. Statements 1 and 3 are true; statement 2 is false.
+13. Occupational Safety & Health Administration Part 1910.1200 of Title 29 CFR
+
+covers training requirements and emergency response requirements for:
+
+A. emergency medical incidents.
+
+B. hazardous material incidents.
+
+C. fire suppression incidents.
+
+D. all fire rescue incidents.
+14. Firefighters have been injured or killed when they pulled the unsupported
+
+bottom chord of a roof.
+
+A. truss B. metal C. flat D. concrete
+15. A common five-step planning model includes:
+
+A. determine problems create an action plan, implement plan, re-evaluate plan,
+
+and critique.
+B. identify the problem, select response, design plan, implement the plan, and
+evaluate effectiveness.
+
+C. evaluate problems, implement strategy, deploy resources, recall, and review.
+
+D. identify problems, specify solution, demonstrate, evaluate, and correct problems.
+16. The term that means an individual has been tested by an accredited examining
+
+body on clearly identified material and found to meet a minimum standard is:
+
+A. certification. B. consensus. C. licensing. D. accreditation.
+17. Which is a component of an Infectious Disease program?
+
+A. Awritten disciplinary plan
+
+B. Awritten risk management plan
+
+C. Information on how to prevent exposures
+
+D. Location of blood testing equipment
+18. Which characteristic describes an offensive firefighting strategy?
+
+A. Assess risks B. Protect exposures
+
+C. Stabilize the incident D. Aggressive interior attack
+19. The activities that support those providing emergency services is an example
+
+of functions.
+
+A. line B. staff C. scalar D. organizational
+20. The expected maximum amount of combustible material in a given
+
+fire area is a:
+
+A. fuel load. B. fire growth load.
+
+C. target hazard. D. combustible load.
+21. Most fireground directives are considered orders because:
+A. firefighters should learn to obey without question.
+B. of unity of command.
+C. of the seriousness of the situation.
+D. the command officer does not have time to supervise.
+22. Which records must be maintained for employment plus 30 years?
+A. Citizen complaints B. Medical records
+C. Training D. Maintenance
+23. A firefighter with a substance abuse problem should:
+A. be referred to organization's employee assistance program.
+B. be terminated as mandated by federal law.
+C. remain in their normal assignment.
+D. participate in a mandatory critical incident stress debriefing.
+24. The four-step method of instruction includes:
+A. planning, presentation, testing, and monitoring.
+B. preparation, demonstration, evaluation, and monitoring.
+C. preparation, presentation, application, and evaluation.
+D. planning, demonstration, application, and testing.
+25. Implementing a safety program includes establishing a(n):
+A. establish a system with National Fire Protection Association standards.
+B. system using the American National Standards Institute (ANSI) prevention method.
+C. system to impose discipline.
+D. accident/injury record-keeping system.
+26. Some of the basic principles of organization are:
+A. unity of command, span of control, and employee assistance program.
+B. unity of command, span of control, and division of labor.
+C. unity of command, span of control, division of labor, and command tactics.
+D. unity of command, span of control, human resources, and legal process.
+27. To meet documentation requirements of exposures, you should include:
+A. hazard class. B. mode of transmission.
+C. quantity of blood in exposure. D. address where exposure occurred.
+28. The scope of the life-safety program should:
+A. reflect the needs of the community that they are designed to serve.
+B. inform members of the community about the hazards they face and
+how to mitigate them.
+C. focus on the available free and for fee services.
+D. concentrate on the specific age of the targeted community.
+29. Large scale emergency incidents may require:
+A. units to share one frequency to ensure unity of command.
+B. the use of multiple radio frequencies to handle the complexity of the incident.
+C. field dispatchers to check in personnel and ensure accountability.
+D. communications to command post in order of rank.
+30. Effective company officers handle conflict by:
+A. consulting their own supervisors as a first-step measure.
+B. focusing on the personalities involved.
+C. confronting the problem as soon as it arises.
+D. unilaterally imposing an arbitrary solution to the problem causing the conflict.
+31. The purpose of a clear, concise incident action plan is to:
+A. predict the probable safe course of events for an incident.
+B. determine accountability for cost analysis.
+C. determine if a domestic incident exists.
+D. identify a credible threat.
+32. The agency responsible for developing and enforcing mandatory job safety
+and health standards is the:
+A. National Safety Institute.
+B. National Fire Protection Association.
+C. National Safety Council.
+D. Occupational Safety and Health Administration.
+33. One of the ways that productivity can be increased is through:
+A. authority. B. promotion.
+C. delegation. D. progressive discipline.
+34. Which is one of the five Cs of radio communication?
+A. Controversial B. Capacity C. Clarity D. Capacious
+35. A function of pre-incident planning is:
+A. code enforcement. B. conducting an area survey.
+C. implementing pre-incident strategies. D. managing pre-incident data.
+36. The area in the building where, during a fire in a high-rise building, the company officer
+may relocate occupants to is:
+A. a point of egress. B. a safety zone.
+C. an area of refuge/safe haven. D. exit access.
+37. The participative management style in the decision-making process provides
+the advantage that:
+A. it provides the potential for conformity.
+B. itis a part of the autocratic management style.
+C. empowerment adds increased personal commitment to the process.
+D. members have limited roles in the process or outcome.
+38. Which are not allowed as part of a means of egress component?
+A. Rated corridors B. Stairs C. Escalators D. Ramps
+39. Rapid intervention teams/crews are required:
+A. to have full personal protective equipment close by if needed.
+B. only during the initial stage.
+C. only when deemed necessary by the incident commander.
+D. when crews are operating in a hazardous environment.
+40. Buildings used to store, display, and sell merchandise are classified as a(n):
+A. mercantile occupancy. B. storage occupancy.
+C. place of assembly. D. business occupancy.
+41. Which best describes an operating budget?
+A. List of revenue sources and proposed expenditures
+B. Used to pay for recurring expenses
+C. Used to pay for long-term purchases
+D. Categorizes expenditures by activity
+42. In the Incident Management System, command staff consists of:
+A. divisions and groups.
+B. operations, planning, logistics, and finance.
+C. assistance, deputies, and unit leaders.
+D. safety, public information, and liaison.
+43. Which is a skill necessary to complete a form-based report?
+A. Subjectivity B. Punctuation C. Legibility D. Grammar
+44. Division A is identified as the of the building.
+A. rear B. front C. right side D. left side
+45. Which narrative report states the problem, provides a variety of options, and then lists the
+best solution?
+A. Progress B. Description
+C. Recommendation D. Justification
+46. Ordinary construction is:
+A. Type Il non-combustible. B. Type | fire resistive.
+C. Type IV heavy timber. D. Type III masonry exterior walls.
+47. What is correct regarding budgets?
+A. Operating budgets include projected major purchases.
+B. Capital budgets are used to pay reoccurring costs.
+C. The internal review process incudes public hearings.
+D. Funds cannot be transferred between capital and operating budgets.
+48. A narrative report that lists a process, project, or item that gives the audience
+a detailed image of the subject is:
+A. progress. B. justification.
+C. recommendation. D. description.
+49. Your first priority during a pre-incident/pre-emergency survey is:
+A. building construction. B. property conservation.
+C. gathering owner's information. D. life safety.
+50. The most common injury sustained by emergency responders operating
+on the fireground is:
+A. burns. B. respiratory distress.
+C. heart attack. D. sprains/strains.
+51. A system of conduct, principles, and morals is:
+A. ethics. B. delegation. C. leadership. D. management.
+52. What is one of the basic leadership categories?
+A. Transformational B. Transactional
+C. Symbolic D. Democratic
+53. The company officer plays a major role in:
+A. writing policies and procedures.
+B. developing labor-management policies.
+C. budget approval.
+D. building teamwork.
+54. When providing interviews for the media, which statements is true?
+A. There is no such thing as off the record.
+B. Answer what if questions only when you have a solid theory in mind.
+C. Use esoteric fire service terminology.
+D. Volunteer speculative information.
+55. In an incident management system, the term corresponds
+to a geographical area.
+A. sector B. staging C. group D. division
+56. Ongoing analysis of departmental activities will assist you in:
+A. demonstrating areas in which there is no need for additional training.
+B. creating more routine activities.
+C. identifying problems with operating procedures/guidelines.
+D. identifying the line item expense of purchasing supplies.
+57. Directions: Read the following statements, then choose the correct answer from
+choices A-D below.
+Statement 1: The structure itself presents a fire load except for Type | and
+Type II buildings.
+Statement 2: The structural fuel load includes the combustible portions of
+walls, floors, and roof of the structure.
+Statement 3: Type Ill construction consists of exterior walls made out of
+combustible material.
+A. Statement 1 is true; statements 2 and 3 are false.
+B. Statement 1 is false; statements 2 and 3 are true.
+C. All three statements are true.
+D. Statements 1 and 2 are true; statement 3 is false.
+58. Content - hazard classifications are:
+A. general, special hazard, and high. B. low, general, and special.
+C. low, medium, and high. D. low, ordinary, and high.
+59. Back-up of record management is necessary to ensure:
+A. continuity in the event of system failure.
+B. acheck and balance is maintained between field and administrative reports.
+C. the elimination of future discrepancies.
+D. departments meet/exceed state records retention regulations.
+60. What size above-ground storage tank placed inside of a building requires
+it to be placed in a fire resistant room or enclosure?
+A. 660 gallons or larger B. 500 gallons or larger
+C. 275 gallons or larger D. 220 gallons or larger
+61. An organization that publishes standards is the:
+A. National Fire Academy. B. National Fire Protection Association.
+C. International Association of Firefighters. D. National Volunteer Fire Council.
+62. is responsible for setting strategic objectives.
+A. Operations B. Command
+C. Planning D. Logistics
+63. Directions: Read the statements below, then choose the correct answer from A-D.
+Statement 1: A code or standard has no real legal status until it is adopted by a
+government agency.
+Statement 2: Codes passed by one state do not apply to citizens of
+another state.
+Statement 3: Codes are generally written as minimum standards.
+A. Statements 1 and 3 are incorrect; statement 2 is correct.
+B. Statements 1 and 2 are correct; statement 3 is incorrect.
+C. All three statements are correct.
+D. Statements 1 and 3 are correct; statement 2 is incorrect.
+64. The order of the three levels of progressive discipline is:
+A. preventative, punitive, corrective. B. corrective, preventative, punitive.
+C. preventative, corrective, punitive. D. punitive, corrective, preventative.
+65. Joint exercises on multi-jurisdictional operational agreements must be held:
+A. quarterly. B. monthly.
+C. after each agency has been trained. D. semi-annually.
+66. Regarding management style, you should:
+A. ask subordinates what style works best.
+B. use a consistent management style so subordinates know what to expect.
+C. try as many styles as possible to identify the one that is right for them.
+D. adapt your management style to fit the situation.
+67. If you need to modify a lesson plan, you should:
+A. rewrite the certification requirements.
+B. get permission from the author.
+C. ask administration for approval.
+D. review all of the training records for that subject.
+68. A(n) budget provides details on recurring expenses within the department.
+A. capital B. revenue C. long-term D. operating
+69. The Rapid Intervention Teams/Crews need to be staged in the:
+A. neutral zone. B. cold zone.
+C. hot zone. D. warm zone.
+70. Communication is:
+A. aprocess for exchanging information.
+B. an individual who initiates a message.
+C. amethod for verifying a message.
+D. the idea or item to be communicated.
+71. Which is true regarding the communication process?
+A. The nonverbal component of the communication process provides
+the receiver with 93 percent of the message.
+B. Research by communication professionals indicates that verbal
+clues are more important than nonverbal clues.
+C. Word meanings are specific, or have agreed-upon definitions.
+D. Research by communication professionals indicates that words (the verbal
+components of the communication process) provide the receiver with
+only 20 percent of the message.
+72. When speaking with a subordinate about substandard performance, you should:
+A. blame the employee for the department's low morale.
+B. spot trends and habits in personal performance and behavior.
+C. relate to the employee how his/her attitude and personality is affecting performance.
+D. identify the subordinate's weaknesses and find a suitable disciplinary action.
+73. The company officer is assigned by the staff officer to train the company on code
+enforcement, but the staff officer keeps the authority to correct the implementation.
+This type of authority is:
+A. mutual staff/line overlap. B. line advice to staff.
+C. organizational scalar. D. functional supervision.
+74. Once life safety considerations have been implemented, what is the next question
+the fire officer must consider?
+A. Are proactive processes in place?
+B. Are there enough apparatus responding to institute the incident management system?
+C. Are the priorities selected applicable to the command sequence selected?
+D. Are the resources at the scene and enroute sufficient to handle this situation?
+75. Based on policies and procedures, compliance with an order at
+an emergency scene is:
+A. required during routine activities. B. not required at emergency incidents.
+C. the same as a directive. D. mandatory.
+76. According to the U.S. Fire Administration, approximately percent
+of fire and emergency service organizations are staffed by volunteers.
+A. 90 B. 30 Cc. 50 D. 70
+77. The size up of an incident begins:
+A. a plan of operation.
+B. with the dispatch information.
+C. atthe arrival on scene.
+D. with peer consensus enroute to the incident.
+78. Conflict resolution, that includes the use of people outside the company, in the
+mediation process is:
+A. team mediation. B. forced mediation.
+C. employee circle. D. peer-mediation.
+79. Buildings or structures used primarily for securing and sheltering goods, merchandise,
+products, vehicles, or animals are classified as occupancies.
+A. warehouse B. storage C. mercantile D. business
+80. Which statement is true with regard to grievance procedures?
+A. Grievance procedures are usually separate from the labor/management agreement.
+B. The grievance must identify which policy was not followed.
+C. An employee who feels that they have received unjust discipline can file
+a grievance.
+D. Chief officers must be aware of the grievance procedures in effect in their
+organization, whereas company officers do not.
+81. If a complaining citizen is irritated or upset, you must:
+A. ignore the situation until the citizen goes away.
+B. report the incident to the chief.
+C. remain calm and in control.
+D. call the police for back-up.
+82. Directions: Read the following statements and then select the correct answer
+from alternatives A-D below.
+Statement 1: A post-incident analysis is only conducted after a firefighter
+or civilian fatality.
+Statement 2: The incident commander is the only officer that can request
+a post-incident analysis be conducted.
+Statement 3: Understanding how built-in fire protection systems affect
+fire behavior is an important item to review during a
+post-incident analysis.
+A. Statements 1 and 2 are false; statement 3 is true.
+B. Statement 1 is true; statements 2 and 3 are false.
+C. Statements 1 and 2 are true; statement 3 is false.
+D. All three statements are true.
+83. What is a pre-incident planning function?
+A. Conducting the survey B. Investigation
+C. Size-up D. Checking for prior code violations
+84. Which most accurately describes what occurs during the external review step
+of the budget process?
+A. Company officers have opportunity for input.
+B. The concerns of citizens are heard.
+C. The budget is administered.
+D. Fiscal conditions for next year are estimated.
+85. The on-going process to analyze the incident and select the action
+to take is:
+A. response phase. B. size-up.
+C. tactical operation. D. pre-incident plan.
+86. The means of egress from a building should include:
+A. elevators for occupants.
+B. public ways of adjoining properties with restricted access.
+C. exit signs above each vertical exit.
+D. unobstructed passageways.
+87. The life safety priorities that company officers must remain focused
+on during a pre-incident survey are:
+A. location of exits and areas of safe refuge.
+B. strategy tactics and rescue.
+C. water supply and building construction.
+D. building construction and property conservation.
+88. The term restricted/hot zone is best described as the location where:
+A. fires are fought/vehicle extrication is performed.
+B. the general public is allowed to gather.
+C. personnel who support the incident are located.
+D. the command post is located.
+89. Emergency incident planning involves two distinct activities which are:
+A. preincident and on scene size-up.
+B. emergency and public service.
+C. single-company and multi-company.
+D. strategic and organizational.
+90. The building construction that provides for protected steel members, floors,
+and walls, designed to limit fire spread is construction.
+A. fire-resistive B. ordinary C. Type IV D. Type Ill
+91. Layman's basic list of strategies:
+A. require every element to be completed in any order.
+B. have been replaced with National Incident Command standards.
+C. are listed in priority order.
+D. follow the tactical operations.
+92. The company officer may utilize the basic four stage development
+model which includes:
+A. supervising, performing, obeying, and observing.
+B. discipline, leadership, performance, and teamwork.
+C. documentation, reporting, formatting, and empowering.
+D. forming, storming, norming, and performing.
+93. Directions: Read the following statements regarding communication, then select the
+correct answer from alternatives A-D below.
+Statement 1: The listener is less responsible for successful communication
+than the speaker.
+Statement 2: Misinterpretation by the receiver all too often leads
+to misunderstanding.
+Statement 3: The most important communication skill for a supervisor is listening.
+A. Statement 1 is incorrect; statements 2 and 3 are correct.
+B. Statements 1 and 3 are correct, statement 2 is incorrect.
+C. Statement 1 is correct; statements 2 and 3 are incorrect.
+D. Statements 1 and 3 are incorrect; statement 2 is correct.
+94. The internal review of the fire department's budget is conducted by the:
+A. city council. B. city manager.
+C. fire chief. D. community members.
+95. To ensure control, units sending radio messages must:
+A. repeat code 10-4 after each transmission.
+B. identify who they are calling and identify themselves before
+transmitting their message.
+C. include an acknowledgement specific to their department.
+D. identify themselves and reply, "Understood."
+96. When company-level personnel are focused on code requirements
+for the occupancy, they are conducting:
+A. company-level training.
+B. pre-incident surveys.
+C. life-safety code enforcement inspections.
+D. community education.
+97. Expert power is:
+A. the power to discipline others.
+B. the power derived from the position.
+C. authority due to skill or knowledge.
+D. the ability to recognize others.
+98. Follow-up inspections are a means to:
+A. document violations. B. detect hazards previously missed.
+C. ensure code compliance. D. develop preplans.
+99. In some cultures, good eye contact can convey:
+A. lack of confidence, uncertainty, and dishonesty.
+B. lack of confidence, lack of honesty, anxiety, and distrust.
+C. self-confidence, arrogance, dishonesty, and lack of trust.
+D. self-confidence, honesty, trust, and credibility.
+
+100. Which statement is true regarding written policies and procedures?
+
+A. Once written, they are seldom revised.
+B. They are usually developed by the fire chief.
+C. They are essential for the effective and efficient operation of the organization.
+D. The company officer is only responsible for enforcing policies and procedures.
+ANSWER KEY REPORT
+for Fire Officer | V1 Test Form: 0
+——______—— Answers ———________-
+# ID Points Type 1
+1 4.4.2 ADMIN FUNCTION 19 100 MCS C
+2 4.7.1 APPLY SAFETY 12 100 MCS A
+3 4.2.5 APPLY POLICY 26 100 MCS D
+4 4.4.1 IMPLMT POLICY 2 100 MCS D
+5 4.5.2 IDNTFY FEATURE 28 100 McS D
+6 4.7.1 APPLY SAFETY 41 1.00 MCS C
+7 4.6.1 ACTION PLAN 41 100 MCS C
+8 4.4.2 ADMIN FUNCTION 16 100 MCS A
+9 4.7.1 APPLY SAFETY 28 100 MCS B
+10 4.2.1 EMERGENCY ASGN 19 1.00 MCS B
+11 4.6.3 POST INCIDENT 8 100 MCS D
+12 4.3.2 CITIZN CONCERN 1 100 MCS A
+13. 4.2.1 BMERGENCY ASGN 11 100 MCS B
+14. 4.5.2 IDNTFY FEATURE 17 100 MCS A
+15 4.2.5 APPLY POLICY 32 100 MCS B
+16 4.2.5 APPLY POLICY 28 100 MCS A
+17. 4.7.1 APPLY SAFETY 30 100 MCS B
+18 4.6.2 IMP ACTION 21 100 MCS D
+19 4.2.1 EMERGENCY ASGN 48 100 MCS B
+20 4.5.2 IDNTFY FEATURE 67 100 MCS A
+21 4.2.1 EMERGENCY ASGN 1 100 MCS C
+22. 4.4.2 ADMIN FUNCTION 13 100 MCS B
+23. 4.2.4 PERSONNEL ACT 1 1.00 MCS A
+24 4.2.3 TRAINING EVOLS 8 100 McS Cc
+25 4.7.1 APPLY SAFETY 3 100 Mcs D
+26 4.2.1 EMERGENCY ASGN 8 1.00 MCS B
+27 4.7.1 APPLY SAFETY 29 100 MCS B
+28 4.3.1 PUB CONCERNS 7 1.00 MCS A
+29 4.2.1 EMERGENCY ASGN 42 100 MCS B
+30 4.2.4 PERSONNEL ACT 10 100 McS Cc
+31 4.6.1 ACTION PLAN 58 100 MCS A
+32 4.7.1 APPLY SAFETY 26 100 McsS D
+33 4.2.1 EMERGENCY ASGN 25 1.00 MCS C
+34 4.2.1 EMERGENCY ASGN 3 100 MCS C
+35 4.5.2 IDNTFY FEATURE 18 100 MCS D
+36 4.6.1 ACTION PLAN 12 100 MCS C
+37 4.2.6 COORD TASKS 13 100 McS Cc
+38 4.5.1 INSPCTION PROC 19 1.00 MCS C
+39 4.2.1 EMERGENCY ASGN 20 100 MCS D
+40 4.5.1 INSPCTION PROC 30 100 MCS A
+41 4.4.3 BUDGET REQUEST 21 100 MCS B
+42 4.6.2 IMP ACTION 11 1.00 MCS D
+43 4.4.2 ADMIN FUNCTION 29 100 MCS C
+44 4.6.2 IMP ACTION 3 1.00 MCS B
+45 4.4.2 ADMIN FUNCTION 8 100 McS C
+46 4.5.2 IDNTFY FEATURE 42 100 MCS D
+Tuesday, August 4, 2020 8:53:02 AM 1
+ANSWER KEY REPORT
+for Fire Officer! V1 Test Form: 0
+——_— Answers ———__________
+# D Points Type 1
+47 4.4.3 BUDGET REQUEST 20 100 MCS D
+48 4.4.2 ADMIN FUNCTION 25 100 MCS D
+49 4.5.1 INSPCTION PROC 4 100 MCS D
+50 4.7.2 ACCIDENT INVST 1 100 MCS D
+51 4.4.1 IMPLMT POLICY 7 100 MCS A
+52 4.2.6 COORD ‘TASKS 12 1.00 MCS D
+53 4.2.6 COORD TASKS 26 100 MCS D
+54 4.3.3 PUBLIC INQUIRY 12 100 MCS A
+55 4.6.1 ACTION PLAN 32 100 MCS D
+56 4.7.1 APPLY SAFETY 13 100 MCS C
+57 4.5.2 IDNTFY FEATURE 26 1.00 MCS D
+58 4.5.1 INSPCTION PROC 31 100 MCS D
+59 4.4.2 ADMIN FUNCTION 4 100 MCS A
+60 4.5.1 INSPCTION PROC 22 100 MCS A
+61 4.2.5 APPLY POLICY 34 100 MCS B
+62 4.6.1 ACTION PLAN 45 100 MCS B
+63 4.5.1 INSPCTION PROC 50 100 MCS C
+64 4.2.5 APPLY POLICY 11 100 MCS Cc
+65 4.6.2 IMP ACTION 23 1.00 MCS C
+66 4.4.4 MGMT COMPONENT 5 100 MCS D
+67 4.2.3 TRAINING EVOLS 25 100 MCS C
+68 4.4.3 BUDGET REQUEST 2 100 MCS D
+69 4.6.1 ACTION PLAN 13 100 MCS B
+70 4.3.3 PUBLIC INQUIRY 13 1.00 MCS A
+71 4.2.2 STATION ASSIGN 6 100 MCS A
+72 4.2.5 APPLY POLICY 52 100 MCS B
+7B 4.2.3 TRAINING EVOLS 12 100 MCS D
+74 4.6.1 ACTION PLAN 17/ 1.00 MCS D
+75 4.4.1 IMPLMT POLICY 24 100 MCS D
+76 4.3.1 PUB CONCERNS 1 100 MCS D
+77 4.6.1 ACTION PLAN 29 100 MCS B
+78 4.2.5 APPLY POLICY 18 100 MCS D
+799 4.5.2 IDNTFY FEATURE 65 1.00 MCS B
+80 4.2.5 APPLY POLICY 43 1.00 MCS B
+81 4.3.2 CITIZN CONCERN 10 100 MCS C
+82 4.6.3 POST INCIDENT 7 1.00 MCS A
+83 4.5.2 IDNTFY FEATURE 30 100 MCS D
+84 4.4.3 BUDGET REQUEST 11 1.00 MCS B
+85 4.6.1 ACTION PLAN 15 1.00 MCS B
+86 4.5.1 INSPCTION PROC 47 100 MCS D
+87 4.5.2 IDNTFY FEATURE 34 100 MCS A
+88 4.6.1 ACTION PLAN 37 100 MCS A
+89 4.6.1 ACTION PLAN 24 100 MCS A
+90 4.5.2 IDNTFY FEATURE 23 100 MCS A
+91 4.6.2 IMP ACTION 7 1.00 MCS C
+92 4.2.6 COORD TASKS 16 100 MCS D
+Tuesday, August 4, 2020 8:53:02 AM 2
+ANSWER KEY REPORT
+for Fire Officer 1 V1 Test Form: 0
+—_—_———_ Answers ——_——______
+
+# ID Points Type 1
+
+93 4.2.1 EMERGENCY ASGN 17 100 MCS A
+
+94 4.4.3 BUDGET REQUEST 15 100 MCS C
+
+95 4.2.1 EMERGENCY ASGN 28 100 MCS B
+
+96 4.5.1 INSPCTION PROC 7 100 MCS C
+
+97 4.2.1 EMERGENCY ASGN 32 100 MCS C
+
+98 4.5.1 INSPCTION PROC 52 100 MCS C
+
+99 4.2.2 STATION ASSIGN 3 1.00 MCS D
+
+100 4.4.1 IMPLMT POLICY 12 100 MCS C
+
+SECTION 1 (100 items) 100.00
+
+Tuesday, August 4, 2020 8:53:02 AM 3

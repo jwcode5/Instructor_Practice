@@ -1,0 +1,459 @@
+
+=== v2_page-0000.txt ===
+; So 7 7 a
+
+-
+eh esenue _
+ao
+i=
+ae 2
+—_ 7
+-
+a _L I= = =
+- =
+
+=e oe. it == ;
+ee _
+=.= | ;
+|
+Ce "ie a
+
+te Soe | - >
+Pa a nec 2
+
+|
+
+=== v2_page-0001.txt ===
+Date: Tuesday, August 4, 2020
+
+TEST REPORT
+
+Question file: Fire Officer | - V 9.5
+
+Copyright:
+
+Test Date: 8/4/2020
+
+Test Name: Fire Officer | V2
+Test Form: 0
+
+Test Version: 2
+
+Test Points: 100.00
+
+Test File: Fire Officer | V2
+
+Test Path: C:\Program Files (x86)\LXR\LXRTEST v6.1\Samples\Fire Officer |
+V2.LXRTest
+
+
+=== v2_page-0002.txt ===
+
+=== v2_page-0003.txt ===
+All National Fire Protection Association Standards are
+
+A. required only if they relate to firefighter safety.
+
+B. voluntary if approved by the state fire marshal.
+
+C. mandatory by Occupational Safety and Health Administration adoption
+D. voluntary unless adopted by the state or local jurisdiction.
+
+. Which is correct regarding oral presentations about budgets?
+
+A. Informative speeches involve evaluating the speech.
+
+B. Canned speeches are ineffective.
+
+C. Instructional speeches focus on supplying a solution
+intended to cause a change.
+
+D. Informative speeches are the hardest to develop with
+detailed data.
+
+. A major traffic accident on an interstate highway requiring the resources of several
+agencies and disciplines should be managed using a:
+
+A. unified command structure. B. emergency operations center.
+C. integrated command system D. single incident commander.
+
+. In the Incident Management System, general staff consists of:
+
+. Operations, planning, logistics, and finance.
+. Safety and public information.
+
+. divisions and groups.
+
+. assistants, deputies, and unit leaders.
+
+. Loading and unloading stations for Class | liquids should be no closer
+than feet from storage tanks and adjacent buildings?
+
+A. 15 B. 50 C. 25 D. 10
+
+. A(n) should be in written form and include statistical data on
+the business
+
+A. enforcement procedure B. permit application
+C. inspection report D. code requirement
+
+. Determining the need for additional resources, and briefing appropriate
+personnel is the responsibility of the:
+
+A. Planning Section Chief B. Liaison Officer.
+C. Company Officer. D. Operations Chief
+
+. The ongoing evaluation of an incident is:
+
+A. personnel accountability
+C. strategy.
+
+
+=== v2_page-0004.txt ===
+B. pretire planning
+
+=== v2_page-0005.txt ===
+
+=== v2_page-0006.txt ===
+
+=== v2_page-0007.txt ===
+10.
+
+9. Which best describes the Type IV classification of building construction?
+
+A. Heavy timber B. Non-combustible construction
+C. Wood frame D. Ordinary construction
+
+The greatest distraction when listening to a speaker is the
+
+A. interpretation of the message B. pace of the speaker.
+C. speaker's tone. D. listener's lack of focus
+
+. Directions: Read the following statements, then choose the correct answer from
+
+choices A-D below.
+
+Statement 1: The structure itself presents a fire load except for Type | and
+Type II buildings.
+
+Statement 2: The structural fuel load includes the combustible portions of
+walls, floors, and roof of the structure.
+
+Statement 3: Type III construction consists of exterior walls made out of
+combustible material.
+
+A. Statement 1 is false; statements 2 and 3 are true
+B. All three statements are true.
+
+C. Statement 1 is true; statements 2 and 3 are false
+D. Statements 1 and 2 are true; statement 3 is false
+
+. Content - hazard classifications are:
+
+A. low, medium, and high. B. general, special hazard, and high
+C. low, general, and special D. low, ordinary, and high.
+
+. Listening is a(an) process
+
+A. observing B. passive C. active D. emotional
+
+. Demographic information of your community can be obtained from the
+
+A. United States census. B. community outreach office.
+C. city utility bills. D. county tax commission.
+
+. For the company officer, two generally accepted decision-making models include:
+
+. analogical and informed models.
+
+. centralized and decentralized models
+. specific and non-specific models.
+
+. assessment and assumption models.
+
+. In a(n) budget, items are expected to last more than one year.
+
+A. capital B. program C. line-item D. operating
+
+=== v2_page-0008.txt ===
+ffe
+
+=== v2_page-0009.txt ===
+Your first priority during a pre-incident/pre-emergency survey is:
+
+A. life safety. B. gathering owner's information
+C. property conservation D. building construction.
+
+18. The order of the three levels of progressive discipline is
+
+A. punitive, corrective, preventative B. preventative, punitive, corrective
+C. corrective, preventative, punitive D. preventative, corrective, punitive
+
+. The company officer has three command options upon arrival at the scene
+of an emergency which are:
+
+A. nothing showing, transfer command, and return to station.
+B. fast attack, indirect attack, and defensive attack.
+
+C. nothing showing, stage, and continue response.
+
+D. investigation, o nsive and defensive.
+
+. Acomponent of the risk management plan is
+
+. policies and procedures.
+
+. training and education.
+
+. Monitoring control methods
+. disciplinary action.
+
+. Punitive actions are warranted when
+
+A. the member's behavior continues to be unsatisfactory.
+
+B. members are given an opportunity to redeem themselves
+C. asecond infraction has occurred.
+
+D. any violation of department policy has occurred.
+
+. Maintenance records are usually kept in two distinct but closely related categories,
+
+A. preventative, and corrective. B. internal, and external
+C. basic, and advanced. D. light, and heavy.
+
+. The process requiring the use of an outside agency when an organization
+is experiencing internal difficulty is:
+
+A. policy analysis. B. program analysis
+C. cost-benefit analysis D. risk analysis.
+
+. A Theory X leader believes
+
+. Only a small part of a worker's potential is used
+. workers feel work is natural.
+
+. workers are lazy and need to be watched.
+
+. workers seek responsibility.
+
+
+=== v2_page-0010.txt ===
+
+=== v2_page-0011.txt ===
+. The task of managing the safety and health program is usually assigned to the
+
+A. Training Officer. B. Health and Safety Officer
+C. Incident Safety Officer. D. Fire Chief.
+
+. The step in the conflict resolution process that converts the decision into action
+is concerned with:
+
+. compromises that meet union expectations.
+
+. testing the agreement to ensure it is fair and objective.
+
+. negotiating an end result that management will agree to.
+
+. adecision that all parties will adhere to through agreement or force
+
+. Remaining calm under stress is an example of which of the five Cs?
+
+A. Control B. Conciseness
+C. Capability D. Clarity
+
+. The statement that an individual should adopt one leadership style and use this
+style in all situations is:
+
+. not correct; the officer should try several different approaches before
+adopting one style.
+
+. correct; in this way the officer will be able to more quickly develop
+leadership abilities.
+
+. not correct; the officer should apply different leadership approaches when
+they appear appropriate.
+
+. correct; firefighters are more comfortable with a consistent leadership style.
+
+. Buildings used to display and sell goods are classified as occupancies
+
+A. retail B. mercantile C. business D. commercial
+
+. Who has the primary responsibility of accounting for personnel at the scene?
+
+A. Company officer B. Fire chief
+C. Logistics officer D. Safety officer
+
+. Which most accurately describes what occurs during the preparation step
+of the budget process?
+
+A. The concerns of citizens are heard.
+
+B. The budget is administered.
+
+C. Company officers have an opportunity for input.
+D. Expected revenues for next year are estimated.
+
+
+=== v2_page-0012.txt ===
+
+=== v2_page-0013.txt ===
+32. The pre-incident plan identifies a building as Type II which is classified:
+
+. ordinary construction.
+
+. heavy timber construction.
+
+. non-combustible construction.
+. fire resistive construction.
+
+. The continuous chain of command is:
+
+A. the line function. B. the scalar principle.
+C. informal communication. D. the staff function.
+
+. With respect to scene security at a fire, when law enforcement officials or fire
+investigators are not available, the company officer must:
+
+. evidence is sketched and photographed and then taken back to the
+station for final custody exchange.
+
+. ensure the property remains under the control of the fire and emergency
+services organizations until all evidence has been collected.
+
+. assign a bystander to watch the evidence until someone else is available.
+
+. place the evidence in the apparatus to ensure no further damage is caused
+
+Statement 1: Unauthorized persons within a fire scene perimeter can impact a
+fire investigation.
+
+Statement 2: The only effective way to secure a fire scene is to use barrier
+tape and assign a police officer to monitor the area and arrest
+anyone who crosses the tape.
+
+Statement 3: Once the cause of a fire has been determined, it is no longer
+necessary to protect the fire scene.
+
+. Statement 1 is true; statements 2 and 3 are false.
+. All three statements are true.
+
+. Statements 1 is false; statement 2 and 3 are true.
+. Statements 1 and 2 are true; statement 3 is false.
+
+post-incident analysis is to
+
+. Identify fault or blame.
+
+. document violations.
+
+. provide information to the media.
+
+. focus on the activities of the responders.
+
+0OUDUr F, DADDY
+
+=== v2_page-0014.txt ===
+35. Directions: Read the following statements and then select the correct answer from
+
+=== v2_page-0015.txt ===
+alternatives A D below
+
+=== v2_page-0016.txt ===
+
+=== v2_page-0017.txt ===
+
+=== v2_page-0018.txt ===
+37. Directions: Read the statements below, then choose the correct answer from A-D
+
+Statement 1: A code or standard has no real legal status until it is adopted by a
+government agency.
+
+Statement 2: Codes passed by one state do not apply to citizens of
+another state.
+
+Statement 3: Codes are generally written as minimum standards.
+A. Statements 1 and 2 are correct; statement 3 is incorrect.
+B. Statements 1 and 3 are correct; statement 2 is incorrect.
+C. All three statements are correct.
+D. Statements 1 and 3 are incorrect; statement 2 is correct.
+
+. When the situation allows, issuing directions on the fireground is best accomplished
+
+A. in detail to ensure understanding B. after all units are on the scene.
+C. over the radio. D. face to face.
+
+. Under the Incident Management System, command staff consists of:
+A. safety, public information, and liaison.
+B. divisions and groups.
+C. operations, planning, logistics, and finance
+D. assistance, deputies, and unit leaders.
+
+. What document guides the decision-making process and consistency
+at an emergency incident?
+
+A. Plan of operation B. Mitigation plan
+C. Standard operating procedures D. Operational policies
+
+. Conflict resolution, that includes the use of people outside the company, in the
+mediation process is:
+
+A. employee circle. B. peer-mediation.
+C. forced mediation D. team mediation
+
+42. Which is a skill necessary to complete a form-based report?
+
+A. Legibility B. Subjectivity C. Punctuation D. Grammar
+
+=== v2_page-0019.txt ===
+
+=== v2_page-0020.txt ===
+
+=== v2_page-0023.txt ===
+
+=== v2_page-0025.txt ===
+
+=== v2_page-0029.txt ===
+
+=== v2_page-0031.txt ===
+76.
+
+authority allows decisions to be made at a lower level;
+
+authority
+
+=== v2_page-0037.txt ===
+
+=== v2_page-0039.txt ===
+ffe
+
+=== v2_page-0043.txt ===
+
+=== v2_page-0045.txt ===
+
+=== v2_page-0046.txt ===
+Aam<«<ovugnaanacanAaAocme cananoc<<c<oMmAoUM<AnAOMamMC<AOA<oM< << 04
+
+=== v2_page-0048.txt ===
+monvomotamoctmecAngQrnAmotongaaAamadtmqcvuomAnAmmAAamMmMHeAANODA
+
+=
+Zz
+3 fa
+< +
+5 2
+> =
+Fal ae
+6 Zz
+= is}
+a BE
+= is}
+i <
++ =
+Seegeragaareecesesorantaereoeor © = eoegen
+FSISRBAAARSRESASSCSSSESSSSSLERERKAEKLRKERALZSESLSKRSZRSSSRAG
+
+=== v2_page-0052.txt ===
+
+=== v2_page-0054.txt ===
