@@ -1,0 +1,52 @@
+QUESTIONS REPORT
+for PUMPER DRIVER OPERATOR - V9.0.1
+250. A straight stream is a:
+
+A. deflected solid stream.
+
+B. non-deflected solid stream.
+
+Cy pattern of an adjustable fog nozzle.
+D. pattern of a smooth orifice nozzle.
+
+251. An operator obtains a reading of 17 inches of mercury on the intake gauge
+while drafting and flowing water. This indicates:
+
+Ay a lift of approximately19 feet.
+
+B. the pump is cavitating.
+
+C. that the gauge is not working properly since it should be reading in psi.
+D. a lift of approximately 39 feet.
+
+252. Prior to changing from tank water to an external source:
+Ay make sure all air is bled from the intake.
+B. engage the P.T.O.
+C. put the pump into gear.
+D. engage the transmission.
+
+253. If the tachometer shows an rpm reading, but the speedometer does not, it could
+
+indicate that the:
+Ay transmission is in the wrong gear. B. transmission is engaged.
+C. pump is operational. D. pump is cavitating.
+
+254. The device that can be used to determine flow pressure at the opening
+of a smooth bore orifice is a:
+
+A. venturi meter. By pitot tube.
+C. by-pass meter. D. compound gauge.
+
+255. Which primer utilizes the venturi principle?
+
+Ay Exhaust primer B. Rotary-gear primer
+C. Rotary-vane primer D. Vacuum primer
+
+256. The main feature of a relief valve is to:
+Ay release excessive pressure within the pump.
+B. allow increase to pump discharge.
+
+C. transfer excessive pressure back to the booster tank.
+D. prevent the increase in pump discharge when not pumping.
+
+Monday, September 19, 2016 11:44:43 AM 32

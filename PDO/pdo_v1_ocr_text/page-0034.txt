@@ -1,0 +1,71 @@
+272.
+
+273.
+
+274.
+
+275.
+
+276.
+
+277.
+
+278.
+
+279.
+
+QUESTIONS REPORT
+for PUMPER DRIVER OPERATOR - V9.0.1
+
+Using the Condensed "Q" Formula, calculate the total pressure loss in 600 feet
+of 4-inch hose flowing 1,000 gpm.
+
+A. 100 psi B. 75 psi C. 150 psi Dy 120 psi
+The first step in developing a pump chart is to:
+
+A. enter the gallons-per-minute flowing for each nozzle or device.
+
+B. list the nozzle pressure for each nozzle or device used.
+
+Cy identify all nozzles, devices, and layouts used by the department.
+D. calculate the required pump discharge pressures for each layout.
+
+Master stream nozzles are:
+
+A. broken streams only. B. straight streams only.
+
+Cy either solid or fog streams. D. either broken or solid streams.
+When calculating the time for a water shuttle operation, timing starts when the:
+
+A. water begins drafting from the tank.
+
+By dump valve is opened on the tender.
+C. tender is empty.
+
+D. tender returns with a new tank of water.
+
+Natural static water supply sources include:
+
+Ay lakes. B. cisterns.
+
+C. swimming pools. D. private water tanks.
+
+What would be a common problem when looking at a static water source for drafting?
+A. Calm water By Getting close enough to the water
+C. Clean/clear water D. Using only 10 feet of hard suction
+
+A distributor nozzle could be used on a(n):
+
+A. aircraft cargo space. B. ground fire.
+
+Cy attic fire. D. exposure protection.
+
+One method of calculating the capacity of a water shuttle operation in gpm is:
+
+Ay tank size -10% divided by trip time.
+
+B. gpm available divided by the tank size.
+C. travel time divided by the required flow.
+D. tank size divided by the required flow.
+
+Monday, September 19, 2016 11:44:43 AM 35

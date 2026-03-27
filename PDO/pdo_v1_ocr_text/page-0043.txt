@@ -1,0 +1,69 @@
+336.
+
+337.
+
+338.
+
+339.
+
+340.
+
+341.
+
+342.
+
+343.
+
+344.
+
+QUESTIONS REPORT
+for PUMPER DRIVER OPERATOR - V9.0.1
+
+Relay pumping operations are based on:
+Ay fire flow needs and distance. B. distance between pumpers.
+C. distance and hose diameter. D. type of water source used.
+
+The residual pressure reading at the intake gauge of a pumper in a relay pumping
+operation should stay above psi to prevent damage to the pump.
+
+A. 10 By 20 Cc. 5 D. 14.7
+Tenders are commonly unloaded by:
+
+A¥ dumping into portable tanks.
+
+B. dumping into a portable tank using a jet siphon.
+C. pumping into a dump tank using two 3-inch lines.
+D. pumping by using large diameter hose.
+
+The formula for calculating the gom flow rate for a tender is:
+
+A. Tank size + 10% divided by Trip time
+By Tank size - 10% divided by Trip time
+C. Tank size divided by Trip time - 10 min.
+D. Tank size divided by Trip time +10 min.
+
+The collapse zone of a building should be the structure.
+
+A. half the height of
+
+B. half the distance to
+
+Cy one and one-half times the height of
+D. two times the distance to
+
+Most fire fighting foam consists of approximately percent water.
+A. 6-10 B. 3-6 Cy 94-99.9 D. 40-60
+An example of a polar solvent fuel is:
+
+A. fuel oil. By acetone. ' C. kerosene. D. motor oil.
+Using an in-line eductor, the back pressure must not exceed pressure.
+A. 25 percent of the inlet . By 70 percent of the inlet
+
+C. 80 percent of the outlet D. 50 percent of the outlet
+
+The process that causes foam concentrate to move through an in-line foam eductor
+and into the water stream is called the principle.
+
+Ay venturi B. siphon C. suction D. flow
+
+Monday, September 19, 2016 11:44:44 AM 44

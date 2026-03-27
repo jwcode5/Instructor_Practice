@@ -1,0 +1,72 @@
+232.
+
+233,
+
+234.
+
+235.
+
+236.
+
+237.
+
+238.
+
+239.
+
+240.
+
+QUESTIONS REPORT
+for PUMPER DRIVER OPERATOR - V9.0.1
+
+A is used to find the flow pressure at a discharge opening.
+
+A. flow gauge . B. velocity gauge
+
+Cy pitot tube and gauge D. compound gauge
+
+Theoretically, the maximum distance a pump can lift water at sea level
+
+is feet.
+
+Ay 33.9 B. 25.3 C. 20 D. 14.7
+
+The formula for the nozzle reaction of a solid-stream nozzle is:
+
+A. NR = gpm/100. By NR = 1.57xd@xNP.
+
+C. NR = .0505xQxVNP. D. NR = 1.57xd2xVNP.
+
+Using the condensed Q method, the friction loss in 500 feet of 3-inch fire hose
+flowing 300 gpm is:
+
+A. 12 psi. B. 55 psi. C. 50 psi. Dy 45 psi.
+
+Using the condensed Q formula, the friction loss in 600 feet of 3-inch hose
+
+flowing 500 gpm is approximately:
+
+A. 100 psi. B. 125 psi. Cy 150 psi. D. 175 psi.
+
+The friction loss in 300 feet of 3" fire hose with 2-1/2" couplings flowing
+
+500 gpm is approximately:
+
+Ay 60 psi. B. 50 psi. C. 150 psi. D. 20 psi.
+
+To calculate friction loss in 2-1/2" fire hose when the flow is near 100 gpm,
+
+which formula should be used?
+
+A. FL=202.Q B. FL = 2Q? Cy FL = COAL D. FL = 2Q7+1/2Q
+When a pumper is supplying four lines of 2-1/2" hose, each equipped with a 250 gpm
+fog nozzle at 100 psi, and each 300 feet long, the pump discharge pressure
+
+required is approximately:
+
+A. 244 psi. By 138 psi. C. 158 psi. D. 190 psi.
+What is the desired pump pressure when supplying two lines of 2-1/2" hose, one 200
+feet long and one 300 feet long, each with a 250 gpm nozzle operating at 100 psi?
+A. 125.5 psi B. 107.5 psi Cy 137.5 psi D. 162.5 psi
+
+Monday, September 19, 2016 11:44:42 AM 30

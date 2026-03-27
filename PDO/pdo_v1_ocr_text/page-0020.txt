@@ -1,0 +1,64 @@
+156.
+
+157.
+
+158.
+
+159.
+
+160.
+
+161.
+
+162.
+
+163.
+
+QUESTIONS REPORT
+for PUMPER DRIVER OPERATOR - V9.0.1
+The barrel strainer must be submerged at least below the surface
+of the water for a pumper service test.
+
+A. 1 foot (0.3 m) By 2 feet (0.6 m)
+
+C. 3 feet (1m) D. 4 feet (1.2 m)
+
+All gauges used for service tests must have been calibrated within days.
+A. 10 B. 20 Cc. 30 Dy 60
+
+The test that ensures the piping between the water tank and pump is sufficient
+to supply the minimum amount of water is the:
+
+A. pumping test. B. pressure control test.
+Cy tank-to-pump flow test. D. pressure relief valve test.
+
+Pumping tests consist of pumping at 100 percent capacity at 150 psi, 70 percent
+
+at 200 psi and perceni at psi.
+Ay 50, 250 B. 50, 165
+C. 100, 165 . D. 75, 200
+
+Which type of pump may be used as the priming pump for a centrifugal pump?
+
+Ay Rotary vane B. Piston
+C. Single action D. Double action
+
+Which part of the rotary vane pump moves as it operates.
+
+A. Volute By Vane
+C. Transfer valve D. Impeller
+
+Which valve determines whether the pump is operating in series or pressure mode?
+
+A. Pressure relief B. Switch over valve
+Cy Transfer valve D. Series valve
+A fire pump is rated by and tested to specifications.
+
+A. National Fire Protection Association
+
+By Underwriter's Laboratory
+
+C. International Organization for Standardization
+D. American National Standards Institute
+
+Monday, September 19, 2016 11:44:41 AM 21

@@ -1,0 +1,52 @@
+QUESTIONS.REPORT
+for PUMPER DRIVER OPERATOR - V9.0.1
+318. To be considered a quint, an apparatus must have a minimum tank size of:
+A. 500 gal. B. 600 gal. Cy 300 gal. D. 200 gal.
+
+319. Ina relay pump operation, it is desirable to maintain the minimum pressure
+at the next pumper in line.
+
+A. discharge B. static Cy intake D. flow
+
+320. In a relay pumping operation, the should be positioned nearest
+the water source.
+
+Ay largest capacity pumper
+
+B. smallest capacity pumper
+
+C. pumper with the largest water tank
+
+D. pumper with the largest discharge hose
+321. A dual-pumping operation is:
+
+A. two pumpers requiring the same gpm.
+
+B. two pumpers with equal discharge pressure.
+
+C. mainly utilized during relay operations.
+
+Dy placing one pumper at a hydrant and a second pumper connected intake to intake.
+322. When used in a relay pumping operation, the attack pumper:
+
+A. sets the flow pressure at the static source.
+
+B. acts as the booster pump.
+
+C. is the most important apparatus.
+
+Dy determines the amount of water flow needed.
+323. Pump discharge pressure (PDP) is equal to:
+
+A. NP/TPL. B. NP x TPL. Cy NP +TPL. D. NP2/TPL.
+
+324. Which is a fire hose appliance carried on a fire apparatus?
+
+A. Hose coaster B. Wye thief
+C. Water keeper Dy Gated wye
+
+325. Pump discharge pressure (PDP), is equal to:
+
+Ay NP+FL. B. NP/FL. C. NP xFL. D. NP2/FL.
+
+Monday, September 19, 2016 11:44:44 AM A

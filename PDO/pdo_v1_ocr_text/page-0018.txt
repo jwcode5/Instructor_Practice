@@ -1,0 +1,58 @@
+138.
+
+139,
+
+140.
+
+141,
+
+142.
+
+143.
+
+144.
+
+145.
+
+146.
+
+QUESTIONS REPORT
+for PUMPER DRIVER OPERATOR - V9.0.1
+
+An operator should prime a pump when operating:
+Ay from a static source. ; B. from a hydrant.
+C. as the middle pumper in a relay. D. as a dual pumper.
+Apparatus equipped with water tanks of 500 gallons or less must provide
+a tank-to-pump flow rate of gpm.
+A. 500 By 250 C. 200 D. 500
+A device used to indicate water pressure in pounds-per-square-inch
+isa gauge.
+Ay pressure B. static C. flowmeter D. residual
+A"0" psi reading on most pressure gauges is actually psi,
+pressure at sea level.
+A. 10.3 B. 12.5 Cc. 13.9 Dy 14.7
+The on an impeller are curved away from the direction of rotation
+so that the natural movement of water will carry it to the edge.
+A. fins B. shrouds Cy vanes D. volutes
+The is the major component of the centrifugal pump because
+it provides velocity to the water.
+A. housing B. volute C. vane Dy impeller
+The device that controls pressure surges by changing engine speed
+. to compensate for changes in flow is called a:
+A. relief valve, By pressure governor.
+C. transfer valve. D. pressure relief valve.
+NFPA 1901 requires an apparatus rated as a pumper to carry a minimum
+of 2-1/2" or larger fire hose.
+A. 200 feet B. 400 feet
+Cy 800 feet D. 1,000 feet
+An auxiliary cooling device:
+
+A. causes pump water to mix with radiator fluid.
+
+B. can cause over pressurization of the radiator.
+
+C. gets its water from the intake side of the pump.
+
+Dy cools engine when the apparatus pump is engaged.
+
+Monday, September 19, 2016 11:44:41 AM 19

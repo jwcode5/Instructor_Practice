@@ -1,0 +1,59 @@
+QUESTIONS REPORT
+for PUMPER DRIVER OPERATOR - V9.0.1
+311. Altitude is best defined as a:
+
+A. term used to describe either pressure loss and pressure gain.
+
+By position of an object above or below sea level.
+
+C. center line of the pump or the bottom of a static water supply
+source above or below ground level.
+
+D. part of the total pressure lost while forcing water through fire hose.
+
+312. Friction loss in hose, pipes, and appliances is:
+
+Ay pressure loss due to friction.
+
+B. the term used to describe both pressure loss and pressure gain.
+
+C. the position of an object above or below sea level.
+
+D. the center line of the pump or the bottom of a static water supply source above or
+below ground level.
+
+313. The type of fog nozzle that maintains approximately the same nozzle pressure
+even if the gallonage supplied to the nozzle changes is known as a(n):
+
+Ay automatic nozzle. B. constant flow nozzle.
+C. high-pressure nozzle. D. manually adjustable nozzle.
+
+314. The type of fog nozzle designed to flow a specific amount of water at a specific
+nozzle discharge pressure on all stream patterns is known as a(n):
+
+A. automatic nozzle.
+
+By constant or fixed gallonage flow nozzle.
+C. high-pressure nozzle.
+
+D. manually adjustable nozzle.
+
+315. Which best describes a dry-barrel fire hydrant?
+
+A. Always contains water
+
+B. Used in industrial settings
+
+Cy Valve allows water to fill barrel
+D. Found near lakes or rivers
+
+316. Water tanks on fire apparatus are required to have to stop liquid surges.
+A. partitions B. dividers
+C. surge protectors : Dy baffles
+
+317. The flow or quantity of water moving through a hose or nozzle is measured
+by its volume and is usually given in:
+
+AY gpm. B. psi. C. kPPa. D. gph.
+
+Monday, September 19, 2016 11:44:44 AM 40

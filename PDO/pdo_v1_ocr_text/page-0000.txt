@@ -1,0 +1,50 @@
+QUESTIONS REPORT
+for PUMPER DRIVER OPERATOR - V9.0.1
+1. Keeping apparatus in a state of usefulness or readiness is known as:
+
+A. repair. By maintenance. C. reliability. D. trouble shooting.
+
+2. Checking and documenting the oil level, radiator coolant, fuel level, tires, and visible
+and audible warning signals is normally considered to be part
+of maintenance.
+
+Ay routine B. repair C. post-trip D. documentation
+
+3. The two tests that are performed by the manufacturer, if the requirements
+of NFPA 1901 are included in the apparatus bid specifications, are the:
+
+A. road and brake tests. By road and hydrostatic tests.
+C. brake and hydrostatic tests. D. engine and hydrostatic tests.
+
+4. Which statement regarding voltmeters listed below is correct?
+
+A. A voltmeter indicates the amount of amperage being drawn from the battery
+to operate non-essential electrical equipment.
+
+By After starting the engine, the voltmeter reads battery voltage.
+
+C. A voltmeter indicates the amount of amperage being drawn from the battery.
+
+D. A voltmeter monitors the system for added electrical loads.
+
+5. Checking for tightness of connection, electrolyte level, and corrosion are
+all steps in inspecting:
+
+A. tightness of connection. B. the voltage regulator.
+C. electrical motors. Dy the battery.
+6. Proper is one objective of good maintenance.
+A. troubleshooting By lubrication C. calibration D. priming
+
+7. When stopping an apparatus, it is necessary to consider the:
+
+A. empty weight of the water tank. B. length of the apparatus.
+Cy condition of the brakes. 'D. height of the apparatus.
+8. Inspecting all valves would be considered a part of maintenance.
+Ay daily B. quarterly C. monthly D. bimonthly
+
+9. One method of performing an apparatus/pretrip inspection is the:
+
+A. 1-2-3 method. B. oval method.
+Cy walk-around method. D. approaching the apparatus method.
+
+Monday, September 19, 2016 11:44:39 AM 4

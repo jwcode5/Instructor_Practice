@@ -1,0 +1,76 @@
+345.
+
+346.
+
+347.
+
+348.
+
+349.
+
+350.
+
+351.
+
+QUESTIONS REPORT
+for PUMPER DRIVER OPERATOR - V9.0.1
+Which statement about foam is true?
+
+A. lt is rated for use on Class.A or Class B fires only.
+
+B. Foam solution is the completed product after air is introduced.
+C¥ It works by separating, cooling, or suppressing.
+
+D. It is acceptable to mix different foam types.
+
+While using an in-line eductor, the foam being generated is of very poor quality.
+Which is a common reason for the failure?
+
+Ay Flow through the eductor exceeds its rated capacity.
+
+B. Air leak in the pump
+
+C. Pressure relief is not set
+
+D. Foam concentrate inlet to eductor is only 4 ft. above
+the surface of the foam concentrate.
+
+The is a basic type of portable foam proportioner.
+
+Ay in-line eductor B. high expansion foam eductor
+C. around-the-pump proportioner D. expansion proportioner
+
+The kinds of liquids that are lighter than water are those with a specific gravity:
+Ay less than 1. B. greater than 1.
+
+C. less than 10. D. greater than 10.
+
+Which statement is correct when using foam?
+
+A. The eductor must control the pressure through the system.
+
+By Foam production is correct when supplied at the rated pressure.
+
+C. The pressure at the outlet of the eductor must not exceed 40 percent of the
+friction loss.
+
+D. Unless you are using Military Spec foam, you can mix Class A and Class B foams.
+
+lf the inlet pressure to the eductor is too high,:
+
+Ay foam may not be inducted.
+
+B. the foam will be too rich. .
+C. it doesn't matter; foam will be inducted.
+D. it will not be aspirated properly.
+
+The selection of a proportioner depends on:
+
+A. the foam solution flow requirements and type of product burning.
+B. available water pressure and type of product burning.
+
+C. required ratio of foam and length and size of the attack line.
+
+Dy foam solution flow requirements and available water pressure.
+
+Monday, September 19, 2016 11:44:44 AM 45

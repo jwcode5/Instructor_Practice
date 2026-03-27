@@ -1,0 +1,65 @@
+214.
+
+215.
+
+216.
+
+217.
+
+218.
+
+219.
+
+220.
+
+221.
+
+222.
+
+QUESTIONS REPORT
+for PUMPER DRIVER OPERATOR - V9.0.1
+A ladder pipe with a 2-inch tip at 80 psi nozzle pressure will have
+approximately pounds of nozzle reaction.
+
+Ay 500 B. 450 C. 580 D. 275
+
+Approximately how much water will be delivered from a 1-1/4-inch smooth bore
+nozzle if the nozzle pressure is 50 psi?
+
+A. 200 gpm B. 273 gpm Cy 328 gom D. 400 gpm
+
+The flow from a 1-inch nozzle tip with a nozzle pressure of 50 psi
+is approximately gpm.
+A. 190 By 210 C. 220 D. 230
+
+What is the approximate friction loss in 400 feet of 2-1/2" hose flowing 300 gom?
+A. 21 psi B. 45 psi Cy 72 psi D. 98 psi
+What is the friction loss in 300 feet of 2-1/2" rubber-lined hose flowing 350 gpm?
+A. 21 psi B. 24 psi C. 36 psi Dy 74 psi
+
+What is the friction loss in 400 feet of 3-inch hose with 2-1/2" couplings
+flowing 400 gpm?
+
+A. 130 psi By 51 psi C. 13 psi D. 512 psi
+What is the approximate engine pump pressure necessary to deliver 600 gom
+through a fog nozzle on a deck gun using three (3) 2-1/2" lines? The lines
+
+are 400 feet long and the deck gun is elevated 20 feet above the pumper.
+(Deck gun FL = 10 psi)
+
+A. 130 psi By 150 psi .  C. 170 psi D. 180 psi
+
+If the friction loss in 300 feet of hose is 70 psi, what will the friction loss be
+in 450 feet of the same size hose, flowing the same amount of water?
+
+A. 90 psi B. 96 psi Cy 105 psi D. 128 psi
+The formula 29.7d?xVNP can be used to estimate the:
+
+A. velocity of water in feet-per-minute.
+
+B. nozzle reaction for fog nozzles.
+
+C. nozzle reaction for straight tip nozzles.
+Dy flow of water in gallons-per-minute in a smooth/solid bore nozzle.
+
+Monday, September 19, 2016 11:44:42 AM 28

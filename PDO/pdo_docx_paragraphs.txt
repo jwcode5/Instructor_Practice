@@ -1,0 +1,1573 @@
+00001: Keeping apparatus in a state of usefulness or readiness is known as:
+00003: repair.BY maintenance.C. reliability.D. trouble shooting.
+00005: Checking and documenting the oil level, radiator coolant, fuel level, tires, and visible and audible warning signals is normally considered to be part
+00006: of maintenance.
+00008: AY routineB. repairC. post-tripD. documentation
+00010: The two tests that are performed by the manufacturer, if the requirements of NFPA 1901 are included in the apparatus bid specifications, are the:
+00013: road and brake tests.
+00014: brake and hydrostatic tests.
+00015: BY road and hydrostatic tests.
+00016: engine and hydrostatic tests.
+00019: Which statement regarding voltmeters listed below is correct?
+00021: A voltmeter indicates the amount of amperage being drawn from the battery to operate non-essential electrical equipment.
+00022: BY After starting the engine, the voltmeter reads battery voltage.
+00023: A voltmeter indicates the amount of amperage being drawn from the battery.
+00024: A voltmeter monitors the system for added electrical loads.
+00026: Checking for tightness of connection, electrolyte level, and corrosion are all steps in inspecting:
+00029: tightness of connection.
+00030: C. electrical motors.
+00031: the voltage regulator.
+00032: �the battery.
+00035: Proper is one objective of good maintenance.
+00037: troubleshootingBY lubricationC. calibrationD. priming
+00039: When stopping an apparatus, it is necessary to consider the:
+00042: empty weight of the water tank.
+00043: CY condition of the brakes.
+00044: length of the apparatus.
+00045: D. height of the apparatus,
+00048: Inspecting all valves would be considered a part of maintenance.
+00050: AY dailyB. quarterlyC. monthlyD. bimonthly
+00052: One method of performing an apparatus/pretrip inspection is the:
+00055: 1-2-3 method.
+00056: C':" walk-around method.
+00057: oval method.
+00058: D. approaching the apparatus method.
+00060: The manufacturer's manual will the Society of Automotive Engineers (S.A.E.) number for the engine oil.
+00061: not suggestB'!' recommendC. requireD. not mandate
+00063: The engine oil pressure gauge indicates the:
+00066: amount of oil in the crank case.
+00067: pressure of oil in the transfer case.
+00068: B'!' pressure of oil being delivered.
+00069: type of oil needed for the motor.
+00072: In stabilizing a hot apparatus diesel engine's temperature, a cool down period of is recommended before shutting down.
+00075: 30 to 50 seconds
+00076: C"' 3 to 5 minutes
+00077: 15 minutes
+00078: D. 7 to 10 minutes
+00080: When performing road tests, the apparatus should be: A'!' fully loaded as it would be once in service.
+00081: B. empty of equipment, with only one driver aboard.
+00082: C. empty of equipment, with only one driver and one passenger aboard.
+00083: D. fully loaded, without water.
+00085: A diesel engine should be shut down for a minimum of before checking oil level.
+00088: A'!' 15 minutes
+00089: C. 45 minutes
+00090: B. 3 to 5 minutes
+00091: D. 1 hour
+00094: When doing routine maintenance on a battery, which would need to be corrected by the driver/operator?
+00095: Coolant levels are at full level
+00096: B'!' Corrosion on the battery terminals
+00097: Tie-downs appear to be tight
+00098: Top off fluid level in a sealed battery
+00099: Batteries produce explosive gas when being charged.
+00101: nitrogenB. hydrochloricC. sulfuricD'!' hydrogen
+00103: Shutting down a diesel engine immediately after full-load operation may result in:
+00106: high piston ring wear.
+00107: C. fuel injector damage.
+00108: increased oil consumption.
+00109: D'!' turbo seizure or damage from heat.
+00111: It is important to maintain of fuel in an emergency apparatus.
+00114: Aat least one quarter of a tank
+00115: C'!' one-half to three-fourths of a tank
+00116: B. at least one quarter to a half tank
+00117: D. no specific fuel levels are required.
+00120: In a road acceptance test, a fully loaded pumper must be able to come to a full stop from 20 mph within:
+00122: 25 feet.Br 35 feet.C. 45 feet.D. 55 feet.
+00124: The assists in both braking and saving the wear on the service brakes.
+00127: A-t retarder
+00128: C. air brakes
+00129: B. relief valve
+00130: D. transfer valve
+00133: The first step when performing the skill of start, idle and shut down a fire apparatus is to:
+00135: Aturn on the vehicle batteries.
+00136: B. ensure all riders are wearing safety restraints.
+00137: C'!' make sure all external electrical cords are disconnected.
+00138: D. check that the parking brake is set.
+00140: should be checked by a mechanic on a periodic basis.
+00143: Engine oil
+00144: C. Tank water
+00146: Which is a result of over-throttling?
+00147: AWhite smoke from the exhaust C'!' Loss of power
+00148: Improper tire pressures may cause: Aimproper weight distribution.
+00149: C. low maintenance costs.
+00150: Br Differential fluid
+00151: D. Engine coolant
+00155: B. Overheating of engine coolant
+00156: D. Increases torque
+00160: B'!' poor handling.
+00161: D. increased fuel mileage.
+00164: The two categories that lighting equipment can be divided into are:
+00167: Afixed and raised.
+00168: C. fixed and vehicle-mounted.
+00169: Bot portable and fixed.
+00170: D. portable and remote-controlled.
+00173: According to National Fire Protection Association ,some fire departments have a designated apparatus maintenance officer who meets the requirements of an Emergency Vehicle Technician.
+00174: A1001B. 1002C'!' 1071D. 1074
+00176: Over-cleaning an apparatus can lead to:
+00178: A shorter vehicle life.
+00179: B. poor public relations.
+00180: C. corrosion of steel components.
+00181: CY. removal of lubrication from the chassis.
+00183: Which method below should be used when washing a new fire apparatus?
+00185: AUse a garden hose with a nozzle.
+00186: B. After washing with dishwashing detergent, allow to air dry.
+00187: C-r Washing with cold water
+00188: D. Washing with soap and hot water
+00190: At what pressure will the audible alarm sound on the air brake system?
+00192: A100 psiB. 90 psiC. 70 psiCY. 60 psi
+00194: A fire apparatus should be dried:
+00197: Aby air drying.
+00198: C. with shop rags.
+00199: B. with paper towels.
+00200: CY. with a clean chamois.
+00203: The walk-around method of apparatus inspection involves starting at the:
+00206: A':" driver's door.
+00207: C. front of the vehicle.
+00208: B. officer's door.
+00209: D. back of the vehicle.
+00212: The apparatus inspection should begin by approaching the vehicle and looking beneath the vehicle for spots that indicate:
+00215: Aa leaning vehicle.
+00216: C. poor cleaning procedures.
+00217: B-r leaking vehicle fluids.
+00218: D. poor ventilation equipment.
+00221: The left side of an apparatus is also known as the:
+00224: A curb side.
+00225: C-r street side.
+00226: B. officer side.
+00227: D. firefighter side.
+00230: During a left- and right-rear side inspection, it is important to be sure that dual tires:
+00233: Ahave tread separation.
+00234: C. are touching the wheel wells.
+00235: B. are touching each other.
+00236: CY. do not come in contact with each other.
+00238: If the truck is parked and the speedometer is showing anything above 0, it is possible that:
+00239: Aot the gauge is defective.
+00240: B. the truck is idling too fast.
+00241: C. the truck is in drive gear.
+00242: D. pressure is being applied to the gas pedal.
+00244: Steering wheel play should be no more than approximately degrees in either direction.
+00245: 5Bot 10C. 15D. 20
+00247: The air pressure on apparatus equipped with air brakes should build to a sufficient level in order for the vehicle to operate within seconds of starting.
+00248: 10B. 15C. 30
+00250: Apparatus with air brakes should be equipped with an air pressure protection valve which prevents the operation of air horns when the pressure in the air reservoir drops below psi (kPa).
+00253: Aot 80 psi (552 kPa)
+00254: C. 125 psi (862 kPa)
+00255: B. 100 psi (289 kPa)
+00256: D. 150 psi (1 034 kPa)
+00259: During a test of the parking brake, the apparatus should come to a complete stop within about:
+00262: 10 feet (3 m).
+00263: Cot 20 feet (6 m).
+00264: 15 feet (4.5 m).
+00265: D. 25 feet (7.5 m).
+00268: The oil pressure control device must operate within  after the discharge pressure rises and restricts the pressure from exceeding 30 psi above the set level.
+00271: 1 to 2 seconds
+00272: Cot 3 to 1O seconds
+00273: 12 to 15 seconds
+00274: D. 1 to 3 minutes
+00277: Once an automatic transmission apparatus is ready to move, your next step is to:
+00279: don safety restraints.
+00280: disconnect all external air hoses.
+00281: turn on the vehicle batteries.
+00282: [Y. place the transmission into a gear for normal operation.
+00284: On which port would you inspect the screens for rocks or debris?
+00287: 1-3/4" preconnect C':" intakes
+00288: Master stream device
+00289: D. Booster reel
+00292: How often should the primer pump oil reservoir be checked?
+00294: A':' DailyB. WeeklyC. MonthlyD. Bi-weekly
+00296: Before shutdown the apparatus engine temperature should be allowed to stabilize by idling it for minutes.
+00298: 1 to 2B':" 3 to 5C. 5 to 8D. 5to10
+00300: A braking system that has a snow-and-mud switch is known as a(n):
+00302: antilock braking system.
+00303: front brake-limiting valve system with an automatic traction control.
+00304: electromagnetic braking system.
+00305: D':" antilock braking system with automatic traction control.
+00307: Engine brakes are activated when:
+00309: pressure is applied to the brake.
+00310: brief, rapid brake applications are made. C':" pressure is released from the accelerator.
+00311: D. engine rpm is increased.
+00313: The device that introduces foam concentrate into the water stream to make the foam solution is:
+00316: foam.
+00317: C. foam concentrate.
+00318: foam solution.
+00319: D':" foam proportioner.
+00322: Operating engines below the minimum coolant temperature may result in:
+00325: excessive cylinder wear.
+00326: decreased valve deposits.
+00327: B':" inefficient operation.
+00328: decreased fuel consumption.
+00331: Which is required by National Fire Protection Association Standard 1901 to be provided by the manufacturer to the fire department upon delivery of a new piece of fire apparatus?
+00334: Minimum speed requirements
+00335: Bid package
+00336: B':" Troubleshooting guide
+00337: Parts costs
+00339: The vacuum test requires a reading at the end of five minutes with no more than inches of vacuum being lost.
+00341: 20B. 22C':' 10D. 12
+00343: One of the functions of apparatus maintenance records is to:
+00345: file claims with the insurance company.
+00346: file warranty claims with the motor pool. C':' document recurrent repairs.
+00347: D. indicate the cleaning solution used.
+00349: Before an apparatus response from the station, the driver/operator should:
+00351: tell passengers to buckle their seat belts, then proceed.
+00352: assume everyone is buckled in and proceed.
+00353: check all fluid levels.
+00354: D':' assure that everyone is seated and belted.
+00356: When driving under winter conditions, you should follow at a greater distance because the distance to stop on snow and ice is increased times.
+00357: A':' 3 to 15B. 2 to 5C. 10 to 20D. 1 to 2
+00359: Which statement regarding overheating of brakes is correct?
+00361: A':' Loss of braking function that occurs because of excessive use of brakes is brake fade.
+00362: B. Configurating brakes can control overheating.
+00363: C. ABS brakes reduce the potential of brake fade.
+00364: D. Overheating brakes cannot be controlled be effective braking techniques.
+00366: The distance a vehicle travels from the time the driver begins to apply the brakes until it comes to a complete stop is known as:
+00369: A':' braking distance.
+00370: C. visual lead distance.
+00371: B. total reaction distance.
+00372: D. brake performance distance.
+00375: One common cause of fire apparatus skidding is:
+00378: changing lanes. C':' weight transfer.
+00379: anticipating obstacles in the road.
+00380: D. the brake limiting valve.
+00383: Apparatus are most likely to be involved in an accident at/on:
+00385: off/on ramps.B� intersections.C. freeways.D. bridges.
+00387: When determining the size of a water tender, a department should consider the:
+00390: pump capacity.
+00391: C. hose bed size.
+00392: travel time for response.
+00393: D!' bridge weight restrictions.
+00396: You encounter a school bus with flashing signal lights while responding to a call. You must stop and proceed:
+00398: A'f only after a proper signal is given by the bus driver.
+00399: B. slowly around the bus with all emergency warning devices on.
+00400: C. slowly and with caution.
+00401: D. only after you have turned off all emergency warning devices.
+00403: Most driving regulations pertain to environmental conditions that are:
+00404: snowy and icy.B. wet and rainy.C. dark and foggy.D!' dry and clear.
+00406: A driver/operator of an emergency vehicle who does not obey state, local, or departmental driving regulations is:
+00408: protected under the Good Samaritan Law.
+00409: subject to criminal prosecution only.
+00410: exempt from any prosecution.
+00411: D!' subject to criminal and civil prosecution.
+00413: Unless specifically exempt, the fire apparatus driver/operators are generally subject to any/all:
+00414: NFPA 1901 guidelines.
+00415: B'f statutes, rules, regulations, and ordinances.
+00416: National Emergency Vehicle Response Commission Guidelines.
+00417: Department of Motor Vehicle registration rules.
+00419: When is it acceptable to be in a moving apparatus without wearing a seat belt?
+00421: Loading hose, providing medical care, and donning personal protective equipment (PPE)
+00422: Donning PPE, and tiller training
+00423: C'f Loading hose
+00424: D. Providing medical care and donning PPE
+00426: While traveling in the center lane of a multiple-lane highway on an emergency call, the vehicle in front of you stops. You should:
+00428: slowly move to the right lane and proceed to the call.
+00429: B'f brake to reduce speed and pass on the left side of the vehicle.
+00430: brake to reduce speed and pass on the right side of the vehicle.
+00431: accelerate and immediately pass on the left side of the vehicle.
+00433: You have responded to an emergency on a limited-access highway. Your apparatus is not being used. You should:
+00434: position the apparatus across the intersection to block traffic.
+00435: B!' use the apparatus as a barrier between the traffic flow and the responders on scene.
+00436: position the apparatus off the highway in an area away from the incident.
+00437: position the apparatus as close to the incident as possible so responders will have access to the apparatus.
+00439: In adverse weather, you can find out how slippery the road is and determine your approximate stopping distance by:
+00440: setting the brakes.
+00441: B!' carefully applying the brakes in an area free of traffic.
+00442: resetting the brakes.
+00443: releasing the brakes.
+00445: The distance a vehicle travels from the point where you begin recognizing the hazard until the apparatus comes to a complete stop is called the:
+00448: braking distance.
+00449: Ct total stopping distance.
+00450: driver-reaction distance.
+00451: D. total reaction distance.
+00454: The weight transfer of can be hazardous when driving fire apparatus.
+00457: pump capacity
+00458: C. reverse polarity
+00459: automatic viscosity
+00460: D!' liquid surge
+00463: The weight carried on most fire apparatus can contribute to:
+00466: At skidding.
+00467: C. delayed reaction time.
+00468: B. baffle failure.
+00469: D. tire failure.
+00472: If an apparatus begins to skid, the driver/operator should:
+00474: gradually apply the brakes, bringing the apparatus to a halt.
+00475: B!' turn the apparatus steering wheel so the front wheels face the direction of the skid.
+00476: turn the apparatus steering wheel so the front wheels face the direction opposite to the direction of the skid.
+00477: quickly release pressure from the accelerator.
+00479: One of the goals of the Manual on Uniform Traffic Control Devices for Streets and Highways is to:
+00481: At improve responder safety.
+00482: B. return traffic to normal flow within 15 minutes.
+00483: C. redirect traffic flow.
+00484: D. use surrounding road systems.
+00486: At an intersection, if you cannot account for all lanes of traffic, then you should:
+00488: At stop, check the lanes of traffic, then proceed.
+00489: B. use the air horn and proceed without stopping.
+00490: C. cautiously proceed through the intersection because the warning devices and emergency situation give the apparatus the right of way.
+00491: D. move to the left lane and accelerate.
+00492: When at an intersection, apparatus should be brought to a complete stop if: At there are any obstructions that block the view of the intersection.
+00493: B. all lanes are stopped and cleared.
+00494: C. it is a controlled intersection.
+00495: D. law enforcement has cleared the intersection.
+00497: When approaching unguarded railroad crossings, the driver shall:
+00499: use caution.
+00500: proceed at a maximum of 5 mph.
+00501: C'!' come to a complete stop.
+00502: D. stop only when a train is in sight.
+00504: Which is a correct statement when responding to an incident?
+00506: You should always pass on the right side of a vehicle when possible.
+00507: Bt You should come to a complete stop if any obstructions block your view.
+00508: There is no need to slow down for a green light intersection.
+00509: You must always have a backup person.
+00511: Blind and heavily traveled intersections should be approached and crossed:
+00513: at a speed 10 mph below the posted speed limit.
+00514: at a maximum speed of 10 mph over the posted speed limit.
+00515: at a speed that matches the flow of traffic.
+00516: D'!' only after coming to a complete stop.
+00518: One of the causes of skidding is:
+00520: driving the vehicle for the proper conditions on dry roads. Bt failing to anticipate weight shifts.
+00521: improper tire size.
+00522: proper tire inflation on a wet road.
+00524: A nonemergency response during normal operations would be:
+00527: At no lights or sirens.
+00528: C. sirens only.
+00529: B. lights only.
+00530: D. lights and sirens.
+00532: When driving an apparatus, remain in the highest gear that allows the apparatus to and still have some power in reserve for acceleration.
+00535: lug
+00536: Ci keep up with traffic
+00537: maintain governed speed
+00538: D. reach 400 to 500 rpm
+00540: Which is a valid exception to the recommendation that all riders must be seat belted while apparatus is in motion?
+00541: While donning self-contained breathing apparatus BY While loading hose
+00542: Responding at slow speeds
+00543: While backing apparatus
+00544: The United States Government authority that establishes the basic requirements for licensing of drivers is the:
+00547: local jurisdiction.
+00548: National Traffic Safety Board.
+00549: BY Department of Transportation.
+00550: American Highway Commission.
+00553: The standard that gives direction for establishing a driver/operator training program is National Fire Protection Association:
+00554: 1450.BY 1451.C. 1560.D. 1561.
+00556: The purpose of using a spotter is to assist:
+00557: in stopping cross traffic as the vehicle is pulled forward. BY the driver by observing the area in the blind spot.
+00558: the driver in locating a hydrant.
+00559: in determining best route to incident.
+00560: The purpose of the alley dock skill is to simulate: At backing a vehicle into a restricted area.
+00561: B. maneuvering around parked and stopped vehicles.
+00562: C. steering a vehicle in a straight line.
+00563: D. turning a vehicle around in a confined space.
+00565: Because of the size of an apparatus, as well as the clearance needed when backing, you should:
+00566: back up very slowly, assuring that everyone hears the back-up alarm. BY assign a spotter.
+00567: place traffic cones around the area.
+00568: turn on all emergency lights, check all mirrors, then proceed to back up in a slow, safe manner.
+00570: All fire apparatus should be equipped with  that warns others when the apparatus is backing up.
+00573: opticom
+00574: C\" an audible alarm system
+00575: four-way flashers
+00576: D. rear spotlights
+00579: How many cones are used during the serpentine driving skill?
+00581: oneB. twoC\" threeD. four
+00583: When faced with a situation requiring evasive tactics, you should attempt to pass on:
+00586: A'!' the left side
+00587: C. either the left or right side
+00588: B. the right side
+00589: D. the overtaken vehicle's passenger side.
+00592: Many accidents involving apparatus are caused by the operator:
+00594: focusing too much on the traffic in front of the apparatus.
+00595: stopping at intersections.
+00596: C\" misunderstanding the capabilities of the apparatus.
+00597: D. using warning devices.
+00599: The angle from the front point of ground contact of the front tire to any projection of the apparatus in front of the front axle is considered the:
+00602: angle of return.
+00603: C\" angle of approach.
+00604: angle of departure.
+00605: D. lateral angle.
+00608: The purpose of the Serpentine Course is to simulate:
+00610: backing a vehicle into a restricted area.
+00611: B'!' maneuvering around parked and stopped vehicles.
+00612: steering a vehicle in a straight line.
+00613: turning a vehicle around in a confined space.
+00615: The purpose of the confined space turnaround is to simulate:
+00617: backing a vehicle into a restricted area.
+00618: maneuvering around parked and stopped vehicles and tight corners.
+00619: steering a vehicle in a straight line.
+00620: D'!' reversing the direction of travel of a vehicle in a narrow street.
+00622: The confined space turnaround maneuver allows an operator to turn the apparatus degrees.
+00624: A'!' 180B. 90C. 45D. 270
+00626: The purpose of the diminishing clearance driving skill is to measure a driver's ability to:
+00629: maneuver around stopped vehicles.
+00630: parallel park.
+00631: Bt maneuver apparatus in a straight line.
+00632: turn the vehicle 180 degrees.
+00635: Which driving skill would not require using a spotter?
+00638: Confined space turnaround Ct Diminishing clearance
+00639: Serpentine
+00640: D. Alley dock
+00642: To effectively judge the ability of a vehicle to pass through areas of restricted horizontal and vertical openings, the operator must know:
+00644: At vehicle dimensions.
+00645: B. Department of Transportation guidelines.
+00646: C. the vehicle's weight.
+00647: D. governed speed.
+00649: In emergency incidents that occur near.railroad tracks, the driver/operator should:
+00651: always treat the tracks as an inactive line.
+00652: Bt park the apparatus on the same side of the tracks as the incident.
+00653: park the apparatus in a manner that protects the fire hose crossing the tracks.
+00654: park apparatus on the opposite side of the incident.
+00656: You have responded to a highway emergency. The apparatus should be parked at an angle so the:
+00657: hazards from outgoing traffic are reduced. B� apparatus shields the working firefighters.
+00658: operator is protected by the front bumper from oncoming traffic.
+00659: traffic is able to flow freely.
+00661: Studies have shown that an emergency vehicle going faster than mph can possibly outrun its own audible warning devices.
+00662: 15B. 70Ct 50D. 35
+00664: The termination area at a traffic incident is defined as:
+00666: the point where lane changes and closures are made.
+00667: an area that separates traffic flow from the work area.
+00668: an area where motorists are informed about the upcoming situation.
+00669: Di the point where normal flow of traffic resumes.
+00671: When responding to emergencies, the use of warning devices:
+00673: negates all traffic laws.
+00674: allows passing stopped school buses.
+00675: C'!" does not allow the driver to disregard other drivers.
+00676: D. exempts the driver/operator from civil litigation.
+00678: If an evasive maneuver is required, the apparatus driver should:
+00680: maintain total contact of one hand on the steering wheel.
+00681: use one hand to operate the air horn warning device.
+00682: attempt to pass the vehicle on the right.
+00683: D'!" always leave a way out.
+00685: When more than one emergency vehicle is responding along the same route, units should travel at least feet apart.
+00687: 100 to 200B. 200 to 300C'!" 300 to 500D. 600-800
+00689: While responding to an emergency where all lanes of traffic are blocked in the same direction as the responding apparatus, the apparatus driver may:
+00691: position the apparatus in the middle lane behind the blocked traffic, wait for one lane to clear.
+00692: move the apparatus to the farthest point on the right, passing on the
+00693: right shoulder.
+00694: maintain the current lane position and wait for the lane to clear.
+00695: D'!" move the apparatus into the opposing lane of traffic.
+00697: At a wildland fire, the safest place for an attack to begin is from the:
+00700: downwind area. C'!" burned area.
+00701: barrier point.
+00702: D. unburned area.
+00705: Level I staging may be:
+00707: initiated by the Incident Commander or Operations Section Chief.
+00708: used in the initial response to an incident involving only one responding company.
+00709: used when mutual aid company's vehicles are responding to the same incident.
+00710: D'!" used in the initial response to a fire or other incident involving more than one responding company.
+00712: Level II staging may be:
+00714: initiated by the driver/operator.
+00715: used for the initial response to an incident involving only one responding company.
+00716: C-r used when a large number of emergency vehicles, including mutual aid, are responding to the same incident.
+00717: D. used on any emergency response where two or more companies are dispatched.
+00719: Apparatus should not be driven against the normal flow of traffic on limited-access highways and turnpikes unless:
+00721: a detour has been established.
+00722: another apparatus has been positioned to block oncoming traffic.
+00723: a traffic jam occurs, preventing apparatus from approaching the scene.
+00724: 0-r the driver/operator has been given an all-clear signal from fire or police units already on the scene.
+00726: Knowing what is happening around the apparatus while driving is:
+00729: aggressive driving.
+00730: C-r situational awareness.
+00731: offensive driving.
+00732: D. reactive driving.
+00735: An emergency response with both the emergency lights and sirens activated is commonly referred to as a response.
+00738: normal
+00739: C. Code 2
+00740: Code 1
+00741: 0-r Code 3
+00744: At a working fire, which apparatus has the highest priority for position?
+00747: A-r Aerial apparatus
+00748: C. Initial attack pumper
+00749: B. Water supply pumper
+00750: D. Relay pumper
+00753: While operating on roadways near traffic, all fire personnel should wear  for protection.
+00756: At an ANSI approved vest
+00757: C. fire gloves
+00758: B. approved eye protection
+00759: D. flashlights
+00762: When positioning apparatus at an incident, the most desirable position is usually:
+00765: upwind and downhill.
+00766: C. downwind and uphill.
+00767: downwind and downhill.
+00768: 0-r upwind and uphill.
+00770: The buffer space at a traffic incident is defined as:
+00772: the point where lane changes/closures occur.
+00773: the point where normal flow of traffic resumes.
+00774: Ci an area that separates traffic flow from the work area.
+00775: D. an area where motorists are informed about the upcoming situation.
+00777: When fire apparatus is operating with itis engaging in a Code 2 response.
+00780: A'!' lights only
+00781: C. lights and sirens
+00782: B. sirens only
+00783: D. no lights and sirens
+00786: When responding to a vehicle fire you should position the apparatus at a  degree angle to the involved vehicle.
+00788: 10B'1 45C. 75D. 90
+00790: The transition area as defined by the Manual on Uniform Traffic Control Devices for Streets and Highways is:
+00792: A-r where lane changes and closures are made.
+00793: B. an area where motorists are informed about the upcoming situation.
+00794: C. an area that separates traffic flow from the work space.
+00795: D. where normal flow or traffic resumes.
+00797: Which is the priority consideration when positioning an apparatus at a fire scene?
+00800: Water supply
+00801: C. Exposures
+00802: Department SOP 0-r Rescue
+00805: The purpose of an inverter on an apparatus is to transform:
+00808: A'!' DC current into AC current.
+00809: C. 12 volts to 24 volts.
+00810: B. AC current into DC current.
+00811: D. 220 volts to 11O volts.
+00814: The correct method of extinguishing fires from a wildland fire apparatus is to:
+00816: walk in front of the apparatus while extinguishing fire with attack hose.
+00817: ride on the tailboard of the vehicle and discharge water as the vehicle is driven.
+00818: sit on an extended front bumper of the vehicle while discharging water as the vehicle is driven.
+00819: 0-r use short sections of attack hose while walking alongside the apparatus and extinguishing fire along the way.
+00821: A pump and roll system:
+00822: uses a separate motor only to power the pump.
+00823: Bi is a system that allows the apparatus to be driven while discharging water.
+00824: is most commonly found on fire department pumpers.
+00825: allows firefighters to safely ride on the outside of the apparatus.
+00827: Many fire departments use an on-board computer system to assist during response to and from emergencies. These systems are known as:
+00830: opticom systems.
+00831: intercom system.
+00832: Bi mobile data terminals.
+00833: fire response system.
+00836: While conducting a pump capacity test, if the net pump pressure is correct but the nozzle flow (gpm) is too high, the:
+00837: discharge gate must be opened further.
+00838: Bi discharge gate must be closed further.
+00839: throttle setting must be increased.
+00840: other discharge is opened to reduce flow.
+00842: The 50 percent pump capacity test is conducted at a net pump pressure of :
+00845: 150 psi for 20 minutes.
+00846: O' 250 psi for 10 minutes.
+00847: 150 psi for 10 minutes.
+00848: D. 250 psi for 20 minutes.
+00850: During a pump capacity test, a pumper should deliver percent of its rated capacity at 250 psi pump pressure for 10 minutes.
+00851: 100Bi 50C. 70D. 40
+00852: Proper apparatus maintenance includes visually checking the tank water level:
+00853: Ai daily.B. quarterly.C. periodically.D. biweekly.
+00854: The changeover/transfer valve on a two-stage pump should be checked for proper operation:
+00857: monthly.
+00858: Bi weekly.
+00859: periodically.
+00860: biweekly.
+00863: Each fire pump impeller in a housing is commonly called a:
+00866: casing.
+00867: body.
+00868: pump.
+00869: CY. stage.
+00872: Pumps that are commonly used as priming pumps are known as:
+00873: centrifugal.B. piston.O' rotary gear.D. rotary valve.
+00875: The spiral chamber of a centrifugal pump in which the velocity given to water by the impeller is converted into pressure is called the:
+00878: body.
+00879: C. casing.
+00880: discharge housing.
+00881: De' volute.
+00884: A valve is used to relieve pressure in hose lines after the discharge gates are closed.
+00887: discharge
+00888: Br drain
+00889: C. by-passD. relief
+00892: Which type of fire pumps must be primed using an external priming device?
+00895: Rotary vane
+00896: Cr Centrifugal
+00897: Piston
+00898: D. Rotary-gear pump
+00901: What is the minimum amount of 2-1/2" hose to be carried on a water tender?
+00904: 100 feet
+00905: Br 200 feet
+00906: C. 300 feetD. 400 feet
+00908: When priming, water enters the pump because: Ar atmospheric pressure forces it into the pump.
+00909: B. the pump pulls the water in from the static source.
+00910: C. the rotating motion of the centrifugal pump creates a vacuum.
+00911: D. of increase in atmospheric pressure in the pump.
+00913: A gauge is calibrated to read both positive and negative pressure.
+00915: Ar compoundB. pressureC. dischargeD. centrifugal
+00917: You should switch from pressure to volume when:
+00919: operating from a hydrant.
+00920: Br more than half of the rated capacity of the pump will be required.
+00921: a higher than normal pressure will be required.
+00922: a lower engine rpm is desired.
+00924: A relief valve:
+00926: closes as lines are shut down.
+00927: Br opens when pressure rises above the set pressure.
+00928: opens as lines are opened.
+00929: is always open when the pumper is in use.
+00931: An operator should prime a pump when operating:
+00934: A-r from a static source.
+00935: C. as the middle pumper in a relay.
+00936: B. from a hydrant.
+00937: D. as a dual pumper.
+00940: Apparatus equipped with water tanks of 500 gallons or less must provide a tank-to-pump flow rate of gpm.
+00941: 500B-r 250C. 200D. 500
+00942: A device used to indicate water pressure in pounds-per-square-inch is a gauge.
+00943: A-r pressureB. staticC. flowmeterD. residual
+00944: A "O" psi reading on most pressure gauges is actually psi, pressure at sea level.
+00945: 10.3B. 12.5C. 13.90-r 14.7
+00946: The on an impeller are curved away from the direction of rotation so that the natural movement of water will carry it to the edge.
+00947: finsB. shroudsC-r vanesD. volutes
+00948: The is the major component of the centrifugal pump because it provides velocity to the water.
+00949: housingB. voluteC. vane0-r impeller
+00951: The device that controls pressure surges by changing engine speed to compensate for changes in flow is called a:
+00954: relief valve.
+00955: transfer valve.
+00956: B-r pressure governor.
+00957: pressure relief valve.
+00960: NFPA 1901 requires an apparatus rated as a pumper to carry a minimum of 2-1/2" or larger fire hose.
+00963: 200 feet
+00964: C-r 800 feet
+00966: An auxiliary cooling device:
+00967: B. 400 feet
+00968: D. 1,000 feet
+00971: causes pump water to mix with radiator fluid.
+00972: can cause over pressurization of the radiator.
+00973: gets its water from the intake side of the pump.
+00974: 0-r cools engine when the apparatus pump is engaged.
+00976: The first factor when inspecting fire hydrants is to check for:
+00979: proper operation.
+00980: C. color-codes.
+00981: damage. Df visibility.
+00984: Which type of flowmeter is relatively maintenance free?.
+00986: At Spring probeB. PaddlewheelC. PressureD. Gravity
+00988: Flowmeters should be accurate to a tolerance of percent.
+00990: A. +/- 10B. +/- 8Ct +/- 3D. +/- 6
+00992: The enables apparatus to move and discharge water at the same time.
+00994: At power take-offB. inverterC. power transferD. transverter
+00996: As flow decreases, pressure will provided pump speed remains constant.
+00999: At increase
+01000: C. remain constant
+01001: B. decrease
+01002: D. have no effect
+01005: Pressure control devices must operate within with an increase of 30 PSI.
+01008: 16-20 seconds
+01009: C. 10-15 seconds
+01011: A pressure governor operates by:
+01012: Bi 3-10 seconds
+01013: D. 21-25 seconds
+01015: At controlling truck engine speed depending on pump pressure.
+01016: B. passing excess water to the ground.
+01017: C. circulating water to the tank.
+01018: D. shutting the truck engine completely off.
+01020: Centrifugal fire pumps may make use of:
+01023: air in suction lines.
+01024: negative intake pressures.
+01025: Bt positive intake pressures.
+01026: hose size and length.
+01029: consist of a small return (bypass) water line connected from the discharge side of the pump b_ack to the intake side of the pump.
+01031: Foam nozzle eductors
+01032: Bt Around-the-pump proportioners
+01033: Bypass-type balanced pressure proportioners
+01034: Variable-flow variable-rate direct injection systems
+01036: The barrel strainer must be submerged at least below the surface of the water for a pumper service test.
+01039: 1 foot (0.3 m)
+01040: 3 feet (1 m)
+01041: Bi 2 feet (0.6 m)
+01042: 4 feet (1.2 m)
+01045: All gauges used for service tests must have been calibrated within days.
+01046: 10B. 20C. 30�  60
+01048: The test that ensures the piping between the water tank and pump is sufficient to supply the minimum amount of water is the:
+01051: pumping test.
+01052: C'!" tank-to-pump flow test.
+01053: pressure control test.
+01054: D. pressure relief valve test.
+01057: Pumping tests consist of pumping at 100 percent capacity at 150 psi, 70 percent at 200 psi and percent at psi.
+01060: Ai 50, 250
+01061: C. 100, 165
+01062: B. 50, 165
+01063: D. 75, 200
+01066: Which type of pump may be used as the priming pump for a centrifugal pump?
+01069: Ai Rotary vane
+01070: C. Single action
+01071: B. Piston
+01072: D. Double action
+01075: Which part of the rotary vane pump moves as it operates.
+01078: Volute
+01079: Transfer valve
+01080: Bi Vane
+01081: Impeller
+01084: Which valve determines whether the pump is operating in series or pressure mode?
+01087: Pressure relief C'!" Transfer valve
+01088: Switch over valve
+01089: D. Series valve
+01092: A fire pump is rated by and tested to specifications.
+01094: National Fire Protection Association Bi Underwriter's Laboratory
+01095: International Organization for Standardization
+01096: American National Standards Institute
+01098: A test that is conducted using National Fire Protection Association 1911 once a year is called a(n) test.
+01101: acceptance
+01102: non-destructive
+01103: Bi service/performance
+01104: road
+01107: When conducting a service/performance test on a fire pump, the first test is the:
+01109: intake relief valve test.
+01110: pump shift indicator test.
+01111: C1 no-load governed engine speed test.
+01112: D. pump engine control test.
+01114: If the pump has a rated capacity of 750 gpm or greater, the fire apparatus must be subjected to an overload test lasting at least:
+01117: Ai 5 minutes
+01118: C. 15 minutes
+01120: To aerate means to mix with:
+01121: B. 10 minutes
+01122: D. 20 minutes
+01126: Ai air.
+01127: C. foam solution.
+01128: B. water.
+01129: D. foam concentrate.
+01132: When performing a capacity test, the desired net pump pressure should be psi.
+01133: 100B1150C. 200D. 250
+01135: Apparatus equipped with water tanks larger than 500 gallons must provide a tank-to-pump flow rate of gpm.
+01136: 700B1 500C. 400D. 750
+01138: The recommended method of determining the exact friction loss of any appliance is to:
+01139: check National Fire Protection Association 1091.
+01140: Bi run tests with each appliance used by the department.
+01141: review manufacturer's specifications.
+01142: check National Fire Protection Association 1901.
+01144: A indicates flow in gallons per minute.
+01147: compound gauge C1 flowmeter
+01148: vacuum gauge
+01149: D. bourdon tube
+01151: Centrifugal fire pumps are mainly used in the fire service today because:
+01153: they are less expensive.
+01154: Bi of their flexibility and versatility.
+01155: their pressure surges are easier to control.
+01156: they are less susceptible to cavitation.
+01158: The responsibility for enforcing the requirements of a code or standard related to testing fire pumps belongs to the:
+01159: National Fire Protection Association.
+01160: Bi Authority Having Jurisdiction.
+01161: Occupational Safety and Health Administration.
+01162: Department of Transportation.
+01164: The need for fire ground hydraulic calculations has been reduced by electronic pressure governors and:
+01167: relief valves.
+01168: check valves.
+01169: Bi pump controllers.
+01170: distributors.
+01173: A provider of extinguishing agent flow and pressure dedicated to fire protection is the:
+01176: eductor.
+01177: C. distributor.
+01178: fixed fire protection system.
+01179: [Y. fire pump.
+01182: The most common power system found in a fire pump is the:
+01185: Ai transfer case.
+01186: C. power take-off unit.
+01187: B. alternator.
+01188: D. torque box.
+01191: Water temperature greater than 90°F (32°C) can cause in the fire pump.
+01194: Ai decreased capacity
+01195: C. increased flow rate
+01196: B. water hammer
+01197: D. pump lubrication
+01200: Always ensure that the is set before the apparatus is placed in pumping mode.
+01203: Ai parking brake
+01204: C. transmission clutch
+01205: B. auto ignition switch
+01206: D. emergency warning switch
+01208: Two common types of flow meters are:
+01210: Post indicator and gallons per minute. B\" Spring probe and paddlewheel.
+01211: Stem and yoke.
+01212: Pressure governors and electronic pump controller.
+01214: Pumpers must carry a minimum of gallons of water.
+01216: 500B. 750C\" 300D. 250
+01218: Fire pumpers must carry one straight ladder, one extension ladder and:
+01221: a pompier ladder.
+01222: a 35' extension ladder.
+01223: Br an attic ladder.
+01224: rescue rope.
+01227: Nozzles that deliver up to 350 gpm are:
+01230: A\' handline.
+01231: C. low-volume.
+01232: B. master stream.
+01233: D. high-volume.
+01236: In a hydrant, a small drain valve opens as the hydrant is closed.
+01238: wet-barrelBr dry-barrelC. dryD. high-pressure
+01240: A master stream is:
+01242: A\' any fire stream that is too large to be controlled without mechanical aid.
+01243: B. a stream of water designed to produce a stream as compact as possible.
+01244: C. a stream created when water is forced through a series of small holes on the discharge end of the nozzle.
+01245: D. a stream produced by deflecting water from the periphery of an inside circular stem.
+01247: The purpose of the---,--- is to provide circulating feed from several mains.
+01250: distributors
+01251: C. distribution system
+01252: water source D\" grid system
+01255: Dry barrel hydrants should be opened completely because:
+01257: they will not work when partially opened.
+01258: Br the drain valve would be completely closed.
+01259: a partially opened hydrant traps air.
+01260: the pressure is greatly reduced.
+01262: In a water distribution grid, the supplies individual hydrants and users.
+01265: primary feeder C'f' distributor
+01266: secondary feeder
+01267: D. service line
+01269: is corrosion or mineral deposits on the interior surface of the piping and components of a water distribution system.
+01272: A'f' Encrustation
+01273: C. Filtration
+01274: B. Sedimentation
+01275: D. Hydrolyzation
+01277: The formula (29.7)(d2)(✓NP) can be used to estimate the:
+01278: velocity of water in feet-per-minute.
+01279: nozzle reaction for fog nozzles.
+01280: nozzle reaction for straight tip nozzles.
+01281: D'f' gallons-per-minute in a smooth bore nozzle.
+01283: To achieve rated capacity of a pump, it must be operated in the position.
+01285: relay capacityB. seriesC. pressureD'f' parallel
+01287: Water flowing through hose and pipes results in:
+01290: static pressure.
+01291: C. water hammer.
+01292: elevated pressure.
+01293: D'f' friction loss.
+01296: A Class C fire hydrant delivering less than 500 gpm would be colored:
+01298: orange.B'f' red.C. light blue.D. green.
+01300: A distribution system is a network of water mains which provides circulating feed.
+01303: secondary feeder
+01304: C. district
+01305: primary feeder
+01306: D'f' grid
+01309: It is not a recommended practice to reduce incoming supply pressure below psi.
+01310: 10B. 15c.,.- 20D. 25
+01312: To prevent water hammer, it is important to close nozzles, hydrants, valves, and hose clamps:
+01313: quickly.B'f' slowly.C. partially.D. completely.
+01315: The water level of a reservoir is 150 feet above a fire hydrant. What is the static reading at the hydrant?
+01316: 43.4 psiB. 54.2 psiC':' 65.1 psiD. 98.6 psi
+01318: The pressure remaining once water has begun flowing is known as pressure.
+01320: A':' residualB. staticC. flowD. normal operating
+01322: An engine with a 750 gallon booster tank is flowing two 1-3/4 inch handlines, each 150 gpm. How long will the booster tank support operations?
+01323: 5.0 minutesB. 3.5 minutesC':' 2.5 minutesD. 7.0 minutes
+01325: When a hose is connected to a hydrant, the static pressure is 80 psi. With a line flowing 100 gpm, the pressure drops to 70 psi. Using the percentage method, the estimated remaining gpm available is gpm.
+01326: 80B. 100C':' 200D. 300
+01328: What is the flow from a 2-inch nozzle with ideal nozzle pressure? (gpm = 29.7 X d2 X ✓NP)
+01329: A'! 1063 gpmB. 2212 gpmC. 531 gpmD. 1188gpm
+01331: After flowing a 300 gpm line, a 6 percent drop was realized on the incoming pressure. Based on this, additional line(s) of the same flow could be added.
+01332: oneB. twoC':' threeD. four
+01334: Available flow from hydrants is estimated by determining the percent drop between the static and pressures.
+01335: A'r residualB. flowC. intakeD. discharge
+01337: The part of the total pressure not used to overcome friction or gravity while forcing water through fire hose, pipe, fittings, and adapters is known as:
+01340: static pressure.
+01341: C':' residual pressure.
+01342: friction loss.
+01343: D. flow pressure.
+01346: A hydrant with the largest capacity will be one that is connected to a:
+01349: dead-end main.
+01350: C'(  primary feeder.
+01351: secondary feeder.
+01352: D. distributor main.
+01354: A fire hydrant with a green bonnet and cap will flow gpm.
+01357: less than 500 cY 1,000 - 1,499
+01358: 500- 999
+01359: D. greater than 1,500
+01362: A one-square-inch column contains water to a height of 100 feet. What is the pressure in psi at the base of the column?
+01364: 434B. .434O!' 43.4D. 4.34
+01366: pressure is the difference between the pump discharge pressure and the incoming pressure from the hydrant.
+01369: Maximum discharge C'!' Net pump discharge
+01370: Residual
+01371: D. Pump intake
+01374: The operation in which each impeller of a multi-stage centrifugal pump discharges into a common outlet is known as:
+01375: A'!' parallel.B. single stage.C. series.D. pressure.
+01377: Friction loss is usually expressed in terms of:
+01379: pounds per square inch per 50 feet of hose. B'!' pounds per square inch per 100 feet of hose.
+01380: gallons per minute per 50 feet of hose.
+01381: gallons per minute per 100 feet of hose.
+01383: A 2-1/2 inch fog nozzle flowing 225 gpm at a pressure of 100 psi will have a reaction of approximately pounds.
+01385: A'!' 113B. 110C. 124D. 143
+01387: In drafting operations, pumping ability decreases when:
+01390: barometric pressure increases. C'!' atmospheric pressure decreases.
+01391: atmospheric pressure increases
+01392: D. absolute pressure decreases.
+01395: denotes a force-per-unit area, with the measurements of force in pounds and the measurement of area in square inches.
+01396: FlowB. WeightC. ForceD'!' Pressure
+01398: A method for determining dependable lift for a fire department pump
+01399: is each of indicated vacuum, water will rise _
+01402: pound, one inch
+01403: inch, one inch
+01404: B'!' inch, one foot
+01405: pound, one foot
+01407: A ladder pipe with a 2-inch tip at 80 psi nozzle pressure will have approximately pounds of nozzle reaction.
+01409: A'!' 500B. 450C. 580D. 275
+01411: Approximately how much water will be delivered from a 1-1/4-inch smooth bore nozzle if the nozzle pressure is 50 psi?
+01412: 200 gpmB. 273 gpmC'!' 328 gpmD. 400 gpm
+01414: The flow from a 1-inch nozzle tip with a nozzle pressure of 50 psi is approximately gpm.
+01415: 190B'!' 210C. 220D. 230
+01417: What is the approximate friction loss in 400 feet of 2-1/2" hose flowing 300 gpm?
+01419: 21 psiB. 45 psiC\" 72 psiD. 98 psi
+01421: What is the friction loss in 300 feet of 2-1/2" rubber-lined hose flowing 350 gpm?
+01423: 21 psiB. 24 psiC. 36 psiD'!' 74 psi
+01425: What is the friction loss in 400 feet of 3-inch hose with 2-1/2" couplings flowing 400 gpm?
+01426: 130 psiB'!' 51 psiC. 13 psiD. 512 psi
+01428: What is the approximate engine pump pressure necessary to deliver 600 gpm through a fog nozzle on a deck gun using three (3) 2-1/2" lines? The lines are 400 feet long and the deck gun is elevated 20 feet above the pumper. (Deck gun FL = 10 psi)
+01429: 130 psiB'!' 150 psiC. 170 psiD. 180 psi
+01431: If the friction loss in 300 feet of hose is 70 psi, what will the friction loss be in 450 feet of the same size hose, flowing the same amount of water?
+01432: 90 psiB. 96 psiC\" 105 psiD. 128 psi
+01433: The formula 29.7d2x✓NP can be.used to estimate the:
+01434: velocity of water in feet-per-minute.
+01435: nozzle reaction for fog nozzles.
+01436: nozzle reaction for straight tip nozzles.
+01437: D'!' flow of water in gallons-per-minute in a smooth/solid bore nozzle.
+01439: The recommended nozzle pressure for 2-1/2" hand lines with solid bore tips is psi.
+01441: A'I 50B. 80C. 100D. 150
+01443: The recommended nozzle pressure for smooth bore master streams is psi.
+01445: 50B'I 80C. 100D. 150
+01446: The recommended pressure for standard fog nozzle is psi.
+01448: 50B. 80c.,.. 100D. 150
+01450: The amount of work that a pump must do to produce a fire stream is called the pressure.
+01453: A'I pump discharge
+01454: C. maximum net
+01455: B. residual
+01456: D. maximum discharge
+01459: The nozzle reaction from a 1-1/4" tip at 50 psi nozzle pressure is approximately:
+01461: 17 lbs.B'I 123 lbs.C. 98 lbs.D. 112 lbs.
+01463: When the flow through a hose line increases from 100 gpm to 400 gpm, the friction loss increases times.
+01465: 2B. 4C. 12D'I 16
+01467: The pressure created by a column of water due to elevation is known as pressure.
+01469: atmosphericB. baseC'I headD. static
+01471: Nozzle reaction is explained by the law of physics that states:
+01473: a body in motion tends to stay in motion.
+01474: gravity acts equally in all directions at all times.
+01475: ,.. for every action there is an equal and opposite reaction.
+01476: a kinetic reaction occurs when an equal or greater force is applied.
+01478: What engine pump pressure is necessary to deliver 200 gpm through 200 feet of 2-1/2" hose to a fog nozzle at ground level?
+01479: 108 psiB'I 116 psiC. 122 psiD. 135 psi
+01481: A is used to find the flow pressure at a discharge opening.
+01484: flow gauge
+01485: Ct pitot tube and gauge
+01486: velocity gauge
+01487: D. compound gauge
+01490: Theoretically, the maximum distance a pump can lift water at sea level is feet.
+01492: At 33.9B. 25.3C. 20D. 14.7
+01494: The formula for the nozzle reaction of a solid-stream nozzle is:
+01497: NR = gpm/100.
+01498: NR = .0505xQx✓NP.
+01499: Bt NR = 1.57xd2xNP.
+01500: NR = 1.57xd2x✓NP.
+01502: Using the condensed Q method, the friction loss in 500 feet of 3-inch fire hose flowing 300 gpm is:
+01503: 12 psi.B. 55 psi.C. 50 psi.Df 45 psi.
+01505: Using the condensed Q formula, the friction loss in 600 feet of 3-inch hose flowing 500 gpm is approximately:
+01506: 100 psi.B. 125 psi.Ct 150 psi.D. 175 psi.
+01508: The friction loss in 300 feet of 3" fire hose with 2-1/2" couplings flowing 500 gpm is approximately:
+01509: At 60 psi.B. 50 psi.C. 150 psi.D. 20 psi.
+01511: To calculate friction loss in 2-1/2" fire hose when the flow is near 100 gpm, which formula should be used?
+01512: B. FL= 2Q2D. FL = 2Q2+1/2Q
+01514: When a pumper is supplying four lines of 2-1/2" hose, each equipped with a 250 gpm fog nozzle at 100 psi, and each 300 feet long, the pump discharge pressure
+01515: required is approximately:
+01516: 244 psi.Bt 138 psi.C. 158 psi.D. 190 psi.
+01518: What is the desired pump pressure when supplying two lines of 2-1/2" hose, one 200 feet long and one 300 feet long, each with a 250 gpm nozzle operating at 100 psi?
+01519: 125.5 psiB. 107.5 psiCt 137.5 psiD. 162.5 psi
+01521: for PUMPER DRIVER OPERATOR- V9.0:1
+01522: A booster hose is expected to flow gpm.
+01524: Ai 40 to 50B. 130-160C. 250-350D. 60-125
+01526: The total friction loss in 500 feet of 3" hose with 2-1/2" couplings with 300 gpm flowing is approximately:
+01527: 4 psi.Bi 36 psi.C. 63 psi.D. 105 psi.
+01529: Fire streams greater than 350 gpm are considered to be:
+01532: deluge systems.
+01533: handlines.
+01534: Bi master streams.
+01535: interior attack lines.
+01538: Which formula is used to determine the area of a circle?
+01540: Bi 11xr2C. Lx H xWD. 2x11xr
+01542: Excessive engine temperatures during pumping operations can be controlled by using the:
+01545: tank-to-fill valve.
+01546: radiator cooler.
+01547: Bi auxiliary cooler.
+01548: immersion bypass.
+01551: In an auxiliary cooling system, heat is transferred from the engine coolant to the:
+01554: transmission cooler.
+01555: C. tank water.
+01556: radiator.
+01557: [}' pump discharge water.
+01560: The formula used to determine water flow from any solid stream nozzle when the nozzle pressure and tip diameter are known is:
+01561: Bi 29.7xd2x✓NPC. 29.7 X DX ✓NPD. 29.7xd2 x .434
+01562: The transition from the water tank to an external water supply:
+01564: should be made prior to putting the pump into gear.
+01565: must be accomplished when attack lines are not operating. Ci must be made smoothly without disrupting the fire attack.
+01566: D. should be accomplished once the external supply is connected.
+01568: Securing a water source is the responsibility of the:
+01571: firefighter
+01572: C� driver/operator.
+01573: company officer.
+01574: D. Incident Commander.
+01576: A straight stream is a:
+01578: deflected solid stream.
+01579: non-deflected solid stream.
+01580: O' pattern of an adjustable fog nozzle.
+01581: D. pattern of a smooth orifice nozzle.
+01583: An operator obtains a reading of 17 inches of mercury on the intake gauge while drafting and flowing water. This indicates:
+01585: A'f' a lift of approximately19 feet.
+01586: B. the pump is cavitating.
+01587: C. that the gauge is not working properly since it should be reading in psi.
+01588: D. a lift of approximately 39 feet.
+01589: Prior to changing from tank water to an external source: A'f' make sure all air is bled from the intake.
+01590: B. engage the P.T.O.
+01591: C. put the pump into gear.
+01592: D. engage the transmission.
+01594: If the tachometer shows an rpm reading, but the speedometer does not, it could indicate that the:
+01597: A'f' transmission is in the wrong gear.
+01598: C. pump is operational.
+01599: B. transmission is engaged.
+01600: D. pump is cavitating.
+01603: The device that can be used to determine flow pressure at the opening of a smooth bore orifice is a:
+01606: venturi meter.
+01607: C. by-pass meter.
+01609: Which primer utilizes the venturi principle?
+01611: A'f' Exhaust primer
+01612: C. Rotary-vane primer
+01614: The main feature of a relief valve is to:
+01615: B'f' pitot tube.
+01616: D. compound gauge.
+01620: B. Rotary-gear primer
+01621: D. Vacuum primer
+01624: A'f' release excessive pressure within the pump.
+01625: B. allow increase to pump discharge.
+01626: C. transfer excessive pressure back to the booster tank.
+01627: D. prevent the increase in pump discharge when not pumping.
+01629: An apparatus equipped with a 1,000 gallon tank that is supplying two preconnected handlines, one flowing 150 gpm and another flowing 100 gpm, will supply
+01630: the lines for only minutes.
+01632: twoB. threeC\" fourD. six
+01634: When pumping from a tank and attack lines are being used intermittently, which is a way the pump operator can ensure the pump does not overheat?
+01635: A\" Set the circulator valve to tank position.
+01636: B. Fully open the auxiliary cooling valve.
+01637: C. Make sure apparatus is in high idle.
+01638: D. Overheating is not a problem.
+01640: The maximum height water can be drafted is feet, as opposed to the theoretical lift of approximately 33.9 feet.
+01641: 18B\" 25C. 14.7D. 43.4
+01643: For drafting purposes, lift is measured from the:
+01645: bottom of the strainer to top of the pump. B\" surface of water to the pump intake.
+01646: surface of water to the pump discharge.
+01647: bottom of the strainer to the center of the pump.
+01649: The theoretical lift for a pump at sea level is feet.
+01651: 14.7B. 25C. 28.8D\" 33.9
+01653: A relief valve by-passes excess water from the discharge side of the pump to the:
+01656: A\" pump intake.B. bleeder valve.C. water tank.
+01658: A 2-1/2" hose is expected to flow gpm.
+01660: 60 to 125B\" 175 to 350C. 40 to 50
+01661: D. bypass valve.
+01665: D. 125 to 175
+01667: One way to increase the efficiency of water shuttle operations is to: A\" decrease the time required to fill the tender.
+01668: B. increase the size of the dump tank.
+01669: C. decrease the required fire flow.
+01670: D. increase the size of the attack pumper.
+01672: The actual maximum height to which water will be lifted when the intake gauge reads 9 inches of mercury is feet.
+01673: 9.0B. 9.59c.,- 10.17D. 10.76
+01675: Which best describes a dry hydrant?.
+01677: Used in industrial settings Bi Found near lakes or rivers
+01678: Always contains water
+01679: Valve allows water to fill barrel when needed
+01681: During an effective water shuttle operation requiring two pumpers, the pumper located near the emergency scene is called the:
+01684: fill site pumper.
+01685: source pumper.
+01686: Bi dump site pumper.
+01687: shuttle tender.
+01690: A valve allows the bypass of fluids to limit the pressure in a system.
+01692: throttleB. intakeCi reliefD. tank to pump
+01694: Which best describes a wet-barrel hydrant?
+01696: Used in industrial settings
+01697: Bi Does not require drainage after use
+01698: Found near lakes or rivers
+01699: Valve allows water to fill barrel
+01701: Using the hand method, determine the total pressure loss due to friction in 600 feet of 2-1/2" hose when a fog nozzle is flowing 150 gpm at 100 psi.
+01702: 4.5 psiB. 145 psic.,- 27 psiD. 127 psi
+01703: Using the Condensed Q Formula, determine the total pressure loss for each line: Line 1 is 600 feet of 3-inch hose flowing 400 gpm.
+01704: Line 2 is 800 feet of 3-inch hose flowing 300 gpm.
+01707: Ai Line 1 TPL = 96 psi.
+01708: B. Line 1 TPL = 16 psi.
+01709: C. Line 1 TPL = 48 psi.
+01710: D. Line 1 TPL = 192 psi.
+01711: Line 2 TPL = 72 psi.
+01712: Line 2 TPL = 9 psi.
+01713: Line 2 TPL = 27 psi.
+01714: Line 2 TPL = 144 psi.
+01716: Using the Condensed "Q" Formula, calculate the total pressure loss in 600 feet of 4-inch hose flowing 1,000 gpm.
+01718: 100 psiB. 75 psiC. 150 psi[};' 120 psi
+01720: The first step in developing a pump chart is to:
+01722: enter the gallons-per-minute flowing for each nozzle or device.
+01723: list the nozzle pressure for each nozzle or device used.
+01724: C'!' identify all nozzles, devices, and layouts used by the department.
+01725: D. calculate the required pump discharge pressures for each layout.
+01727: Master stream nozzles are:
+01730: broken streams only.
+01731: C'!' either solid or fog streams.
+01732: straight streams only.
+01733: D. either broken or solid streams.
+01736: When calculating the time for a water shuttle operation, timing starts when the:
+01738: water begins drafting from the tank. B'!' dump valve is opened on the tender.
+01739: tender is empty.
+01740: tender returns with a new tank of water.
+01742: Natural static water supply sources include:
+01745: A'!' lakes.
+01746: C. swimming pools.
+01747: B. cisterns.
+01748: D. private water tanks.
+01751: What would be a common problem when looking at a static water source for drafting?
+01754: Calm water
+01755: C. Clean/clear water
+01757: A distributor nozzle could be used on a(n):
+01759: aircraft cargo space. C'!' attic fire.
+01760: B'!' Getting close enough to the water
+01761: D. Using only 10 feet of hard suction
+01765: ground fire.
+01766: D. exposure protection.
+01768: One method of calculating the capacity of a water shuttle operation in gpm is: A'!' tank size -10% divided by trip time.
+01769: B. gpm available divided by the ta_nk size.
+01770: C. travel time divided by the required flow.
+01771: D. tank size divided by the required flow.
+01773: The speedometer on an apparatus is primarily used to show speed of the vehicle, but may also indicate:
+01775: speed x 20 showing approximate rpm.
+01776: speed x .434 showing approximate pump pressure, engine speed, and rpm. C':' the pump is turning.
+01777: D. engine and pump speed.
+01779: An increase in vacuum while drafting may indicate:
+01782: a tight intake connection.
+01783: a tightly closed pump drain.
+01784: B':' a clogged strainer.
+01785: a decreased engine speed.
+01788: When lowering a barrel strainer into the water, it should have inches of water in all directions.
+01790: A'! 24B. 18C. 12D. 36
+01791: When pumping from a hydrant, it is essential that the:
+01793: strainer is flushed.
+01794: B'! hydrant be fully opened.
+01795: compound gauge always read 20 lbs. negative pressure.
+01796: tank fill is valve fully opened.
+01798: When priming a pump, it is necessary to:
+01801: A'I make the pump as air tight as possible.
+01802: C. make sure auxiliary cooler is open.
+01803: B. decrease engine speed to 700 rpms.
+01804: D. open bleeder valve.
+01807: A 1-3/4" hose is expected to flow  gpm.
+01810: 40 to 50B'I 95-200
+01811: 250 to 350
+01812: 60 to 125
+01814: A piercing nozzle would be used on a(n):
+01817: A'! aircraft cargo space.
+01818: C. attic fire.
+01819: B. exposure protection.
+01820: D. ground fire.
+01823: When making an intake connection at a hydrant, the intake hose should:
+01824: be as tight as possible. B'! have a slight curve.
+01825: be slightly higher than the pump intake.
+01826: place four full twists in the hose.
+01828: On a working fire, if the apparatus must position up a long, narrow driveway, it is best if:
+01829: the apparatus leaves all the supply hose at the end of the driveway. B'!' the apparatus lays the supply hose in as it moves into position.
+01830: it has second apparatus bring its supply hose by reversing out.
+01831: It is best that no supply hose is laid.
+01833: Which type of nozzle is very effective when fighting a fire in a basement or cellar?
+01836: Fog nozzle
+01837: C. Combination
+01838: Straight stream
+01839: D'!' Distributors nozzle
+01842: The pumper should on the end of the hard intake hose for the ability to remove the most water from a portable tank.
+01845: remove the strainer
+01846: C. use a barrel strainer
+01847: use a non-floating strainer
+01848: D'!' use a low-level strainer
+01851: The driver/operator must make sure that the are completely open when filling or dumping is taking place to prevent damage to the tank.
+01854: compartment doors
+01855: valves
+01856: B'!' vents
+01857: hydrants
+01860: While transferring water from one dump tank to another, which method is most effective and utilizes 1-1/2 inch hose to accomplish this task?
+01863: Direct pumping
+01864: C'!' Jet siphon
+01865: Nurse tender
+01866: D. Connecting tank drains
+01868: In a continuous shuttle operation, what is the approximate available gpm for fire flow if: Tender A 3000 tender, trip time 12 minutes
+01869: Tender B 2500 tender, trip time 10 minutes Tender C 1000 tender, trip time 10 minutes
+01871: 6501 gpmB. 2166 gpmC'!' 540 gpmD. 203 gpm
+01873: Once the power take-off has been properly activated and the pump is engaged, the vehicle speedometer should show a speed of:
+01876: A'!' 0 mph.
+01877: C. 20 mph.
+01878: B. 15 mph.
+01879: D. slightly above O mph.
+01881: A fire hydrant with an orange bonnet and cap will flow gpm.
+01884: less than 500
+01885: C'!' 500- 999
+01886: 1,000 - 1,499
+01887: D. greater than 1,500
+01890: With a 1,000 gpm pumper, what is the pumping capacity of the pumper with a 20' lift?
+01891: 1,000 gpmB. 750 gpmC'!' 600 gpmD. 400 gpm
+01893: Under normal circumstances, the entire priming action typically requires seconds from start to finish.
+01894: 20-25.B'!' 10-15C. 35-40D. 16-20.
+01896: It is recommended that an apparatus fire pump of 1500 gpm or less be rated when drafting from a lift of:
+01897: 8 feet.B'!' 10 feet.C. 12 feet.D. 20 feet.
+01899: The minimum depth of water required to pull a draft using a barrel strainer during a service test is:
+01900: 2 feetB'!' 4 feetC. 6 feetD. 8 feet
+01902: A sudden stoppage of water moving through a hose or pipe may result in:
+01905: internal pressure.
+01906: nozzle hammer.
+01907: B'!' water hammer.
+01908: hydrant hammer.
+01911: Which statement regarding the positioning of pumping apparatus is correct?
+01913: Establishing an external water supply is rarely a consideration.
+01914: Any position downwind of the incident is acceptable.
+01915: Fire attack should not be considered in the decision where to place the apparatus.
+01916: D'!' Lay your own supply line if next arriving apparatus will have difficulty following you to the scene.
+01917: If an apparatus and crew arrive on scene where no fire conditions are evident, or there is a nothing-showing mode, it is advisable to position the apparatus:
+01920: A'!' near the main entrance.
+01921: C. at the nearest intersection.
+01922: B. at the hydrant.
+01923: D. in Level II staging.
+01925: Indications of cavitation include:
+01927: decrease in gauge readings.
+01928: B\" rattling noise like you're pumping gravel.
+01929: increase in RPM will greatly increase pressure.
+01930: increasing pump RPM will increase discharge pressure.
+01932: Priming devices used on modern fire pumps most often are:
+01935: A\" positive displacement pumps.
+01936: C. used for supply from a hydrant.
+01937: B. used to boost pump pressure
+01938: D. used all the time.
+01941: During an extended period of pumping, a gradual increase in engine temperature is noted. A step to reduce this condition would be:
+01944: decrease RPM.
+01945: C\" open auxiliary cooler.
+01946: close tank fill valve.
+01947: D. shut down operation.
+01950: A 2,000 gallon tender makes the round trip between the dump site and fill site in 12 minutes. The flow rating for that tender is gpm.
+01951: 50B. 97C\" 150D. 167
+01953: The primary function of the fire department pumper is to:
+01955: possess the ability to pump and roll.
+01956: B\" provide water at an adequate pressure for fire streams.
+01957: transport water to areas beyond a water system.
+01958: provide immediate suppression of flammable liquid fires and suppression of spill vapors on airport properties.
+01960: Using the inside/outside method, the should position next to a building higher than five stories.
+01963: pumping apparatus
+01964: water tanker/tender
+01965: B\" aerial apparatus
+01966: engine company
+01968: The drafting sites that should be given preference are those: A\" accessible from a paved surface.
+01969: B. requiring a large amount of lift.
+01970: C. requiring a large amount of suction hose.
+01971: D. away from bridges and boat ramps.
+01973: Fire streams that deliver less than gpm are considered to be handlines.
+01975: 100B. 500C. 250D\" 350
+01977: Altitude is best defined as a:
+01979: term used to describe either pressure loss and pressure gain. B\" position of an object above or below sea level.
+01980: center line of the pump or the bottom of a static water supply source above or below ground level.
+01981: part of the total pressure lost while forcing water through fire hose.
+01982: Friction loss in hose, pipes, and appliances is: At pressure loss due to friction.
+01983: B. the term used to describe both pressure loss and pressure gain.
+01984: C. the position of an object above or below sea level.
+01985: D. the center line of the pump or the bottom of a static water supply source above or below ground level.
+01987: The type of fog nozzle that maintains approximately the same nozzle pressure even if the gallonage supplied to the nozzle changes is known as a(n):
+01990: At automatic nozzle.
+01991: C. high-pressure nozzle.
+01992: B. constant flow nozzle.
+01993: D. manually adjustable nozzle.
+01996: The type of fog nozzle designed to flow a specific amount of water at a specific nozzle discharge pressure on all stream patterns is known as a(n):
+01998: automatic nozzle.
+01999: B\" constant or fixed gallonage flow nozzle.
+02000: high-pressure nozzle.
+02001: manually adjustable nozzle.
+02003: Which best describes a dry-barrel fire hydrant?
+02005: Always contains water
+02006: Used in industrial settings
+02007: C'!" Valve allows water to fill barrel
+02008: D. Found near lakes or rivers
+02010: Water tanks on fire apparatus are required to have to stop liquid surges.
+02013: partitions
+02014: C. surge protectors
+02015: dividers
+02016: D\" baffles
+02019: The flow or quantity of water moving through a hose or nozzle is measured by its volume and is usually given in:
+02021: At gpm.B. psi.C. kPPa.D. gph.
+02023: To be considered a quint, an apparatus must have a minimum tank size of:
+02025: 500 gal.B. 600 gal.C':" 300 gal.D. 200 gal.
+02027: In a relay pump operation, it is desirable to maintain the minimum pressure at the next pumper in line.
+02028: dischargeB. staticC':" intakeD. flow
+02030: In a relay pumping operation, the should be positioned nearest the water source.
+02032: A':" largest capacity pumper
+02033: B. smallest capacity pumper
+02034: C. pumper with the largest water tank
+02035: D. pumper with the largest discharge hose
+02037: A dual-pumping operation is:
+02039: two pumpers requiring the same gpm.
+02040: two pumpers with equal discharge pressure.
+02041: mainly utilized during relay operations.
+02042: D':" placing one pumper at a hydrant and a second pumper connected intake to intake.
+02044: When used in a relay pumping operation, the attack pumper:
+02046: sets the flow pressure at the static source.
+02047: acts as the booster pump.
+02048: is the most important apparatus.
+02049: D':" determines the amount of water flow needed.
+02051: Pump discharge pressure (PDP) is equal to:
+02054: NP/TPL.
+02055: NP x TPL.
+02056: C':" NP + TPL.
+02057: D. NP2/TPL.
+02060: Which is a fire hose appliance carried on a fire apparatus?
+02063: Hose coaster
+02064: C. Water keeper
+02065: Wye thief D':" Gated wye
+02068: Pump discharge pressure (PDP) is equal to:
+02071: A'!' NP+FL.
+02072: B. NP/FL.
+02073: C. NP x FL.
+02074: D. NP2/FL.
+02076: Using the coefficient method, determine the pressure loss due to friction in the hose assembly.
+02080: 1,000 ft- 3 in. hoseNozzle1¼ in0 psi. tip@ 51,000 ft- 3 in. hoseNozzle1¼ in0 psi. tip@ 5
+02081: 1,000 ft- 3 in. hose
+02082: Nozzle
+02083: 1¼ in0 psi
+02084: . tip@ 5
+02085: 1,000 ft- 3 in. hose
+02086: Nozzle
+02087: 1¼ in0 psi
+02088: . tip@ 5
+02090: 1,000 ft - 3 in. hose
+02094: 65 psiB. 120.20 psi
+02095: Appliance
+02099: C'!" 86.5 psiD. 21.5 psi
+02102: Using the hand method, determine the pump discharge pressure required to supply the hose assembly.
+02114: 150 ft- 2¼ in. hose
+02115: �
+02116: �-·�:::::--::-::=/..,-_-..
+02117: 400 ft - 2½ In. hose
+02118: nozzle
+02119: 100 psi
+02126: Fog nozzle
+02129: 170 psi.Bi 150 psi.C. 120 psi.D. 100 psi.
+02132: A method of relay pumping is.
+02134: rural.
+02135: C'!" open/constant pressure.
+02138: basic.
+02139: D. multiple.
+02141: In-line relay valves allow for:
+02143: maintaining a constant pressure.
+02144: draining of the relay line.
+02145: increasing the size of the hose used in the relay.
+02146: [Y. late-arriving pumpers to hook up without interrupting operations.
+02148: Relay pumping always begins with the:
+02151: tender.
+02152: attack pumper.
+02153: Bi source/supply pumper.
+02154: largest diameter hose.
+02157: Relay operations should be shut down from the first.
+02159: source pumperBi fire sceneC. relay pumperD. largest pumper
+02161: When used in a relay pumping operation, the relay pumper:
+02163: determines the amount of water flow needed.
+02164: Bi acts as the booster pump.
+02165: is the most important apparatus.
+02166: sets the flow pressure at the static source.
+02168: The difference between dual pumping and tandem pumping is:
+02170: in dual pumping the pumpers are connected intake to discharge, whereas in tandem pumping they are connected intake to intake.
+02171: dual pumping operations are similar to the pressure mode in a multi-stage pump, whereas tandem pumping is similar to the volume mode.
+02172: Ci in dual pumping the pumpers are connected intake to intake, whereas in tandem pumping they are connected intake to discharge.
+02173: D. there is no difference; dual and tandem pumping are alternative names for the same operation.
+02175: When relay pumping, if the intake pressure drops below 20 psi:
+02178: the throttle must be decreased.
+02179: the relay valve is set too low.
+02180: Bi there is danger of a cavitation.
+02181: high pump discharge pressure is needed.
+02184: Discharge manifolds may be used in relay operations to:
+02186: Ai support more than one attack pumper.
+02187: B. maintain a constant pressure.
+02188: C. allow late-arriving pumpers to hook in while interrupting operations.
+02189: D. maximize operating pressure.
+02191: Relay pumping operations are based on:
+02194: At fire flow needs and distance.
+02195: C. distance and hose diameter.
+02196: B. distance between pumpers.
+02197: D. type of water source used.
+02200: The residual pressure reading at the intake gauge of a pumper in a relay pumping operation should stay above psi to prevent damage to the pump.
+02202: 10Bt 20C. 5D. 14.7
+02203: Tenders are commonly unloaded by: At dumping into portable tanks.
+02204: B. dumping into a portable tank using a jet siphon.
+02205: C. pumping into a dump tank using two 3-inch lines.
+02206: D. pumping by using large diameter hose.
+02208: The formula for calculating the gpm flow rate for a tender is:
+02210: Tank size+ 10% divided by Trip time Bt Tank size - 10% divided by Trip time
+02211: Tank size divided by Trip time - 10 min.
+02212: Tank size divided by Trip time +10 min.
+02214: The collapse zone of a building should be the structure.
+02216: half the height of
+02217: half the distance to
+02218: Ct one and one-half times the height of
+02219: D. two times the distance to
+02221: Most fire fighting foam consists of approximately percent water.
+02223: 6-10B. 3-6Ct 94-99.9D. 40-60
+02225: An example of a polar solvent fuel is:
+02227: fuel oil.Bt acetone.C. kerosene.D. motor oil.
+02229: Using an in-line eductor, the back pressure must not exceed pressure.
+02232: 25 percent of the inlet
+02233: 80 percent of the outlet
+02234: Bt 70 percent of the inlet
+02235: 50 percent of the outlet
+02238: The process that causes foam concentrate to move through an in-line foam eductor and into the water stream is called the principle.
+02240: At venturiB. siphonC. suctionD. flow
+02242: Which statement about foam is true?
+02244: It is rated for use on Class A or Class B fires only.
+02245: Foam solution is the completed product after air is introduced.
+02246: CY It works by separating, cooling, or suppressing.
+02247: D. It is acceptable to mix different foam types.
+02249: While using an in-line eductor, the foam being generated is of very poor quality. Which is a common reason for the failure?
+02251: A'! Flow through the eductor exceeds its rated capacity.
+02252: B. Air leak in the pump
+02253: C. Pressure relief is not set
+02254: D. Foam concentrate inlet to eductor is only 4 ft. above the surface of the foam concentrate.
+02256: The is a basic type of portable foam proportioner.
+02259: A'! in-line eductor
+02260: C. around-the-pump proportioner
+02261: B. high expansion foam eductor
+02262: D. expansion proportioner
+02265: The kinds of liquids that are lighter than water are those with a specific gravity:
+02268: A'! less than 1.
+02269: C. less than 10.
+02270: B. greater than 1.
+02271: D. greater than 10.
+02274: Which statement is correct when using foam?
+02276: The eductor must control the pressure through the system.
+02277: BY Foam production is correct when supplied at the rated pressure.
+02278: The pressure at the outlet of the eductor must not exceed 40 percent of the friction loss.
+02279: Unless you are using Military Spec foam, you can mix Class A and Class B foams.
+02280: If the inlet pressure to the eductor is too high,: A'! foam may not be inducted.
+02281: B. the foam will be too rich.
+02282: C. it doesn't matter; foam will be inducted.
+02283: D. it will not be aspirated properly.
+02285: The selection of a proportioner depends on:
+02287: the foam solution flow requirements and type of product burning.
+02288: available water pressure and type of product burning.
+02289: required ratio of foam and length and size of the attack line.
+02290: DY foam solution flow requirements and available water pressure.
+02292: Most alcohol-resistant foams are effective in controlling hydrocarbon fires when used at a concentration.
+02293: one percentB\" three percentC. ten percentD. thirty-six percent
+02295: When using foam to extinguish a fire, the suppressing method:
+02297: intervenes between the fuel and the fire.
+02298: reduces the temperature of the fuel and adjacent surfaces.
+02299: establishes a perimeter for foam concentrate.
+02300: D\" curbs the release of flammable vapors.
+02302: A foam proportioner is the:
+02303: completed product after air is introduced in the solution and leaves the nozzle.
+02304: raw foam liquid and mixed with two chemicals that produces the reaction for foam.
+02305: mixture of foam concentrate and water passing through the hose.
+02306: D\" device that injects the correct amount of foam concentrate into the water.
+02308: A common reason for eductor failure is:
+02310: too high of a foam concentration.
+02311: too low of a foam concentration.
+02312: C\" improper cleaning and maintenance.
+02313: D. the wrong brand of foam is being used.
+02315: Simple in-line foam eductors use the principle to operate.
+02318: injection
+02319: C. bypass
+02320: pressure balanced
+02321: D\" venturi
+02324: An operational disadvantage of an around the pump foam system is that it:
+02326: is complicated to use.
+02327: is difficult to operate.
+02328: limits the discharge of the pump to water only.
+02329: D\" cannot take advantage of incoming pressures.
+02331: Which foam can be used on both hydrocarbon and water-soluble fuels?
+02334: ProteinB. Chemical
+02335: C\" AR-AFFF
+02336: D. Fluoroprotein
+02339: Which foam has a surfactant added that makes it more fluid?
+02342: ChemicalB. Protein
+02343: C\" Fluoroprotein
+02344: D. AR-AFFF
+02346: Finished mechanical foam is a:
+02347: A'! completed product after air is introduced in the solution and leaves the nozzle.
+02348: B. mixture of foam concentrate and water after air is introduced.
+02349: C. mixture of foam concentrate and water before air is introduced.
+02350: D. mixture of foam concentrate and air prior to being agitated.
+02352: Specific gravity is best defined as:
+02354: static pressure.
+02355: atmospheric pressure.
+02356: C'! the density of liquids in relation to water.
+02357: D. the viscosity of water in relation to solids.
+02359: A factor to be considered when determining the rate of application or fire fighting foam is the:
+02360: method of aspiration.
+02361: B'! type of foam concentrate to be used.
+02362: quality of the foam concentrate.
+02363: accurate proportioning of the foam concentrate in the solution.
+02365: Low-energy foam systems use to impart pressure on the foam solution.
+02368: A'! a fire pump
+02369: C. compressed air
+02370: B. a fog nozzle
+02371: D. a solid stream nozzle
+02373: are controlled by monitoring the water flow and controlling the speed of a poshive displacement foam concentrate pump.
+02375: Foam nozzle eductors
+02376: Installed in-line eductor systems
+02377: Bypass-type balanced pressure proportioners
+02378: D'! Variable-flow, variable-rate direct injection systems
+02380: Nozzle reaction on a compressed-air foam system is:
+02383: equal.
+02384: C. insignificant.
+02386: High-energy foam systems introduce:
+02387: B. less than. D'! greater.
+02390: water into the foam solution after discharge into the hoseline.
+02391: water into the foam solution prior to discharge into the hoseline.
+02392: compressed air into the foam solution after discharge into the hoseline. D'! compressed air into the foam solution prior to discharge into the hoseline.
+02394: A limitation of Compressed Air Foam System (CAFS) is that:
+02396: A-r hose reaction can be erratic.
+02397: B. a CAFS-produced foam is less heat resistant than low-energy foam.
+02398: C. the reach of the fire stream is considerably shorter than streams from low-energy systems.
+02399: D. high-energy foam hoselines weigh more than hoselines containing low-energy foam solution.
+02401: The foam application technique that can be employed when a vertical surface is near the fuel is the:
+02404: roll-on method.
+02405: roll-down method.
+02406: B-r bank-down method.
+02407: direct-application method.
+02410: The foam application technique that directs the foam stream on the ground near the front edge of a burning liquid pool or spill is the:
+02413: Ai roll-on method.
+02414: C. rain-down method.
+02415: B. bank-down method.
+02416: D. direct-application method.
+02419: Which foam has excellent heat stability and burnback resistance?
+02421: ChemicalB-r ProteinC. FluoroproteinD. AR-AFFF
+02423: Which type of foam application system is the most common system used in the fire service today?
+02426: Balance pressure system
+02427: Compressed air foam system
+02428: B-r Around the pump system
+02429: Metering system
+02432: Compressed air foam systems should be operated at flow rates:
+02435: A-r equal to water flow rates.
+02436: C. greater than water flow rates.
+02437: B. less than water flow rates.
+02438: D. half water flow rates.
+02440: When using·foam to extinguish a fire, the separating method: A-r creates a barrier between the fuel and the fire.
+02441: B. establishes a perimeter for foam concentrate.
+02442: C. curbs the release of flammable vapors.
+02443: D. reduces the temperature of the fuel and adjacent surfaces.
+02445: When using foam to extinguish a fire, the cooling method:
+02447: establishes a perimeter for foam concentrate.
+02448: Bi reduces the temperature of the fuel and adjacent surfaces.
+02449: curbs the release of flammable vapors.
+02450: intervenes between the fuel and the fire.
+02452: Foam concentrate is the:
+02453: completed product after air is introduced in the solution and leaves the nozzle.
+02454: mixture of foam concentrate and air after leaving the nozzle.
+02455: mixture of foam concentrate and water passing through the hose.
+02456: [Y. raw foam liquid in its storage container.
+02458: When pumping to a standpipe system, a pump operator should allow friction loss for the standpipe system.
+02459: 15 psiB. 5 psiC. 10psil:Y. 25 psi
+02461: When supplying automatic sprinkler systems, pressure should be built up slowly to psi at the fire department connection.
+02463: 100Bi 150C. 200D. 250
+02465: Pump discharge pressures should not exceed psi unless the standpipe system has been designed to withstand higher pressures.
+02467: 100Bi 185C. 150D. 175
+02469: The pump discharge pressure required to supply standpipes depends upon the:
+02471: width of the fire floor.
+02472: size and number of sprinkler heads.
+02473: Ci  friction loss in the standpipe.
+02474: D. available residual pressure.
+02476: Approximately psi should be added to the desired engine pressure for each floor above the standpipe connection.
+02478: 25B. 15Ci  5D. 10
+02480: When using hose lines above ground level, the usual pressure calculation is to add psi for each story of the building.
+02482: Ai 5B. 10C. 15D. 2
+02484: When positioning a pumper to supply a fire department connection, the driver must consider the:
+02486: size of the riser.
+02487: square footage of the building.
+02488: Ct positioning requirements of other apparatus.
+02489: D. floor of the fire involvement.
+02491: While pumping to a standpipe connection on the 10th floor, how much friction loss should be added for elevation?
+02492: 50 psiBi 45 psiC. 40 psiD. 35 psi
+02494: The purpose of the check valve in a fire department connection is to:
+02496: prevent excess pressure from damaging the system.
+02497: prevent the domestic water supply from entering the riser.
+02498: Ct prevent water from a sprinkler system from flowing back.
+02499: D. prevent water flow into the main drain.
+02501: National Fire Protection Association 13, recommends pressure-regulating valves to be installed on standpipe risers where static pressures exceed:
+02504: 150 psi.
+02505: Ct 175 psi.
+02506: 165 psi.
+02507: D. 200 psi.
+02510: Hose that is laid from the fire to the hydrant is considered a:
+02513: triple load.
+02514: forward lay.
+02515: Bi reverse lay.
+02516: minute man.
+02519: A depends on the fire department to provide all the water.
+02522: Positive Demand System
+02523: Deluge System
+02524: Bi Dry Standpipe System
+02525: Wet Standpipe System
+02527: REFERENCE UST FOR PUMPER DRIVER/OPERATOR -9.0.1
+02530: Publisher/Title/EditionReference Code
+02533: NFPA 1002, Standard on Fire Apparatus Drive/Operator Professional Qualifications, 2014 Edition
+02534: IFSTA, Pumping Apparatus and Aerial Driver/Operator Handbook, 3rd Edition
+02536: Jones and Bartlett, Fire Apparatus Driver/Operator: Pumper, Aerial, Tiller and Mobile Water Supply, 2nd Edition
+02537: NFPA 1002 PUMP & AERIAL
+02538: D/O 3
+02539: FIRE APPAR D/O 2

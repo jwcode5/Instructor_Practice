@@ -1,0 +1,70 @@
+187.
+
+188.
+
+189.
+
+190.
+
+191.
+
+192.
+
+193.
+
+194,
+
+195.
+
+QUESTIONS REPORT
+for PUMPER DRIVER OPERATOR - V9.0.1
+
+In a water distribution grid, the supplies individual hydrants and users.
+A. primary feeder B. secondary feeder
+Cy distributor D. service line
+is corrosion or mineral deposits on the interior surface of the piping
+and components of a water distribution system.
+Ay Encrustation B. Sedimentation
+C. Filtration D. Hydrolyzation
+The formula (29.7)(d2)(VNP) can be used to estimate the:
+
+A. velocity of water in feet-per-minute.
+
+B. nozzle reaction for fog nozzles.
+
+C. nozzle reaction for straight tip nozzles.
+
+Dy gallons-per-minute in a smooth bore nozzle.
+
+To achieve rated capacity of a pump, it must be operated in the position.
+A. relay capacity B. series C. pressure DY parallel
+Water flowing through hose and pipes results in:
+
+A. static pressure. B. elevated pressure.
+
+C. water hammer. Dy friction loss.
+
+A Class C fire hydrant delivering less than 500 gom would be colored:
+
+A. orange. By red. C. light blue. D. green.
+
+A distribution system is a network of water mains which provides
+circulating feed.
+
+A. secondary feeder B. primary feeder
+
+C. district Dy grid
+
+It is not a recommended practice to reduce incoming supply pressure
+
+below psi.
+
+A. 10 B. 15 | Cy 20 D. 25
+
+To prevent water hammer, it is important to close nozzles, hydrants, valves,
+
+and hose clamps:
+
+A. quickly. By slowly. C. partially. D. completely.
+
+Monday, September 19, 2016 11:44:42 AM 25
