@@ -1613,12 +1613,8 @@
 				const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
 				const meta = questionDiv.querySelector(".question-meta");
 				const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
-				const section = meta?.dataset?.section || "TBD";
-				const page = meta?.dataset?.page || "--";
 				
 				const correctAnswerText = questionDiv.querySelector(".answer-text");
-				const sectionText = questionDiv.querySelector(".section-text");
-				const pageText = questionDiv.querySelector(".page-text");
 				const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
 				
 				if (correctAnswer) {
@@ -1629,12 +1625,6 @@
 					}
 				}
 				
-				if (sectionText) {
-					sectionText.textContent = section;
-				}
-				if (pageText) {
-					pageText.textContent = page;
-				}
 				if (correctAnswerContainer) {
 					correctAnswerContainer.style.display = "block";
 				}
@@ -1651,7 +1641,7 @@
 					answerKeyDisplay.innerHTML += `
 						<p><strong>Question ${question.substring(1)}:</strong>
 						You selected ${selectedOption.value.toUpperCase()}.
-						Correct answer is ${correctAnswer.toUpperCase()}. (${section}, p. ${page})</p>`;
+						Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
 				} else {
 					questionDiv.classList.remove("correct", "incorrect");
 					const selectedText = selectedOption
@@ -1660,7 +1650,7 @@
 					answerKeyDisplay.innerHTML += `
 						<p><strong>Question ${question.substring(1)}:</strong>
 						${selectedText}
-						Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}. (${section}, p. ${page})</p>`;
+						Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
 				}
 			});
 			

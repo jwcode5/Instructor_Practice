@@ -1619,19 +1619,13 @@
 				if (!meta) continue;
 
 				const correctAnswer = (meta.dataset.correct || "").toLowerCase();
-				const section = meta.dataset.section || "Unknown";
-				const page = meta.dataset.page || "N/A";
 
 				const correctAnswerText = questionDiv.querySelector(".answer-text");
-				const sectionText = questionDiv.querySelector(".section-text");
-				const pageText = questionDiv.querySelector(".page-text");
 				const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
 
 				const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
 				const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
 				correctAnswerText.textContent = correctText;
-				sectionText.textContent = section;
-				pageText.textContent = page;
 				correctAnswerContainer.style.display = "block";
 
 				if (selectedOption) {
@@ -1647,14 +1641,12 @@
 					answerKeyDisplay.innerHTML += `
 						<p><strong>Question ${questionNumber}:</strong>
 						You selected ${selectedOption.value.toUpperCase()}.
-						Correct answer is ${correctAnswer.toUpperCase()}.
-						Section: ${section}. Page: ${page}.</p>`;
+						Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
 				} else {
 					questionDiv.classList.remove("correct", "incorrect");
 					answerKeyDisplay.innerHTML += `
 						<p><strong>Question ${questionNumber}:</strong>
-						You didn't answer. Correct answer is ${correctAnswer.toUpperCase()}.
-						Section: ${section}. Page: ${page}.</p>`;
+						You didn't answer. Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
 				}
 			}
 
