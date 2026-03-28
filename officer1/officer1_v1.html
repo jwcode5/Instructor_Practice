@@ -1611,24 +1611,29 @@
 
 			answerKeyDisplay.innerHTML = "";
 
-			for (const questionDiv of questionDivs) {
+			questionDivs.forEach((questionDiv) => {
 				const question = questionDiv.id;
 				const questionNumber = question.replace("q", "");
-				const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+				const selectedOption = questionDiv.querySelector(`input[name="${question}"]:checked`);
 				const meta = questionDiv.querySelector(".question-meta");
-				if (!meta) continue;
-
-				const correctAnswer = (meta.dataset.correct || "").toLowerCase();
+				const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
 
 				const correctAnswerText = questionDiv.querySelector(".answer-text");
 				const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
 
-				const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
-				const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
-				correctAnswerText.textContent = correctText;
-				correctAnswerContainer.style.display = "block";
+				if (correctAnswer) {
+					const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+					const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+					if (correctAnswerText) {
+						correctAnswerText.textContent = correctText;
+					}
+				}
 
-				if (selectedOption) {
+				if (correctAnswerContainer) {
+					correctAnswerContainer.style.display = "block";
+				}
+
+				if (selectedOption && correctAnswer) {
 					if (selectedOption.value === correctAnswer) {
 						score++;
 						questionDiv.classList.add("correct");
@@ -1637,20 +1642,23 @@
 						questionDiv.classList.add("incorrect");
 						questionDiv.classList.remove("correct");
 					}
-
 					answerKeyDisplay.innerHTML += `
 						<p><strong>Question ${questionNumber}:</strong>
 						You selected ${selectedOption.value.toUpperCase()}.
 						Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
 				} else {
 					questionDiv.classList.remove("correct", "incorrect");
+					const selectedText = selectedOption
+						? `You selected ${selectedOption.value.toUpperCase()}.`
+						: "You didn't answer.";
 					answerKeyDisplay.innerHTML += `
 						<p><strong>Question ${questionNumber}:</strong>
-						You didn't answer. Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+						${selectedText}
+						Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
 				}
-			}
+			});
 
-			const percentage = Math.round((score / totalQuestions) * 100);
+			const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
 			scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
 			resultsDiv.style.display = "block";
 		}
