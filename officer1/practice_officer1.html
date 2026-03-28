@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Officer 2 Practice Builder</title>
+	<title>Officer 1 Practice Builder</title>
 	<link rel="stylesheet" href="../style.css">
 	<style>
 		main {
@@ -177,13 +177,13 @@
 <body>
 	<header class="page-header">
 		<div class="maltese-cross header-cross"></div>
-		<h1>Officer 2 Practice Builder</h1>
-		<p class="header-subtitle">Choose a question count and build a random practice test from the Officer 2 bank.</p>
+		<h1>Officer 1 Practice Builder</h1>
+		<p class="header-subtitle">Choose a question count and build a random practice test from the Officer 1 bank.</p>
 	</header>
 
 	<main>
 		<section class="builder-panel">
-			<p class="meta-text" id="bankStatus">Loading Officer 2 bank...</p>
+			<p class="meta-text" id="bankStatus">Loading Officer 1 bank...</p>
 			<div class="builder-grid" id="countChoices">
 				<label class="choice-card" data-count="25">
 					<input type="radio" name="questionCount" value="25">
@@ -366,16 +366,16 @@
 		});
 		submitButton.addEventListener("click", gradeQuiz);
 
-		fetch("./bank_officer2.json")
+		fetch("./bank_officer1.json")
 			.then((response) => {
 				if (!response.ok) {
-					throw new Error("Unable to load Officer 2 test bank.");
+					throw new Error("Unable to load Officer 1 test bank.");
 				}
 				return response.json();
 			})
 			.then((data) => {
 				bankData = data;
-				bankStatus.textContent = `Officer 2 bank ready: ${data.uniqueQuestions} unique questions available.`;
+				bankStatus.textContent = `Officer 1 bank ready: ${data.uniqueQuestions} unique questions available.`;
 			})
 			.catch((error) => {
 				bankStatus.textContent = error.message;
