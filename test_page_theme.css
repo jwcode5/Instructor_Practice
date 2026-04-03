@@ -1,0 +1,140 @@
+body.test-page {
+	max-width: none;
+	margin: 0;
+	padding: 0 0 3rem;
+	background-color: #f9f9f9;
+	color: #333;
+	text-align: center;
+}
+
+body.test-page main {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 0 1rem 3rem;
+}
+
+body.test-page #quizForm,
+body.test-page #results {
+	background: #fff;
+	border-radius: 14px;
+	box-shadow: 0 10px 30px rgba(44, 62, 80, 0.08);
+	padding: 1.5rem;
+	margin-bottom: 1.5rem;
+	border: none;
+	max-width: none;
+	text-align: left;
+}
+
+body.test-page .test-toolbar {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+	justify-content: center;
+	margin: 0 auto 1rem;
+	max-width: 980px;
+	padding: 0 1rem;
+}
+
+body.test-page .question {
+	margin-bottom: 1rem;
+	padding: 1rem;
+	border: 1px solid #d9e2ec;
+	border-radius: 12px;
+	background: #fff;
+}
+
+body.test-page .question p {
+	margin-bottom: 0.85rem;
+	color: #22313f;
+	font-weight: 600;
+	text-align: left;
+}
+
+body.test-page .options {
+	margin-left: 0;
+	text-align: left;
+}
+
+body.test-page .options label {
+	display: block;
+	padding: 0.4rem 0;
+	cursor: pointer;
+}
+
+body.test-page button,
+body.test-page .primary-button {
+	border: none;
+	border-radius: 999px;
+	padding: 0.85rem 1.35rem;
+	font-size: 1rem;
+	cursor: pointer;
+	background: #007bff;
+	color: #fff;
+	min-height: 44px;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+body.test-page button:hover,
+body.test-page .primary-button:hover {
+	background: #0069d9;
+	transform: translateY(-1px);
+}
+
+body.test-page .question.correct {
+	border-color: #4caf50;
+	background: #f0fbf2;
+}
+
+body.test-page .question.incorrect {
+	border-color: #d9534f;
+	background: #fff3f3;
+}
+
+body.test-page .correct-answer {
+	margin-top: 0.65rem;
+	color: #5b6b79;
+	font-size: 0.95rem;
+}
+
+body.test-page .answer-text {
+	font-weight: 700;
+	color: #2e7d32;
+}
+
+body.test-page #results {
+	display: none;
+	text-align: left;
+}
+
+body.test-page #results h2 {
+	margin-bottom: 0.35rem;
+	font-size: 1.2rem;
+	color: #22313f;
+}
+
+body.test-page #score {
+	font-size: 1.2rem;
+	font-weight: 700;
+	margin-bottom: 0.75rem;
+}
+
+body.test-page #answerKey p {
+	margin-bottom: 0.5rem;
+	color: #5b6b79;
+}
+
+@media (max-width: 640px) {
+	body.test-page .page-header {
+		padding-top: 3rem;
+	}
+
+	body.test-page .header-cross {
+		width: 110px;
+		height: 110px;
+		right: 10px;
+		top: 10px;
+	}
+}

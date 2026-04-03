@@ -12,6 +12,14 @@
 			padding: 0 1rem 3rem;
 		}
 
+		.toolbar {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.75rem;
+			justify-content: center;
+			margin: 0 auto 1rem;
+		}
+
 		.builder-panel,
 		.results-panel,
 		.quiz-panel {
@@ -178,10 +186,14 @@
 	<header class="page-header">
 		<div class="maltese-cross header-cross"></div>
 		<h1>Instructor 1 Practice Builder</h1>
-		<p class="header-subtitle">Choose a question count and build a random practice test from the Instructor 1 bank.</p>
+		<p class="header-subtitle">Randomized practice builder</p>
 	</header>
 
 	<main>
+		<div class="toolbar">
+			<a class="button-link" href="./index.html">Back to class</a>
+			<a class="button-link" href="../index.html">Home</a>
+		</div>
 		<section class="builder-panel">
 			<p class="meta-text" id="bankStatus">Loading Instructor 1 bank...</p>
 			<div class="builder-grid" id="countChoices">
@@ -208,10 +220,9 @@
 			</div>
 
 			<div class="control-row">
-				<button class="action-button" id="buildButton" type="button" disabled>Build Practice Test</button>
+				<button class="action-button" id="buildButton" type="button" disabled>Build Practice Set</button>
 				<button class="secondary-button" id="reshuffleButton" type="button" disabled>Generate New Random Set</button>
 			</div>
-			<a class="back-link" href="./index.html">Back to class</a>
 		</section>
 
 		<section class="results-panel" id="resultsPanel">
@@ -222,7 +233,7 @@
 		<section class="quiz-panel hidden" id="quizPanel">
 			<form id="quizForm"></form>
 			<div class="control-row">
-				<button class="action-button" id="submitButton" type="button">Submit Answers</button>
+				<button class="action-button" id="submitButton" type="button">Submit Practice Set</button>
 			</div>
 		</section>
 	</main>
