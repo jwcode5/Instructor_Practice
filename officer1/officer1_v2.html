@@ -1613,8 +1613,7 @@
 		<div id="answerKey"></div>
 	</div>
 	
-	</script>
-	<script src="../test_page_theme.js"></script>
+	<script>
 		function gradeQuiz() {
 			let score = 0;
 			const resultsDiv = document.getElementById("results");
@@ -1674,7 +1673,9 @@
 			const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
 			scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
 			resultsDiv.style.display = "block";
-		}	</script>
+		}
+	</script>
+	<script src="../test_page_theme.js"></script>
 </body>
 </html>
 

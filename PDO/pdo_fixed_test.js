@@ -43,6 +43,58 @@
 		return image;
 	}
 
+	function buildFormattedPrompt(index, questionText) {
+		const prompt = document.createElement("p");
+		prompt.className = "question-text";
+		const normalized = questionText.replace(/\s+/g, " ").trim();
+		const hasStatements = /Statement \d+:/i.test(normalized);
+		const introMatch = normalized.match(/^(.*?)(?=Statement \d+:)/i);
+
+		if (hasStatements && introMatch && introMatch[1]) {
+			prompt.appendChild(document.createTextNode(`${index + 1}. `));
+			const introText = introMatch[1].trim();
+			const labeledIntro = introText.match(/^([A-Za-z]+:)(.*)$/);
+
+			if (labeledIntro) {
+				const introLabel = document.createElement("strong");
+				introLabel.textContent = labeledIntro[1];
+				const introUnderline = document.createElement("u");
+				introUnderline.appendChild(introLabel);
+				prompt.appendChild(introUnderline);
+				if (labeledIntro[2] && labeledIntro[2].trim()) {
+					prompt.appendChild(document.createTextNode(` ${labeledIntro[2].trim()}`));
+				}
+			} else {
+				prompt.appendChild(document.createTextNode(introText));
+			}
+
+			const statementsText = normalized.replace(/^.*?(?=Statement \d+:)/i, "").trim();
+			const statementBlocks = statementsText.split(/(?=Statement \d+:)/g).filter(Boolean);
+
+			statementBlocks.forEach((block, statementIndex) => {
+				prompt.appendChild(document.createElement("br"));
+				if (statementIndex === 0) {
+					prompt.appendChild(document.createElement("br"));
+				}
+
+				const match = block.match(/^(Statement \d+:)\s*(.*)$/i);
+				if (match) {
+					const statementLabel = document.createElement("u");
+					statementLabel.textContent = match[1];
+					prompt.appendChild(statementLabel);
+					prompt.appendChild(document.createTextNode(` ${match[2]}`));
+				} else {
+					prompt.appendChild(document.createTextNode(block));
+				}
+			});
+
+			return prompt;
+		}
+
+		prompt.textContent = `${index + 1}. ${questionText}`;
+		return prompt;
+	}
+
 	function renderQuiz(questions) {
 		quizForm.innerHTML = "";
 		const fragment = document.createDocumentFragment();
@@ -52,9 +104,7 @@
 			card.className = "question-card";
 			card.dataset.questionId = question.id;
 
-			const prompt = document.createElement("p");
-			prompt.className = "question-text";
-			prompt.textContent = `${index + 1}. ${question.question}`;
+			const prompt = buildFormattedPrompt(index, question.question);
 			card.appendChild(prompt);
 
 			const questionImage = createQuestionImage(question);

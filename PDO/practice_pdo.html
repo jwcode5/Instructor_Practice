@@ -284,6 +284,57 @@
 			return Math.min(Number(selectedCount), bankData.questions.length);
 		}
 
+		function buildFormattedPrompt(index, questionText) {
+			const title = document.createElement("h3");
+			const normalized = questionText.replace(/\s+/g, " ").trim();
+			const hasStatements = /Statement \d+:/i.test(normalized);
+			const introMatch = normalized.match(/^(.*?)(?=Statement \d+:)/i);
+
+			if (hasStatements && introMatch && introMatch[1]) {
+				title.appendChild(document.createTextNode(`${index + 1}. `));
+				const introText = introMatch[1].trim();
+				const labeledIntro = introText.match(/^([A-Za-z]+:)(.*)$/);
+
+				if (labeledIntro) {
+					const introLabel = document.createElement("strong");
+					introLabel.textContent = labeledIntro[1];
+					const introUnderline = document.createElement("u");
+					introUnderline.appendChild(introLabel);
+					title.appendChild(introUnderline);
+					if (labeledIntro[2] && labeledIntro[2].trim()) {
+						title.appendChild(document.createTextNode(` ${labeledIntro[2].trim()}`));
+					}
+				} else {
+					title.appendChild(document.createTextNode(introText));
+				}
+
+				const statementsText = normalized.replace(/^.*?(?=Statement \d+:)/i, "").trim();
+				const statementBlocks = statementsText.split(/(?=Statement \d+:)/g).filter(Boolean);
+
+				statementBlocks.forEach((block, statementIndex) => {
+					title.appendChild(document.createElement("br"));
+					if (statementIndex === 0) {
+						title.appendChild(document.createElement("br"));
+					}
+
+					const match = block.match(/^(Statement \d+:)\s*(.*)$/i);
+					if (match) {
+						const statementLabel = document.createElement("u");
+						statementLabel.textContent = match[1];
+						title.appendChild(statementLabel);
+						title.appendChild(document.createTextNode(` ${match[2]}`));
+					} else {
+						title.appendChild(document.createTextNode(block));
+					}
+				});
+
+				return title;
+			}
+
+			title.textContent = `${index + 1}. ${questionText}`;
+			return title;
+		}
+
 		function createQuestionImage(question) {
 			if (!question.image || !question.image.src) {
 				return null;
@@ -307,8 +358,7 @@
 				card.className = "question-card";
 				card.dataset.questionId = question.id;
 
-				const title = document.createElement("h3");
-				title.textContent = `${index + 1}. ${question.question}`;
+				const title = buildFormattedPrompt(index, question.question);
 				card.appendChild(title);
 
 				const questionImage = createQuestionImage(question);
