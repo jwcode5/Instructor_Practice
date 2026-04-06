@@ -17,6 +17,7 @@
 
 	window.addEventListener("load", () => {
 		navigator.serviceWorker.register(swUrl.pathname)
+			.then((registration) => registration.update())
 			.catch((error) => console.warn("Service worker registration failed", error));
 	});
 })();
