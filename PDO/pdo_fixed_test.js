@@ -1,4 +1,11 @@
 (() => {
+	if ("serviceWorker" in navigator && window.location.protocol !== "file:") {
+		window.addEventListener("load", () => {
+			navigator.serviceWorker.register("../service-worker.js", { scope: "../" })
+				.catch((error) => console.warn("Service worker registration failed", error));
+		});
+	}
+
 	const testNumber = Number(document.body.dataset.testNumber || "1");
 	const startIndex = Number(document.body.dataset.startIndex || "0");
 	const questionsPerTest = 100;

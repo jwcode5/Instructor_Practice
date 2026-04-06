@@ -1,5 +1,12 @@
 (() => {
 	const body = document.body;
+	if ("serviceWorker" in navigator && window.location.protocol !== "file:") {
+		window.addEventListener("load", () => {
+			navigator.serviceWorker.register("../service-worker.js", { scope: "../" })
+				.catch((error) => console.warn("Service worker registration failed", error));
+		});
+	}
+
 	if (!body || body.dataset.testPageEnhanced === "true") {
 		return;
 	}
