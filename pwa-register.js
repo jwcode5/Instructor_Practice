@@ -20,4 +20,9 @@
 			.then((registration) => registration.update())
 			.catch((error) => console.warn("Service worker registration failed", error));
 	});
+
+	// Auto reload on service worker update
+	navigator.serviceWorker.addEventListener('controllerchange', () => {
+		window.location.reload();
+	});
 })();
