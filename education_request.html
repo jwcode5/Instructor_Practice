@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Request Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>HFD Project Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="form-page">
+        <section class="form-hero">
+            <h2>Educational Request Form</h2>
+            <p>Digital prototype based on the current paper packet (Educational Request + Statement of Understanding + Travel Authorization).</p>
+        </section>
+
+        <form class="education-form" action="#" method="post">
+            <fieldset>
+                <legend>Event Request Details</legend>
+
+                <div class="form-grid two-col">
+                    <label for="requestDate">Date (Today)</label>
+                    <input type="date" id="requestDate" name="requestDate" required>
+
+                    <label for="firefighterName">Firefighter Name</label>
+                    <input type="text" id="firefighterName" name="firefighterName" required>
+
+                    <label for="classCost">Class or Course Cost ($)</label>
+                    <input type="number" id="classCost" name="classCost" min="0" step="0.01">
+
+                    <label for="eventName">Name of Event</label>
+                    <input type="text" id="eventName" name="eventName" placeholder="e.g., Officer 1" required>
+                </div>
+
+                <div class="form-row-pair">
+                    <div class="form-field">
+                        <label for="startDate">Starting Date</label>
+                        <input type="date" id="startDate" name="startDate" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="endDate">Ending Date</label>
+                        <input type="date" id="endDate" name="endDate" required>
+                    </div>
+                </div>
+
+                <div class="checkbox-group">
+                    <label class="checkbox-inline"><input type="checkbox" id="hasAdditionalDates" name="hasAdditionalDates"> Additional Dates of Class (e.g. Officer has three weeks)</label>
+                </div>
+
+                <div id="additional-sessions-section" class="additional-sessions-section">
+                    <div id="sessions-container"></div>
+                    <button type="button" id="add-session-btn" class="btn-add-session">+ Add More Dates</button>
+                </div>
+
+                <div class="form-grid two-col">
+                    <label for="totalHours">Total Hours</label>
+                    <input type="number" id="totalHours" name="totalHours" min="0" step="0.5">
+                </div>
+
+                <div class="checkbox-group">
+                    <label class="checkbox-inline"><input type="checkbox" id="isTfaca" name="isTfaca"> Is this a TFACA class?</label>
+                </div>
+
+                <div class="form-grid two-col">
+                    <label for="eventAddress">Event Address</label>
+                    <input type="text" id="eventAddress" name="eventAddress">
+
+                    <label for="eventCity">City</label>
+                    <input type="text" id="eventCity" name="eventCity">
+
+                    <label for="eventState">State</label>
+                    <input type="text" id="eventState" name="eventState" maxlength="2">
+
+                    <label for="eventZip">Zip Code</label>
+                    <input type="text" id="eventZip" name="eventZip" pattern="[0-9]{5}">
+                </div>
+
+                <div class="checkbox-group">
+                    <label class="checkbox-inline"><input type="checkbox" name="cityPaid"> I am requesting this event be paid for by the city.</label>
+                    <label class="checkbox-inline"><input type="checkbox" name="travelPolicy"> This event meets the City's 30-mile travel policy for payment or reimbursement of lodging and meals.</label>
+                    <label class="checkbox-inline indented"><input type="checkbox" name="perDiem"> I am requesting per diem.</label>
+                    <label class="checkbox-inline indented"><input type="checkbox" name="cityVehicle"> I am requesting a city vehicle for transportation, and I understand I am responsible for availability and readiness for travel day.</label>
+                    <label class="checkbox-inline"><input type="checkbox" name="awardCeus"> I will be awarded CEUs.</label>
+                </div>
+
+                <div class="form-grid two-col">
+                    <label for="ceuCount">How Many CEUs?</label>
+                    <input type="number" id="ceuCount" name="ceuCount" min="0" step="0.1">
+                </div>
+
+                <div class="checkbox-group">
+                    <label class="checkbox-inline"><input type="checkbox" name="willingToInstruct"> I am willing to instruct a departmental class on this subject matter after attending this event.</label>
+                    <label class="checkbox-inline"><input type="checkbox" name="tnCommissionTest"> I will be taking the Tennessee Commission on Fire Fighting test associated with this event.</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Lodging Information</legend>
+
+                <div class="checkbox-group">
+                    <label class="checkbox-inline"><input type="checkbox" name="requireLodging"> I require overnight lodging.</label>
+                </div>
+
+                <div id="lodging-details" class="lodging-details-container">
+                    <div class="form-grid two-col">
+                    <label for="lodgingNights">How Many Nights?</label>
+                    <input type="number" id="lodgingNights" name="lodgingNights" min="0" step="1">
+
+                    <label for="costPerNight">Cost Per Night ($)</label>
+                    <input type="number" id="costPerNight" name="costPerNight" min="0" step="0.01">
+
+                    <label for="lodgingName">Name of Lodging</label>
+                    <input type="text" id="lodgingName" name="lodgingName">
+
+                    <label for="lodgingPhone">Phone Number</label>
+                    <input type="tel" id="lodgingPhone" name="lodgingPhone">
+
+                    <label for="lodgingAddress">Lodging Address</label>
+                    <input type="text" id="lodgingAddress" name="lodgingAddress">
+
+                    <label for="lodgingCity">City</label>
+                    <input type="text" id="lodgingCity" name="lodgingCity">
+
+                    <label for="lodgingState">State</label>
+                    <input type="text" id="lodgingState" name="lodgingState" maxlength="2">
+
+                    <label for="lodgingZip">Zip Code</label>
+                    <input type="text" id="lodgingZip" name="lodgingZip" pattern="[0-9]{5}">
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Benefits</legend>
+
+                <label for="benefits">Benefits received from this event</label>
+                <textarea id="benefits" name="benefits" rows="4" placeholder="Type here"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Statement of Understanding (Page 2)</legend>
+
+                <div class="agreement-block">
+                    <p>1) I am aware that permission for paid time-off to attend a requested training opportunity has been denied due to staffing concerns. I understand that I am agreeing to use my own time (e.g. shift swap), in order to attend the training event listed above. I understand that other employees utilizing the same training may not have been denied time-off, because in their situation staffing was not an obstacle.</p>
+                    <label><input type="radio" name="agreementOne" value="agree"> I Agree</label>
+                    <label><input type="radio" name="agreementOne" value="na"> N/A</label>
+                </div>
+
+                <div class="agreement-block">
+                    <p>2) I am aware that the fire department is not prepared to pay for the requested class at this time. I'm aware that this may include class fee, hotel cost, per diem expenses, transportation costs, and any other associated fees. I understand the other employees utilizing the same training may have had their class expenses paid for.</p>
+                    <label><input type="radio" name="agreementTwo" value="agree"> I Agree</label>
+                    <label><input type="radio" name="agreementTwo" value="na"> N/A</label>
+                </div>
+
+                <div class="agreement-block">
+                    <p>3) I understand that the hours of the requested class do not necessarily count toward working hours. I understand that I am expected to come directly back to work after the requested class ends, on each normal work day.</p>
+                    <label><input type="radio" name="agreementThree" value="agree"> I Agree</label>
+                    <label><input type="radio" name="agreementThree" value="na"> N/A</label>
+                </div>
+
+                <p class="form-note">*Only boxes checked "I AGREE" will be considered when determining if an Education Request form is approved or disapproved.</p>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Authorization for Travel (Page 3)</legend>
+
+                <div class="travel-lines-section">
+                    <div class="travel-lines-header">
+                        <div>Date</div>
+                        <div>City &amp; State</div>
+                        <div>Hotel Address</div>
+                        <div>Purpose of Trip</div>
+                    </div>
+                    <div id="travel-lines-container">
+                        <div class="travel-line-item">
+                            <div class="travel-line-separator">Trip 1</div>
+                            <div class="travel-lines-row">
+                                <div class="form-field">
+                                    <label>Date</label>
+                                    <input type="date" class="travel-line-date" name="travelLineDate-1" aria-label="Travel Date">
+                                </div>
+                                <div class="form-field">
+                                    <label>City &amp; State</label>
+                                    <input type="text" class="travel-line-destination" name="travelLineDestination-1" aria-label="City and State">
+                                </div>
+                                <div class="form-field">
+                                    <label>Hotel Address</label>
+                                    <input type="text" class="travel-line-hotel" name="travelLineHotelAddress-1" aria-label="Hotel Address">
+                                </div>
+                                <div class="form-field">
+                                    <label>Purpose of Trip</label>
+                                    <input type="text" class="travel-line-purpose" name="travelLinePurpose-1" aria-label="Purpose of Trip">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="travel-line-actions">
+                        <button type="button" id="add-travel-line-btn" class="btn-add-session">+ Add Another Travel Line</button>
+                        <button type="button" id="remove-travel-line-btn" class="btn-remove-session" hidden>- Remove Last Trip</button>
+                    </div>
+                </div>
+
+                <div class="form-grid two-col">
+                    <label for="accompaniedBy">Accompanied By</label>
+                    <input type="text" id="accompaniedBy" name="accompaniedBy">
+
+                    <label for="travelApplicant">Applicant</label>
+                    <input type="text" id="travelApplicant" name="travelApplicant">
+
+                    <label>Department Account</label>
+                    <p class="static-field">Fire-043</p>
+
+                    <label for="estimatedTravelCost">Total Estimated Cost of Travel ($)</label>
+                    <input type="number" id="estimatedTravelCost" name="estimatedTravelCost" min="0" step="0.01">
+
+                </div>
+
+                <div class="special-funding-section">
+                    <p class="special-funding-title">Special Funding Requests (Check items requested):</p>
+
+                    <label class="special-funding-row">
+                        <input type="checkbox" name="registrationPrepay">
+                        <span>Registration Pre-Payment</span>
+                    </label>
+
+                    <label class="special-funding-row">
+                        <input type="checkbox" name="prepaidAirline">
+                        <span>Pre-paid Airline Tickets</span>
+                    </label>
+
+                    <div class="special-funding-row travel-advance-row">
+                        <input type="checkbox" id="travelAdvanceRequested" name="travelAdvanceRequested">
+                        <label for="travelAdvanceRequested">Travel Advance of:</label>
+                        <input type="text" id="travelAdvance" name="travelAdvance" value="N/A" readonly>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="form-row-pair">
+                    <div class="form-field">
+                        <label for="statementSignature">Employee Signature</label>
+                        <input type="text" id="statementSignature" name="statementSignature">
+                    </div>
+                    <div class="form-field">
+                        <label for="statementDate">Date</label>
+                        <input type="date" id="statementDate" name="statementDate">
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="form-actions">
+                <button type="button" id="download-pdf-btn">Download Filled PDF</button>
+                <button type="submit">Submit Form</button>
+                <button type="reset">Clear Form</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+    <script>
+        const formElement = document.querySelector(".education-form");
+        const downloadPdfBtn = document.getElementById("download-pdf-btn");
+        const startDate = document.getElementById("startDate");
+        const endDate = document.getElementById("endDate");
+        const awardCeus = document.querySelector("input[name='awardCeus']");
+        const ceuCount = document.getElementById("ceuCount");
+        const requireLodging = document.querySelector("input[name='requireLodging']");
+        const lodgingNights = document.getElementById("lodgingNights");
+        const costPerNight = document.getElementById("costPerNight");
+        const lodgingDetailsContainer = document.getElementById("lodging-details");
+
+        // TFACA address autofill
+        const isTfaca = document.getElementById("isTfaca");
+        const eventAddress = document.getElementById("eventAddress");
+        const eventCity = document.getElementById("eventCity");
+        const eventState = document.getElementById("eventState");
+        const eventZip = document.getElementById("eventZip");
+
+        const TFACA = {
+            address: "2161 Unionville Deason Rd",
+            city: "Bell Buckle",
+            state: "TN",
+            zip: "37020"
+        };
+
+        isTfaca.addEventListener("change", function () {
+            if (this.checked) {
+                eventAddress.value = TFACA.address;
+                eventCity.value = TFACA.city;
+                eventState.value = TFACA.state;
+                eventZip.value = TFACA.zip;
+                eventAddress.readOnly = true;
+                eventCity.readOnly = true;
+                eventState.readOnly = true;
+                eventZip.readOnly = true;
+            } else {
+                eventAddress.value = "";
+                eventCity.value = "";
+                eventState.value = "";
+                eventZip.value = "";
+                eventAddress.readOnly = false;
+                eventCity.readOnly = false;
+                eventState.readOnly = false;
+                eventZip.readOnly = false;
+            }
+        });
+
+        // Additional sessions
+        const addSessionBtn = document.getElementById("add-session-btn");
+        const sessionsContainer = document.getElementById("sessions-container");
+        const hasAdditionalDates = document.getElementById("hasAdditionalDates");
+        const additionalSessionsSection = document.getElementById("additional-sessions-section");
+        const travelLinesContainer = document.getElementById("travel-lines-container");
+        const addTravelLineBtn = document.getElementById("add-travel-line-btn");
+        const removeTravelLineBtn = document.getElementById("remove-travel-line-btn");
+        let sessionCount = 1;
+        let travelLineCount = 1;
+
+        hasAdditionalDates.addEventListener("change", function () {
+            additionalSessionsSection.classList.toggle("visible", this.checked);
+            if (!this.checked) {
+                sessionsContainer.innerHTML = "";
+                sessionCount = 1;
+            } else if (sessionsContainer.children.length === 0) {
+                addWeekBlock();
+            }
+        });
+
+        function addWeekBlock() {
+            sessionCount++;
+            const blockId = `session-${sessionCount}`;
+            const block = document.createElement("div");
+            block.className = "session-block";
+            block.id = blockId;
+            block.innerHTML = `
+                <div class="session-block-title"></div>
+                <div class="form-field">
+                    <label>Session Name (Optional)</label>
+                    <input type="text" class="session-name" placeholder="">
+                </div>
+                <div class="form-row-pair">
+                    <div class="form-field">
+                        <label>Start Date</label>
+                        <input type="date" class="session-start" required>
+                    </div>
+                    <div class="form-field">
+                        <label>End Date</label>
+                        <input type="date" class="session-end" required>
+                    </div>
+                </div>
+                <button type="button" class="btn-remove-session" onclick="removeWeekBlock(this)">Remove</button>
+            `;
+            sessionsContainer.appendChild(block);
+            renumberWeeks();
+        }
+
+        function removeWeekBlock(btn) {
+            btn.closest(".session-block").remove();
+            renumberWeeks();
+        }
+
+        function renumberWeeks() {
+            const blocks = sessionsContainer.querySelectorAll(".session-block");
+            blocks.forEach(function (block, i) {
+                const weekNum = i + 2;
+                block.querySelector(".session-block-title").textContent = `Week ${weekNum}`;
+                block.querySelector(".session-name").placeholder = `e.g., Officer 1 Week ${weekNum}`;
+                block.querySelector(".session-name").name = `sessionName-${weekNum}`;
+                block.querySelector(".session-start").name = `sessionStart-${weekNum}`;
+                block.querySelector(".session-end").name = `sessionEnd-${weekNum}`;
+            });
+            sessionCount = blocks.length + 1;
+        }
+
+        addSessionBtn.addEventListener("click", addWeekBlock);
+
+        function addTravelLine() {
+            const tripNumber = travelLineCount + 1;
+            const item = document.createElement("div");
+            item.className = "travel-line-item";
+            item.innerHTML = `
+                <div class="travel-line-separator">Trip ${tripNumber}</div>
+                <div class="travel-lines-row">
+                    <div class="form-field">
+                        <label>Date</label>
+                        <input type="date" class="travel-line-date" name="travelLineDate-${tripNumber}" aria-label="Travel Date">
+                    </div>
+                    <div class="form-field">
+                        <label>City & State</label>
+                        <input type="text" class="travel-line-destination" name="travelLineDestination-${tripNumber}" aria-label="City and State">
+                    </div>
+                    <div class="form-field">
+                        <label>Hotel Address</label>
+                        <input type="text" class="travel-line-hotel" name="travelLineHotelAddress-${tripNumber}" aria-label="Hotel Address">
+                    </div>
+                    <div class="form-field">
+                        <label>Purpose of Trip</label>
+                        <input type="text" class="travel-line-purpose" name="travelLinePurpose-${tripNumber}" aria-label="Purpose of Trip">
+                    </div>
+                </div>
+            `;
+            travelLinesContainer.appendChild(item);
+            renumberTravelLines();
+        }
+
+        function removeTravelLine() {
+            const items = travelLinesContainer.querySelectorAll(".travel-line-item");
+            if (items.length > 1) {
+                items[items.length - 1].remove();
+                renumberTravelLines();
+            }
+        }
+
+        function renumberTravelLines() {
+            const items = travelLinesContainer.querySelectorAll(".travel-line-item");
+            items.forEach(function (item, i) {
+                const tripNum = i + 1;
+                item.querySelector(".travel-line-separator").textContent = `Trip ${tripNum}`;
+                item.querySelector(".travel-line-date").name = `travelLineDate-${tripNum}`;
+                item.querySelector(".travel-line-destination").name = `travelLineDestination-${tripNum}`;
+                item.querySelector(".travel-line-hotel").name = `travelLineHotelAddress-${tripNum}`;
+                item.querySelector(".travel-line-purpose").name = `travelLinePurpose-${tripNum}`;
+            });
+            travelLineCount = items.length;
+            removeTravelLineBtn.hidden = items.length < 2;
+        }
+
+        addTravelLineBtn.addEventListener("click", addTravelLine);
+        removeTravelLineBtn.addEventListener("click", removeTravelLine);
+        renumberTravelLines();
+
+        function collectFormValues() {
+            const values = {};
+            const seenRadios = new Set();
+            const elements = formElement.querySelectorAll("input, select, textarea");
+
+            elements.forEach(function (element) {
+                if (!element.name) {
+                    return;
+                }
+
+                if (element.type === "radio") {
+                    if (seenRadios.has(element.name)) {
+                        return;
+                    }
+                    seenRadios.add(element.name);
+                    const checkedRadio = formElement.querySelector(`input[name='${element.name}']:checked`);
+                    values[element.name] = checkedRadio ? checkedRadio.value : "";
+                    return;
+                }
+
+                if (element.type === "checkbox") {
+                    values[element.name] = element.checked;
+                    return;
+                }
+
+                values[element.name] = element.value || "";
+            });
+
+            return values;
+        }
+
+        function setPdfFieldValue(field, value, options = {}) {
+            if (typeof field.check === "function" && typeof field.uncheck === "function") {
+                if (value === true || value === "true" || value === "yes" || value === "on") {
+                    field.check();
+                } else {
+                    field.uncheck();
+                }
+                return;
+            }
+
+            if (typeof field.setText === "function") {
+                let textValue = String(value ?? "");
+                if (typeof options.maxChars === "number" && textValue.length > options.maxChars) {
+                    const maxLen = Math.max(0, options.maxChars - 1);
+                    const trimmed = textValue.slice(0, maxLen);
+                    const lastSpace = trimmed.lastIndexOf(" ");
+                    const safeCut = lastSpace > 0 ? trimmed.slice(0, lastSpace) : trimmed;
+                    textValue = safeCut.trimEnd() + "…";
+                }
+                field.setText(textValue);
+                if (typeof options.fontSize === "number" && typeof field.setFontSize === "function") {
+                    field.setFontSize(options.fontSize);
+                }
+                return;
+            }
+
+            if (typeof field.select === "function") {
+                const selectedValue = String(value ?? "");
+                if (selectedValue) {
+                    field.select(selectedValue);
+                }
+            }
+        }
+
+        async function downloadFilledPdf() {
+            // Left side is HTML field name, right side is PDF field name.
+            const pdfFieldMap = {
+                requestDate: "Date",
+                firefighterName: "Firefighter Name",
+                classCost: "Class/Course Cost",
+                eventName: "Event Name",
+                startDate: "Start Date",
+                endDate: "End Date",
+                totalHours: "Total Hours",
+                eventAddress: "Event Address",
+                eventCity: "Event City",
+                eventState: "Event State",
+                eventZip: "Event Zip Code",
+                ceuCount: "How Many CEUs",
+                lodgingNights: "How Many Nights",
+                costPerNight: "Cost per night",
+                lodgingName: "Lodging Name",
+                lodgingPhone: "Lodging Phone",
+                lodgingAddress: "Lodging Address",
+                lodgingCity: "City",
+                lodgingState: "State",
+                lodgingZip: "Zip Code",
+                accompaniedBy: "Accompanied by",
+                travelApplicant: "Applicant",
+                estimatedTravelCost: "Total Estimated Cost of Travel",
+                statementSignature: "Employee Signature",
+                statementDate: "Date Signed"
+            };
+
+            const pdfCheckboxMap = {
+                cityPaid: "I am requesting this event be paid for by the city",
+                travelPolicy: "This event meets the Citys 30mile travel policy for payment or reimbursement of lodging and meals",
+                perDiem: "I am requesting per diem",
+                cityVehicle: "I am requesting a city vehicle for transportation and I understand that I am responsible for insuring that",
+                awardCeus: "I will be awareded CEUs",
+                willingToInstruct: "I am willing to instruct a departmental class on this subject matter after attending this event",
+                tnCommissionTest: "I will be taking the Tennessee Commission On Fire Fightings test associated with this event",
+                requireLodging: "I require overnight lodging",
+                registrationPrepay: "Registration Pre-Payment",
+                prepaidAirline: "Pre-Paid Airline",
+                travelAdvanceRequested: "Travel Advance"
+            };
+
+            const pdfFieldStyleMap = {
+                "Benefits received from this event Type hereRow1": { fontSize: 8, maxChars: 95 },
+                "Benefits received from this event Type hereRow2": { fontSize: 8, maxChars: 150 },
+                "Benefits received from this event Type hereRow3": { fontSize: 8, maxChars: 150 },
+                "Additional Dates of Class eg Officer has three weeks Type here": { fontSize: 7, maxChars: 130 }
+            };
+
+            try {
+                downloadPdfBtn.disabled = true;
+                downloadPdfBtn.textContent = "Building PDF...";
+
+                const formValues = collectFormValues();
+
+                const templateResponse = await fetch("Education Request Form.pdf");
+                if (!templateResponse.ok) {
+                    throw new Error("Could not load PDF template file.");
+                }
+
+                const templateBytes = await templateResponse.arrayBuffer();
+                const pdfDoc = await PDFLib.PDFDocument.load(templateBytes);
+                const pdfForm = pdfDoc.getForm();
+                const pdfFields = pdfForm.getFields();
+                const pdfFieldLookup = new Map();
+                const pdfFieldNormalizedLookup = new Map();
+
+                function normalizeFieldName(value) {
+                    return String(value || "")
+                        .toLowerCase()
+                        .replace(/[^a-z0-9]/g, "");
+                }
+
+                pdfFields.forEach(function (field) {
+                    const fieldName = field.getName();
+                    pdfFieldLookup.set(fieldName, field);
+                    pdfFieldNormalizedLookup.set(normalizeFieldName(fieldName), field);
+                });
+
+                function applyMappedValue(pdfName, value) {
+                    let pdfField = pdfFieldLookup.get(pdfName);
+                    if (!pdfField) {
+                        pdfField = pdfFieldNormalizedLookup.get(normalizeFieldName(pdfName));
+                    }
+                    if (!pdfField) {
+                        return false;
+                    }
+
+                    let styleOptions = pdfFieldStyleMap[pdfName];
+                    if (!styleOptions) {
+                        const normalizedTarget = normalizeFieldName(pdfName);
+                        for (const [styleName, style] of Object.entries(pdfFieldStyleMap)) {
+                            if (normalizeFieldName(styleName) === normalizedTarget) {
+                                styleOptions = style;
+                                break;
+                            }
+                        }
+                    }
+
+                    setPdfFieldValue(pdfField, value, styleOptions || {});
+                    return true;
+                }
+
+                function applyMappedValueByCandidates(candidates, value) {
+                    for (const candidate of candidates) {
+                        if (applyMappedValue(candidate, value)) {
+                            return true;
+                        }
+                    }
+
+                    const normalizedCandidates = candidates.map(normalizeFieldName);
+                    for (const [fieldName, field] of pdfFieldLookup.entries()) {
+                        const normalizedField = normalizeFieldName(fieldName);
+                        const matched = normalizedCandidates.some(function (candidate) {
+                            return normalizedField.includes(candidate) || candidate.includes(normalizedField);
+                        });
+                        if (matched) {
+                            setPdfFieldValue(field, value);
+                            return true;
+                        }
+                    }
+
+                    return false;
+                }
+
+                let mappedCount = 0;
+                Object.entries(formValues).forEach(function ([htmlName, value]) {
+                    const pdfName = pdfFieldMap[htmlName];
+                    if (pdfName && applyMappedValue(pdfName, value)) {
+                        mappedCount++;
+                    }
+                });
+
+                Object.entries(pdfCheckboxMap).forEach(function ([htmlName, pdfName]) {
+                    const value = !!formValues[htmlName];
+                    if (applyMappedValue(pdfName, value)) {
+                        mappedCount++;
+                    }
+                });
+
+                const agreementOne = formValues.agreementOne || "";
+                const agreementTwo = formValues.agreementTwo || "";
+                const agreementThree = formValues.agreementThree || "";
+
+                if (applyMappedValue("I AGREE", agreementOne === "agree")) { mappedCount++; }
+                if (applyMappedValue("NA", agreementOne === "na")) { mappedCount++; }
+                if (applyMappedValue("I AGREE_2", agreementTwo === "agree")) { mappedCount++; }
+                if (applyMappedValue("NA_2", agreementTwo === "na")) { mappedCount++; }
+                if (applyMappedValue("I AGREE_3", agreementThree === "agree")) { mappedCount++; }
+                if (applyMappedValue("NA_3", agreementThree === "na")) { mappedCount++; }
+
+                for (let i = 1; i <= 6; i++) {
+                    if (applyMappedValue(`DATERow${i}`, formValues[`travelLineDate-${i}`] || "")) { mappedCount++; }
+                    if (applyMappedValue(`CITYSTATERow${i}`, formValues[`travelLineDestination-${i}`] || "")) { mappedCount++; }
+                    if (applyMappedValue(`HOTEL ADDRESSRow${i}`, formValues[`travelLineHotelAddress-${i}`] || "")) { mappedCount++; }
+                    if (applyMappedValue(`PURPOSE OF TRIPRow${i}`, formValues[`travelLinePurpose-${i}`] || "")) { mappedCount++; }
+                }
+
+                function chunkTextByWords(text, maxLength, maxChunks) {
+                    const words = String(text || "").trim().split(/\s+/).filter(Boolean);
+                    if (words.length === 0) {
+                        return [];
+                    }
+
+                    const chunks = [];
+                    let current = "";
+                    words.forEach(function (word) {
+                        const next = current ? `${current} ${word}` : word;
+                        if (next.length <= maxLength || !current) {
+                            current = next;
+                        } else {
+                            chunks.push(current);
+                            current = word;
+                        }
+                    });
+                    if (current) {
+                        chunks.push(current);
+                    }
+
+                    return chunks.slice(0, maxChunks);
+                }
+
+                function chunkTextByRowCaps(text, rowCaps) {
+                    const words = String(text || "").trim().split(/\s+/).filter(Boolean);
+                    const rows = rowCaps.map(function () { return ""; });
+                    if (words.length === 0) {
+                        return rows;
+                    }
+
+                    let rowIndex = 0;
+                    for (const word of words) {
+                        if (rowIndex >= rowCaps.length) {
+                            break;
+                        }
+
+                        const current = rows[rowIndex];
+                        const candidate = current ? `${current} ${word}` : word;
+                        if (candidate.length <= rowCaps[rowIndex] || !current) {
+                            rows[rowIndex] = candidate;
+                        } else {
+                            rowIndex++;
+                            if (rowIndex >= rowCaps.length) {
+                                break;
+                            }
+                            rows[rowIndex] = word;
+                        }
+                    }
+
+                    return rows;
+                }
+
+                function wrapTextByWords(text, maxLength, maxLines) {
+                    return chunkTextByWords(text, maxLength, maxLines).join("\n");
+                }
+
+                function compactDateRange(startDate, endDate) {
+                    if (startDate && endDate) {
+                        return `${startDate}-${endDate}`;
+                    }
+                    return startDate || endDate || "";
+                }
+
+                const rawBenefits = String(formValues.benefits || "").trim();
+                const normalizedBenefits = rawBenefits.replace(/\r?\n+/g, " ").trim();
+                const benefitsLines = chunkTextByRowCaps(normalizedBenefits, [95, 150, 150]);
+
+                const benefitsRow1 = benefitsLines[0] || "";
+                const benefitsRow2 = benefitsLines[1] || "";
+                const benefitsRow3 = benefitsLines[2] || "";
+
+                if (applyMappedValueByCandidates([
+                    "Benefits received from this event Type hereRow1",
+                    "Benefits received from this event Type here"
+                ], benefitsRow1 || rawBenefits)) { mappedCount++; }
+                if (applyMappedValueByCandidates([
+                    "Benefits received from this event Type hereRow2"
+                ], benefitsRow2)) { mappedCount++; }
+                if (applyMappedValueByCandidates([
+                    "Benefits received from this event Type hereRow3"
+                ], benefitsRow3)) { mappedCount++; }
+
+                function formatShortDate(isoDate) {
+                    if (!isoDate) {
+                        return "";
+                    }
+                    const [yyyy, mm, dd] = isoDate.split("-");
+                    if (!yyyy || !mm || !dd) {
+                        return isoDate;
+                    }
+                    return `${dd}/${mm}/${yyyy.slice(-2)}`;
+                }
+
+                const sessionBlocks = sessionsContainer.querySelectorAll(".session-block");
+                const additionalDatesDetails = Array.from(sessionBlocks).map(function (block, index) {
+                    const rawName = (block.querySelector(".session-name")?.value || "").trim();
+                    const sDate = formatShortDate(block.querySelector(".session-start")?.value || "");
+                    const eDate = formatShortDate(block.querySelector(".session-end")?.value || "");
+                    const datePart = compactDateRange(sDate, eDate);
+
+                    if (!rawName) {
+                        return datePart;
+                    }
+
+                    return `${rawName} (${datePart})`;
+                }).filter(Boolean).join("; ");
+                const additionalDatesTextRaw = formValues.hasAdditionalDates
+                    ? (additionalDatesDetails || "Yes")
+                    : "";
+                const additionalDatesText = wrapTextByWords(additionalDatesTextRaw, 38, 4);
+                if (applyMappedValueByCandidates([
+                    "Additional Dates of Class eg Officer has three weeks Type here",
+                    "Additional Dates of Class"
+                ], additionalDatesText)) { mappedCount++; }
+
+                if (applyMappedValue("Employee Name", formValues.firefighterName || "")) { mappedCount++; }
+                if (applyMappedValue("Name of Training", formValues.eventName || "")) { mappedCount++; }
+                if (applyMappedValue("Firefighter Signature", formValues.statementSignature || "")) { mappedCount++; }
+                if (applyMappedValue("Date_2", formValues.statementDate || "")) { mappedCount++; }
+
+                // These are no longer user-filled in the webpage; leave blank so PDF reflects current workflow.
+                if (applyMappedValue("Applicant Signature", "")) { mappedCount++; }
+                if (applyMappedValue("Dept. Head Signature", "")) { mappedCount++; }
+                if (applyMappedValue("Mayor Signature", "")) { mappedCount++; }
+
+                if (applyMappedValue("Approve", false)) { mappedCount++; }
+                if (applyMappedValue("Disapprove", false)) { mappedCount++; }
+                if (applyMappedValue("Yes", false)) { mappedCount++; }
+                if (applyMappedValue("No", false)) { mappedCount++; }
+
+                if (applyMappedValue("Supervisor's Signature", "")) { mappedCount++; }
+                if (applyMappedValue("Date_3", "")) { mappedCount++; }
+                if (applyMappedValue("Division Chief or Designee Signature", "")) { mappedCount++; }
+                if (applyMappedValue("Date_4", "")) { mappedCount++; }
+                if (applyMappedValue("Training Officer's Signature", "")) { mappedCount++; }
+                if (applyMappedValue("Date_5", "")) { mappedCount++; }
+                if (applyMappedValue("Fire Chief's Signature", "")) { mappedCount++; }
+                if (applyMappedValue("Date_6", "")) { mappedCount++; }
+
+                if (applyMappedValue("Date Signed", formValues.statementDate || "")) { mappedCount++; }
+
+                // Optional debugging line if you want to review what fields remain unused.
+                console.log("Mapped PDF field count:", mappedCount);
+
+                if (mappedCount === 0) {
+                    console.warn("No PDF fields were mapped. Available PDF fields:", pdfFields.map(function (field) { return field.getName(); }));
+                    alert("No fields were mapped yet. Open dev tools console to view PDF field names for mapping.");
+                    return;
+                }
+
+
+                const pdfBytes = await pdfDoc.save();
+                const blob = new Blob([pdfBytes], { type: "application/pdf" });
+                const fileNameName = (formValues.firefighterName || "education-request").trim().replace(/\s+/g, "-").toLowerCase();
+                const downloadName = `${fileNameName || "education-request"}-filled.pdf`;
+                const blobUrl = URL.createObjectURL(blob);
+
+                const link = document.createElement("a");
+                link.href = blobUrl;
+                link.download = downloadName;
+                document.body.appendChild(link);
+                link.click();
+                link.remove();
+                URL.revokeObjectURL(blobUrl);
+            } catch (error) {
+                console.error(error);
+                alert("PDF generation failed. See console for details.");
+            } finally {
+                downloadPdfBtn.disabled = false;
+                downloadPdfBtn.textContent = "Download Filled PDF";
+            }
+        }
+
+        downloadPdfBtn.addEventListener("click", downloadFilledPdf);
+
+        function toggleConditionalFields() {
+            ceuCount.disabled = !awardCeus.checked;
+            if (!awardCeus.checked) {
+                ceuCount.value = "";
+            }
+
+            const lodgingEnabled = requireLodging.checked;
+            lodgingDetailsContainer.classList.toggle("visible", lodgingEnabled);
+            lodgingNights.disabled = !lodgingEnabled;
+            costPerNight.disabled = !lodgingEnabled;
+
+            if (!lodgingEnabled) {
+                lodgingNights.value = "";
+                costPerNight.value = "";
+            }
+        }
+
+        function applyDateGuard(startInput, endInput) {
+            endInput.min = startInput.value;
+            if (startInput.value && endInput.value && endInput.value < startInput.value) {
+                endInput.setCustomValidity("End date cannot be earlier than start date.");
+            } else {
+                endInput.setCustomValidity("");
+            }
+        }
+
+        awardCeus.addEventListener("change", toggleConditionalFields);
+        requireLodging.addEventListener("change", toggleConditionalFields);
+        startDate.addEventListener("change", () => applyDateGuard(startDate, endDate));
+        endDate.addEventListener("input", () => applyDateGuard(startDate, endDate));
+        toggleConditionalFields();
+    </script>
+</body>
+</html>
