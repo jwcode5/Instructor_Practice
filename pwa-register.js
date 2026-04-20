@@ -3,7 +3,7 @@
         return;
     }
 
-    const CACHE_VERSION = "2026-04-20-1";
+    const CACHE_VERSION = "2026-04-20-2";
     const scriptEl =
         document.currentScript ||
         document.querySelector('script[src$="pwa-register.js"]');

@@ -7,8 +7,12 @@ const CORE_ASSETS = [
     "./education_request.html",
     "./style.css",
     "./manifest.json",
+    "./browserconfig.xml",
     "./pwa-register.js",
-    "./icon.svg",
+    "./Images/android/launchericon-192x192.png",
+    "./Images/android/launchericon-512x512.png",
+    "./Images/ios/180.png",
+    "./Images/windows/Square150x150Logo.scale-100.png",
     "./Education Request Form.pdf"
 ];
 
