@@ -1,0 +1,32 @@
+{
+  "hosting": [
+    {
+      "target": "hfd-hub",
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**",
+        "protocols.html",
+        "js/pdf-viewer.js"
+      ]
+    },
+    {
+      "target": "hfd-ems",
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**",
+        "index.html",
+        "education_request.html"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/protocols.html"
+        }
+      ]
+    }
+  ]
+}

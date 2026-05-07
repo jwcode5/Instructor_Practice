@@ -1,0 +1,21 @@
+{
+  "projects": {
+    "default": "hfd-site"
+  },
+  "targets": {
+    "hfd-site": {
+      "hosting": {
+        "hfd-hub": [
+          "hfd-hub"
+        ],
+        "hfd-ems": [
+          "hfd-ems"
+        ],
+        "hfd-practice": [
+          "hfd-practice"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

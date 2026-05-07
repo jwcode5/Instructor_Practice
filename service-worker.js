@@ -1,4 +1,4 @@
-const CACHE_VERSION = new URL(self.location.href).searchParams.get("v") || "2026-04-20-1";
+const CACHE_VERSION = new URL(self.location.href).searchParams.get("v") || "2026-05-07-1";
 const CACHE_NAME = `hfd-site-${CACHE_VERSION}`;
 
 const CORE_ASSETS = [
@@ -13,7 +13,16 @@ const CORE_ASSETS = [
     "./Images/android/launchericon-512x512.png",
     "./Images/ios/180.png",
     "./Images/windows/Square150x150Logo.scale-100.png",
-    "./Education Request Form.pdf"
+    "./Education Request Form.pdf",
+    "./protocols.html",
+    "./js/pdf-viewer.js",
+    "./js/pdf.min.js",
+    "./js/pdf.worker.min.js",
+    "./protocols/adult_protocols.pdf",
+    "./protocols/pediatric_protocols.pdf",
+    "./protocols/clinical_ops.pdf",
+    "./protocols/medication_formulary.pdf",
+    "./protocols/flowchart_adult.pdf"
 ];
 
 self.addEventListener("install", (event) => {

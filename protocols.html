@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0f3d4c">
+    <title>EMS Protocols - HFD Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-bg: #0f172a;
+            --secondary-bg: #1e293b;
+            --accent-color: #38bdf8;
+            --text-main: #f8fafc;
+            --text-dim: #94a3b8;
+            --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        body {
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-main);
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 3rem;
+            padding: 0 1rem;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+        }
+
+        .back-btn {
+            background: var(--secondary-bg);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--text-main);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.05);
+            transform: translateX(-5px);
+        }
+
+        /* Dashboard Grid */
+        .protocol-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .protocol-card {
+            background: var(--secondary-bg);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: var(--card-shadow);
+        }
+
+        .protocol-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--accent-color);
+            background: rgba(30, 41, 59, 0.8);
+        }
+
+        .protocol-card h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.25rem;
+            color: var(--accent-color);
+        }
+
+        .protocol-card p {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            margin: 0 0 1.5rem 0;
+            line-height: 1.5;
+        }
+
+        .protocol-card .meta {
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* PDF Viewer Overlay */
+        #viewer-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            z-index: 1000;
+            display: none;
+            flex-direction: column;
+        }
+
+        #viewer-header {
+            background: rgba(15, 23, 42, 0.95);
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .viewer-controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        #pdf-canvas-container {
+            flex: 1;
+            overflow: auto;
+            display: flex;
+            justify-content: center;
+            background: #222;
+        }
+
+        canvas {
+            display: block;
+            margin: 20px auto;
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+        }
+
+        /* Floating Menu Button */
+        #menu-fab {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 60px;
+            height: 60px;
+            background: var(--accent-color);
+            color: #000;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            cursor: pointer;
+            box-shadow: 0 4px 20px rgba(56, 189, 248, 0.4);
+            z-index: 1100;
+            display: none;
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        #menu-fab:active {
+            transform: scale(0.9);
+        }
+
+        /* Navigation Overlay */
+        #nav-overlay {
+            position: fixed;
+            bottom: 6rem;
+            right: 2rem;
+            background: var(--secondary-bg);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1rem;
+            width: 250px;
+            max-height: 400px;
+            overflow-y: auto;
+            z-index: 1100;
+            display: none;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+        }
+
+        .nav-item {
+            padding: 0.75rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .nav-item:hover {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--accent-color);
+        }
+
+        .close-viewer {
+            background: #ef4444;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .protocol-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="main-content">
+        <header>
+            <h1>EMS Protocols</h1>
+            <a href="index.html" class="back-btn">← Back to Hub</a>
+        </header>
+
+        <div class="protocol-grid">
+            <!-- Adult Protocols -->
+            <div class="protocol-card" onclick="openProtocol('protocols/adult_protocols.pdf', 'Adult Protocols')">
+                <div>
+                    <h3>Adult Protocols</h3>
+                    <p>Standard care protocols for adult patients. Revised 2026.03.30.</p>
+                </div>
+                <div class="meta">Last Updated: March 2026</div>
+            </div>
+
+            <!-- Pediatric Protocols -->
+            <div class="protocol-card" onclick="openProtocol('protocols/pediatric_protocols.pdf', 'Pediatric Protocols')">
+                <div>
+                    <h3>Pediatric Protocols</h3>
+                    <p>Comprehensive pediatric care guidelines. Revised 2026.03.31.</p>
+                </div>
+                <div class="meta">Last Updated: March 2026</div>
+            </div>
+
+            <!-- Medication Formulary -->
+            <div class="protocol-card" onclick="openProtocol('protocols/medication_formulary.pdf', 'Medication Formulary')">
+                <div>
+                    <h3>Medication Formulary</h3>
+                    <p>Drug doses, indications, and contraindications. Revised 2026.04.01.</p>
+                </div>
+                <div class="meta">Last Updated: April 2026</div>
+            </div>
+
+            <!-- Clinical Ops -->
+            <div class="protocol-card" onclick="openProtocol('protocols/clinical_ops.pdf', 'Clinical Ops')">
+                <div>
+                    <h3>Clinical Operations</h3>
+                    <p>Standard operating procedures for clinical environments.</p>
+                </div>
+                <div class="meta">Last Updated: Jan 2024</div>
+            </div>
+
+            <!-- Flowcharts -->
+            <div class="protocol-card" onclick="openProtocol('protocols/flowchart_adult.pdf', 'Adult Flowcharts')">
+                <div>
+                    <h3>Adult Flowcharts</h3>
+                    <p>Visual decision trees for adult protocol sets.</p>
+                </div>
+                <div class="meta">Last Updated: Nov 2025</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PDF Viewer -->
+    <div id="viewer-container">
+        <div id="viewer-header">
+            <h2 id="viewer-title" style="margin:0; font-size: 1rem; color: var(--accent-color);">Protocol Viewer</h2>
+            <div class="viewer-controls">
+                <span id="page-info" style="font-size: 0.8rem; color: var(--text-dim);">Page 1 of 1</span>
+                <button class="close-viewer" onclick="closeViewer()">Close</button>
+            </div>
+        </div>
+        <div id="pdf-canvas-container">
+            <canvas id="pdf-render"></canvas>
+        </div>
+    </div>
+
+    <!-- Floating Action Button -->
+    <div id="menu-fab" onclick="toggleNavOverlay()">☰</div>
+
+    <!-- Navigation Overlay (TOC) -->
+    <div id="nav-overlay">
+        <div id="toc-list">
+            <!-- Dynamic TOC items will go here -->
+            <div class="nav-item">Loading Table of Contents...</div>
+        </div>
+    </div>
+
+    <script src="js/pdf.min.js"></script>
+    <script src="js/pdf-viewer.js"></script>
+</body>
+</html>
