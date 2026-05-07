@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-  <title>HFD Project Hub</title>
-  <desc>Fire department themed app icon for the HFD Project Hub.</desc>
-  <rect width="512" height="512" rx="112" fill="#0f3d4c"/>
-  <path d="M256 84 360 148 360 276C360 350 315 408 256 434 197 408 152 350 152 276L152 148 256 84Z" fill="#f3f0e8"/>
-  <path d="M256 166C230 201 217 232 217 259 217 297 244 323 256 332 268 323 295 297 295 259 295 232 282 201 256 166Z" fill="#bf3f2f"/>
-  <path d="M256 213C246 229 240 244 240 257 240 278 251 293 256 298 261 293 272 278 272 257 272 244 266 229 256 213Z" fill="#f3f0e8"/>
-  <path d="M171 384 341 384" stroke="#bf3f2f" stroke-width="22" stroke-linecap="round"/>
-</svg>
