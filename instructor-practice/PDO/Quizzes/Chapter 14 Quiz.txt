@@ -1,0 +1,136 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Foam Equipment and Systems
+Chapter 14 Quiz 
+Name:  
+	
+
+	Date:  
+	
+
+	
+
+Directions:         Write the correct letter on the blank before each question.
+
+
+                1.        The device that injects the correct amount of foam concentrate into the water stream to make the foam solution is called a foam:  (480)
+        A.        aerator.
+        B.        eductor.
+        C.        solutioner.
+        D.        proportioner.
+                2.        During proportioning, foam concentrates are generally intended to be mixed with:  (482)
+        A.        polar solvents.
+        B.        distilled water.
+        C.        fresh or salt water.
+        D.        biodegradable gelling agents.
+                3.        Which kind of container can foam solution can be stored in?  (484-485)
+        A.        Totes
+        B.        Pickup tubes
+        C.        Venturi devices
+        D.        Unlined metal barrels
+                4.        Which statement about Class A foam is MOST accurate?  (487)
+        A.        It can only be used with aerating nozzles.
+        B.        It is not economical because it has such a short shelf life.
+        C.        Because the product is used in small amounts, it is typically not a major environmental concern.
+        D.        Using it in conjunction with compressed air foam systems (CAFS) decreases its insulation qualities.
+
+                5.        Which statement about Class B foam is MOST accurate?  (489)
+        A.        Class B concentrates should be stored in a warm area to maximize shelf life.
+        B.        Concentrates that are manufactured to U.S. Military specifications may be mixed at any time. 
+        C.        This foam is most commonly used to extinguish ordinary combustibles such as wood and paper.
+        D.        The differences in type of concentrate, method of aeration, and proportioning of the foam will not affect its expansion.
+                6.        Which is a common type of portable foam proportioner?  (494)
+        A.        Venturi eductor
+        B.        Jet ration eductor
+        C.        Draft foam eductor
+        D.        In-line foam eductor
+                7.        Which statement about installed in-line eductor systems and portable in-line eductors is MOST accurate?  (497)
+        A.        Precautions regarding hose lengths do not apply to installed in-line eductors.
+        B.        Installed systems can use foam supplied by a tank mounted on the apparatus.
+        C.        Portable systems can use foam supplied by a tank mounted on the apparatus.
+        D.        Installed systems do not need to match the nozzle and eductor flow capability.
+                8.        When using low energy portable foam application systems, the aeration and discharge functions are completed by:  (503)
+        A.        foam nozzle eductors.
+        B.        the CAFS compressor.
+        C.        an aerating foam nozzle.
+        D.        the master stream appliances.
+
+                9.        When large-scale flammable and combustible liquid fires require the delivery of an amount of foam that is beyond the capability of the handlines, which nozzles should be used?  (504)
+        A.        Fog nozzles
+        B.        Smooth bore nozzles
+        C.        Air-aspirating foam nozzles
+        D.        Master stream foam nozzles
+                10.        Which method for Class B foam application involves directing a foam fire stream on the ground near the front edge of a burning liquid spill?  (506)
+        A.        Roll-on method
+        B.        Rain-down method
+        C.        Bank-down method
+        D.        Direct application method
+                11.        Which is the most common method of foam application for aboveground storage tank fires?  (506)
+        A.        Roll-on method
+        B.        Rain-down method
+        C.        Bank-down method
+        D.        Direct application method
+                12.        Studies by the U.S. Forest Service have shown that release of Class A foam into a natural water source can be lethal to:   (508)
+        A.        fish.
+        B.        humans.
+        C.        livestock.
+        D.        aquatic birds.
+                13.        Other additives currently available for use as extinguishing agents, as well as pre-treatment of structures threatened by fire spread, are generally known as:  (508)
+        A.        surfactants.
+        B.        polar solvents.
+        C.        protein concentrates.
+        D.        durable or gelling agents.
+
+
+
+Directions:         Write a brief answer to the questions below.
+        14.        Explain two of the three methods by which foam extinguishes and/or suppresses vapors.  (481)
+
+
+
+
+
+
+
+
+
+
+        15.        List two of the five tactical advantages that compressed air foam offers.  (502)
+
+
+
+
+
+
+
+
+
+
+        16.        Briefly explain how a mechanical blower operates.  (505)
+
+
+
+
+
+
+
+
+
+
+
+        17.        List three of the nine common causes for the production of poor quality foam or the lack of foam production.  (505)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fire Protection Publications                Chapter Quiz 
+Oklahoma State University                14-

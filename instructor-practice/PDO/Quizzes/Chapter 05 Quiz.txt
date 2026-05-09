@@ -1,0 +1,102 @@
+﻿Pumping Apparatus Driver/Operator                
+Handbook, 3rd Edition                Principles of Water
+Chapter 5 Quiz 
+Name:  
+	
+
+	Date:  
+	
+
+	
+
+Directions:         Write the correct letter on the blank before each question.
+                1.        Which statement about the characteristics of water is MOST accurate?  (167)
+        A.        Water is compressible at all temperatures while its weight varies at different temperatures.
+        B.        Water is considered to be virtually incompressible and its weight varies at different temperatures.
+        C.        Water is compressible at very low temperatures while its weight remains constant at all temperatures.
+        D.        Water is considered virtually incompressible and its weight remains constant at different temperatures.
+                2.        Which statement about the ability of water to extinguish fire is MOST accurate?  (168)
+        A.        Water extinguishes fire by cooling objects it is applied to.
+        B.        Water can cool or absorb heat from a fire as well as smother fires.
+        C.        Water breaks the chain reaction of a fire by disrupting the fuel source.
+        D.        Water must be combined with some other extinguishing agent in order to extinguish fires.
+                3.        Because a large amount of heat is required to change water to steam:  (169)
+        A.        the fire will expand before water puts it out.
+        B.        this allows less heat to be absorbed from the fire.
+        C.        this allows more heat to be absorbed from the fire.
+        D.        the fire will be extinguished before water changes to steam.
+
+
+
+                4.        At 212°F (100°C), water converted to steam occupies approximately: (169)
+        A.        170 times its original volume.
+        B.        700 times its original volume.
+        C.        1,700 times its original volume.
+        D.        7,000 times its original volume.
+                5.        Which principle of pressure is illustrated when two containers hold two different liquids of different depths, but the pressure at the bottom of each container is approximately the same?  (173)
+        A.        Fluid pressure is perpendicular to any surface on which it acts.
+        B.        Fluid pressure at a point in fluid at rest is the same intensity in all directions.
+        C.        The pressure of a liquid in an open vessel is proportional to the density of the liquid.
+        D.        Pressure applied to a confined fluid from without is transmitted equally in all directions.
+                6.        Atmospheric pressure at sea level is considered to be:   (174)
+        A.        10 psi (70 kPa).
+        B.        12.2 psi (85 kPa).
+        C.        14.7 psi (100 kPa).
+        D.        16.4 psi (115 kPa).
+                7.        The forward velocity pressure while water is flowing from a discharge opening is considered:  (176)
+        A.        flow pressure.
+        B.        head pressure.
+        C.        residual pressure.
+        D.        normal operating pressure.
+
+                8.        Which principle of friction loss demonstrates the advantage of a larger size hose?  (179)
+        A.        If all other conditions are the same, friction loss varies directly with length of hose or pipe.
+        B.        For the same discharge, friction loss varies inversely as the fifth power of diameter of hose.
+        C.        For a given velocity, friction loss is approximately the same, regardless of pressure on the water.
+        D.        When hoses are same size, friction loss varies approximately with the square of the increase in velocity of the flow.
+                9.        Which action would reduce friction loss caused by hose length or diameter?  (181)
+        A.        Using older fire hose
+        B.        Increasing personnel on the hose
+        C.        Increasing the diameter of the hose 
+        D.        Decreasing the diameter of the hose
+                10.        Which means of moving water uses a primary water source located at a higher elevation than the distribution system ? (183)
+        A.        Gravity system
+        B.        Direct pumping system 
+        C.        Looped pumping system
+        D.        Indirect pumping system 
+                11.        Which term refers to a fire hydrant that receives water from two or more directions?   (184)
+        A.        Dead-end hydrant
+        B.        Multiple inlet hydrant
+        C.        Circulating feed or looped line
+        D.        Multiple source circular supply
+                12.        Water main valves should be located: (185)
+        A.        at frequent intervals in a grid system.
+        B.        at infrequent intervals in a grid system.
+        C.        so that they correspond with landmarks such as intersections.
+        D.        so that they correspond with areas most likely to fail in the system.
+
+
+Directions:         Write a brief answer to the questions below.
+13.                What are the two broad categories of valves for water systems?  (186)
+
+
+
+
+14.                What are two purposes of private water supply systems?  (188)
+
+
+
+
+
+
+
+
+15.                Why must protected properties maintain two completely separate systems when potable and nonpotable water systems are both used?  (188) 
+
+
+
+
+
+
+Fire Protection Publications                Chapter Quiz 
+Oklahoma State University                5-

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hazmat A&O</title>
+	<link rel="manifest" href="../manifest.json">
+	<meta name="theme-color" content="#2c3e50">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="apple-mobile-web-app-title" content="Practice Tests">
+	<link rel="apple-touch-icon" href="../appstore-images/ios/180.png">
+	<link rel="stylesheet" href="../style.css">
+	<script src="../pwa-register.js" defer></script>
+</head>
+<body>
+	<header class="page-header">
+		<div class="maltese-cross header-cross"></div>
+		<h1>Hazmat A&O</h1>
+		<p class="header-subtitle">Choose a test version or the practice builder.</p>
+	</header>
+
+	<a class="button-link" href="../index.html">Home</a>
+	<a class="button-link" href="practice_hazmat.html">Practice Builder</a>
+	<div style="max-width: 200px; margin: 0.25rem auto 0; display: flex; flex-direction: column; align-items: center; gap: 0.25rem;">
+		<div id="customChapterDropdown" style="width: 200px; position: relative;">
+			<button id="chapterDropdownButton" style="width: 100%; padding: 0.85rem 1.35rem; font-size: 1rem; border-radius: 5px; border: 1px solid #222; background: #2c3e50; color: #fff; text-align: center; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+				<span id="chapterDropdownLabel" style="flex:1; text-align:center;">-- Select Chapter --</span>
+				<span style="margin-left:auto;">&#9662;</span>
+			</button>
+			<ul id="chapterDropdownList" style="display:none; position:absolute; top:110%; left:0; width:100%; background:#2c3e50; color:#fff; border:1px solid #222; border-radius:5px; box-shadow:0 2px 8px rgba(44,62,80,0.10); z-index:10; max-height:220px; overflow-y:auto; margin:0; padding:0; list-style:none;"></ul>
+		</div>
+		<button id="goButton" class="button-link" style="width: 200px;" disabled>Select</button>
+	</div>
+	<script>
+	// --- Modular persistent checkmark dropdown for hazmat ---
+	const goButton = document.getElementById('goButton');
+	const chapters = [
+		{ value: '01', label: 'Chapter 1' },
+		{ value: '02', label: 'Chapter 2' },
+		{ value: '03', label: 'Chapter 3' },
+		{ value: '04', label: 'Chapter 4' },
+		{ value: '05', label: 'Chapter 5' },
+		{ value: '06', label: 'Chapter 6' },
+		{ value: '07', label: 'Chapter 7' },
+		{ value: '08', label: 'Chapter 8' },
+		{ value: '09', label: 'Chapter 9' },
+		{ value: '10', label: 'Chapter 10' },
+		{ value: '11', label: 'Chapter 11' },
+		{ value: '12', label: 'Chapter 12' },
+		{ value: '13', label: 'Chapter 13' },
+		{ value: '14', label: 'Chapter 14' },
+		{ value: '15', label: 'Chapter 15' },
+		{ value: '16', label: 'Chapter 16' }
+	];
+	const chapterDropdownButton = document.getElementById('chapterDropdownButton');
+	const chapterDropdownList = document.getElementById('chapterDropdownList');
+	const chapterDropdownLabel = document.getElementById('chapterDropdownLabel');
+	let selectedChapter = '';
+	let dropdownOpen = false;
+	// Utility for persistent check state
+	function getCheckKey(chapter) {
+		return `hazmat-completed-${chapter}`;
+	}
+	function isChecked(chapter) {
+		return localStorage.getItem(getCheckKey(chapter)) === '1';
+	}
+	function setChecked(chapter, checked) {
+		localStorage.setItem(getCheckKey(chapter), checked ? '1' : '0');
+	}
+	function renderChapterDropdown() {
+		chapterDropdownList.innerHTML = '';
+		chapterDropdownLabel.textContent = selectedChapter ? chapters.find(ch => ch.value === selectedChapter).label : '-- Select Chapter --';
+		chapters.forEach(ch => {
+			const li = document.createElement('li');
+			li.style.display = 'flex';
+			li.style.alignItems = 'center';
+			li.style.padding = '0.5rem 1rem';
+			li.style.cursor = 'pointer';
+			li.style.borderBottom = '1px solid #222';
+			if (ch === chapters[chapters.length-1]) li.style.borderBottom = 'none';
+			// Checkmark box
+			const box = document.createElement('span');
+			box.style.display = 'inline-block';
+			box.style.width = '1.1em';
+			box.style.height = '1.1em';
+			box.style.marginRight = '0.7em';
+			box.style.border = '1.5px solid #fff';
+			box.style.borderRadius = '3px';
+			box.style.background = isChecked(ch.value) ? '#4caf50' : 'transparent';
+			box.style.transition = 'background 0.2s';
+			box.innerHTML = isChecked(ch.value) ? '<svg width="1em" height="1em" viewBox="0 0 16 16" fill="none" style="display:block;vertical-align:middle;margin:auto;" xmlns="http://www.w3.org/2000/svg"><path d="M4 8.5L7 11.5L12 5.5" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>' : '';
+			// Label
+			const label = document.createElement('span');
+			label.textContent = ch.label;
+			label.style.flex = '1';
+			// Click to select chapter
+			li.addEventListener('click', e => {
+				if (e.target === box) return; // Don't select if clicking box
+				selectedChapter = ch.value;
+				localStorage.setItem('hazmat-last-chapter', selectedChapter);
+				chapterDropdownLabel.textContent = ch.label;
+				goButton.disabled = false;
+				dropdownOpen = false;
+				chapterDropdownList.style.display = 'none';
+			});
+			// Click to toggle checkmark
+			box.addEventListener('click', e => {
+				e.stopPropagation();
+				setChecked(ch.value, !isChecked(ch.value));
+				renderChapterDropdown();
+			});
+			li.appendChild(box);
+			li.appendChild(label);
+			chapterDropdownList.appendChild(li);
+		});
+	}
+	// Restore last selected chapter from localStorage
+	if (localStorage.getItem('hazmat-last-chapter')) {
+		selectedChapter = localStorage.getItem('hazmat-last-chapter');
+	}
+	// Initial render
+	renderChapterDropdown();
+	// If restored, enable button
+	if (selectedChapter) {
+		goButton.disabled = false;
+	}
+	chapterDropdownButton.addEventListener('click', () => {
+		dropdownOpen = !dropdownOpen;
+		chapterDropdownList.style.display = dropdownOpen ? 'block' : 'none';
+	});
+	document.addEventListener('click', e => {
+		if (!chapterDropdownButton.contains(e.target) && !chapterDropdownList.contains(e.target)) {
+			dropdownOpen = false;
+			chapterDropdownList.style.display = 'none';
+		}
+	});
+	goButton.addEventListener('click', (e) => {
+		e.preventDefault();
+		if (!selectedChapter) return;
+		let file = `Chapter_${selectedChapter}.html`;
+		if (file) window.location.href = file;
+	});
+	</script>
+</body>
+</html>

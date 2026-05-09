@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>HazMat A&O Chapter 12 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. Which section of NFPA 470 gives information on mission-specific competencies for detection?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 272, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) Section 8.7</label><br>
+        <label><input type="radio" name="q1" value="b"> b) Section 1.2</label><br>
+        <label><input type="radio" name="q1" value="c"> c) Section 9.7</label><br>
+        <label><input type="radio" name="q1" value="d"> d) Section 4.8</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. If you are working on monitoring and sampling at a hazardous materials spill, which of the following should guide your work?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 272, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) Standard operating procedures</label><br>
+        <label><input type="radio" name="q2" value="b"> b) Commands from police</label><br>
+        <label><input type="radio" name="q2" value="c"> c) Federal Bureau of Investigation evidence preservation rules</label><br>
+        <label><input type="radio" name="q2" value="d"> d) State regulations</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. Who could supervise your work in sampling the air at a site where 100 gallons of toluene were released onto a parking lot?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 272, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) Hazardous materials technician</label><br>
+        <label><input type="radio" name="q3" value="b"> b) State police officer</label><br>
+        <label><input type="radio" name="q3" value="c"> c) Local coroner</label><br>
+        <label><input type="radio" name="q3" value="d"> d) Industry chemist</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. The MSA 2a combustible gas indicator was first designed for use in:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Detection and Monitoring" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 272, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) firefighting.</label><br>
+        <label><input type="radio" name="q4" value="b"> b) mining.</label><br>
+        <label><input type="radio" name="q4" value="c"> c) milling.</label><br>
+        <label><input type="radio" name="q4" value="d"> d) police work.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. Reading about a new solvent used in an industry in an area covered by your unit, you see that it has a high vapor pressure of 25°C. Which of the following is true of the new solvent?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Detection and Monitoring" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 273, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) It is a volatile organic compound.</label><br>
+        <label><input type="radio" name="q5" value="b"> b) It is a solid.</label><br>
+        <label><input type="radio" name="q5" value="c"> c) It is rich in nitrogen.</label><br>
+        <label><input type="radio" name="q5" value="d"> d) It is a form of hydrogen sulfide.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. Which of the following is the most important factor when deciding whether a particular detector fits an incident action plan?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Detection and Monitoring" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 273, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) Features</label><br>
+        <label><input type="radio" name="q6" value="b"> b) Cost</label><br>
+        <label><input type="radio" name="q6" value="c"> c) Benefits</label><br>
+        <label><input type="radio" name="q6" value="d"> d) Availability</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. Which detector would be most useful at a site of suspected methane release?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Detection and Monitoring" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 274, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) Photo-ionization detector</label><br>
+        <label><input type="radio" name="q7" value="b"> b) Carbon monoxide detector</label><br>
+        <label><input type="radio" name="q7" value="c"> c) Oxygen monitoring device</label><br>
+        <label><input type="radio" name="q7" value="d"> d) Flame ionization detector</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. Which device would be most useful when working with a sample of air containing five different gases?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Detection and Monitoring" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 274, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) Flame ionization detector</label><br>
+        <label><input type="radio" name="q8" value="b"> b) Gas chromatograph</label><br>
+        <label><input type="radio" name="q8" value="c"> c) pH paper</label><br>
+        <label><input type="radio" name="q8" value="d"> d) Colorimetric tubes</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. What is the first basic action for detection and monitoring?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Detection and Monitoring" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 275, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) Confer with police about hot zone placement.</label><br>
+        <label><input type="radio" name="q9" value="b"> b) Don full hazardous materials suits.</label><br>
+        <label><input type="radio" name="q9" value="c"> c) Have at least one ambulance on standby.</label><br>
+        <label><input type="radio" name="q9" value="d"> d) Identify the source and nature of the released substance before entry.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. If you are calibrating a detector, this implies that you have:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Detection and Monitoring" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 277, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) a known source or standard.</label><br>
+        <label><input type="radio" name="q10" value="b"> b) clearance from the authority having jurisdiction.</label><br>
+        <label><input type="radio" name="q10" value="c"> c) bulletins from the National Fire Protection Association.</label><br>
+        <label><input type="radio" name="q10" value="d"> d) sufficient hazard insurance.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. Walking into a site where ammonia and propane gases have been released, you realize that you are not sure that your detector is working properly. What should you do?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Detection and Monitoring" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 278, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) Make a quick call to incident command.</label><br>
+        <label><input type="radio" name="q11" value="b"> b) Perform a bump test.</label><br>
+        <label><input type="radio" name="q11" value="c"> c) Check the detector manual for recovery time.</label><br>
+        <label><input type="radio" name="q11" value="d"> d) Get a new detector just to be safe.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. Which factor would likely limit the usefulness of a detector when a response must be made over 10 hours on a clear night in the spring?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Types of Detectors and Monitors" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 282, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) Battery life</label><br>
+        <label><input type="radio" name="q12" value="b"> b) Temperature extremes</label><br>
+        <label><input type="radio" name="q12" value="c"> c) High humidity</label><br>
+        <label><input type="radio" name="q12" value="d"> d) Sensor life</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. Photo-ionization detectors can usually work down to a concentration range of:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Types of Detectors and Monitors" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 282, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) parts per hundred.</label><br>
+        <label><input type="radio" name="q13" value="b"> b) parts per thousand.</label><br>
+        <label><input type="radio" name="q13" value="c"> c) parts per million.</label><br>
+        <label><input type="radio" name="q13" value="d"> d) parts per billion.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. A combustible gas indicator will stop working when the ambient oxygen concentration falls below:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Types of Detectors and Monitors" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 282, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) 3%.</label><br>
+        <label><input type="radio" name="q14" value="b"> b) 8%.</label><br>
+        <label><input type="radio" name="q14" value="c"> c) 10%.</label><br>
+        <label><input type="radio" name="q14" value="d"> d) 12%.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. Which phrase characterizes how a gas chromatograph works?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Types of Detectors and Monitors" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 283, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) Gases move faster than liquids.</label><br>
+        <label><input type="radio" name="q15" value="b"> b) Gases condense at different temperatures.</label><br>
+        <label><input type="radio" name="q15" value="c"> c) Many compounds react with oil.</label><br>
+        <label><input type="radio" name="q15" value="d"> d) Different compounds move at different rates.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. At sea level, what percentage of air is oxygen?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Types of Detectors and Monitors" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 284, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) 7%</label><br>
+        <label><input type="radio" name="q16" value="b"> b) 14%</label><br>
+        <label><input type="radio" name="q16" value="c"> c) 21%</label><br>
+        <label><input type="radio" name="q16" value="d"> d) 28%</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. Which percentage of carbon monoxide in air is the highest flammable percentage?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Types of Detectors and Monitors" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 284, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) 12%</label><br>
+        <label><input type="radio" name="q17" value="b"> b) 18%</label><br>
+        <label><input type="radio" name="q17" value="c"> c) 74%</label><br>
+        <label><input type="radio" name="q17" value="d"> d) 82%</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. Where would a hydrogen sulfide monitor be most likely to be used in a response?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Types of Detectors and Monitors" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 285, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) Outside the front door</label><br>
+        <label><input type="radio" name="q18" value="b"> b) Rooftop</label><br>
+        <label><input type="radio" name="q18" value="c"> c) Parking lot</label><br>
+        <label><input type="radio" name="q18" value="d"> d) Closed basement</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. In the field, if a rescuer is measuring pH, that rescuer is probably interested in:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Types of Detectors and Monitors" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 289, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) density.</label><br>
+        <label><input type="radio" name="q19" value="b"> b) corrosive strength.</label><br>
+        <label><input type="radio" name="q19" value="c"> c) pigmentation.</label><br>
+        <label><input type="radio" name="q19" value="d"> d) volatility.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. Which pH value would tell you that a chemical is “strong”?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Types of Detectors and Monitors" data-subject="Chapter 12" data-title="Operating Detection, Monitoring, and Sampling Equipment" data-feedback="Chapter 12; Page 291, NFPA 470 9.7.1" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) 2.6</label><br>
+        <label><input type="radio" name="q20" value="b"> b) 9.3</label><br>
+        <label><input type="radio" name="q20" value="c"> c) 6.9</label><br>
+        <label><input type="radio" name="q20" value="d"> d) 12.9</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+    </form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

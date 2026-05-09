@@ -1,0 +1,89 @@
+﻿Pumping Apparatus Driver/Operator                
+Handbook, 3rd Edition                Relay Pumping Operations
+Chapter 12 Quiz 
+Name:  
+	
+
+	Date:  
+	
+
+	
+
+Directions:         Write the correct letter on the blank before each question.
+                1.        The pumper that takes water from a hydrant or static source at the beginning of a relay operation is the:  (426)
+        A.        fill pumper.
+        B.        relay pumper.
+        C.        initial pumper.
+        D.        water supply pumper.
+                2.        The pumper that receives water from the source pumper, raises the pressure, and then supplies water to the next apparatus is the:  (427)
+        A.        fill pumper.
+        B.        relay pumper.
+        C.        initial pumper.
+        D.        secondary pumper.
+                3.        The factor that MOST determines the need for relay operations is:  (427)
+        A.        the number of pumpers needed for the scene.
+        B.        whether the fire is likely to increase significantly.
+        C.        the value of the property involved in the incident.
+        D.        the distance between the incident scene and the water source.
+                4.        Which statement about pressure during relay pumping operations for the attack pumper is MOST accurate?  (434)
+        A.        Driver/operator should experience no variation in pressure  
+        B.        Driver/operator should expect large variations in pressure
+        C.        Driver/operator should expect small variations in pressure
+        D.        Driver/operator will not be able to determine pressure variations
+
+
+
+
+
+                5.        Which should be the first apparatus discontinued when relay operations are no longer needed?  (434)
+        A.        Pumpers at the fire scene
+        B.        Pumpers at the water supply
+        C.        Relay pumpers that are first in line  
+        D.        Relay pumpers that are last in line  
+                6.        Which relay method requires no adapters or other appliances to connect intake hoses in the system?  (435)
+        A.        Open relay
+        B.        Closed relay
+        C.        Ground relay
+        D.        Portable relay
+                7.        Which valve opens and dumps excess pressure/water until water is entering pump at correct pressure?  (435)
+        A.        Correction valve
+        B.        Inline relay valve
+        C.        Pressure relief valve
+        D.        Pump discharge valve
+                8.        Which valve is placed along the length of a supply hose and permits a pumper to connect to the valve to boost pressure in the hose?  (436)
+        A.        Correction valve
+        B.        Inline relay valve
+        C.        Pressure relief valve
+        D.        Pump discharge valve
+
+
+
+Directions:         Write a brief answer to the questions below.
+        9.        What three items directly affect friction loss in a relay system? (428)
+
+
+
+
+
+
+10.                What determines the overall capacity of a relay system? (432)
+
+
+
+
+11.                Why must driver/operators remember to keep water moving through the pump when using a static water supply?  (432)
+
+
+
+
+
+
+12.                What is the function of bleeder valves?  (435)
+
+
+
+
+
+
+Fire Protection Publications                Chapter Quiz 
+Oklahoma State University                12-

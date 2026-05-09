@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>Firefighter Chapter 10 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. A _____ is a public water supply network owned and maintained by a government or municipality.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 356" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) municipal water supply</label><br>
+        <label><input type="radio" name="q1" value="b"> b) common water supply</label><br>
+        <label><input type="radio" name="q1" value="c"> c) local authority water supply</label><br>
+        <label><input type="radio" name="q1" value="d"> d) static water supply</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. A(n) _____ is a system owned and maintained by a private business entity.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 356" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) municipal water system</label><br>
+        <label><input type="radio" name="q2" value="b"> b) individual water system</label><br>
+        <label><input type="radio" name="q2" value="c"> c) private water system</label><br>
+        <label><input type="radio" name="q2" value="d"> d) static water system</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. The three major components of a municipal water system are _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Municipal Water Systems" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 357" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) water tower, fire hydrants, and distribution station</label><br>
+        <label><input type="radio" name="q3" value="b"> b) water source, fire hydrants, and pump station</label><br>
+        <label><input type="radio" name="q3" value="c"> c) supply lines, distribution lines, and branch feeder lines</label><br>
+        <label><input type="radio" name="q3" value="d"> d) water source, water treatment facility, and distribution system</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. The typical pressure range for water flowing through a municipal water main is _____ at the delivery point.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Municipal Water Systems" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 358" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) 100 to 120 psi</label><br>
+        <label><input type="radio" name="q4" value="b"> b) 10 to 20 psi</label><br>
+        <label><input type="radio" name="q4" value="c"> c) 20 to 80 psi</label><br>
+        <label><input type="radio" name="q4" value="d"> d) 80 to 100 psi</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. The water distribution system delivers water from the treatment through a complex network of underground pipes called a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Municipal Water Systems" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 358" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) single pump system</label><br>
+        <label><input type="radio" name="q5" value="b"> b) ground distributor system</label><br>
+        <label><input type="radio" name="q5" value="c"> c) subsidiary main</label><br>
+        <label><input type="radio" name="q5" value="d"> d) water main</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. In a water distribution system, the _____ carries large quantities of water to specific parts of a municipality.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Municipal Water Systems" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 359" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) secondary feeder line</label><br>
+        <label><input type="radio" name="q6" value="b"> b) distributor pipe</label><br>
+        <label><input type="radio" name="q6" value="c"> c) branch line</label><br>
+        <label><input type="radio" name="q6" value="d"> d) trunk line</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. In a municipal water system, the smallest type of main that carries water to the users and to hydrants along streets is called a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Municipal Water Systems" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 359" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) trunk line</label><br>
+        <label><input type="radio" name="q7" value="b"> b) fire hydrant</label><br>
+        <label><input type="radio" name="q7" value="c"> c) branch line</label><br>
+        <label><input type="radio" name="q7" value="d"> d) distributor pipe</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. The three sizes of water mains found in underground distribution systems are _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Municipal Water Systems" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 359" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) primary feeders, secondary feeders, and distributors</label><br>
+        <label><input type="radio" name="q8" value="b"> b) secondary mains, primary distributors, and low-pressure feeders</label><br>
+        <label><input type="radio" name="q8" value="c"> c) service mains, high pressure feeders, and low-pressure distributors</label><br>
+        <label><input type="radio" name="q8" value="d"> d) branch feeders, truncated feeders, and hydrant lines</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. In a distribution system, a small main connected to the primary feeder that distributes water to a smaller area such as a neighborhood is called a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Municipal Water Systems" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 359" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) primary feeder</label><br>
+        <label><input type="radio" name="q9" value="b"> b) trunk line</label><br>
+        <label><input type="radio" name="q9" value="c"> c) secondary feeder</label><br>
+        <label><input type="radio" name="q9" value="d"> d) distributor</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. A _____ provides water flow to a fire hydrant from two or more directions and establishes multiple paths from the water source to each area.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Municipal Water Systems" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 359" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) constant flow arrangement</label><br>
+        <label><input type="radio" name="q10" value="b"> b) grid arrangement</label><br>
+        <label><input type="radio" name="q10" value="c"> c) bi-directional arrangement</label><br>
+        <label><input type="radio" name="q10" value="d"> d) multi-directional arrangement</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. A dead-end water main is a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Municipal Water Systems" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 359" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) secondary main that does not feature a shut-off valve</label><br>
+        <label><input type="radio" name="q11" value="b"> b) primary main that is supplied from two or more directions</label><br>
+        <label><input type="radio" name="q11" value="c"> c) distribution line that only supplies one fire hydrant</label><br>
+        <label><input type="radio" name="q11" value="d"> d) water main that is supplied from only one direction</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. A _____ is located at each connection point where the underground mains meet the distributor pipes and is used to control the flow of water to individual customers or hydrants.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Municipal Water Systems" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 360" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) stop flow valve</label><br>
+        <label><input type="radio" name="q12" value="b"> b) flow clamp</label><br>
+        <label><input type="radio" name="q12" value="c"> c) hydrant valve</label><br>
+        <label><input type="radio" name="q12" value="d"> d) shut-off valve</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. Most fire hydrants consist of an upright steel casing called the _____, which is attached to the underground water distribution system.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 360" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) stem</label><br>
+        <label><input type="radio" name="q13" value="b"> b) steamer port</label><br>
+        <label><input type="radio" name="q13" value="c"> c) barrel</label><br>
+        <label><input type="radio" name="q13" value="d"> d) outlet</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. On a fire hydrant, a(n) _____ is provided to connect fire department hose to the hydrant.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 360" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) swivel</label><br>
+        <label><input type="radio" name="q14" value="b"> b) coupling</label><br>
+        <label><input type="radio" name="q14" value="c"> c) outlet</label><br>
+        <label><input type="radio" name="q14" value="d"> d) thread</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. The valve that controls the flow of water into the barrel of a dry barrel hydrant is located _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 360" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) at the base of the barrel, just below the frost line</label><br>
+        <label><input type="radio" name="q15" value="b"> b) inside the barrel, just above the soil line</label><br>
+        <label><input type="radio" name="q15" value="c"> c) on the primary main, 2 feet away from the hydrant</label><br>
+        <label><input type="radio" name="q15" value="d"> d) on top of the hydrant bonnet</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. Turning the stem nut, also called the _____, on the top of the hydrant rotates the operating stem that opens the valve below ground so that water flows up into the barrel and charges the hydrant.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 360" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) upright</label><br>
+        <label><input type="radio" name="q16" value="b"> b) discharge cap</label><br>
+        <label><input type="radio" name="q16" value="c"> c) bonnet</label><br>
+        <label><input type="radio" name="q16" value="d"> d) steamer port</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. When not in use, outlets on fire hydrants are covered by a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 360" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) barrel cap</label><br>
+        <label><input type="radio" name="q17" value="b"> b) discharge cap</label><br>
+        <label><input type="radio" name="q17" value="c"> c) stem nut</label><br>
+        <label><input type="radio" name="q17" value="d"> d) frost bonnet</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. The hydrant cap is also referred to as the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 360" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) drain check</label><br>
+        <label><input type="radio" name="q18" value="b"> b) discharge cap</label><br>
+        <label><input type="radio" name="q18" value="c"> c) barrel crown</label><br>
+        <label><input type="radio" name="q18" value="d"> d) hydrant top</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. The top of the fire hydrant is called the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 360" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) barrel top</label><br>
+        <label><input type="radio" name="q19" value="b"> b) head</label><br>
+        <label><input type="radio" name="q19" value="c"> c) bonnet</label><br>
+        <label><input type="radio" name="q19" value="d"> d) cap</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. A valve that firefighters attach to a hydrant outlet that can be used to turn off the flow of water at the outlet is called a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 361" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) operating valve</label><br>
+        <label><input type="radio" name="q20" value="b"> b) stop valve</label><br>
+        <label><input type="radio" name="q20" value="c"> c) gate valve</label><br>
+        <label><input type="radio" name="q20" value="d"> d) flow valve</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. A fixed piping system with one end in a static water source and the other end accessible to attach a hose is called a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 363" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) static hydrant</label><br>
+        <label><input type="radio" name="q21" value="b"> b) static pipe</label><br>
+        <label><input type="radio" name="q21" value="c"> c) dry pipe</label><br>
+        <label><input type="radio" name="q21" value="d"> d) dry hydrant</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. The typical spacing distances for fire hydrants in residential areas is every _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 363" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) 1000 feet</label><br>
+        <label><input type="radio" name="q22" value="b"> b) 750 feet</label><br>
+        <label><input type="radio" name="q22" value="c"> c) 500 feet</label><br>
+        <label><input type="radio" name="q22" value="d"> d) 250 feet</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. A dry hydrant is also referred to as a ______.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 363" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) drafting hydrant</label><br>
+        <label><input type="radio" name="q23" value="b"> b) dry barrel hydrant</label><br>
+        <label><input type="radio" name="q23" value="c"> c) static hydrant</label><br>
+        <label><input type="radio" name="q23" value="d"> d) fixed hydrant</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. Ensuring dry barrel hydrants are completely drained after operations prevents the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Fire Hydrant Operation" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 364" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) stem nut from sticking in the open position</label><br>
+        <label><input type="radio" name="q24" value="b"> b) barrel from freezing</label><br>
+        <label><input type="radio" name="q24" value="c"> c) operating valve from rusting</label><br>
+        <label><input type="radio" name="q24" value="d"> d) soil erosion around the hydrant</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q25">
+    <p><strong>25. _____ deals with the properties of energy, pressure, and water flow as related to fire suppression.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Fire Hydraulics" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 368" style="display: none;"></div>
+        <label><input type="radio" name="q25" value="a"> a) Pump pressure</label><br>
+        <label><input type="radio" name="q25" value="b"> b) Fire hydraulics</label><br>
+        <label><input type="radio" name="q25" value="c"> c) Water flow</label><br>
+        <label><input type="radio" name="q25" value="d"> d) Pressure flow</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q26">
+    <p><strong>26. Water pressure is the force, or amount of energy, per unit area and is measured in _____ in the U.S.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Fire Hydraulics" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Pages 369" style="display: none;"></div>
+        <label><input type="radio" name="q26" value="a"> a) psi</label><br>
+        <label><input type="radio" name="q26" value="b"> b) fps</label><br>
+        <label><input type="radio" name="q26" value="c"> c) mph</label><br>
+        <label><input type="radio" name="q26" value="d"> d) gpm</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q27">
+    <p><strong>27. _____ is the amount of pressure in a system when the water is not moving.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Fire Hydraulics" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 369" style="display: none;"></div>
+        <label><input type="radio" name="q27" value="a"> a) Flow pressure</label><br>
+        <label><input type="radio" name="q27" value="b"> b) Static pressure</label><br>
+        <label><input type="radio" name="q27" value="c"> c) Static flow</label><br>
+        <label><input type="radio" name="q27" value="d"> d) Water volume</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q28">
+    <p><strong>28. _____ is the volume of water moving through a pipe, hose, or nozzle over a period of time.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Fire Hydraulics" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 368" style="display: none;"></div>
+        <label><input type="radio" name="q28" value="a"> a) Static pressure</label><br>
+        <label><input type="radio" name="q28" value="b"> b) Friction flow</label><br>
+        <label><input type="radio" name="q28" value="c"> c) Water flow</label><br>
+        <label><input type="radio" name="q28" value="d"> d) Flow volume</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q29">
+    <p><strong>29. _____ is energy that is stored up as a result of its position or condition.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Fire Hydraulics" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 369" style="display: none;"></div>
+        <label><input type="radio" name="q29" value="a"> a) Residual energy</label><br>
+        <label><input type="radio" name="q29" value="b"> b) Static energy</label><br>
+        <label><input type="radio" name="q29" value="c"> c) Potential energy</label><br>
+        <label><input type="radio" name="q29" value="d"> d) Operating energy</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q30">
+    <p><strong>30. The minimum usable residual pressure necessary to reduce the risk of damage to underground water mains or pumps by collapse and prevent damage to the fire engine pump is _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Fire Hydraulics" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 370" style="display: none;"></div>
+        <label><input type="radio" name="q30" value="a"> a) 2 psi</label><br>
+        <label><input type="radio" name="q30" value="b"> b) 12 psi</label><br>
+        <label><input type="radio" name="q30" value="c"> c) 20 psi</label><br>
+        <label><input type="radio" name="q30" value="d"> d) 32 psi</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q31">
+    <p><strong>31. _____ is the amount of pressure that remains in the system when water is flowing out of it.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Fire Hydraulics" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 370" style="display: none;"></div>
+        <label><input type="radio" name="q31" value="a"> a) Operating pressure</label><br>
+        <label><input type="radio" name="q31" value="b"> b) Kinetic pressure</label><br>
+        <label><input type="radio" name="q31" value="c"> c) Static pressure</label><br>
+        <label><input type="radio" name="q31" value="d"> d) Residual pressure</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q32">
+    <p><strong>32. The decrease in pressure caused by resistance as water moves through a pipe or hose is called _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Fire Hydraulics" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 370" style="display: none;"></div>
+        <label><input type="radio" name="q32" value="a"> a) static pressure</label><br>
+        <label><input type="radio" name="q32" value="b"> b) friction loss</label><br>
+        <label><input type="radio" name="q32" value="c"> c) residual compensation</label><br>
+        <label><input type="radio" name="q32" value="d"> d) hydraulic compression</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q33">
+    <p><strong>33. _____ is the pressure created by gravity as the water flows from a hill-top reservoir to the water mains in the valley below.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Fire Hydraulics" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 370" style="display: none;"></div>
+        <label><input type="radio" name="q33" value="a"> a) Static pressure</label><br>
+        <label><input type="radio" name="q33" value="b"> b) Gravity pressure</label><br>
+        <label><input type="radio" name="q33" value="c"> c) Friction pressure</label><br>
+        <label><input type="radio" name="q33" value="d"> d) Head pressure</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q34">
+    <p><strong>34. Elevation pressure is sometimes referred to as _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Fire Hydraulics" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 370" style="display: none;"></div>
+        <label><input type="radio" name="q34" value="a"> a) gravity pressure</label><br>
+        <label><input type="radio" name="q34" value="b"> b) head pressure</label><br>
+        <label><input type="radio" name="q34" value="c"> c) residual pressure</label><br>
+        <label><input type="radio" name="q34" value="d"> d) friction pressure</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q35">
+    <p><strong>35. For every 10 ft of elevation, the discharge pressure on a fire pump must be increased by _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Fire Hydraulics" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 370" style="display: none;"></div>
+        <label><input type="radio" name="q35" value="a"> a) 2.44 psi</label><br>
+        <label><input type="radio" name="q35" value="b"> b) 4.34 psi</label><br>
+        <label><input type="radio" name="q35" value="c"> c) 5.43 psi</label><br>
+        <label><input type="radio" name="q35" value="d"> d) 6.34 psi</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q36">
+    <p><strong>36. _____ is a surge in pressure caused by suddenly stopping the flow of a stream of water.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Fire Hydraulics" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 371" style="display: none;"></div>
+        <label><input type="radio" name="q36" value="a"> a) Water hammer</label><br>
+        <label><input type="radio" name="q36" value="b"> b) Air hammer</label><br>
+        <label><input type="radio" name="q36" value="c"> c) Cavitation</label><br>
+        <label><input type="radio" name="q36" value="d"> d) Vapor lock</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q37">
+    <p><strong>37. Fire hydrants should be inspected _____ to ensure that they are in proper operating condition.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Inspecting, Maintaining, and Testing Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 371" style="display: none;"></div>
+        <label><input type="radio" name="q37" value="a"> a) every five years</label><br>
+        <label><input type="radio" name="q37" value="b"> b) every three to five years</label><br>
+        <label><input type="radio" name="q37" value="c"> c) every two years</label><br>
+        <label><input type="radio" name="q37" value="d"> d) at least once per year</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q38">
+    <p><strong>38. The NFPA specifies colors to indicate the water flow available from each hydrant at _____ residual pressure.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Inspecting, Maintaining, and Testing Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 371" style="display: none;"></div>
+        <label><input type="radio" name="q38" value="a"> a) 40 psi</label><br>
+        <label><input type="radio" name="q38" value="b"> b) 20 psi</label><br>
+        <label><input type="radio" name="q38" value="c"> c) 55 psi</label><br>
+        <label><input type="radio" name="q38" value="d"> d) 60 psi</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q39">
+    <p><strong>39. Per NFPA, a _____ hydrant flows 1500 gpm or higher.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Inspecting, Maintaining, and Testing Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 372" style="display: none;"></div>
+        <label><input type="radio" name="q39" value="a"> a) Class A</label><br>
+        <label><input type="radio" name="q39" value="b"> b) Class B</label><br>
+        <label><input type="radio" name="q39" value="c"> c) Class C</label><br>
+        <label><input type="radio" name="q39" value="d"> d) Class AA</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q40">
+    <p><strong>40. Per NFPA, a _____ hydrant features a green bonnet.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Inspecting, Maintaining, and Testing Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 372" style="display: none;"></div>
+        <label><input type="radio" name="q40" value="a"> a) Class AA</label><br>
+        <label><input type="radio" name="q40" value="b"> b) Class A</label><br>
+        <label><input type="radio" name="q40" value="c"> c) Class B</label><br>
+        <label><input type="radio" name="q40" value="d"> d) Class C</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q41">
+    <p><strong>41. Per NFPA, a hydrant with a red bonnet would flow _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Inspecting, Maintaining, and Testing Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 372" style="display: none;"></div>
+        <label><input type="radio" name="q41" value="a"> a) less than 500 gpm</label><br>
+        <label><input type="radio" name="q41" value="b"> b) 500 to 999 gpm</label><br>
+        <label><input type="radio" name="q41" value="c"> c) 1000 to 1499 gpm</label><br>
+        <label><input type="radio" name="q41" value="d"> d) 1500 gpm or higher</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q42">
+    <p><strong>42. When the threads on the discharge ports of a fire hydrant need cleaning, use _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Inspecting, Maintaining, and Testing Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 372" style="display: none;"></div>
+        <label><input type="radio" name="q42" value="a"> a) a steel wire brush and small triangular file</label><br>
+        <label><input type="radio" name="q42" value="b"> b) bleach and a soft cloth</label><br>
+        <label><input type="radio" name="q42" value="c"> c) a sponge and window cleaner</label><br>
+        <label><input type="radio" name="q42" value="d"> d) heavy degreaser and a cloth</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q43">
+    <p><strong>43. NFPA 291 recommends that fire hydrants should be flow-tested _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Inspecting, Maintaining, and Testing Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 372" style="display: none;"></div>
+        <label><input type="radio" name="q43" value="a"> a) every 5 years</label><br>
+        <label><input type="radio" name="q43" value="b"> b) every 3 years</label><br>
+        <label><input type="radio" name="q43" value="c"> c) every 2 years</label><br>
+        <label><input type="radio" name="q43" value="d"> d) at least annually</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q44">
+    <p><strong>44. A _____ measures water flow in gallons per minute from an orifice.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Inspecting, Maintaining, and Testing Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 373" style="display: none;"></div>
+        <label><input type="radio" name="q44" value="a"> a) flow meter</label><br>
+        <label><input type="radio" name="q44" value="b"> b) pitot meter</label><br>
+        <label><input type="radio" name="q44" value="c"> c) pressure meter</label><br>
+        <label><input type="radio" name="q44" value="d"> d) hydrant meter</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q45">
+    <p><strong>45. The two types of portable water tanks are _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Rural Water Supplies" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 376" style="display: none;"></div>
+        <label><input type="radio" name="q45" value="a"> a) self-filling and auto-dumping</label><br>
+        <label><input type="radio" name="q45" value="b"> b) gasoline powered and electric</label><br>
+        <label><input type="radio" name="q45" value="c"> c) metal-frame and self-expanding</label><br>
+        <label><input type="radio" name="q45" value="d"> d) air inflated and heavy canvas</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q46">
+    <p><strong>46. The _____ on a mobile water supply apparatus enables the tankers to offload as much as 3000 gallons of water in 1 minute.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Rural Water Supplies" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Pages 376–378" style="display: none;"></div>
+        <label><input type="radio" name="q46" value="a"> a) tank to pump valve</label><br>
+        <label><input type="radio" name="q46" value="b"> b) recirculate valve</label><br>
+        <label><input type="radio" name="q46" value="c"> c) tank fill valve</label><br>
+        <label><input type="radio" name="q46" value="d"> d) dump valve</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q47">
+    <p><strong>47. _____ are conducted when large amounts of water from a static water source are needed at a fire scene.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Rural Water Supplies" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 378" style="display: none;"></div>
+        <label><input type="radio" name="q47" value="a"> a) Tender to tanker operations</label><br>
+        <label><input type="radio" name="q47" value="b"> b) Portable pump and roll operations</label><br>
+        <label><input type="radio" name="q47" value="c"> c) Water shuttle operations</label><br>
+        <label><input type="radio" name="q47" value="d"> d) Portable pump operations</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q48">
+    <p><strong>48. Portable tanks carried on fire apparatus typically hold between _____ of water.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Rural Water Supplies" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 376" style="display: none;"></div>
+        <label><input type="radio" name="q48" value="a"> a) 200 and 3000 gallons</label><br>
+        <label><input type="radio" name="q48" value="b"> b) 600 and 5000 gallons</label><br>
+        <label><input type="radio" name="q48" value="c"> c) 500 and 7000 gallons</label><br>
+        <label><input type="radio" name="q48" value="d"> d) 100 and 1000 gallons</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q49">
+    <p><strong>49. The _____ is an O-shaped piece of rubber that sits inside the swivel section of the female hose coupling.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Rural Water Supplies" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 375" style="display: none;"></div>
+        <label><input type="radio" name="q49" value="a"> a) coupling gasket</label><br>
+        <label><input type="radio" name="q49" value="b"> b) O-gasket</label><br>
+        <label><input type="radio" name="q49" value="c"> c) strainer gasket</label><br>
+        <label><input type="radio" name="q49" value="d"> d) swivel gasket</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q50">
+    <p><strong>50. Per NFPA, a hydrant with a(n) _____ bonnet would flow between 500 and 999 gpm.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Inspecting, Maintaining, and Testing Fire Hydrants" data-subject="Chapter 10" data-title="Water Supply Systems" data-feedback="Chapter 10; Page 372" style="display: none;"></div>
+        <label><input type="radio" name="q50" value="a"> a) blue</label><br>
+        <label><input type="radio" name="q50" value="b"> b) green</label><br>
+        <label><input type="radio" name="q50" value="c"> c) orange</label><br>
+        <label><input type="radio" name="q50" value="d"> d) red</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+</form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

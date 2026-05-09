@@ -1,0 +1,123 @@
+﻿Chapter 14 Quiz Answers
+        1.        D
+        2.        C
+        3.        A
+        4.        C
+        5.        B
+        6.        D
+        7.        B
+        8.        C
+        9.        D
+        10.        A
+        11.        B
+        12.        A
+        13.        D
+        14.        Answers may vary; students should include at least two of the following:
+* Separating — Creates a barrier between the fuel and the fire
+* Cooling — Lowers the temperature of the fuel and adjacent surfaces
+* Suppressing or smothering — Prevents the release of flammable vapors, reducing the possibility of ignition or reignition
+        15.        Answers may vary; students should include at least two of the following:
+* The reach of the fire stream is considerably longer than those of low energy systems.
+* A CAFS system produces small uniform air bubbles that are very durable.
+* Foam produced by a CAFS adheres to a fuel surface and resists heat longer than low energy foam.
+* Hoselines containing high energy foam solution weigh less than those containing plain water, or low energy foam solution.
+* CAFS may provide a safer fire attack that allows effective reach from a greater distance.
+        16.        Answer may vary slightly, but students should include the following:
+* They operate on the same principle as the water aspirating nozzle, except that air is forced through the foam solution by the fan instead of being pulled by water movement.
+        17.        Answers may vary; students should include at least four of the following:
+* Incorrect match between eductor and nozzle flow, resulting in no pickup of foam concentrate
+* Air leaks at fittings may cause a loss of suction
+* Clogged proportioning equipment
+* Partially closed nozzle will result in a flow rate that will not allow the creation of a Venturi effect capable of picking up foam concentrate
+* Too long of an attack line on the discharge side of the eductor
+* Kinked hose
+* Nozzle placed too far above the eductor, resulting in excessive elevation pressure
+* Different manufacturers foam concentrates should not be mixed together (except for mil-spec concentrates) as they may be chemically incompatible
+* Different classes of foam should not be mixed as they may produce an ineffective foam product or prevent any foam delivery
+
+Chapter 14 Test Answers
+
+
+Objective 1
+        1.        A
+        2.        D
+        3.        B
+        4.        B
+        5.        D
+        6.        B
+        7.        A
+        8.        B
+        9.         C
+        10.        A
+        11.        D
+        12.        C
+
+
+Objective 2
+        13.        C
+        14.        B
+        15.        C
+        16.        A
+        17.        D
+        18.        D
+        19.        C
+        20.        C
+        21.        C
+        22.        B
+        23.        C
+        24.        B
+        25.        C
+        26.        B
+        
+Objective 3
+        27.        A
+        28.        A
+        29.        C
+        30.        C
+        31.        D
+        32.        B
+        33.        A
+        34.        B
+        35.        A
+        36.        B
+        37.        C
+        38.        A
+        39.        B
+        40.        B
+
+
+Objective 4
+        41.        C
+        42.        B
+        43.        D
+
+
+Objective 5
+        44.        A
+        45.        A
+        46.        C
+        47.        A
+        48.        C
+        49.        C
+        50.        B
+
+
+Objective 6
+        51.        C
+        52.        B
+
+
+Objective 7
+        53.        A
+        54.        C
+
+
+Objective 8
+        55.        C
+        56.        A
+        57.        A
+
+
+Objective 9
+        58.        A
+        59.        D

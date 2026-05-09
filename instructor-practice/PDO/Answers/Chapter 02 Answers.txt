@@ -1,0 +1,88 @@
+﻿Chapter 2 Quiz Answers
+        1.        A
+        2.        D
+        3.        D
+        4.        D
+        5.        B
+        6.        B
+        7.        D
+        8.        A
+        9.        C
+        10.        C
+        11.        Answers should include three of the following:
+* Proper tread depth
+* Tread separation
+* Cupping
+* Excessive wear on the sidewalls
+* Cuts
+* Dry rotting
+* Cracking tires
+* Objects impaled in the tire
+        12.        A load sequencer turns on various lights at specified intervals so startup electrical load for all devices does not occur at the same time. A load monitor “watches” the system for any added electrical loads that threaten to overload the system. 
+
+
+
+
+
+Chapter 2 Test Answers
+
+
+Objective 1
+1. C
+2. B
+3. A
+
+
+Objective 2
+4. D
+5. D
+6. C
+
+
+Objective 3
+7. D
+8. D
+9. D
+        10.        C
+        11.        D
+        12.        C
+        13.        A
+
+
+Objective 4
+Objective 5
+        14.        C
+        15.        A
+        16.        B
+        17.        A
+        18.        D
+        19.        A
+        20.        C
+        21.        C
+        22.        C
+        23.        A
+        24.        A
+
+
+
+        25.        B
+        26.        C
+        27.        D
+        28.        A
+        29.        D
+        30.        C
+        31.        D
+        32.        D
+        33.        D
+        34.        C
+        35.        C
+        36.        A
+        37.        D
+        38.        C
+        39.        C
+        40.        D
+
+
+Objective 6
+        41.        B
+        42.        C

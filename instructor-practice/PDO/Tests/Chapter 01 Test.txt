@@ -1,0 +1,236 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Types of Apparatus Equipped with a Pump
+Chapter 1 Test
+Name:
+	
+
+	Date:
+	
+
+	
+
+Directions: Write the correct letter on the blank before each question.
+
+
+Objective 1: 
+Describe fire department pumpers.
+                1.        The main purpose of fire department pumpers is to:  (13)
+        A.        limit the need for external water sources.
+        B.        provide support for other rescue vehicles.
+        C.        serve as dual-purpose vehicles for the department.
+        D.        provide adequate water pressure for effective fire streams.
+                2.        According to NFPA® 1901, fire department pumpers should have a minimum pump capacity of:  (14)
+        A.        250 gpm (1 000 L/min).
+        B.        500 gpm (2 000 L/min).
+        C.        750 gpm (3 000 L/min).
+        D.        2,000 gpm (8 000 L/min).
+                3.        According to NFPA® 1901, fire department pumpers should have a water tank capacity of at least:  (14)
+        A.        100 gallons (400 liters).
+        B.        250 gallons (1 000 liters).
+        C.        300 gallons (1 200 liters).
+        D.        750 gallons (3 000 liters).
+                4.        What NFPA® standard specifies minimum portable equipment that must be carried on all pumpers?  (14)
+        A.        NFPA® 1021
+        B.        NFPA® 1031
+        C.        NFPA® 1500
+        D.        NFPA® 1901
+
+                5.        Which statement about fire department pumpers and foam capability is MOST accurate?  (15)
+        A.        Most fire department pumpers are not generally capable of discharging foam.
+        B.        Fire department pumpers are often capable of discharging foam on Class A fires but not Class B fires.
+        C.                Fire department pumpers are often capable of discharging foam on Class B fires but not Class A fires.
+        D.        Many fire departments operate pumpers capable of discharging foam on Class A and/or Class B fires.
+                6.        Foam tanks on municipal fire pumpers are often designed to be refilled:  (16)
+        A.        directly from 1 gallon (4 L) containers.
+        B.        directly from 5 gallon (20 L) containers.
+        C.        indirectly from larger portable containers.
+        D.        only after returning to the fire department station.
+
+
+Objective 2:
+Describe initial attack fire apparatus. 
+                7.        What term is often used to define pumping apparatus smaller than a full-size pumper?  (16)
+        A.        Low-pumper
+        B.        Mini-pumper
+        C.        Half-pumper
+        D.        Fast-action pumper
+                8.        Compared to full-size pumpers, initial attack fire apparatus have:  (16)
+        A.        larger chassis. 
+        B.        smaller chassis.
+        C.        larger agent tank sizes.
+        D.        the same chassis and agent tank sizes.
+        
+
+Objective 3:
+Describe mobile water supply apparatus. 
+                9.        What is the function of mobile water supply apparatus?  (17)
+        A.        Transport water to areas where a water system is nonexistent or inadequate
+        B.        Limit the amount of hose necessary to fight fires in highly populated areas
+        C.        Transport water to areas where more than one apparatus is needed for suppression
+        D.        Act as a backup water supply system to conventional sources of water at structural fires
+                10.        Which factor involves taking into consideration the capability of nearby jurisdictions when determining the capacity of mobile water supply apparatus?  (17)
+        A.        Terrain 
+        B.        Interoperability
+        C.        Monetary constraints
+        D.        Bridge and weight limits
+                11.        According to NFPA® 1901, mobile water supply apparatus must be equipped with a tank capacity of at least:  (17)
+        A.        500 gallons (2 000 L). 
+        B.        1,000 gallons (4 000 L).
+        C.        2,000 gallons (8 000 L).
+        D.        3,500 gallons (14 000 L).
+                12.        Which is a safety and efficiency requirement that should be met by mobile water supply apparatus?  (18)
+        A.        Ability to operate in any type of terrain or weather  
+        B.        Suspension and steering matched to terrain requirements
+        C.        Water capacity that provides 10% more water than needed 
+        D.        Water capacity that provides 50% more water than needed
+
+                13.        When a mobile water supply apparatus uses a quick dump valve to off-load its water supply into folding portable water tanks, the water tender is being used:  (18)
+        A.        as an intermittent source.
+        B.        as a secondary operation.
+        C.        in a mobile shuttle operation.
+        D.        as a stationary reservoir or “nurse tender.”
+                14.        When a mobile water supply apparatus is parked in close proximity to the fire scene and pumpers are using its supply during suppression operations, the water tender is being used:  (18)
+        A.        as an intermittent source.
+        B.        as a secondary operation.
+        C.        in a mobile shuttle operation.
+        D.        as a stationary reservoir or “nurse tender.”
+
+
+Objective 4:
+Distinguish among specialty fire apparatus. 
+                15.        Which apparatus are known as brush trucks, brush breakers, or booster apparatus?  (19)
+        A.        Wildland fire apparatus
+        B.        Aircraft rescue and fire apparatus
+        C.        Aerial apparatus equipped with fire pumps
+        D.        Rescue apparatus equipped with fire pumps
+                16.        Which apparatus is MOST likely to have a pump and roll system that allows apparatus to be driven while discharging water?  (19)
+        A.        Wildland fire apparatus
+        B.        Aircraft rescue and fire apparatus
+        C.        Aerial apparatus equipped with fire pumps
+        D.        Rescue apparatus equipped with fire pumps
+
+                17.        Which apparatus would be MOST beneficial in assisting municipal fire departments with large scale flammable liquid incidents?  (20)
+        A.        Wildland fire apparatus
+        B.        Aircraft rescue and fire apparatus
+        C.        Aerial apparatus equipped with fire pumps
+        D.        Rescue apparatus equipped with fire pumps
+                18.        Which type of apparatus is often divided into three general categories: major fire fighting vehicles, rapid intervention vehicles, and combined agent vehicles?  (20)
+        A.        Wildland fire apparatus
+        B.        Aircraft rescue and fire apparatus
+        C.        Aerial apparatus equipped with fire pumps
+        D.        Rescue apparatus equipped with fire pumps
+                19.        Which apparatus are MOST likely to be used for ice rescue?  (21)
+        A.        Fireboats
+        B.        Wildland fire apparatus
+        C.        Aerial apparatus equipped with fire pumps
+        D.        Rescue apparatus equipped with fire pumps
+                20.        Which apparatus has the ability to supply its own master streams and may function with the capabilities of an engine or a ladder company?  (21)
+        A.        Wildland fire apparatus
+        B.        Aircraft rescue and fire apparatus
+        C.        Aerial apparatus equipped with fire pumps
+        D.        Rescue apparatus equipped with fire pumps
+                21.        Which consideration would MOST likely be taken into account when positioning an aerial apparatus with fire pumps?  (21)
+        A.        Time of day
+        B.        Direction of the wind
+        C.        Reach of the aerial device
+        D.        Number of available personnel
+
+                22.        An apparatus that is equipped with a fire pump, water tank, and hose, in addition to an aerial device and ground ladders, is BEST referred to as a:  (22)
+        A.        quint.
+        B.        midi-pumper.
+        C.        mini-pumper.
+        D.        rescue apparatus.
+                23.        Which type of apparatus has small fire pumps and tanks that may feature foam proportioning equipment and a tank for foam concentrate?  (22)
+        A.        Trailer-mounted fire pumps
+        B.        Aircraft rescue and fire apparatus
+        C.        Aerial apparatus equipped with fire pumps
+        D.        Rescue apparatus equipped with fire pumps
+                24.        Which apparatus is often designed with the pump panel and one or more preconnected hoselines housed in a compartment?  (22)
+        A.        Fireboats 
+        B.        Wildland fire apparatus
+        C.        Trailer-mounted fire pumps
+        D.        Rescue apparatus equipped with fire pumps
+                25.        Which apparatus are MOST likely to serve applications such as long-term pumping operations at landfills?  (22)
+        A.        Wildland fire apparatus
+        B.        Trailer-mounted fire pumps
+        C.        Aircraft rescue and fire apparatus
+        D.        Rescue apparatus equipped with fire pumps
+
+
+Objective 5:
+Identify apparatus-mounted special systems. 
+                26.        Which department member is MOST likely to be responsible for apparatus-mounted special systems, as well as for the fire pump?  (22)
+        A.        Battalion chief
+        B.        Driver/operator
+        C.        Senior firefighter
+        D.        Incident Commander
+                27.        Which equipment is MOST likely to be used when a small amount of power is needed near the vehicle?  (23)
+        A.        Inverter
+        B.                Mini-generator
+        C.        Portable generator
+        D.        Vehicle-mounted generator
+                28.        Which equipment converts a vehicle’s 12- or 24-volt DC current into 110- or 220-volt AC current?  (23)
+        A.        Inverter
+        B.                Mini-generator
+        C.        Portable generator
+        D.        Vehicle-mounted generator
+                29.        Which equipment is powered by small gasoline or diesel engines, generally has 110 and/or 220-volt capability, and is available with power capacities up to 5,000 watts?  (23)
+        A.        Inverter
+        B.                Mini-generator
+        C.        Portable generator
+        D.        Vehicle-mounted generator
+                30.        Which equipment is useful when remote power is needed away from the apparatus?  (23)
+        A.        Inverter
+        B.        Mini-generator
+        C.        Portable generator
+        D.        Apparatus-mounted generator
+                31.        Which equipment is powered by gasoline, diesel, power-take-off, or hydraulic systems?  (23)
+        A.        Inverter
+        B.        Mini-generator
+        C.        Portable generator
+        D.        Vehicle-mounted generator
+
+                32.        Which statement about apparatus-mounted generators with separate engines is MOST accurate?  (23)
+        A.        They are initially quiet but become very loud after being run for long durations.
+        B.        They are initially very loud but become quiet after being run for long durations.
+        C.        They have nearly soundless operation and don’t interfere with communication.
+        D.        They may create noisy work environments making communication difficult.
+                33.        Which type of light ranges from 300 to 1,000 watts and is advantageous where illumination is needed away from the apparatus?  (23-24)
+        A.        Fixed lights
+        B.        Portable lights
+        C.        Banks of lights 
+        D.        Multi-use lights
+                34.        Which type of light provides general lighting for the scene and is often mounted so that it may be raised, lowered, or turned to provide the best possible lighting?  (24)
+        A.        Fixed lights
+        B.        Portable lights
+        C.        Banks of lights 
+        D.        Multi-use lights
+                35.        Which is the MOST likely reason that a fire department would use heavy duty electrical cords?  (24)
+        A.        Cords can be left outside for extended periods.
+        B.        Cords allow greater compatibility with other agencies.
+        C.        Cords provide greater abrasion protection on the fireground.        
+        D.        Cords can supply power to several connections from one supply source.
+
+
+
+
+
+                36.        Which equipment is used to supply power to several connections from one supply source?  (24)
+        A.        Adapters
+        B.        Junction boxes
+        C.        Multi-use cords
+        D.        Twist-lock receptacles
+                37.        Which equipment allows rescuers to plug their equipment into standard electrical outlets?  (24)
+        A.        Adapters
+        B.        Junction boxes
+        C.        Multi-use cords
+        D.        Twist-lock receptacles
+                38.        Which statement about rescue tools is MOST accurate?  (24)
+        A.        Power systems are always portable.
+        B.        Power systems are always apparatus mounted.
+        C.        Power systems may be portable or apparatus mounted.
+        D.        Power systems on pumping apparatus are not adequate for rescue tools.
+
+
+Fire Protection Publications                Chapter Test
+Oklahoma State University                1-

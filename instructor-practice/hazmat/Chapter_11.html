@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>HazMat A&O Chapter 11 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. If you are working on product control at a weapons of mass destruction incident, you might be supervised by which person?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 250, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) Local police chief</label><br>
+        <label><input type="radio" name="q1" value="b"> b) Representative of Occupational Safety and Health Administration</label><br>
+        <label><input type="radio" name="q1" value="c"> c) Hazardous materials technician</label><br>
+        <label><input type="radio" name="q1" value="d"> d) EMT</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. What should most closely guide your actions in product control when mass contamination has occurred?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 250, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) Standard operating procedures</label><br>
+        <label><input type="radio" name="q2" value="b"> b) Federal regulations</label><br>
+        <label><input type="radio" name="q2" value="c"> c) Bulletins from the National Fire Protection Association</label><br>
+        <label><input type="radio" name="q2" value="d"> d) Local police</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. The job performance requirements of Product control are most completely covered in which NFPA 470 section?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 250, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) Section 9.6.1</label><br>
+        <label><input type="radio" name="q3" value="b"> b) Section 7.1.1</label><br>
+        <label><input type="radio" name="q3" value="c"> c) Section 4.7.2</label><br>
+        <label><input type="radio" name="q3" value="d"> d) Section 6.2.2</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. Which of the following is a part of product control?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Control Options" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 250, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) Containment</label><br>
+        <label><input type="radio" name="q4" value="b"> b) Combustion</label><br>
+        <label><input type="radio" name="q4" value="c"> c) Oxidation</label><br>
+        <label><input type="radio" name="q4" value="d"> d) Dispersal</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. Which item would lead to product control being an important issue in an incident response?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Control Options" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 250, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) Subject suffering a stroke</label><br>
+        <label><input type="radio" name="q5" value="b"> b) Establishment of cold, warm, and hot zones</label><br>
+        <label><input type="radio" name="q5" value="c"> c) Leaking drum</label><br>
+        <label><input type="radio" name="q5" value="d"> d) Arrival of press</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. At an incident scene, you find a 1,000-gallon tank of oil leaking about 2 gallons per minute. What might you use to both dike the oil and absorb some of it?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Control Options" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 251, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) Concrete blocks</label><br>
+        <label><input type="radio" name="q6" value="b"> b) Hay bales</label><br>
+        <label><input type="radio" name="q6" value="c"> c) Tree trunks</label><br>
+        <label><input type="radio" name="q6" value="d"> d) Plastic bricks</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. Ten gallons of a fast-evaporating organic solvent have been spilled outside a storage building. What might be the simplest and safest way to respond?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Control Options" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 251, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) Set fire to the solvent to destroy it.</label><br>
+        <label><input type="radio" name="q7" value="b"> b) Call for help from the police.</label><br>
+        <label><input type="radio" name="q7" value="c"> c) Have everyone wear respirators.</label><br>
+        <label><input type="radio" name="q7" value="d"> d) Create a perimeter and allow for self-resolution.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. Inside a building, where would be a logical place to create a dike to control a spill of toluene?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Control Options" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 252, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) Roof</label><br>
+        <label><input type="radio" name="q8" value="b"> b) Doorway</label><br>
+        <label><input type="radio" name="q8" value="c"> c) Basement</label><br>
+        <label><input type="radio" name="q8" value="d"> d) Communal kitchen</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. Where would absorption be least effective for product control during a response?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Control Options" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 252, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) Warehouse floor</label><br>
+        <label><input type="radio" name="q9" value="b"> b) Level concrete patio</label><br>
+        <label><input type="radio" name="q9" value="c"> c) Stairs</label><br>
+        <label><input type="radio" name="q9" value="d"> d) Basement floor</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. Which aspect of a material is most useful for it to adsorb product?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Control Options" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 253, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) Color</label><br>
+        <label><input type="radio" name="q10" value="b"> b) Density</label><br>
+        <label><input type="radio" name="q10" value="c"> c) Mass</label><br>
+        <label><input type="radio" name="q10" value="d"> d) Surface</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. An overflow dam will hold back materials beginning with those having a specific gravity greater than:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Control Options" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 253, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) 0.5.</label><br>
+        <label><input type="radio" name="q11" value="b"> b) 0.6.</label><br>
+        <label><input type="radio" name="q11" value="c"> c) 1.0.</label><br>
+        <label><input type="radio" name="q11" value="d"> d) 1.2.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. You are at the site of a release of motor oil mixed with gasoline into an estuary. What can you deploy from a boat to contain the chemicals?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Control Options" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 253, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) Towels</label><br>
+        <label><input type="radio" name="q12" value="b"> b) Spill boom</label><br>
+        <label><input type="radio" name="q12" value="c"> c) Sawdust</label><br>
+        <label><input type="radio" name="q12" value="d"> d) Tree trunks</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. What would be best for containing a large volume of a mix of organic solvents that are all lighter than water as the mix moves down a trench?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Control Options" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 255, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) Underflow dam</label><br>
+        <label><input type="radio" name="q13" value="b"> b) Spill boom</label><br>
+        <label><input type="radio" name="q13" value="c"> c) Overflow dam</label><br>
+        <label><input type="radio" name="q13" value="d"> d) Pile of hay</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. What diameter of pipe is appropriate for use in an underflow dam?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Control Options" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 256, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) 1 to 2 inches</label><br>
+        <label><input type="radio" name="q14" value="b"> b) 2 to 3 inches</label><br>
+        <label><input type="radio" name="q14" value="c"> c) 3 to 4 inches</label><br>
+        <label><input type="radio" name="q14" value="d"> d) 5 to 6 inches</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. If you plan to use dilution to ameliorate a spill of an acid, this implies that you know which of the following about the acid with precision?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Control Options" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 257, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) Chemical structure</label><br>
+        <label><input type="radio" name="q15" value="b"> b) Identity</label><br>
+        <label><input type="radio" name="q15" value="c"> c) Concentration</label><br>
+        <label><input type="radio" name="q15" value="d"> d) Manufacturer</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. If a solvent has been spilled on a road, the road’s curb could be most easily used for:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Control Options" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 259, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) diking.</label><br>
+        <label><input type="radio" name="q16" value="b"> b) diversion.</label><br>
+        <label><input type="radio" name="q16" value="c"> c) damming.</label><br>
+        <label><input type="radio" name="q16" value="d"> d) retention.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. Which kind of foam is usually diluted with water to between 1% and 6%?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Recovery" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 263, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) Aqueous film-forming foam</label><br>
+        <label><input type="radio" name="q17" value="b"> b) Alcohol-resistant concentrates</label><br>
+        <label><input type="radio" name="q17" value="c"> c) Fluoroprotein foam</label><br>
+        <label><input type="radio" name="q17" value="d"> d) High-expansion foam</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. What would signal that the recovery phase of an emergency response can begin?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Recovery" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 265, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) Casualty rate dropping</label><br>
+        <label><input type="radio" name="q18" value="b"> b) Danger passed</label><br>
+        <label><input type="radio" name="q18" value="c"> c) Go-ahead from police</label><br>
+        <label><input type="radio" name="q18" value="d"> d) Nightfall</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. The recovery phase can continue for as long as:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Recovery" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 265, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) hours.</label><br>
+        <label><input type="radio" name="q19" value="b"> b) days.</label><br>
+        <label><input type="radio" name="q19" value="c"> c) weeks.</label><br>
+        <label><input type="radio" name="q19" value="d"> d) months.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. The transition from emergency response to cleanup should be in accord with which of the following?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Recovery" data-subject="Chapter 11" data-title="Product Control" data-feedback="Chapter 11; Page 266, NFPA 470 9.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) Federal regulations</label><br>
+        <label><input type="radio" name="q20" value="b"> b) Standard operating procedures</label><br>
+        <label><input type="radio" name="q20" value="c"> c) Leadership’s intuition</label><br>
+        <label><input type="radio" name="q20" value="d"> d) State mandates</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+    </form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

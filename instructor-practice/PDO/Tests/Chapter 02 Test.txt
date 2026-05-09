@@ -1,0 +1,250 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Apparatus Inspection and Maintenance
+Chapter 2 Test
+Name:
+	
+
+	Date:
+	
+
+	
+
+Directions: Write the correct letter on the blank before each question.
+
+
+Objective 1:
+Explain a systematic maintenance program. 
+                1.        Which items should be specified in a systematic maintenance program?  (30)
+        A.        Manufacturer’s representative numbers and equipment depreciation
+        B.        Budget request guidelines, request for proposal forms, and spending limits
+        C.        Maintenance procedures, when they are performed, and who is responsible
+        D.        Employee accountability procedures and neighboring jurisdiction maintenance policies 
+                2.        Which statement about the driver/operator and maintenance responsibilities is MOST accurate?  (30)
+        A.        All maintenance is generally contracted out to a service shop.
+        B.        The driver/operator is often able to correct minor deficiencies.
+        C.        The driver/operator performs all maintenance of the apparatus.
+        D.        A certified mechanic must perform all maintenance on the apparatus.
+                3.        Which would be an appropriate option for a systematic maintenance program?  (30)
+        A.        Contract out repair work
+        B.        Bid out repair work at the end of fiscal year
+        C.        Assign repair work to any available personnel
+        D.        Discontinue repair work and purchase new items
+
+Objective 2:
+Explain the importance of accurate documentation, reporting, and follow-up for apparatus inspections. 
+                4.        Why should a driver/operator use an inspection checklist?  (31)
+        A.        Eliminates the need for a certified mechanic
+        B.        Enables fewer inspections to be conducted on the apparatus 
+        C.        Ensures the driver/operator does not lie about the inspection
+        D.        Ensures the driver/operator conducts a uniform and complete inspection
+                5.        What should a driver/operator do when a piece of equipment onboard is found broken, defective, or in need of any type of repair?  (31)  
+        A.        Immediately take the apparatus out of service 
+        B.        Contact the department mechanic or contract service shop
+        C.        Remedy the situation, if possible, so documentation is not required
+        D.        Follow the established policy of the AHJ for documenting, reporting, and following up on status of repair
+                6.        Which is a function of apparatus maintenance and inspection records?  (31)  
+        A.        Provide employees tasks during downtime
+        B.        Provide employees with a sense of ownership of the apparatus
+        C.        In a warranty claim, may be needed to document required maintenance was performed
+        D.        Meet union requirements outlining how and when apparatus is to be maintained and inspected
+Objective 3:
+Describe actions taken to ensure vehicle cleanliness. 
+                7.        What can cause a corrosive effect on steel body components?  (32)
+        A.        Cold temperatures and high winds 
+        B.        Bright sunlight and hot temperatures
+        C.        Protective finishes applied after washing
+        D.        Road salt used during inclement weather 
+
+                8.        The engine compartment where linkages, fuel injectors, or other controls are located:  (32)
+        A.        is not affected by the accumulation of dirt. 
+        B.        should not be cleaned by fire department staff.
+        C.        is not easily accessible, so dirt is not a problem.
+        D.        may become inoperable due to the collection of dirt.
+
+
+                9.        What is an adverse effect to overcleaning fire apparatus?  (33)
+        A.        May make parts slippery and difficult to work with
+        B.        May weaken the structural integrity of body components
+        C.        May void any type of warranty associated with apparatus 
+        D.        May remove lubrication from the chassis, engine, pump and underbody
+                10.        What should be done during the first six months after an apparatus is received?  (33)
+        A.        Wash infrequently or not at all
+        B.        Wash frequently using hot water
+        C.        Wash frequently using cold water
+        D.        Wash frequently, alternating hot and cold water
+                11.        What should be used to clean automotive glass?  (34)
+        A.        Dry towels or cloths 
+        B.        Putty knives and a damp cloth rag
+        C.        Warm soapy water in conjunction with shop towels
+        D.        Commercial glass cleaner in conjunction with a clean cloth rag
+                12.        When cleaning the interior of an apparatus using cleaning agents:  (35)
+        A.        remove all electrical equipment.
+        B.        wear approved masks for cleaning.
+        C.        ventilate the cab or crew riding area.
+        D.        keep all windows rolled up when in the cab.
+                13.        Before using any waxes or polishes on a fire apparatus:  (35) 
+        A.        reference the manufacturer’s manual.
+        B.        cover any equipment on the apparatus.
+        C.        allot at least four hours to finish the task.
+        D.        ensure no emergency incidents are ongoing.
+Objective 4:
+Summarize considerations for conducting an apparatus inspection. 
+
+
+Objective 5:
+Describe actions taken to ensure batteries are operable. 
+                14.        When performing a walk-around inspection, the driver/operator begins inspection at the:  (36)
+        A.        rear of the apparatus and works around apparatus in a clockwise pattern. 
+        B.        front of the apparatus and works around apparatus in a counterclockwise pattern.
+        C.        driver’s door on the cab and works around apparatus in a clockwise pattern.
+        D.        passenger’s door on the cab and works around apparatus in a clockwise pattern.
+                15.        When conducting a walk-around inspection, who should the driver/operator talk to in order to get the MOST accurate impression of how the vehicle last operated?  (36)
+        A.        Last person to drive apparatus 
+        B.        Communications personnel who talked with driver
+        C.        Department mechanic who last serviced apparatus
+        D.        Any department member who last rode in apparatus
+                16.        What should driver/operators look for when approaching a vehicle to be inspected?  (37)
+        A.        Whether or not doors are locked
+        B.        Terrain on which vehicle is parked
+        C.        Levels on all gauges on the apparatus
+        D.        Damage to interior of the apparatus cab
+                17.        Which statement about inspecting a parked apparatus is MOST accurate?  (37)
+        A.        Whenever an apparatus is parked, chock its wheels.
+        B.        Whenever an apparatus is parked, turn the front wheels slightly.
+        C.        Whenever an apparatus is parked, ensure all windows are rolled up.
+        D.        Whenever an apparatus is parked, disengage all electrical devices.
+                18.        Which statement about tire types and condition is MOST accurate?  (38) 
+        A.        Tires must be of the same size ratings, but weight ratings can vary up to 20%.
+        B.        Any tire types are acceptable, as long as all tires are similar in size and weight ratings.
+        C.        It is acceptable to mix radial tires with bias-ply tires, as long as they are the same in the front and rear.
+        D.        All tires should be the same size and weight ratings according to appropriate manufacturer specifications.
+                19.        Tire selections for fire apparatus are based on:  (38)
+        A.        gross axle weight ratings for the apparatus.
+        B.        projected number of miles driven on the tires.
+        C.        minimum and maximum speeds for the apparatus.
+        D.        condition of roadways and highways in the jurisdiction.
+                20.        When examining tire condition, driver/operators should check:  (39)
+        A.        tire color.
+        B.        tire diameter.
+        C.        excessive wear on the sidewalls.
+        D.        distance between top of tire and apparatus body.
+                21.        According to NFPA® 1911, tires must be replaced every: (39)
+        A.        three years.
+        B.        five years.
+        C.        seven years.
+        D.        ten years.
+                22.        The component in a load management system that turns on various lights at specified intervals so the startup electrical load for all devices does not occur at same time is called the:  (40)
+        A.        load monitor.
+        B.        load delineator.
+        C.        load sequencer.
+        D.        load alignment indicator.
+
+                23.        Which component in a load management system will shut down less important electrical equipment systems if an overload condition occurs?  (40)
+        A.        Load monitor
+        B.        Load delineator 
+        C.        Load sequencer
+        D.        Load alignment indicator
+                24.        In a manual transmission, excessive freeplay of the pedal may:  (41)
+        A.        result in the clutch not releasing completely.
+        B.        require the driver/operator to change gears.
+        C.        result in the vehicle locking up and stopping suddenly.
+        D.        cause the clutch to slip, overheat, and wear out sooner than necessary.
+                25.        In general, steering wheel play should be no more than approximately:  (41)
+        A.        5 degrees in either direction.
+        B.        10 degrees in either direction.
+        C.        15 degrees in either direction.
+        D.        20 degrees in either direction.
+                26.        The Gross Vehicle Weight Rating (GVWR) is the:  (41)
+        A.        suggested ideal weight of the apparatus.
+        B.        weight of the apparatus before any equipment or personnel are added.
+        C.        maximum weight at which a vehicle can be safely operated on roadways in ideal conditions.
+        D.        minimum weight at which a vehicle can be operated without noticing changes in the operation.
+                27.        On apparatus equipped with air brakes, if the engine must be run longer than the specified period of time to build sufficient air pressure:  (43)
+        A.        the apparatus should be equipped with auxiliary braking.
+        B.        the air brakes should be disconnected and not used at all.
+        C.        the driver/operator should apply pressure to the gas pedal.
+        D.        the apparatus should be inspected and repaired by a certified mechanic.
+
+                28.        Apparatus with air brakes are to be equipped with an air pressure protection valve that prevents air horns or other nonessential devices from being operated when the pressure in the air reservoir drops below:  (43)
+        A.        80 psi (560 kPa).
+        B.        90 psi (630 kPa).
+        C.        100 psi (700 kPa).
+        D.        120 psi (840 kPa).
+                29.        What is a function of antilock braking systems (ABS)?  (43)
+        A.        Enables the driver/operator to stop much more quickly
+        B.        Warns the driver/operator about oncoming vehicles and hidden hazards in the roadway 
+        C.        Allows the driver/operator to observe the road and not worry about the braking system
+        D.        Assists the driver/operator in keeping apparatus in a straight trajectory during heavy or emergency braking
+                30.        How often should apparatus brakes be thoroughly tested?  (43)
+        A.        Monthly
+        B.        Bi-annually
+        C.        Annually
+        D.        Every three years
+                31.        Which National Fire Protection Association® standard specifies methods for brake tests?  (43)
+        A.        1021
+        B.        1031
+        C.        1900
+        D.        1911
+                32.        Which statement about checking fluid levels is MOST accurate?  (44)
+        A.        Most checks can be conducted while the engine is running.
+        B.        Unless gauges have been inaccurate, they can be relied upon for inspections.
+        C.        Fluid level measurements should be the same whether the engine is hot or cold.
+        D.        Never rely solely on warning lights or gauges; all fluid levels should be inspected.
+                33.        What is the function of diesel particulate filters (DPF)?  (45)
+        A.        Improve mileage
+        B.        Improve engine performance
+        C.        Protect vital engine components
+        D.        Provide for cleaner emissions from diesel engines
+                34.        Engines produced after January 1, 2010 may be equipped with an exhaust after-treatment system called Selective Catalyst Reductant (SCR) that:  (45)
+        A.        uses the latest technology to reduce emissions to zero.
+        B.        transforms emissions so they are no longer harmful to the environment.
+        C.        uses Diesel Exhaust Fluid (DEF) to help further reduce emissions.
+        D.        monitors and records all levels of exhaust from the apparatus and corrects for malfunctions.
+                35.        When performing chassis lubrication, the manufacturer’s manual will recommend the:  (46)
+        A.        minimum and maximum price range for engine oil.
+        B.        number of minutes the chassis lubrication should take.
+        C.        Society of Automotive Engineers (SAE) numbers for engine oil. 
+        D.        Automotive Engineers Association (AEA) numbers for engine oil.
+                36.        Most modern truck batteries:  (46)
+        A.        are maintenance free.
+        B.        require moderate maintenance.
+        C.        require considerable maintenance. 
+        D.        require specialized factory maintenance.
+                37.        When checking vehicle batteries, driver/operators should check that cable connections are tight and protected with:   (46)
+        A.        a covering over the entire battery component.
+        B.        a coating of specialized apparatus paint product.
+        C.        small plastic or rubber caps over the connections.
+        D.        a film of grease, petroleum jelly, or battery terminal protection product.
+
+                38.        What type of highly explosive gas can batteries give off?  (47)
+        A.        Methane gas 
+        B.        Nitrogen gas
+        C.        Hydrogen gas
+        D.        Carbon dioxide gas
+                39.        When jump-starting a vehicle, the vehicle being used as the power source must have the same voltage electrical system as the apparatus being jump-started in order to:  (48)
+        A.        connect the vehicles.
+        B.        permit the batteries to charge at all.
+        C.        prevent damage from occurring to either system.
+        D.        provide enough power to jump-start the apparatus.
+                40.        When is a posttrip inspection conducted?  (48)
+        A.        After the apparatus has been driven 50 miles
+        B.        After the apparatus has been driven 100 miles
+        C.        After the apparatus is taken out for any length of time
+        D.        After the apparatus has been operated for an extended period of time
+Objective 6:
+Describe general fire suppression equipment maintenance procedures. 
+                41.        Fire pumps are tested at regularly scheduled intervals to compare actual performance to:  (48)
+        A.        past performance.
+        B.        specific standards.
+        C.        national averages for performance.
+        D.        neighboring jurisdiction performance.
+
+                42.        Which statement about inspections to detect deficiencies or failure of the fire pump or other fire suppression equipment is MOST accurate?  (48)
+        A.        Items should be checked as personnel have additional time.
+        B.        All items should be on the same inspection schedule, either daily or weekly.
+        C.        Some items should be checked daily, but other checks may be performed weekly.
+        D.        Items should be rotated for inspections, being checked daily then checked weekly.
+
+
+Fire Protection Publications                Chapter Test
+Oklahoma State University                2-

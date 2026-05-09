@@ -7,7 +7,8 @@ let pdfDoc = null,
     pageNumIsPending = null,
     scale = 1.5,
     canvas = document.querySelector('#pdf-render'),
-    ctx = canvas.getContext('2d');
+    ctx = canvas.getContext('2d'),
+    currentManualTOC = []; // Stores TOC for search
 
 // Render the page
 // Render the page
@@ -91,13 +92,12 @@ const loadOutline = () => {
     tocList.innerHTML = '<div class="nav-item">Loading Table of Contents...</div>';
     
     const title = document.getElementById('viewer-title').textContent;
-    
+    currentManualTOC = []; // Reset global TOC
+
     pdfDoc.getOutline().then(outline => {
         tocList.innerHTML = '';
         
         // --- MANUAL FALLBACKS ---
-        let manualTOC = [];
-
         if (title.includes('Adult Protocols')) {
             const rawAdultTOC = [
                 ["Advanced Procedures","Emergency - Surgical Cricothyrotomy",5],
@@ -192,6 +192,8 @@ const loadOutline = () => {
 
             let lastCategory = "";
             rawAdultTOC.forEach(item => {
+                currentManualTOC.push({ title: item[1], page: item[2] }); // Store for search engine
+
                 if (item[0] !== lastCategory) {
                     const header = document.createElement('div');
                     header.style.padding = '12px 8px 4px 8px';
@@ -216,7 +218,7 @@ const loadOutline = () => {
             });
             return;
         } else if (title.includes('Pediatric')) {
-            manualTOC = [
+            currentManualTOC = [
                 { title: 'Index / TOC', page: 1 },
                 { title: 'RSI / Intubation', page: 6 },
                 { title: 'Pain Management', page: 11 },
@@ -226,7 +228,7 @@ const loadOutline = () => {
                 { title: 'Spinal', page: 51 }
             ];
         } else if (title.includes('Formulary')) {
-            manualTOC = [
+            currentManualTOC = [
                 { title: 'Adenosine', page: 3 },
                 { title: 'Albuterol', page: 4 },
                 { title: 'Amiodarone', page: 5 },
@@ -240,7 +242,7 @@ const loadOutline = () => {
                 { title: 'Zofran', page: 42 }
             ];
         } else if (title.includes('Clinical Ops')) {
-            manualTOC = [
+            currentManualTOC = [
                 { title: 'Lights / Sirens', page: 5 },
                 { title: 'Refusal (AMA)', page: 16 },
                 { title: 'DOA', page: 19 },
@@ -250,45 +252,32 @@ const loadOutline = () => {
             ];
         }
 
-        // If manual items exist, show them first
-        if (manualTOC.length > 0) {
-            manualTOC.forEach(item => {
-                const div = document.createElement('div');
-                div.className = 'nav-item';
-                div.innerHTML = `<span style="color:var(--accent-color); font-weight:bold; margin-right:8px;">•</span> ${item.title}`;
-                div.onclick = () => {
-                    pageNum = item.page;
-                    queueRenderPage(pageNum);
-                    toggleNavOverlay();
-                };
-                tocList.appendChild(div);
-            });
-            
-            // Add a divider if there are also internal outline items
-            if (outline && outline.length > 0) {
-                const hr = document.createElement('hr');
-                hr.style.border = '0; border-top: 1px solid rgba(255,255,255,0.1); margin: 10px 0;';
-                tocList.appendChild(hr);
-            }
-        }
-
-        if (!outline || outline.length === 0) {
-            if (manualTOC.length === 0) {
-                tocList.innerHTML = '<div class="nav-item">No TOC items found.</div>';
-            }
-            return;
-        }
-
-        outline.forEach(item => {
+        // Render manual fallback list
+        currentManualTOC.forEach(item => {
             const div = document.createElement('div');
             div.className = 'nav-item';
-            div.textContent = item.title;
+            div.innerHTML = `<span style="color:var(--accent-color); font-weight:bold; margin-right:8px;">•</span> ${item.title}`;
             div.onclick = () => {
-                navigateToDestination(item.dest);
+                pageNum = item.page;
+                queueRenderPage(pageNum);
                 toggleNavOverlay();
             };
             tocList.appendChild(div);
         });
+
+        // Also add any internal PDF outline items
+        if (outline && outline.length > 0) {
+            outline.forEach(item => {
+                const div = document.createElement('div');
+                div.className = 'nav-item';
+                div.textContent = item.title;
+                div.onclick = () => {
+                    navigateToDestination(item.dest);
+                    toggleNavOverlay();
+                };
+                tocList.appendChild(div);
+            });
+        }
     });
 };
 
@@ -408,28 +397,92 @@ window.onNextPage = () => {
 // Search Logic
 window.executeSearch = async () => {
     const term = document.getElementById('pdf-search').value.toLowerCase();
-    if (!term) return;
+    const resultsContainer = document.getElementById('search-results');
+    
+    if (!term) {
+        resultsContainer.style.display = 'none';
+        return;
+    }
 
-    const info = document.getElementById('page-info');
-    const originalText = info.textContent;
-    info.textContent = '...';
+    resultsContainer.innerHTML = '<div style="padding:15px; color:var(--text-dim); text-align:center;">Searching all protocols...</div>';
+    resultsContainer.style.display = 'block';
 
-    // Start search from current page + 1, loop around
+    const matches = [];
+
+    // 1. Search in current TOC Titles (Immediate)
+    currentManualTOC.forEach(item => {
+        if (item.title.toLowerCase().includes(term)) {
+            matches.push({ title: item.title, page: item.page, type: 'Title Match' });
+        }
+    });
+
+    // 2. Search in PDF Text (Full Document Scan)
     for (let i = 1; i <= pdfDoc.numPages; i++) {
-        const checkPage = ((pageNum + i - 1) % pdfDoc.numPages) + 1;
-        const page = await pdfDoc.getPage(checkPage);
+        const page = await pdfDoc.getPage(i);
         const textContent = await page.getTextContent();
         const text = textContent.items.map(item => item.str).join(' ').toLowerCase();
 
         if (text.includes(term)) {
-            pageNum = checkPage;
-            queueRenderPage(pageNum);
-            return;
+            // Find which protocol this page belongs to
+            let belongsTo = "General Content";
+            let closestPage = -1;
+            
+            currentManualTOC.forEach(item => {
+                if (item.page <= i && item.page > closestPage) {
+                    belongsTo = item.title;
+                    closestPage = item.page;
+                }
+            });
+
+            // Add result if not already found via Title Match on this exact page
+            if (!matches.some(m => m.page === i)) {
+                matches.push({ title: belongsTo, page: i, type: `Text Match (Pg ${i})` });
+            }
         }
     }
-    
-    info.textContent = 'None';
-    setTimeout(() => { info.textContent = `Pg ${pageNum}`; }, 1500);
+
+    // Display Results
+    resultsContainer.innerHTML = '';
+    if (matches.length === 0) {
+        resultsContainer.innerHTML = '<div style="padding:15px; color:var(--text-dim); text-align:center;">No protocols found for "' + term + '"</div>';
+    } else {
+        // Deduplicate by protocol title to keep list clean
+        const uniqueMatches = [];
+        const seenTitles = new Set();
+        
+        matches.forEach(m => {
+            if (!seenTitles.has(m.title)) {
+                uniqueMatches.push(m);
+                seenTitles.add(m.title);
+            }
+        });
+
+        uniqueMatches.forEach(match => {
+            const div = document.createElement('div');
+            div.style.padding = '12px 15px';
+            div.style.borderBottom = '1px solid rgba(255,255,255,0.1)';
+            div.style.cursor = 'pointer';
+            div.innerHTML = `
+                <div style="color:var(--accent-color); font-weight:bold; font-size:0.95rem; margin-bottom:2px;">${match.title}</div>
+                <div style="color:var(--text-dim); font-size:0.75rem;">${match.type}</div>
+            `;
+            div.onclick = () => {
+                pageNum = match.page;
+                queueRenderPage(pageNum);
+                resultsContainer.style.display = 'none';
+            };
+            resultsContainer.appendChild(div);
+        });
+    }
+
+    // Close on click outside
+    const closeListener = (e) => {
+        if (!resultsContainer.contains(e.target) && e.target.id !== 'pdf-search') {
+            resultsContainer.style.display = 'none';
+            document.removeEventListener('mousedown', closeListener);
+        }
+    };
+    document.addEventListener('mousedown', closeListener);
 };
 
 // Force App Update (Clear Cache)

@@ -1,0 +1,234 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Relay Pumping Operations
+Chapter 12 Test
+Name:
+	
+
+	Date:
+	
+
+	
+
+Directions: Write the correct letter on the blank before each question.
+
+
+Objective 1:
+Describe relay apparatus and equipment. 
+                1.        Which pumper takes water from a hydrant or static source at the beginning of a relay operation?  (426)
+        A.        Relay pumper
+        B.        Primary pumper
+        C.        Fire attack pumper
+        D.        Water supply pumper
+                2.        In a relay operation, which should be the pumper with the largest pumping capacity?  (426)
+        A.        Relay pumper
+        B.        Primary pumper
+        C.        Fire attack pumper
+        D.        Water supply pumper
+                3.        In a relay operation, which pumper receives water from the source pumper, raises the pressure, and supplies water to the next apparatus? (427)
+        A.        Relay pumper
+        B.        Primary pumper
+        C.        Secondary pumper
+        D.        Water supply pumper
+
+                4.        Which pumper may be of smaller capacity due to its ability to use acquired energy of previous pumpers in the relay? (427)
+        A.        Relay pumper
+        B.        Primary pumper
+        C.        Secondary pumper
+        D.        Fire attack pumper
+                5.        Which pumper is responsible for supplying attack lines and appliances required for fire suppression?  (427)
+        A.        Relay pumper
+        B.        Primary pumper
+        C.        Secondary pumper
+        D.        Fire attack pumper
+
+
+Objective 2:
+Explain relay pumping operational considerations. 
+                6.        Which is MOST likely a factor in determining the need for relay pumping operations?  (427)
+        A.        Number of personnel available at the scene 
+        B.        Likelihood of nearby exposures catching fire
+        C.        Whether or not fire is a multiple-alarm incident
+        D.        Distance between incident scene and the water source
+                7.        The distance of the relay is an important operational consideration because the longer the hose lay, the:  (428)
+        A.        more friction loss will be encountered.
+        B.        larger the maximum lift will be achieved.
+        C.        more the diameter of hose must be decreased.
+        D.        greater the total volume of water that will be required.
+                8.        Which can be done if the amount of flow through a relay operation needs to be increased?  (428)
+        A.        Transition to a different water source
+        B.        Decrease the time spent on relay operations
+        C.        Increase the time spent on relay operations
+        D.        Increase the diameter of the supply hose or the number of hoselines
+                9.        Centrifugal pumps are rated to pump at their maximum volume capacity at _____ at draft.  (428)
+        A.        100 psi (700 kPa)
+        B.        150 psi (1 050 kPa)
+        C.        250 psi (1 750 kPa)
+        D.        275 psi (1 925 kPa)
+                10.        When pumpers in the relay operation increase their pump discharge pressure,:  (428)
+        A.        volume will always be increased.
+        B.        personnel may be unable to keep up with volume.
+        C.        increased stress on the pump may cause volume to decrease.
+        D.        a point will be reached where increased pressure will not increase volume.
+                11.        In relay operations, elevation pressure:  (428)
+        A.        is less than simple friction loss when water must be pumped uphill.
+        B        is greater than simple friction loss if water must be pumped downhill. 
+        C.        is affected both by the amount of water being moved and by the topography.
+        D.        is not affected by the amount of water being moved, only by the topography.
+
+
+                12.        Placing additional pumpers in the system will increase flow during a relay operation because it shortens the length of hose each pumper must supply and allows pumpers to:  (428)
+        A.        periodically take breaks and check all equipment.
+        B.        vary the amount of water provided by each pumper.
+        C.        operate at higher pressures and maximum flows within the relay operation.
+        D.        operate at lower pressures and maximum flows within the relay operation.
+
+                13.        When relaying long distances:  (432)
+        A.        equalize spacing between pumpers as much as possible.
+        B.        spacing between pumpers should be determined by most convenient location.
+        C.        pumpers in the front of the relay should be further apart than pumpers toward the end of the relay.
+        D.        pumpers in the front of the relay should be closer together than pumpers toward the end of the relay.
+
+
+Objective 3:
+Summarize general guidelines for relay operations. 
+                14.        Putting a relay into operation begins with:  (432)
+        A.        the largest capacity pumper working from the water source.
+        B.        the smallest capacity pumper working from the water source.
+        C.        a pumper with average capacity working from the water source.
+        D.        the pumper with the most experienced crew working from the water source.
+                15.        When drafting from a static source, the source pumper:  (432)
+        A.        must have the same pump discharge pressure as other pumpers in the relay operation.
+        B.        may need to develop a higher pump discharge pressure than other pumpers in the relay operation.
+        C.        may need to develop a lower pump discharge pressure than other pumpers in the relay operation.
+        D.        must vary pump discharge pressure to within a range used by other pumpers in the relay operation.
+                16.        The overall capacity of the relay system is determined by the:  (432)
+        A.        average of all pumps and hose used in the relay.
+        B.        largest pump and the largest diameter of hose used in the relay.
+        C.        largest pump and the smallest diameter of hose used in the relay.
+        D.        smallest pump and the smallest diameter of hose used in the relay. 
+
+                17.        Loss of prime or overheating of the pump is MOST likely the result of: (432)
+        A.        extended relay operations.
+        B.        not taking periodic breaks during relay operations.
+        C.        moving too much water through the pump when using a static water supply.
+        D.        failure to keep water moving through the pump when using a static water supply.
+                18.        When the source and relay pumpers are ready, the discharge supplying the hoseline on the source pumper is: (433)
+        A.        closed and the valve on the dump line is closed.
+        B.        opened and the valve on the dump line is opened.
+        C.        closed while the valve on the dump line is opened.
+        D.        opened while the valve on the dump line is closed.
+                19.        As a relay pumper, it is advisable for driver/operators to maintain an intake pressure of:  (433)
+        A.        10 to 20 psi (70 to 140 kPa).
+        B.        20 to 30 psi (140 to 210 kPa).
+        C.        30 to 40 psi (210 to 280 kPa).
+        D.        40 to 50 psi (280 to 350 kPa). 
+                20.        Apparatus equipped with pressure governors should be set in:  (433)
+        A.        rpm mode when acting as the attack pumper and while working as a relay pumper.
+        B.        pressure mode when acting as the attack pumper and while working as a relay pumper.
+        C.        rpm mode when acting as the attack pumper and pressure mode while working as a relay pumper.
+        D.        pressure mode when acting as the attack pumper and rpm mode while working as a relay pumper.
+
+                21.        When relay pumpers are equipped with an adjustable intake relief valve, one guideline is that it should be set to: (434)
+        A.        the same discharge pressure as the previous pumper in the relay.
+        B.        10 psi (70 kPa) above the discharge pressure of the previous pumper in the relay.
+        C.        10 psi (70 kPa) below the discharge pressure of the previous pumper in the relay.
+        D.        within ten percent of the discharge pressure of the previous pumper in the relay.
+                 22.        Attack pumpers equipped with an adjustable intake relief valve should be set:  (434)
+        A.        at exactly 50 psi (350 kPa) to establish a stable operating condition. 
+        B.        at exactly 75 psi (525 kPa) to establish a stable operating condition.
+        C.        between 50 and 75 psi (350 and 525 kPa) to establish a stable operating condition.
+        D.        between 75 and 100 psi (525 and 700 kPa) to establish a stable operating condition.
+                23.        The driver/operator of the attack pumper should not attempt to correct minor fluctuations as long as the intake pressure:  (434)
+        A.        varies within a range of ten percent. 
+        B.        does not drop below 20 psi (140 kPa).
+        C.        does not drop below 40 psi (280 kPa).
+        D.        varies within a range of twenty percent.
+                24.        When need for relay pumping has ended, the operation should be discontinued:  (434)
+        A.        from the fire scene first. 
+        B.        from the relay pumpers first. 
+        C.        by all pumpers at the same time.
+        D.        from all relay pumpers then the attack pumper.
+
+                25.        When shutting down the relay, beginning with the attack pumper and coordinating with other pumpers in the relay, each driver/operator should:  (434)
+        A.        slowly increase the throttle and close the dump line valve.
+        B.        slowly increase the throttle and open the dump line valve.
+        C.        slowly decrease the throttle and close the dump line valve.
+        D.        slowly decrease the throttle and open the dump line valve.
+                26.        What should be done to prevent water hammer?  (434)
+        A.        Close all valves slowly.
+        B.        Close all valves quickly.
+        C.        Avoid closing valves during operations.
+        D.        Close valves half-way, wait, then close fully.
+
+
+Objective 4:
+Describe the open relay method. 
+                27.        The open relay method consists of:  (435)
+        A.        multiple pumpers of exactly the same size operating in a relay.
+        B.        using a natural water source for supplying relay pumpers.
+        C.        only one source pumper, relay pumper and fire attack pumper.
+        D.        deploying portable folding drop tanks at each intake for pumpers in the relay operation.
+                28.        Which is an advantage when operating in an open relay?  (435)
+        A.        Requires less experienced personnel
+        B.        Decreases operational costs of incidents
+        C.        Eliminates pressure surges and inconsistent supply
+        D.        Increases amount of water available for fire suppression
+                29.        Which is a characteristic of the open relay method?  (435)
+        A.        Increases number of personnel required for the relay 
+        B.        Provides significant cost savings for long-term operations
+        C.        Requires no adapters or other appliances to connect intake hoses in the system
+        D.        Requires a variety of adapters or other appliances to connect intake hoses in the system
+
+
+
+Objective 5:
+Summarize facts about the closed relay method. 
+                30.        When medium diameter hose(MDH) is used in relay operations, generally: (435)
+        A.        multiple hoselines are laid.
+        B.        it is supplemented with small diameter hose (SDH).
+        C.        it must be supplemented with large diameter hose (LDH).
+        D.        the MDH will still require only one supply line to meet fireground requirements.
+                31.        When large diameter hose (LDH) is used in relay operations: (435)
+        A.        it is supplemented with small diameter hose (SDH).
+        B.        it is supplemented with medium diameter hose (MDH).
+        C.        the LDH often requires only one supply line to meet fireground requirements.
+        D.        multiple supply lines are still required to meet fireground requirements.
+                32.        What is the purpose of relay relief valves? (435)
+        A.        Enhance firefighter safety
+        B.        Require fewer personnel for the system 
+        C.        Allow equipment to exceed recommendations
+        D.        Allow faster operation of the parts of the relay
+                33.        Pressure relief valves reduce the possibility of damage to the pump and other water supply components that may be caused by water hammer when valves are operated too quickly or: (435)
+        A.        water supply fluctuates.
+        B.        valves are operated too slowly.
+        C.        intake pressures rise dramatically.
+        D.        intake pressures decrease dramatically.
+
+                34.        When pressure relief valves are preset to allow a predetermined amount of pressure into the fire pump and then the incoming pressure exceeds the preset level, the valve will:  (435)
+        A.        automatically close.
+        B.        initiate a warning light that is seen in the cab.
+        C.        close slowly and remain closed until excess pressure/water is stabilized.
+        D.        open and dump excess pressure/water until water is entering the pump at the correct pressure.
+                35.        Many screw-on intake pressure relief valves are also equipped with a gate valve that allows the: (435)
+        A.        pump to be manually shut off.
+        B.        water supply to the pump to be shut off.
+        C.        water supply to the pump to be doubled.
+        D.        pump to signal when water is no longer required.
+                36.        What is the function of bleeder valves?  (435)
+        A.        Allow water supply to the pump to be shut off
+        B.        Allow air to bleed off as incoming supply hose is charged
+        C.        Break the large diameter hose (LDH) into two or more hoselines
+        D.        Allow excess water to bleed off as incoming supply hose is charged
+                37.        Which valves allow later arriving pumpers to tie into the relay and boost pressure and volume after it has already started flowing, without interrupting the water supply?  (436)
+        A.        Gate valves
+        B.        Bleeder valves
+        C.        Inline relay valves
+        D.        Periphery relay valves
+
+                38.        When would a discharge manifold be used to break down the large diameter hose (LDH) into two or more hoselines that may then be connected to different pumpers?  (436)
+        A.        During LDH relay operations with limited water supply
+        B.        During LDH relay operations in which personnel are limited
+        C.        During LDH relay operations in which the attack pumper is of large capacity
+        D.        During LDH relay operations that must supply more than one attack pumper
+Fire Protection Publications                Chapter Test
+Oklahoma State University                12-

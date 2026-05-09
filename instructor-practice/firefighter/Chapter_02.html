@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>Firefighter Chapter 02 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. The goal for firefighters is to reduce preventable deaths and injuries by _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 34" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) reducing risk by 90 percent</label><br>
+        <label><input type="radio" name="q1" value="b"> b) eliminating all risk</label><br>
+        <label><input type="radio" name="q1" value="c"> c) eradicating fire risk</label><br>
+        <label><input type="radio" name="q1" value="d"> d) reducing unnecessary risk</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. _____ are responsible for evaluating the hazards of various situations and recommending appropriate safety measures to the incident commander.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 34" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) Firefighters</label><br>
+        <label><input type="radio" name="q2" value="b"> b) Captains</label><br>
+        <label><input type="radio" name="q2" value="c"> c) Fire chiefs</label><br>
+        <label><input type="radio" name="q2" value="d"> d) Safety officers</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. Each accident, injury, or near miss must be thoroughly _____ to learn why it happened and how it can be avoided in the future.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Introduction" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 34" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) documented</label><br>
+        <label><input type="radio" name="q3" value="b"> b) investigated</label><br>
+        <label><input type="radio" name="q3" value="c"> c) prosecuted</label><br>
+        <label><input type="radio" name="q3" value="d"> d) logged</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. The leading cause of death among firefighters is(are) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Causes of Firefighter Deaths and Injuries" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 35" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) structural collapse</label><br>
+        <label><input type="radio" name="q4" value="b"> b) vehicle accidents</label><br>
+        <label><input type="radio" name="q4" value="c"> c) cardiac events</label><br>
+        <label><input type="radio" name="q4" value="d"> d) cancer</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. According to NFPA the leading cause of fireground injuries in 2020 was _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Causes of Firefighter Deaths and Injuries" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 36" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) overexertion/strain</label><br>
+        <label><input type="radio" name="q5" value="b"> b) extreme weather</label><br>
+        <label><input type="radio" name="q5" value="c"> c) exposure to chemicals</label><br>
+        <label><input type="radio" name="q5" value="d"> d) exposure to fire products</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. The acronym “IAFC” stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Reducing Firefighter Deaths and Injuries" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 36" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) Investigational Association of Fire Commissioners</label><br>
+        <label><input type="radio" name="q6" value="b"> b) Internal Agency of Fallen Comrades</label><br>
+        <label><input type="radio" name="q6" value="c"> c) Investigative Action for Fire Companies</label><br>
+        <label><input type="radio" name="q6" value="d"> d) International Association of Fire Chiefs</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. At the 2004 Firefighter Life Safety Summit, the _____ program was created.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Reducing Firefighter Deaths and Injuries" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 36" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) Fallen Firefighter Memorial</label><br>
+        <label><input type="radio" name="q7" value="b"> b) Everyone Goes Home</label><br>
+        <label><input type="radio" name="q7" value="c"> c) Fire Service Safety Commission</label><br>
+        <label><input type="radio" name="q7" value="d"> d) Accident Investigation Procedures</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. At any emergency or training event, _____ is the highest priority</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Reducing Firefighter Deaths and Injuries" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 36" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) operations</label><br>
+        <label><input type="radio" name="q8" value="b"> b) learning</label><br>
+        <label><input type="radio" name="q8" value="c"> c) safety</label><br>
+        <label><input type="radio" name="q8" value="d"> d) achievement</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. The _____ develops standards that help to standardize training courses, apparatus, equipment, and operations for the fire service.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Reducing Firefighter Deaths and Injuries" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 36" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) NFPA</label><br>
+        <label><input type="radio" name="q9" value="b"> b) EPA</label><br>
+        <label><input type="radio" name="q9" value="c"> c) ANSI</label><br>
+        <label><input type="radio" name="q9" value="d"> d) OSHA</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. _____ is the Standard on Fire Department Occupational Safety, Health, and Wellness Program.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Reducing Firefighter Deaths and Injuries" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 36" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) NFPA 1002</label><br>
+        <label><input type="radio" name="q10" value="b"> b) NFPA 1582</label><br>
+        <label><input type="radio" name="q10" value="c"> c) NFPA 1500</label><br>
+        <label><input type="radio" name="q10" value="d"> d) OSHA 1910.120</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. States that have not adopted the OSHA regulations are called _____ states.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Reducing Firefighter Deaths and Injuries" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 37" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) unregulated</label><br>
+        <label><input type="radio" name="q11" value="b"> b) non-compliant</label><br>
+        <label><input type="radio" name="q11" value="c"> c) state-plan</label><br>
+        <label><input type="radio" name="q11" value="d"> d) non-plan</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. _____ is acting independently of a superior’s orders or the fire department’s SOPs.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Reducing Firefighter Deaths and Injuries" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 38" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) Showing initiative</label><br>
+        <label><input type="radio" name="q12" value="b"> b) Freelancing</label><br>
+        <label><input type="radio" name="q12" value="c"> c) Leadership</label><br>
+        <label><input type="radio" name="q12" value="d"> d) Managing</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. _____ is a nationally recognized plan to establish command and control of emergency incidents.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Reducing Firefighter Deaths and Injuries" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 38" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) PCS</label><br>
+        <label><input type="radio" name="q13" value="b"> b) RCS</label><br>
+        <label><input type="radio" name="q13" value="c"> c) ICS</label><br>
+        <label><input type="radio" name="q13" value="d"> d) NCS</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. All firefighters, whether career or volunteer, should spend _____ each day in physical fitness activities of some kind.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 38" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) approximately 15 minutes</label><br>
+        <label><input type="radio" name="q14" value="b"> b) between 20 and 30 minutes</label><br>
+        <label><input type="radio" name="q14" value="c"> c) up to half an hour</label><br>
+        <label><input type="radio" name="q14" value="d"> d) at least an hour</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. Each department member is responsible for _____ health, conditioning, and nutrition.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 38" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) their own personal</label><br>
+        <label><input type="radio" name="q15" value="b"> b) the company’s</label><br>
+        <label><input type="radio" name="q15" value="c"> c) the entire department’s</label><br>
+        <label><input type="radio" name="q15" value="d"> d) citizens’</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. Firefighters should be examined by a _____ before beginning any new workout routine.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Pages 38–39" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) company officer</label><br>
+        <label><input type="radio" name="q16" value="b"> b) counselor</label><br>
+        <label><input type="radio" name="q16" value="c"> c) first responder</label><br>
+        <label><input type="radio" name="q16" value="d"> d) physician</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. _____ is an important part of staying healthy.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 39" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) Eating large portions</label><br>
+        <label><input type="radio" name="q17" value="b"> b) Hydration</label><br>
+        <label><input type="radio" name="q17" value="c"> c) Caffeine intake</label><br>
+        <label><input type="radio" name="q17" value="d"> d) Taking supplements</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. Firefighters should drink _____ each day to stay properly hydrated.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 39" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) 10 oz of coffee or tea</label><br>
+        <label><input type="radio" name="q18" value="b"> b) up to 1 gallon of water</label><br>
+        <label><input type="radio" name="q18" value="c"> c) caffeinated beverages</label><br>
+        <label><input type="radio" name="q18" value="d"> d) more than 2 gallons of any beverage</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. An indication of adequate hydrations is _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 39" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) frequent urination</label><br>
+        <label><input type="radio" name="q19" value="b"> b) feeling satiated</label><br>
+        <label><input type="radio" name="q19" value="c"> c) dark yellow urine</label><br>
+        <label><input type="radio" name="q19" value="d"> d) significant perspiration</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. The National Sleep Foundation and the American Academy of Sleep Medicine recommend that adults sleep _____ per night.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 40" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) between 4 and 10 hours</label><br>
+        <label><input type="radio" name="q20" value="b"> b) no more than 8 hours</label><br>
+        <label><input type="radio" name="q20" value="c"> c) a minimum of 7 to 9 hours</label><br>
+        <label><input type="radio" name="q20" value="d"> d) at least 11 hours</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. _____ is the leading cause of death in the United States as a whole and a leading cause of death among firefighters in particular.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 40" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) Suicide</label><br>
+        <label><input type="radio" name="q21" value="b"> b) Vehicle accidents</label><br>
+        <label><input type="radio" name="q21" value="c"> c) Structural collapse</label><br>
+        <label><input type="radio" name="q21" value="d"> d) Heart disease</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. The Firefighter Cancer Support Network estimates that firefighters have a _____ risk of being diagnosed with cancer than the general U.S. population.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 40" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) 9 percent higher</label><br>
+        <label><input type="radio" name="q22" value="b"> b) 12 percent lower</label><br>
+        <label><input type="radio" name="q22" value="c"> c) 15 percent lower</label><br>
+        <label><input type="radio" name="q22" value="d"> d) 21 percent higher</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. NFPA _____ is the Standard on Selection, Care, and Maintenance of Protective Ensembles for Structural Firefighting and Proximity Fire Firefighting.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Pages 40" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) 1500</label><br>
+        <label><input type="radio" name="q23" value="b"> b) 1581</label><br>
+        <label><input type="radio" name="q23" value="c"> c) 1865</label><br>
+        <label><input type="radio" name="q23" value="d"> d) 1901</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. _____ poses a major risk factor for cardiovascular disease, reduces the efficiency of the body’s respiratory system, and increases the risk of infections.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 41" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) Smoking tobacco products</label><br>
+        <label><input type="radio" name="q24" value="b"> b) Consuming alcohol</label><br>
+        <label><input type="radio" name="q24" value="c"> c) Conducting a defensive fire attack</label><br>
+        <label><input type="radio" name="q24" value="d"> d) Fire fighting</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q25">
+    <p><strong>25. Firefighters who have consumed alcohol within the previous _____ must not be permitted to engage in training or emergency operations.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 41" style="display: none;"></div>
+        <label><input type="radio" name="q25" value="a"> a) 24 hours</label><br>
+        <label><input type="radio" name="q25" value="b"> b) 8 hours</label><br>
+        <label><input type="radio" name="q25" value="c"> c) 12 hours</label><br>
+        <label><input type="radio" name="q25" value="d"> d) 18 hours</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q26">
+    <p><strong>26. The acronym “PTSD” stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 42" style="display: none;"></div>
+        <label><input type="radio" name="q26" value="a"> a) periodic trauma stress debriefing</label><br>
+        <label><input type="radio" name="q26" value="b"> b) peri-trauma stress disease</label><br>
+        <label><input type="radio" name="q26" value="c"> c) pressure-tension-stress diagnosis</label><br>
+        <label><input type="radio" name="q26" value="d"> d) post-traumatic stress disorder</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q27">
+    <p><strong>27. _____ is recommended to lower your stress levels and improve your physical health so you will be ready to respond the next time you are needed.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 42" style="display: none;"></div>
+        <label><input type="radio" name="q27" value="a"> a) Avoiding conversation</label><br>
+        <label><input type="radio" name="q27" value="b"> b) Suppressing stress</label><br>
+        <label><input type="radio" name="q27" value="c"> c) Taking sleeping pills</label><br>
+        <label><input type="radio" name="q27" value="d"> d) Going on vacation</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q28">
+    <p><strong>28. The acronym “CISM” stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 42" style="display: none;"></div>
+        <label><input type="radio" name="q28" value="a"> a) critical incident stress management</label><br>
+        <label><input type="radio" name="q28" value="b"> b) crucial incident suppression management</label><br>
+        <label><input type="radio" name="q28" value="c"> c) critical and intentional stress management</label><br>
+        <label><input type="radio" name="q28" value="d"> d) centralized interdepartmental stress manager</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q29">
+    <p><strong>29. _____ is characterized by reexperiencing the event and overresponding to stimuli that recalls the event.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 42" style="display: none;"></div>
+        <label><input type="radio" name="q29" value="a"> a) Compassion fatigue</label><br>
+        <label><input type="radio" name="q29" value="b"> b) CISM</label><br>
+        <label><input type="radio" name="q29" value="c"> c) PTSD</label><br>
+        <label><input type="radio" name="q29" value="d"> d) Secondary stress disorder</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q30">
+    <p><strong>30. A _____ provides a forum for firefighting and EMS personnel to discuss the anxieties, stress, and emotions triggered by a difficult call.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Pages 42–43" style="display: none;"></div>
+        <label><input type="radio" name="q30" value="a"> a) CISD</label><br>
+        <label><input type="radio" name="q30" value="b"> b) PTSD</label><br>
+        <label><input type="radio" name="q30" value="c"> c) CISM</label><br>
+        <label><input type="radio" name="q30" value="d"> d) counseling session</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q31">
+    <p><strong>31. Debriefing sessions are held _____ a major incident.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 43" style="display: none;"></div>
+        <label><input type="radio" name="q31" value="a"> a) no more than 10 hours after</label><br>
+        <label><input type="radio" name="q31" value="b"> b) within 12 hours of</label><br>
+        <label><input type="radio" name="q31" value="c"> c) within 24 to 72 hours of</label><br>
+        <label><input type="radio" name="q31" value="d"> d) no sooner than 48 hours after</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q32">
+    <p><strong>32. _____ is a disorder characterized by gradual lessening of compassion over time.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 44" style="display: none;"></div>
+        <label><input type="radio" name="q32" value="a"> a) PTSD</label><br>
+        <label><input type="radio" name="q32" value="b"> b) Primary stress disorder</label><br>
+        <label><input type="radio" name="q32" value="c"> c) Compassion fatigue</label><br>
+        <label><input type="radio" name="q32" value="d"> d) Helper syndrome</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q33">
+    <p><strong>33. _____ is sometimes referred to as “the cost of caring.”</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 44" style="display: none;"></div>
+        <label><input type="radio" name="q33" value="a"> a) Compassion fatigue</label><br>
+        <label><input type="radio" name="q33" value="b"> b) Helper syndrome</label><br>
+        <label><input type="radio" name="q33" value="c"> c) Caretaker sickness</label><br>
+        <label><input type="radio" name="q33" value="d"> d) Primary stress disorder</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q34">
+    <p><strong>34. It is the responsibility of _____ to monitor themselves and other members of their team for signs of mental stress.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 44" style="display: none;"></div>
+        <label><input type="radio" name="q34" value="a"> a) the safety officer</label><br>
+        <label><input type="radio" name="q34" value="b"> b) the captain</label><br>
+        <label><input type="radio" name="q34" value="c"> c) the training chief</label><br>
+        <label><input type="radio" name="q34" value="d"> d) all firefighters</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q35">
+    <p><strong>35. Estimates reveal that a fire department is _____ likely to experience a suicide than a line-of-duty death in any given year.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 44" style="display: none;"></div>
+        <label><input type="radio" name="q35" value="a"> a) two times less</label><br>
+        <label><input type="radio" name="q35" value="b"> b) three times more</label><br>
+        <label><input type="radio" name="q35" value="c"> c) four times less</label><br>
+        <label><input type="radio" name="q35" value="d"> d) five times more</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q36">
+    <p><strong>36. _____ provide confidential help with a wide range of problems that might affect performance.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 45" style="display: none;"></div>
+        <label><input type="radio" name="q36" value="a"> a) Peers in the fire department</label><br>
+        <label><input type="radio" name="q36" value="b"> b) Fire administrators</label><br>
+        <label><input type="radio" name="q36" value="c"> c) OSHA representatives</label><br>
+        <label><input type="radio" name="q36" value="d"> d) EAPs</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q37">
+    <p><strong>37. The acronym “EAP” stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 45" style="display: none;"></div>
+        <label><input type="radio" name="q37" value="a"> a) employee assistance programs</label><br>
+        <label><input type="radio" name="q37" value="b"> b) employer addiction programs</label><br>
+        <label><input type="radio" name="q37" value="c"> c) emergency assistance placement</label><br>
+        <label><input type="radio" name="q37" value="d"> d) emotional assistance professionals</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q38">
+    <p><strong>38. A _____ may refer a firefighter to an EAP if a problem starts to affect the individual’s job performance.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Personal Health and Well-Being" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 45" style="display: none;"></div>
+        <label><input type="radio" name="q38" value="a"> a) citizen</label><br>
+        <label><input type="radio" name="q38" value="b"> b) fire officer</label><br>
+        <label><input type="radio" name="q38" value="c"> c) police officer</label><br>
+        <label><input type="radio" name="q38" value="d"> d) city attorney</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q39">
+    <p><strong>39. If you see something that you believe is an unsafe practice during training, bring it to the attention of your instructor or a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Safety during Training" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 45" style="display: none;"></div>
+        <label><input type="radio" name="q39" value="a"> a) police officer</label><br>
+        <label><input type="radio" name="q39" value="b"> b) fire inspector</label><br>
+        <label><input type="radio" name="q39" value="c"> c) designated safety officer</label><br>
+        <label><input type="radio" name="q39" value="d"> d) investigator</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q40">
+    <p><strong>40. If any member of the team becomes fatigued, is in pain or discomfort, or needs to leave the training area for any reason, _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Safety during Training" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 45" style="display: none;"></div>
+        <label><input type="radio" name="q40" value="a"> a) the entire team fails the exercise</label><br>
+        <label><input type="radio" name="q40" value="b"> b) team members should provide medical assistance</label><br>
+        <label><input type="radio" name="q40" value="c"> c) an investigation should be initiated</label><br>
+        <label><input type="radio" name="q40" value="d"> d) the instructor or safety officer should be notified</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q41">
+    <p><strong>41. Safety during an emergency response must begin _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Safety during the Emergency Response" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 45" style="display: none;"></div>
+        <label><input type="radio" name="q41" value="a"> a) when the safety officer arrives</label><br>
+        <label><input type="radio" name="q41" value="b"> b) upon arrival at the incident</label><br>
+        <label><input type="radio" name="q41" value="c"> c) before there is an actual response</label><br>
+        <label><input type="radio" name="q41" value="d"> d) when something goes wrong</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q42">
+    <p><strong>42. Firefighters should conduct a daily check of _____ at the beginning of each tour of duty.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Safety during the Emergency Response" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Pages 46–47" style="display: none;"></div>
+        <label><input type="radio" name="q42" value="a"> a) SCBA</label><br>
+        <label><input type="radio" name="q42" value="b"> b) the bunk room</label><br>
+        <label><input type="radio" name="q42" value="c"> c) reserve apparatus</label><br>
+        <label><input type="radio" name="q42" value="d"> d) their mental health</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q43">
+    <p><strong>43. _____ actions include receiving the alarm, donning protective clothing and equipment, mounting and dismounting the apparatus, and transporting equipment and personnel to and from the emergency incident quickly and safely.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Safety during the Emergency Response" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 47" style="display: none;"></div>
+        <label><input type="radio" name="q43" value="a"> a) Defensive</label><br>
+        <label><input type="radio" name="q43" value="b"> b) Response</label><br>
+        <label><input type="radio" name="q43" value="c"> c) Safety</label><br>
+        <label><input type="radio" name="q43" value="d"> d) Non-intervention</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q44">
+    <p><strong>44. When an alarm is received, responding firefighters should _____ to the apparatus.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Safety during the Emergency Response" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 47" style="display: none;"></div>
+        <label><input type="radio" name="q44" value="a"> a) run quickly</label><br>
+        <label><input type="radio" name="q44" value="b"> b) run carefully</label><br>
+        <label><input type="radio" name="q44" value="c"> c) walk briskly</label><br>
+        <label><input type="radio" name="q44" value="d"> d) walk slowly</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q45">
+    <p><strong>45. NFPA _____ is the Standard for Firefighter Professional Qualifications.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Safety during the Emergency Response" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 48" style="display: none;"></div>
+        <label><input type="radio" name="q45" value="a"> a) 470</label><br>
+        <label><input type="radio" name="q45" value="b"> b) 1006</label><br>
+        <label><input type="radio" name="q45" value="c"> c) 1010</label><br>
+        <label><input type="radio" name="q45" value="d"> d) 1500</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q46">
+    <p><strong>46. All equipment in the crew compartment of the apparatus should be _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Safety during the Emergency Response" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 48" style="display: none;"></div>
+        <label><input type="radio" name="q46" value="a"> a) removed to storage</label><br>
+        <label><input type="radio" name="q46" value="b"> b) mounted, stowed, or secured</label><br>
+        <label><input type="radio" name="q46" value="c"> c) bungy strapped</label><br>
+        <label><input type="radio" name="q46" value="d"> d) placed in containers</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q47">
+    <p><strong>47. Always check for _____ before opening the doors or stepping out of the apparatus.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Safety during the Emergency Response" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 49" style="display: none;"></div>
+        <label><input type="radio" name="q47" value="a"> a) traffic</label><br>
+        <label><input type="radio" name="q47" value="b"> b) a “thumbs up”</label><br>
+        <label><input type="radio" name="q47" value="c"> c) permission from the IC</label><br>
+        <label><input type="radio" name="q47" value="d"> d) animals</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q48">
+    <p><strong>48. _____ worn at highway incidents should meet ANSI 207.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Safe Driving Practices" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 50" style="display: none;"></div>
+        <label><input type="radio" name="q48" value="a"> a) Safety glasses</label><br>
+        <label><input type="radio" name="q48" value="b"> b) Firefighter helmets</label><br>
+        <label><input type="radio" name="q48" value="c"> c) Firefighting gloves</label><br>
+        <label><input type="radio" name="q48" value="d"> d) High-visibility vests</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q49">
+    <p><strong>49. All firefighters working at highway incidents should wear _____ in addition to their normal PPE.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Safety during the Emergency Response" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 50" style="display: none;"></div>
+        <label><input type="radio" name="q49" value="a"> a) safety glasses</label><br>
+        <label><input type="radio" name="q49" value="b"> b) N-95 masks</label><br>
+        <label><input type="radio" name="q49" value="c"> c) medical gloves</label><br>
+        <label><input type="radio" name="q49" value="d"> d) high-visibility safety vests</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q50">
+    <p><strong>50. _____ driving has no place in the fire service</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Safe Driving Practices" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 51" style="display: none;"></div>
+        <label><input type="radio" name="q50" value="a"> a) Aggressive</label><br>
+        <label><input type="radio" name="q50" value="b"> b) Defensive</label><br>
+        <label><input type="radio" name="q50" value="c"> c) Restrained</label><br>
+        <label><input type="radio" name="q50" value="d"> d) Cautious</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q51">
+    <p><strong>51. Driving while eating, texting, or talking on a communications device are all forms of _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Safe Driving Practices" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 51" style="display: none;"></div>
+        <label><input type="radio" name="q51" value="a"> a) moving violations</label><br>
+        <label><input type="radio" name="q51" value="b"> b) distracted driving</label><br>
+        <label><input type="radio" name="q51" value="c"> c) arrestable offenses</label><br>
+        <label><input type="radio" name="q51" value="d"> d) acceptable driving</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q52">
+    <p><strong>52. _____ are common sites of collisions involving emergency vehicles.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Safe Driving Practices" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Pages 51" style="display: none;"></div>
+        <label><input type="radio" name="q52" value="a"> a) Driveways</label><br>
+        <label><input type="radio" name="q52" value="b"> b) Parking lots</label><br>
+        <label><input type="radio" name="q52" value="c"> c) Two-lane roadways</label><br>
+        <label><input type="radio" name="q52" value="d"> d) Intersections</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q53">
+    <p><strong>53. Firefighters _____ the laws and regulations of the state regarding emergency vehicle operations.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Safe Driving Practices" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 52" style="display: none;"></div>
+        <label><input type="radio" name="q53" value="a"> a) must follow</label><br>
+        <label><input type="radio" name="q53" value="b"> b) are exempt from</label><br>
+        <label><input type="radio" name="q53" value="c"> c) are not restrained by</label><br>
+        <label><input type="radio" name="q53" value="d"> d) can disregard</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q54">
+    <p><strong>54. _____ will prevent most vehicle collisions.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Safe Driving Practices" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 52" style="display: none;"></div>
+        <label><input type="radio" name="q54" value="a"> a) Requiring commercial driver licenses</label><br>
+        <label><input type="radio" name="q54" value="b"> b) Using lights and sirens</label><br>
+        <label><input type="radio" name="q54" value="c"> c) Safe driving practices</label><br>
+        <label><input type="radio" name="q54" value="d"> d) Fear of fines and tickets</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q55">
+    <p><strong>55. When water collects on a roadway, your vehicle can _____ on the thin film of water that separates your tires and the road surface.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Safe Driving Practices" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 53" style="display: none;"></div>
+        <label><input type="radio" name="q55" value="a"> a) drift</label><br>
+        <label><input type="radio" name="q55" value="b"> b) hydroplane</label><br>
+        <label><input type="radio" name="q55" value="c"> c) skid</label><br>
+        <label><input type="radio" name="q55" value="d"> d) fishtail</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q56">
+    <p><strong>56. The laws of physics tell us that when the speed of a vehicle doubles, the force exerted by that vehicle increases by a factor of _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Safe Driving Practices" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 53" style="display: none;"></div>
+        <label><input type="radio" name="q56" value="a"> a) two</label><br>
+        <label><input type="radio" name="q56" value="b"> b) three</label><br>
+        <label><input type="radio" name="q56" value="c"> c) four</label><br>
+        <label><input type="radio" name="q56" value="d"> d) ten</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q57">
+    <p><strong>57. The importance of _____ for fire department vehicles should not be underestimated.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Safe Driving Practices" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 53" style="display: none;"></div>
+        <label><input type="radio" name="q57" value="a"> a) proper maintenance</label><br>
+        <label><input type="radio" name="q57" value="b"> b) cleanliness</label><br>
+        <label><input type="radio" name="q57" value="c"> c) paint color</label><br>
+        <label><input type="radio" name="q57" value="d"> d) air horns</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q58">
+    <p><strong>58. The officer in command will _____ evaluating the conditions to determine whether the burning building is safe to enter or what needs to be done to make the scene safe for action to take place.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Safety at the Incident" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Pages 55" style="display: none;"></div>
+        <label><input type="radio" name="q58" value="a"> a) perform a 360 walk around</label><br>
+        <label><input type="radio" name="q58" value="b"> b) size-up the situation while carefully</label><br>
+        <label><input type="radio" name="q58" value="c"> c) write down a procedural plan after</label><br>
+        <label><input type="radio" name="q58" value="d"> d) immediately begin offensive action before</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q59">
+    <p><strong>59. _____, whether done by individual firefighters, groups of firefighters, or full companies, is unacceptable.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Safety at the Incident" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 55" style="display: none;"></div>
+        <label><input type="radio" name="q59" value="a"> a) Following ICS procedure</label><br>
+        <label><input type="radio" name="q59" value="b"> b) Freelancing</label><br>
+        <label><input type="radio" name="q59" value="c"> c) Talking to witnesses</label><br>
+        <label><input type="radio" name="q59" value="d"> d) Protecting property</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q60">
+    <p><strong>60. A(n) _____ should record the individuals assigned to each company, crew, or entry team: the assignments for each team: and the team’s current activities.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Safety at the Incident" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 56" style="display: none;"></div>
+        <label><input type="radio" name="q60" value="a"> a) staging report</label><br>
+        <label><input type="radio" name="q60" value="b"> b) IC operational report</label><br>
+        <label><input type="radio" name="q60" value="c"> c) personal accountability report</label><br>
+        <label><input type="radio" name="q60" value="d"> d) personnel accountability system</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q61">
+    <p><strong>61. A(n) _____ is an accountability check or roll call taken by a supervisor at an emergency incident that may be conducted as part of the personnel accountability system.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Safety at the Incident" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 56" style="display: none;"></div>
+        <label><input type="radio" name="q61" value="a"> a) PASS</label><br>
+        <label><input type="radio" name="q61" value="b"> b) PAR</label><br>
+        <label><input type="radio" name="q61" value="c"> c) EAP</label><br>
+        <label><input type="radio" name="q61" value="d"> d) IAP</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q62">
+    <p><strong>62. During any major fire, the electrical power supply to the building should be turned off as part of the fireground task called _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Safety at the Incident" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Pages 57" style="display: none;"></div>
+        <label><input type="radio" name="q62" value="a"> a) task-oriented shutdowns</label><br>
+        <label><input type="radio" name="q62" value="b"> b) utility control tasks</label><br>
+        <label><input type="radio" name="q62" value="c"> c) defensive operations</label><br>
+        <label><input type="radio" name="q62" value="d"> d) controlling the utilities</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q63">
+    <p><strong>63. The most common electrical service delivery in older areas is the _____ from above-ground utility wires to the electric meter, which is typically mounted on the outside of the building.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Safety at the Incident" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 57" style="display: none;"></div>
+        <label><input type="radio" name="q63" value="a"> a) aerial in-line</label><br>
+        <label><input type="radio" name="q63" value="b"> b) high ground</label><br>
+        <label><input type="radio" name="q63" value="c"> c) service drop</label><br>
+        <label><input type="radio" name="q63" value="d"> d) power-tow</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q64">
+    <p><strong>64. A _____ valve usually controls the natural gas supply to a building.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Safety at the Incident" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 58" style="display: none;"></div>
+        <label><input type="radio" name="q64" value="a"> a) bobtuck</label><br>
+        <label><input type="radio" name="q64" value="b"> b) single</label><br>
+        <label><input type="radio" name="q64" value="c"> c) double</label><br>
+        <label><input type="radio" name="q64" value="d"> d) triple-turn valve</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q65">
+    <p><strong>65. Never bend at the waist to lift an object: instead, bend at the knees, and use your _____ to lift the weight.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Safety at the Incident" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 59" style="display: none;"></div>
+        <label><input type="radio" name="q65" value="a"> a) arms</label><br>
+        <label><input type="radio" name="q65" value="b"> b) abdominals</label><br>
+        <label><input type="radio" name="q65" value="c"> c) legs</label><br>
+        <label><input type="radio" name="q65" value="d"> d) glutes</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q66">
+    <p><strong>66. _____ is a systematic process that provides longer periods of rest and recovery for emergency workers during an incident.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Safety at the Incident" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 59" style="display: none;"></div>
+        <label><input type="radio" name="q66" value="a"> a) Restoration</label><br>
+        <label><input type="radio" name="q66" value="b"> b) Reconditioning</label><br>
+        <label><input type="radio" name="q66" value="c"> c) Rehabilitation</label><br>
+        <label><input type="radio" name="q66" value="d"> d) Recycling</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q67">
+    <p><strong>67. _____ is brief and consists of taking a few minutes to rest, hydrate, and change the SCBA bottle before getting back to work.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Safety at the Incident" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 59" style="display: none;"></div>
+        <label><input type="radio" name="q67" value="a"> a) Restoration</label><br>
+        <label><input type="radio" name="q67" value="b"> b) Recycling</label><br>
+        <label><input type="radio" name="q67" value="c"> c) Medical evaluation</label><br>
+        <label><input type="radio" name="q67" value="d"> d) Rehabilitation</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q68">
+    <p><strong>68. When dispatched to a violent scene, the staging area and the fire apparatus should be located at some distance from the scene until the police arrive, investigate, and _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Safety at the Incident" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 60" style="display: none;"></div>
+        <label><input type="radio" name="q68" value="a"> a) decide whether the fire can be addressed</label><br>
+        <label><input type="radio" name="q68" value="b"> b) set up on the edge of the property</label><br>
+        <label><input type="radio" name="q68" value="c"> c) arrest the violent persons</label><br>
+        <label><input type="radio" name="q68" value="d"> d) declare the scene safe</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q69">
+    <p><strong>69. Proper maintenance of tools includes sharpening, lubricating, and _____ each tool.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Safety at the Fire Station" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 60" style="display: none;"></div>
+        <label><input type="radio" name="q69" value="a"> a) waxing</label><br>
+        <label><input type="radio" name="q69" value="b"> b) bleaching</label><br>
+        <label><input type="radio" name="q69" value="c"> c) sanding</label><br>
+        <label><input type="radio" name="q69" value="d"> d) cleaning</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q70">
+    <p><strong>70. Safety outside the workplace means _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Safety Outside Your Workplace" data-subject="Chapter 2" data-title="Firefighter Health and Safety" data-feedback="Chapter 2; Page 60" style="display: none;"></div>
+        <label><input type="radio" name="q70" value="a"> a) educating the public</label><br>
+        <label><input type="radio" name="q70" value="b"> b) following safe practices when off duty</label><br>
+        <label><input type="radio" name="q70" value="c"> c) reporting unsafe activities of team members</label><br>
+        <label><input type="radio" name="q70" value="d"> d) keeping neighbors and friends safe from fire hazards</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+</form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

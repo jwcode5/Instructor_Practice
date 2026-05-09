@@ -1,0 +1,104 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Apparatus Testing
+Chapter 15 Quiz 
+Name:  
+	
+
+	Date:  
+	
+
+	
+
+Directions:         Write the correct letter on the blank before each question.
+
+
+                1.        Which category of preperformance tests are fire department personnel MOST likely to be involved in?  (516)
+        A.        Design tests
+        B.        Acceptance tests
+        C.        Certification tests
+        D.        Manufacturers’ tests
+                2.        What two tests are MOST likely to be included in manufacturer’s tests?  (516)
+        A.        Road test and hydrostatic test
+        B.        Hydrostatic test and vacuum test 
+        C.        Engine speed check and vacuum test
+        D.        Road test and engine speed interlock test
+                3.        When is pump certification testing conducted?  (517)
+        A.        After one year of continuous service
+        B.        Before final acceptance of the vehicle
+        C.        After six months of continuous service
+        D.        Directly after delivery to the purchaser
+                4.        Which kind of test is conducted to demonstrate to the purchaser that the apparatus conforms to all bid specifications at the time of delivery?  (517)
+        A.        Acceptance testing
+        B.        Finalization testing 
+        C.        Certification testing
+        D.        Manufacturers’ testing
+
+                5.        According to NFPA® 1911, how often should a pumper be performance tested?  (518)
+        A.        At least once a month
+        B.        At least once a year
+        C.        Every two years
+        D.        Every five years
+                6.        Which formula would be used when correcting net pump discharge?  (521)
+        A.        Pressure correction formula
+        B.        Discharge pressure loss formula
+        C.        Intake hose friction loss formula 
+        D.        Conductivity comparison formula
+                7.        The engine speed check should be conducted under what type of conditions?  (523)
+        A.        No-load
+        B.        Uneven terrain 
+        C.        Maximum load
+        D.        Inclement weather 
+                8.        Which performance test evaluates the overall operation of the engine and the fire pump?  (524)
+        A.        Pumping test
+        B.        Priming system test
+        C.        Pressure control test
+        D.        Tank-to-pump flow test
+                9.        Which method tests the calibration accuracy of a foam proportioning system?  (527)
+        A.        Foam solution displacement method
+        B.        Foam concentrate displacement method
+        C.        Foam solution discharge volume method
+        D.        Foam concentrate measurement method
+
+
+
+Directions:         Write a brief answer to the questions below.
+        10.        Briefly discuss the actions that should be taken if an apparatus fails to perform to requirements outlined in the bid specifications.  (517-518)
+
+
+
+
+
+
+
+
+
+
+11.                List three safety considerations for personnel while service testing fire pumps. (522-523)
+
+
+
+
+
+
+
+
+
+
+
+
+
+12.                List four issues that should be investigated before any results are concluded if a pump fails to meet the requirements of the service test.  (526-527)
+
+
+
+
+
+
+
+
+
+
+
+
+Fire Protection Publications                Chapter Quiz 
+Oklahoma State University                15-

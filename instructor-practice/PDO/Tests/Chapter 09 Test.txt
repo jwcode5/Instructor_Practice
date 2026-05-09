@@ -1,0 +1,406 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Fire Pump Theory
+Chapter 9 Test
+Name:
+	
+
+	Date:
+	
+
+	
+
+Directions: Write the correct letter on the blank before each question.
+
+
+Objective 1:
+Distinguish among types of positive displacement pumps. 
+                1.        Which statement about positive displacement pumps is MOST accurate?  (296)
+        A.        They are the main pumping unit on fire apparatus.
+        B.        They are no longer useful in the modern fire service.
+        C.        They serve a vital role on modern apparatus because of their ability to pump air and foam.
+        D.        They are used as the primary pump in special operations such as drafting operations and wildland fire attack.
+                2.        Which type of positive displacement pump operates using a piston that moves back and forth in a cylinder?  (296)
+        A.        Inline pump 
+        B.        Gated pump
+        C.        Piston pump
+        D.        Rotary pump 
+                3.        Which type of positive displacement pump is the simplest of all fire apparatus pumps, from the standpoint of design?  (296)
+        A.        Inline pump 
+        B.        Gated pump
+        C.        Piston pump
+        D.        Rotary pump 
+
+                4.        In a modern apparatus, rotary pumps would MOST likely be used as which of the following types of pumps?  (296)
+        A.        As large capacity pumps 
+        B.        As main apparatus pumps
+        C.        As low volume, high-pressure pumps 
+        D.        As high volume, high-pressure pumps
+                5.        Which type of pump consists of two gears that rotate in a tightly meshed pattern inside a watertight case?  (296)
+        A.        Rotary gate pump 
+        B.        Rotary gear pump
+        C.        Rotary vane pump
+        D.        Rotary inline pump
+                6.        Which type of pump is constructed with moveable elements that automatically compensate for wear, maintaining a tighter fit with closer clearances as the pump is used?  (298)
+        A.        Rotary gate pump
+        B.        Rotary gear pump
+        C.        Rotary vane pump
+        D.        Rotary inline pump
+                7.        Why is the rotary vane pump more efficient at pumping air than the rotary gear pump?  (298)
+        A.        Newer design
+        B.        Greater capacity
+        C.        Fewer moving parts
+        D.        Self-adjusting feature
+Objective 2:
+Summarize facts about the operation of centrifugal pumps. 
+                8.        The operation of a centrifugal pump is based on the principle that a rapidly revolving disk tends to throw water introduced at its center:  (299)
+        A.        toward the outer edges of the disk.
+        B.        toward the inside edges of the disk.
+        C.        in a very tight circle around the center of the disk.
+        D.        intermittently toward the outer and inner edges of the disk.
+                9.        In a centrifugal pump, the speed of the impeller dictates the amount of pressure developed and the faster the disk is turned,:  (299)
+        A.        the softer water is thrown, giving the water less velocity. 
+        B.        the harder water is thrown, giving the water more velocity.
+        C.        the more likely the water will gravitate toward the center.
+        D.        the more likely the water will build up in the pump causing a problem.
+                10.        Which part of a centrifugal pump transmits energy in the form of velocity to the water?  (299)
+        A.        Impeller
+        B.        Inline hose
+        C.        Gated valves
+        D.        Pump casing
+                11.        What is a main factor that influences a centrifugal fire pump’s discharge pressure?  (300)
+        A.        Ambient temperature
+        B.        Age of the centrifugal fire pump
+        C.        Experience of those operating the fire pump
+        D.        Pressure of water when it enters pump from a pressurized source
+                12.        In a centrifugal pump, with all other factors remaining constant, doubling the speed of the impeller will result in:  (300)
+        A.        no amount of pressure.
+        B.        two times as much pressure.
+        C.        four times as much pressure.
+        D.        six times as much pressure. 
+                13.        Which statement about a centrifugal pump is MOST accurate?  (300)
+        A.        A centrifugal pump can pump air and is self priming.
+        B.        Priming is not necessary with the use of a centrifugal pump.
+        C.        A centrifugal pump is unable to pump air and is not self priming.
+        D.        Some models of centrifugal pumps can pump air and are self priming.
+
+                14.        Single-stage centrifugal fire pumps use a single intake impeller and a simple casing to provide flow capacities up to:  (300)
+        A.        500 gpm (2 000 L/min).
+        B.        1,000 gpm (4 000 L/min). 
+        C.        2,250 gpm (9 000 L/min).
+        D.        3,500 gpm (14 000 L/min).
+                15.        In multistage centrifugal pumps, the impellers generally: (301)
+        A.        impede the flow of water.
+        B.        have no effect on the pump.
+        C.        are identical and have the same capacity.
+        D.        are different and have varying capacities.
+                16.        When pumping in the parallel (volume) position:  (301)
+        A.        each impeller must flow 100 percent of rated capacity.
+        B.        only the first impeller takes water from a source and delivers it to the discharge.
+        C.        each of the impellers takes water from a source and delivers it to the discharge.
+        D.        all water from intake manifold is directed into the eye of the first impeller.
+                17.        When pumping in the series (pressure) position:  (302)
+        A.        water is only directed into the second impeller.
+        B.        only the first impeller takes water from a source and delivers it to the discharge.
+        C.        each of the impellers takes water from a source and delivers it to the discharge.
+        D.        all water from the intake manifold is directed into the eye of the first impeller.
+
+                18.        In a multistage pump, setting the transfer valve to series (pressure) results in:   (302)
+        A.        a much lower pressure than would be achieved in parallel operation.
+        B.        a much higher pressure than would be achieved in parallel operation.
+        C.        approximately the same pressure that would be achieved in parallel operation.
+        D.        pressure that is either slightly higher or slightly lower than achieved in parallel operation.
+                19.        For a multistage centrifugal fire pump, switching from volume to pressure: (302)
+        A.        has little immediate effect on the discharge pressure.
+        B.        results in immediate lowering of the previous discharge pressure.
+        C.        results in a slight interruption of the current discharge pressure.
+        D.        can result in immediate doubling of previous discharge pressure.
+                20.        When referring to pump wear rings and packing, why must very close tolerances be maintained between pump casing and the hub of the impeller?  (304)
+        A.        Any variation causes the pump to stop working.
+        B.        Excessive openings require the rings be replaced often.
+        C.        Incorrect tolerances will cause metal parts to malfunction.
+        D.        Any increase in opening lessens the effectiveness of the pump.
+                21.        Which BEST describes the function of a thermal relief valve in newer centrifugal pumps?  (306)
+        A.        Closes so that water remains in the main water tank and does not circulate
+        B.        Opens and closes intermittently so that water can circulate between the pump and main water tank
+        C.        Opens to allow overheated water to circulate between the pump and main water tank or into the atmosphere
+        D.        Opens and triggers a sensor to shut off the pump so damage will not occur to the pump or main water tank
+
+                22.        When operating a pump not equipped with a thermal relief valve, the best course of action to prevent overheating is to:  (306)
+        A.        periodically turn the pump off and let it cool down.
+        B.        ensure the pump is entirely full of water at all times.
+        C.        ensure some water is moving through the pump at all times.
+        D.        intermittently turn the pump on and off throughout operations.
+                23.        Which statement about mechanical seals is MOST accurate?  (306)
+        A.        They are not affected by temperature extremes.
+        B.        They form a tight seal but require frequent adjustment.
+        C.        It is important to operate the pump regularly to lubricate the seals.
+        D.        It is acceptable for the seals to run waterless, as no damage will be incurred.
+                24.        Most manufacturers recommend that the centrifugal fire pump be drained:  (306)
+        A.        between fire calls.
+        B.        at least once a month.
+        C.        at least twice a month.
+        D.        after the pump is used for ten hours.
+                25.        Which type of seal offers superior resistance to warping, stretching, and corrosion?  (307)
+        A.        Brass
+        B.        Ceramic
+        C.        Cast iron
+        D.        Carbon fiber
+
+
+
+Objective 3:
+Distinguish among various pump mounting and drive arrangements. 
+                26.        Which is powered by gasoline or diesel engines independent of the vehicle-drive engine?  (307)
+        A.        Midship pump
+        B.        Front-mount pump
+        C.        Power-take-off (PTO) drive 
+        D.        Auxiliary engine driven pump
+                27.        Which may be part of a skid-mount assembly or may be mounted on pickup trucks?  (307)
+        A.        Midship pump  
+        B.        Rear-mount pump
+        C.        Power-take-off (PTO) drive  
+        D.        Auxiliary engine driven pump 
+                28.        Which pump may be offered by some manufacturers in a rear-engine design driven off the engine’s flywheel?  (307)
+        A.        Midship pump  
+        B.        Rear-mount pump
+        C.        Power-take-off (PTO) drive  
+        D.        Auxiliary engine driven pump 
+                29.        For which of the following pumps is pressure determined by changes in the vehicle’s speed?  (308)
+        A.        Midship pump  
+        B.        Rear-mount pump
+        C.        Power-take-off (PTO) drive  
+        D.        Auxiliary engine driven pump 
+                30.        Which is typically driven through a gear box and a clutch connected by a drive shaft to the front of the crankshaft?  (308)
+        A.        Midship pump
+        B.        Front-mount pump
+        C.        Power-take-off (PTO) drive 
+        D.        Auxiliary engine driven pump
+
+                31.        Which type of pump is MOST vulnerable to damage from exposure or a vehicle collision?  (309)
+        A.        Midship pump
+        B.        Front-mount pump
+        C.        Power-take-off (PTO) drive 
+        D.        Auxiliary engine driven pump
+                32.        Which type of pump has power supplied through the use of a split shaft gear case (transfer case) located in the drive line between the transmission and rear axle?  (309)
+        A.        Midship pump  
+        B.        Rear-mount pump
+        C.        Power-take-off (PTO) drive  
+        D.        Auxiliary engine driven pump 
+                33.        How does the driver/operator know when pumping operations may begin for most apparatus equipped with midship pumps?  (310)
+        A.        Indicator light in cab  
+        B.        Indicator valve on pump
+        C.        Time since initial prepping 
+        D.        Hand signals from firefighter on the ground
+                34.        Which pump design offers advantages such as more even weight distribution on the chassis and more usable compartment space?  (312)
+        A.        Midship pump  
+        B.        Rear-mount pump
+        C.        Power-take-off (PTO) drive  
+        D.        Auxiliary engine driven pump 
+                35.        Which pump design has the disadvantage of the driver/operator being more directly exposed to oncoming traffic than in other pump-mounting positions?  (312)
+        A.        Midship pump  
+        B.        Rear-mount pump
+        C.        Power-take-off (PTO) drive  
+        D.        Auxiliary engine driven pump 
+
+
+
+Objective 4:
+Describe intake and discharge piping. 
+
+
+Objective 5:
+Summarize facts about valves used in a piping system. 
+                36.        NFPA® 1901 requires all components of piping system to be: (312)
+        A.        less than five years old.
+        B.        less than seven years old.
+        C.        made of corrosion resistant material.
+        D.        composed of only one type of material.
+                37.        Before being placed into service, the piping system and the fire pump itself must be capable of withstanding a hydrostatic test of: (312)
+        A.        150 psi (1 050 kPa).
+        B.        300 psi (2 100 kPa).
+        C.        500 psi (3 500 kPa).
+        D.        750 psi (5 250 kPa).
+                38.        Why it is essential that piping from the tank on board the apparatus be large enough to allow for adequate streams for fire attack?  (312)
+        A.        The primary water supply from a hydrant may fail.
+        B.        Initial fire attack must be made as close to the fire as physically possible.
+        C.        Initially, many fires are fought with water from the tank on board apparatus.
+        D.        Water from the tank on board apparatus is used as a last resort for exposure protection.
+                39.        According to NFPA® 1901, pumpers with a capacity greater than 500 gpm (2 000 L/min) should be able to flow:  (312)
+        A.        at least 150 gpm (600 L/min).
+        B.        at least 250 gpm (1 000 L/min).
+        C.        at least 500 gpm (2 000 L/min).
+        D.        at least 700 gpm (2 800 L/min).
+
+                40.        When using a static water source, prime the pump by:  (313)
+        A.        turning a valve a quarter-turn clockwise.
+        B.        removing all or most of the air from the pump.
+        C.        inserting a small amount of air into the pump.
+        D.        turning a valve a quarter-turn counterclockwise.
+                41.        Based on NFPA® 1901, as a minimum, all fire apparatus with a rated pump capacity of 750 gpm (3 000 L/min) or greater must be equipped with at least: (314)
+        A.        one 2½-inch (65 mm) discharge. 
+        B.        two 2½-inch (65 mm) discharges.
+        C.        three 2½-inch (65 mm) discharges.
+        D.        four 2½-inch (65 mm) discharges.
+                42.        What is the function of a booster line cooling valve?  (316)
+        A.        Allows water to remain in the tank
+        B.        Receives water from two directions
+        C.        Circulates tank water through a heat exchanger
+        D.        Diverts a portion of discharge water into the tank
+                43.        Valves that control most of the intake and discharge lines from the pump must:  (316)
+        A.        be less than five years old.
+        B.        allow for slight intake of air.
+        C.        be constructed to be airtight.
+        D.        be made of only one material.
+                44.        Which is the most common type of valve and permits the full flow of water through a line with a minimum friction loss?  (316)
+        A.        Ball-type valve
+        B.        Slot-type valve 
+        C.        Flap-over valve
+        D.        Retracting valve 
+                45.        Modern versions of quarter-turn handles lock by:  (316)
+        A.        clipping the handle.
+        B.        pushing downward.
+        C.        rotating the handle in a clockwise direction.
+        D.        rotating the handle in a counterclockwise direction.
+                46.        Gate valves are most commonly operated by:  (317)
+        A.        a handwheel.
+        B.        bar handles.
+        C.        retracting handles.
+        D.        quarter-turn handles.
+                47.        What is the purpose of slow-acting valve controls?  (317)
+        A.        Allow personnel time to preposition hoses
+        B        Minimize chances of water being inadvertently discharged
+        C.        Maximize the amount of water that can be moved at one time
+        D.        Minimize risk of damage caused by water hammer when large volumes of water are being moved
+                48.        Drain valves provide a way to drain the hose side of the valve after the discharge valve and nozzle are both closed on:  (317)
+        A.        gated intakes.
+        B.        intake fittings.
+        C.        discharge fittings.
+        D.        all intakes and discharges.
+                49.        Which is a reason pump and suction drains are used on pumper apparatus?  (318)
+        A.        Remove and replenish contaminated water quickly 
+        B.        Allow the introduction of small amounts of cleaning solution
+        C.        Allow the introduction of a small amount of air into the system
+        D.        Remove all water from the system in climates where freezing may occur
+Objective 6:
+Explain the operation of automatic pressure control devices. 
+                50.        Pressure control devices that are a part of a fire apparatus pumping system must operate within:  (318)
+        A.        two to seven seconds after the discharge pressure rises.
+        B.        three to ten seconds after the discharge pressure rises.
+        C.        ten to twenty seconds after the discharge pressure rises.
+        D.        twenty to thirty seconds after the discharge pressure rises.
+
+                51.        Pressure control devices that are a part of a fire apparatus pumping system must restrict the pressure from exceeding:  (318-319)
+        A.        10 psi (70 kPa) above the set level.
+        B.        20 psi (140 kPa) above the set level.
+        C.        30 psi (210 kPa) above the set level.
+        D.        70 psi (490 kPa) above the set level.
+                52.        The main feature of relief valves is the ability to:  (319)
+        A.        regulate amount of water flowing.
+        B.        pump to handle excessive pressures.
+        C.        warn firefighters when supply is at capacity.
+        D.        relieve excessive pressure within the pump discharge.
+                53.        It is generally recommended that intake relief valves be set to open when intake pressure rises more than:  (320)
+        A.        5 psi (35 kPa) above the necessary operating pressure.
+        B.        10 psi (70 kPa) above the necessary operating pressure.
+        C.        20 psi (140 kPa) above the necessary operating pressure.
+        D.        30 psi (210 kPa) above the necessary operating pressure.
+                54.        What is the function of a pressure governor?  (321)
+        A.        Regulates engine speed to best use available fuel supply
+        B.        Regulates engine speed to match load carrying requirements 
+        C.        Regulates water flow to match pump discharge requirements
+        D.        Regulates engine speed to match pump discharge requirements
+                55.        When pressure drops below a specified setting, the electronic pressure governor will:  (321)
+        A.        shut the engine down.
+        B.        increase engine speed. 
+        C.        return the engine to idle speed.
+        D.        intermittently increase and decrease engine speed.
+
+Objective 7:
+Summarize facts about priming methods and devices. 
+                56.        The ability to initiate a successful drafting operation depends on creating:  (322)
+        A.        a pressure within the pump and intake hose that is similar to the atmosphere.
+        B.        a lower pressure within the pump and intake hose than exists in the atmosphere.
+        C.        a higher pressure within the pump and intake hose than exists in the atmosphere.
+        D.        twice the pressure within the pump and intake hose than exists in the atmosphere.
+                57.        Which category of primer includes both the rotary vane primer and the rotary gear primer?  (322)
+        A.        Air primers
+        B.        Exhaust primers
+        C.        Vacuum primers
+        D.        Positive displacement primers
+                58.        What is the purpose of using an oil supply or other type of fluid with conventional primers?  (322)
+        A.        Seals the gaps between gears and case
+        B.        Enables primer to shut off automatically
+        C.        Creates spaces between gears and case
+        D.        Stops dirt and debris from getting in the housing
+                59.        Which primer is generally found on skid-mounted pumps or older fire apparatus and requires a great deal of maintenance to remove carbon deposits?  (323)
+        A.        Air primer
+        B.        Exhaust primer
+        C.        Vacuum primer
+        D.        Positive displacement primer
+
+                60.        Which primer is a simple devices that makes use of the vacuum already present in the intake manifold of any gasoline-driven engine?  (323)
+        A.        Air primer
+        B.        Exhaust primer
+        C.        Vacuum primer
+        D.        Positive displacement primer
+                61.        Which primer uses a compressor to supply an airline to a jet pump creating a Venturi Effect that primes the pump using no moving parts or lubricants?  (324)
+        A.        Air primer
+        B.        Exhaust primer
+        C.        Vacuum primer
+        D.        Positive displacement primer
+
+
+Objective 8:
+Identify characteristics of pump panel instrumentation. 
+                62.        Which provides a reading of residual pressure when the pump is operating from a hydrant or is receiving water through a supply line from another pumper?  (325)
+        A.        Tachometer
+        B.        Master intake gauge
+        C.        Pumping engine throttle
+        D.        Master discharge pressure gauge
+                63.        Which registers pressure as it leaves the pump, but before it reaches gauges for each individual discharge line?  (325-326)
+        A.        Tachometer
+        B.        Master intake gauge
+        C.        Pumping engine throttle
+        D.        Master discharge pressure gauge 
+                64.        Which displays engine speed in revolutions per minute?  (326)
+        A.        Ammeter 
+        B.        Voltmeter
+        C.        Tachometer
+        D.        Pumping engine throttle
+                65.        Any significant deviation from normal oil pressure reading is MOST likely to indicate:  (326)
+        A.        an equipment malfunction.
+        B.        a decrease in available fuel supply.
+        C.        a decrease in revolutions per minute.
+        D.        an increase in revolutions per minute.
+                66.        Which provides a relative indication of battery condition?  (326)
+        A.        Ammeter 
+        B.        Voltmeter
+        C.        Tachometer
+        D.        Pumping engine throttle
+                67.        Which indicates the status of the vehicle's alternator?  (326)
+        A.        Ammeter 
+        B.        Voltmeter
+        C.        Tachometer
+        D.        Pumping engine throttle
+                68.        Which is used to operate the priming device when the pump will draft from a static water supply?  (328)
+        A.        Tachometer
+        B.        Primer control
+        C.        Master intake gauge 
+        D.        Water tank level indicator
+Objective 9:
+Describe types of auxiliary cooling devices. 
+                69.        Which type of auxiliary cooling device is inserted into one of the hoses used in the engine cooling system so the engine coolant must travel through it as it circulates through the system?  (329)
+        A.        Marine cooler
+        B.        Outboard cooler
+        C.        Inline front-mounted cooler 
+        D.        Immersion type auxiliary cooler
+
+                70.        Which type of auxiliary cooling device works when water supplied by the fire pump passes through a coil or tubing mounted inside the cooler?  (329)
+        A.        Marine cooler
+        B.        Outboard cooler
+        C.        Inline front-mounted cooler 
+        D.        Immersion type auxiliary cooler
+
+
+Fire Protection Publications                Chapter Test
+Oklahoma State University                9-

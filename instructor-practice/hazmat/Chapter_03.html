@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>HazMat A&O Chapter 03 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. Chemical and physical properties are ______ characteristics.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 64, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) measurable</label><br>
+        <label><input type="radio" name="q1" value="b"> b) fungible</label><br>
+        <label><input type="radio" name="q1" value="c"> c) uncertain</label><br>
+        <label><input type="radio" name="q1" value="d"> d) qualitative</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. A safety data sheet will include information on:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 65, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) price.</label><br>
+        <label><input type="radio" name="q2" value="b"> b) brands available.</label><br>
+        <label><input type="radio" name="q2" value="c"> c) purity.</label><br>
+        <label><input type="radio" name="q2" value="d"> d) accident release measures.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. To obtain chemical safety information by phone, in Canada, call the:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 65, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) Chemical Transportation Emergency Center.</label><br>
+        <label><input type="radio" name="q3" value="b"> b) Canadian Transport Emergency Centre.</label><br>
+        <label><input type="radio" name="q3" value="c"> c) Emergency Transportation System for the Chemical Industry, Mexico.</label><br>
+        <label><input type="radio" name="q3" value="d"> d) Occupational Safety and Health Administration.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. Vaporization of ethanol produces a:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Physical and Chemical Changes" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 65, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) solid.</label><br>
+        <label><input type="radio" name="q4" value="b"> b) liquid.</label><br>
+        <label><input type="radio" name="q4" value="c"> c) gas.</label><br>
+        <label><input type="radio" name="q4" value="d"> d) plasma.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. If a heavy toxic gas were released into an area with varied topography, where would it end up?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Physical and Chemical Changes" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 65, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) Hilltop</label><br>
+        <label><input type="radio" name="q5" value="b"> b) Mountain slope</label><br>
+        <label><input type="radio" name="q5" value="c"> c) River valley</label><br>
+        <label><input type="radio" name="q5" value="d"> d) Raised roadway</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. Which of the following is not a type of stress that can cause a container to fail?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Physical and Chemical Changes" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 66, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) Chemical</label><br>
+        <label><input type="radio" name="q6" value="b"> b) Biological</label><br>
+        <label><input type="radio" name="q6" value="c"> c) Mechanical</label><br>
+        <label><input type="radio" name="q6" value="d"> d) Thermal</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. If a toxic liquid escapes from a tanker truck, vaporizes, and spreads out evenly as it rises, it forms a:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Physical and Chemical Changes" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 67, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) plume.</label><br>
+        <label><input type="radio" name="q7" value="b"> b) pool.</label><br>
+        <label><input type="radio" name="q7" value="c"> c) cone.</label><br>
+        <label><input type="radio" name="q7" value="d"> d) cloud.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. If the flash point of gasoline is −45ºF, at what temperature would a flame near a pool of gasoline cause a flash fire?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Critical Characteristics of Flammable Liquids" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 69, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) −50ºF (-45.5ºC)</label><br>
+        <label><input type="radio" name="q8" value="b"> b) −51ºF (-46.1ºC)</label><br>
+        <label><input type="radio" name="q8" value="c"> c) −47ºF (-43.9ºC)</label><br>
+        <label><input type="radio" name="q8" value="d"> d) −40ºF (-40ºC)</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. A flash fire is possible for a flammable liquid:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Critical Characteristics of Flammable Liquids" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 70, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) between the upper exposure limit and the lower exposure limit.</label><br>
+        <label><input type="radio" name="q9" value="b"> b) above the upper exposure limit and below the lower exposure limit.</label><br>
+        <label><input type="radio" name="q9" value="c"> c) only below the lower exposure limit.</label><br>
+        <label><input type="radio" name="q9" value="d"> d) above the upper exposure limit if the liquid is a hydrocarbon.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. Above its ignition temperature, a flammable liquid will ignite:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Critical Characteristics of Flammable Liquids" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 70, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) without an ignition source.</label><br>
+        <label><input type="radio" name="q10" value="b"> b) if oxygen is absent.</label><br>
+        <label><input type="radio" name="q10" value="c"> c) if stirred.</label><br>
+        <label><input type="radio" name="q10" value="d"> d) from the bottom up.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. What is the term for the small vapor space above a liquid in a closed container?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Critical Characteristics of Flammable Liquids" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 71, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) Blankspace</label><br>
+        <label><input type="radio" name="q11" value="b"> b) Cold zone</label><br>
+        <label><input type="radio" name="q11" value="c"> c) Headspace</label><br>
+        <label><input type="radio" name="q11" value="d"> d) Dead zone</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. For a liquid with a low flash pressure, which of the following is true of its vapor pressure?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Critical Characteristics of Flammable Liquids" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 71, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) The vapor pressure is higher than the flash pressure.</label><br>
+        <label><input type="radio" name="q12" value="b"> b) The vapor pressure becomes more variable with ambient pressure.</label><br>
+        <label><input type="radio" name="q12" value="c"> c) The vapor pressure is hard to predict.</label><br>
+        <label><input type="radio" name="q12" value="d"> d) The vapor pressure is lower than the flash pressure.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. What is the flash point of water?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Critical Characteristics of Flammable Liquids" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 72, NFPA 1072 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) Half of its boiling point at a given atmospheric pressure</label><br>
+        <label><input type="radio" name="q13" value="b"> b) Water does not have a flash point.</label><br>
+        <label><input type="radio" name="q13" value="c"> c) The same as for ethanol</label><br>
+        <label><input type="radio" name="q13" value="d"> d) 110ºF (43.3ºC)</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. The lowest temperature at which a liquid can completely turn into a gas is its:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Critical Characteristics of Flammable Liquids" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 72, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) boiling point.</label><br>
+        <label><input type="radio" name="q14" value="b"> b) atmospheric pressure.</label><br>
+        <label><input type="radio" name="q14" value="c"> c) vapor pressure.</label><br>
+        <label><input type="radio" name="q14" value="d"> d) flash point.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. What is the boiling point of water at sea level?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Critical Characteristics of Flammable Liquids" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 72, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) 100ºF (37.8ºC)</label><br>
+        <label><input type="radio" name="q15" value="b"> b) 112ºF (44.4ºC)</label><br>
+        <label><input type="radio" name="q15" value="c"> c) 212ºF (100ºC)</label><br>
+        <label><input type="radio" name="q15" value="d"> d) 312ºF (155ºC)</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. A toxic gas has been released on the first floor of a three-story building. Its density is lower than that of the ambient air. Where will it most likely be found?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Vapor Density" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 73, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) Parking lot</label><br>
+        <label><input type="radio" name="q16" value="b"> b) Adjacent building</label><br>
+        <label><input type="radio" name="q16" value="c"> c) Second floor</label><br>
+        <label><input type="radio" name="q16" value="d"> d) Center of town</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. If you open a cylinder of a gas with a vapor density of 1.2, where will the gas go?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Vapor Density" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 73, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) Ceiling</label><br>
+        <label><input type="radio" name="q17" value="b"> b) Near the nozzle</label><br>
+        <label><input type="radio" name="q17" value="c"> c) Cylinder base</label><br>
+        <label><input type="radio" name="q17" value="d"> d) Middle of the air column in the room</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. What is the vapor density of propane?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Vapor Density" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 73, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) 0.83</label><br>
+        <label><input type="radio" name="q18" value="b"> b) 1.0</label><br>
+        <label><input type="radio" name="q18" value="c"> c) 1.55</label><br>
+        <label><input type="radio" name="q18" value="d"> d) 2.01</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. What is the specific gravity of water?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Specific Gravity" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 74, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) 0.8</label><br>
+        <label><input type="radio" name="q19" value="b"> b) 1.0</label><br>
+        <label><input type="radio" name="q19" value="c"> c) 1.5</label><br>
+        <label><input type="radio" name="q19" value="d"> d) 2.0</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. If carbon disulfide is released near a pond, where will it end up?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Specific Gravity" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 74, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) High in the atmosphere</label><br>
+        <label><input type="radio" name="q20" value="b"> b) Pond bottom</label><br>
+        <label><input type="radio" name="q20" value="c"> c) Mixed in the water column</label><br>
+        <label><input type="radio" name="q20" value="d"> d) On the grass next to the pond</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. If you pour gasoline into a river, it will:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Specific Gravity" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 74, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) float.</label><br>
+        <label><input type="radio" name="q21" value="b"> b) evaporate.</label><br>
+        <label><input type="radio" name="q21" value="c"> c) burn.</label><br>
+        <label><input type="radio" name="q21" value="d"> d) sink.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. Water solubility is defined as:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Water Solubility" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 75, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) how much water another substance can hold.</label><br>
+        <label><input type="radio" name="q22" value="b"> b) how quickly 1 gram of a substance disappears in water.</label><br>
+        <label><input type="radio" name="q22" value="c"> c) the ability of a substance to dissolve in water.</label><br>
+        <label><input type="radio" name="q22" value="d"> d) whether a substance can be washed off with a water-based cleanser.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. Which of the following is an example of a substance that reacts adversely with water?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Water Solubility" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 75, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) Milk</label><br>
+        <label><input type="radio" name="q23" value="b"> b) Sulfuric acid</label><br>
+        <label><input type="radio" name="q23" value="c"> c) Vinegar</label><br>
+        <label><input type="radio" name="q23" value="d"> d) Gasoline</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. Which of the following can be used to knock down clouds of toxic gas during an incident?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Water Solubility" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 75, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) Fog streams from handlines</label><br>
+        <label><input type="radio" name="q24" value="b"> b) Flames</label><br>
+        <label><input type="radio" name="q24" value="c"> c) Carbon dioxide extinguishers</label><br>
+        <label><input type="radio" name="q24" value="d"> d) Ventilation exhaust fans</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q25">
+    <p><strong>25. The chemical factor most responsible for corrosivity is:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Corrosivity (pH)" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 75, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q25" value="a"> a) boiling point.</label><br>
+        <label><input type="radio" name="q25" value="b"> b) vapor pressure.</label><br>
+        <label><input type="radio" name="q25" value="c"> c) pH.</label><br>
+        <label><input type="radio" name="q25" value="d"> d) water solubility.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q26">
+    <p><strong>26. Which of the following is a strongly acidic pH?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Corrosivity (pH)" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 75, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q26" value="a"> a) 2</label><br>
+        <label><input type="radio" name="q26" value="b"> b) 6</label><br>
+        <label><input type="radio" name="q26" value="c"> c) 7</label><br>
+        <label><input type="radio" name="q26" value="d"> d) 11</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q27">
+    <p><strong>27. How is pH determined in the field?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Corrosivity (pH)" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 76, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q27" value="a"> a) pH paper</label><br>
+        <label><input type="radio" name="q27" value="b"> b) By watching the reaction with gasoline</label><br>
+        <label><input type="radio" name="q27" value="c"> c) By adding baking soda</label><br>
+        <label><input type="radio" name="q27" value="d"> d) Using taste</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q28">
+    <p><strong>28. Concentration refers to:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Determining the Concentration of a Released Hazardous Material" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 76, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q28" value="a"> a) the relative amount of a substance in a solvent.</label><br>
+        <label><input type="radio" name="q28" value="b"> b) focus on an incident.</label><br>
+        <label><input type="radio" name="q28" value="c"> c) how many rescuers are present in the hot zone.</label><br>
+        <label><input type="radio" name="q28" value="d"> d) the weight of a chemical present in a container.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q29">
+    <p><strong>29. Which of the following is a flammable concentration of natural gas in ambient air?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Determining the Concentration of a Released Hazardous Material" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 77, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q29" value="a"> a) 4%</label><br>
+        <label><input type="radio" name="q29" value="b"> b) 8%</label><br>
+        <label><input type="radio" name="q29" value="c"> c) 16%</label><br>
+        <label><input type="radio" name="q29" value="d"> d) 30%</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q30">
+    <p><strong>30. When discussing toxic chemical solutions, strength and concentration are:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Determining the Concentration of a Released Hazardous Material" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 77, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q30" value="a"> a) the same thing.</label><br>
+        <label><input type="radio" name="q30" value="b"> b) sometimes very different.</label><br>
+        <label><input type="radio" name="q30" value="c"> c) legally defined terms.</label><br>
+        <label><input type="radio" name="q30" value="d"> d) set by the Occupational Safety and Health Administration.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q31">
+    <p><strong>31. Radiation is always:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Ionizing and Nonionizing Radiation" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 77, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q31" value="a"> a) found in hospital incidents.</label><br>
+        <label><input type="radio" name="q31" value="b"> b) lethal.</label><br>
+        <label><input type="radio" name="q31" value="c"> c) transmitted energy.</label><br>
+        <label><input type="radio" name="q31" value="d"> d) regulated by OSHA.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q32">
+    <p><strong>32. Injury due to radiation exposure can be mitigated by increasing:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Ionizing and Nonionizing Radiation" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 77, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q32" value="a"> a) the concentration of the chemical emitting the radiation.</label><br>
+        <label><input type="radio" name="q32" value="b"> b) distance from the source.</label><br>
+        <label><input type="radio" name="q32" value="c"> c) the number of EMTs working.</label><br>
+        <label><input type="radio" name="q32" value="d"> d) the time used for cleanup.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q33">
+    <p><strong>33. By definition, an ion always has some:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Ionizing and Nonionizing Radiation" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 78, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q33" value="a"> a) charge.</label><br>
+        <label><input type="radio" name="q33" value="b"> b) density.</label><br>
+        <label><input type="radio" name="q33" value="c"> c) antidote.</label><br>
+        <label><input type="radio" name="q33" value="d"> d) color.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q34">
+    <p><strong>34. The driving force for the creation of toxic products of combustion is:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Toxic Products of Combustion" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 79, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q34" value="a"> a) heat.</label><br>
+        <label><input type="radio" name="q34" value="b"> b) concentration.</label><br>
+        <label><input type="radio" name="q34" value="c"> c) vapor pressure.</label><br>
+        <label><input type="radio" name="q34" value="d"> d) wind.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q35">
+    <p><strong>35. Which of the following is a carcinogen found in most fire smoke?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Toxic Products of Combustion" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 79, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q35" value="a"> a) Soot</label><br>
+        <label><input type="radio" name="q35" value="b"> b) Carbon dioxide</label><br>
+        <label><input type="radio" name="q35" value="c"> c) Water vapor</label><br>
+        <label><input type="radio" name="q35" value="d"> d) Sugar</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q36">
+    <p><strong>36. Which of the following is a chemical in fire smoke that affects the body’s ability to transport oxygen?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Toxic Products of Combustion" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 79, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q36" value="a"> a) Soot</label><br>
+        <label><input type="radio" name="q36" value="b"> b) Carbon monoxide</label><br>
+        <label><input type="radio" name="q36" value="c"> c) Chlorine</label><br>
+        <label><input type="radio" name="q36" value="d"> d) Formaldehyde</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q37">
+    <p><strong>37. When talking about toxic materials and hazard, the key concept is always:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Hazard, Exposure, and Contamination" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 79, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q37" value="a"> a) capability.</label><br>
+        <label><input type="radio" name="q37" value="b"> b) water solubility.</label><br>
+        <label><input type="radio" name="q37" value="c"> c) volatility.</label><br>
+        <label><input type="radio" name="q37" value="d"> d) color.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q38">
+    <p><strong>38. Contamination of an individual at an event scene implies that the individual:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Hazard, Exposure, and Contamination" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 80, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q38" value="a"> a) will die.</label><br>
+        <label><input type="radio" name="q38" value="b"> b) did something unsafe.</label><br>
+        <label><input type="radio" name="q38" value="c"> c) caused the incident.</label><br>
+        <label><input type="radio" name="q38" value="d"> d) may contaminate others.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q39">
+    <p><strong>39. A family member of a person hurt during a release of toxic gas has come to the cold zone of the scene. As the related subject is being moved out to an ambulance, the family member grabs the subject’s watch. The family member has probably experienced:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Hazard, Exposure, and Contamination" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 80, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q39" value="a"> a) a similar tragedy.</label><br>
+        <label><input type="radio" name="q39" value="b"> b) smoke inhalation.</label><br>
+        <label><input type="radio" name="q39" value="c"> c) secondary contamination</label><br>
+        <label><input type="radio" name="q39" value="d"> d) confusion.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q40">
+    <p><strong>40. Chronic health effects of hazardous materials always occur:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Chronic and Acute Health Effects" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 80, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q40" value="a"> a) over extended periods.</label><br>
+        <label><input type="radio" name="q40" value="b"> b) in entire families.</label><br>
+        <label><input type="radio" name="q40" value="c"> c) in an entire town at once.</label><br>
+        <label><input type="radio" name="q40" value="d"> d) due to a single exposure.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q41">
+    <p><strong>41. Compared to acute health effects, chronic health effects occur:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Chronic and Acute Health Effects" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 80, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q41" value="a"> a) over longer periods of time.</label><br>
+        <label><input type="radio" name="q41" value="b"> b) with greater severity.</label><br>
+        <label><input type="radio" name="q41" value="c"> c) in fewer people.</label><br>
+        <label><input type="radio" name="q41" value="d"> d) despite the best efforts of physicians.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q42">
+    <p><strong>42. A lethal dose is defined as:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Chronic and Acute Health Effects" data-subject="Chapter 03" data-title="Properties and Effects" data-feedback="Chapter 03; Page 83, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q42" value="a"> a) the amount of chemical that kills a given number of test animals.</label><br>
+        <label><input type="radio" name="q42" value="b"> b) more than 1 kilogram released in a closed building.</label><br>
+        <label><input type="radio" name="q42" value="c"> c) 5 times the normal clinical dose.</label><br>
+        <label><input type="radio" name="q42" value="d"> d) enough to kill an average grown man.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+    </form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

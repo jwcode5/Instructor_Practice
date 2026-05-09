@@ -1,0 +1,198 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Theoretical Pressure Calculations
+Chapter 7 Test
+Name:
+	
+
+	Date:
+	
+
+	
+
+Directions: Write the correct letter on the blank before each question.
+
+
+Objective 1:
+Summarize facts about total pressure loss. 
+                1.        What is the primary consideration for friction loss?  (210)
+        A.        Length of hose lay
+        B.        Elevation differences
+        C.        Experience of firefighters
+        D.        Volume of water flowing per minute
+                2.        Total pressure loss includes friction loss and elevation pressure loss combined with the loss associated with:  (210)
+        A.        appliances. 
+        B.        evaporation. 
+        C.        variation in temperatures. 
+        D.        improper use of equipment.
+                3.        Which method of determining friction loss involves the use of in-line gauges to measure friction loss at various flows through specific hose layouts? (211)
+        A.        Performing tests
+        B.        Using calculations 
+        C.        Historical information 
+        D.        Manufacturer guidelines
+
+                4.        Which method of determining friction loss relies on the use of mathematical equations or field application methods? (211)
+        A.        Performing tests
+        B.        Using calculations 
+        C.        Historical information 
+        D.        Manufacturer guidelines
+                5.        The use of standard formulas and field applications for determining friction loss are generally:  (211)
+        A.        the same as actual testing results. 
+        B.        very different than actual testing results.
+        C.        relied upon for safe fireground operations. 
+        D.        not considered reliable for safe fireground operations.
+                6.        The current formula for friction loss accounts for the diameter of the hose, the volume of water flowing, and the:  (212)
+        A.        expected time.
+        B.        level of elevation.
+        C.        distance of fire stream.
+        D.        length of the hose layout.
+                7.        Which of the following is the formula for friction loss? (212)
+        A.        FL= CQ²L
+        B.        FL= CL2Q
+        C.        FL= CQ²L x 2
+        D.        FL= CQ² ÷ L
+                8.        In the formula for friction loss, the “L” refers to:  (212)
+        A.        flow rate.
+        B.        hose length.
+        C.        distance of fire stream.
+        D.        friction loss coefficient.
+
+
+
+
+
+                9.        If a jurisdiction is performing tests using equipment they own in order to achieve more accurate results, the testing should be conducted:  (212)
+        A.        using actual hose that will be used during firefighting operations.
+        B.        using hose that is different than hose used during firefighting operations.
+        C.        using both older and new hose and then taking an average of the test results.
+        D.        using different diameters of hose and then taking an average of the test results.
+                10.        Which is a friction loss guideline in a hose assembly when flowing 350 gpm (1 400 L/min) or greater? (213)
+        A.        There is a loss of 25 psi (175 kPa) in all appliances.
+        B.        Friction loss is generally considered to be insignificant.
+        C.        Friction loss is generally considered to be one-half of rated loss.
+        D.        There is a loss of 10 psi (70 kPa) for each appliance, other than master stream devices.
+                11.        Which BEST describes friction loss for master stream appliances?  (213)
+        A.        25 psi (175 kPa) for all appliances
+        B.        10 psi (70 kPa) loss for each appliance
+        C.        Generally considered to be insignificant
+        D.        Generally considered to be one-half of rated loss
+                12.        Which BEST describes friction loss for handline nozzles?  (213)
+        A.        0 psi (0 kPa) loss for all appliances, regardless of flow
+        B.        25 psi (175 kPa) loss for handline nozzles, regardless of flow
+        C.        Generally considered to be insignificant
+        D.        Generally considered to be one-half of rated loss
+                13.        Which customary formula would be used to conduct elevation pressure loss calculations on the fireground?  (214)
+        A.        0.10 x Height in feet
+        B        0.25 x Height in feet
+        C.        0.5 x Height in feet
+        D.        1.0 x Height in feet
+
+                14.        Which metric formula would be used to calculate elevation pressure loss on the fireground?  (214)
+        A.        1 x Height in meters
+        B.        5 x Height in meters 
+        C.        10 x Height in meters
+        D.        12 x Height in meters
+                15.        Which customary formula would be used to determine elevation pressure in a multistory building?  (214)
+        A.        1 psi x (number of stories − 1)
+        B.        5 psi x (number of stories − 1)
+        C.        10 psi x (number of stories − 1)
+        D.        15 psi x (number of stories − 2)
+
+
+Objective 2:
+Identify how various hose layouts affect total pressure loss. 
+                16.        When using multiple hoselines of equal length and diameter, loss calculations:  (215)
+        A.        can be estimated.
+        B.        are too difficult to perform.
+        C.        must be made for both lines.
+        D.        need only be made for one line. 
+                17.        When using multiple hoselines of equal length but different diameter, loss calculations:  (215)
+        A.        can be estimated.
+        B.        are too difficult to perform.
+        C.        must be made for each line.
+        D.        need only be made for one line.
+                18.        When determining friction loss in a wyed hoseline in which the hoselines have the same nozzle pressure, hose length, and diameter:  (215)
+        A.        calculations can be estimated. 
+        B.        calculations are too difficult to make.
+        C.        both of the wyed hoselines need to be considered.
+        D.        only one of the wyed hoselines need to be considered.
+
+                19.        When two hoselines of equal length are Siamesed to supply a fire stream, friction loss is approximately:  (216)
+        A.        the same as that of a single hoseline at the same nozzle pressure.
+        B.        25 percent less than that of a single hoseline at the same nozzle pressure.
+        C.        10 percent more than that of a single hoseline at the same nozzle pressure.
+        D.        50 percent less than that of a single hoseline at the same nozzle pressure.
+                20.        Pressures for standpipe operations for fire departments may be:  (216)
+        A.        kept with building maintenance.
+        B.        listed on the building entrance information.
+        C.        posted on entry and exit passageways in the building.
+        D.        labeled on the faceplate of the fire department connection.
+                21.        To calculate friction loss when using multiple hoselines of unequal length, a driver/operator must:  (216)
+        A.        use estimates because calculations are too complex.
+        B.        calculate friction loss for only one hoseline and then estimate the other.
+        C.        calculate friction loss for the longest hoseline and double that number for the total.
+        D.        calculate friction loss for each hoseline supplied by separate discharges to individual nozzles. 
+                22.        Which statement about adding unequal lengths of hose to an established wyed hose layout is MOST accurate? (217)
+        A.        Friction loss must be determined for each attack line.
+        B.        Friction loss can be assumed to be the same for all attack lines.
+        C.        Friction loss only needs to be determined for the initial attack line.
+        D.        Friction loss in a wyed hose layout does not need to be considered.
+
+                23.        When determining pressure loss for elevated waterways, the elevation of the master stream: (218)
+        A.        increases total pressure loss by 10 percent of height.
+        B.        increases total pressure loss by 15 percent of height.
+        C.        must be considered as part of the total pressure loss.
+        D.        is not considered as it does not significantly affect pressure loss.
+
+
+Objective 3:
+Explain how to determine pump discharge pressure. 
+                24.        Pump discharge pressure must be sufficient to overcome: (218)
+        A.        all pressure loss. 
+        B.        50 percent of pressure loss.
+        C.        at least 75 percent of pressure loss.
+        D.        125 percent of all pressure loss.
+                25.        Which is the correct customary formula for determining pump discharge pressure?  (218)
+        A.        Nozzle pressure plus total pressure loss 
+        B.        Nozzle pressure divided by total pressure loss 
+        C.        Elevation loss plus friction loss minus nozzle pressure 
+        D.        Friction loss plus elevation loss multiplied by total pressure loss
+                26.        The pump discharge pressure should be calculated and set based on:  (219)
+        A.        average of all hoseline pressure requirements.
+        B.        hoseline with the greatest pressure requirement.
+        C.        median of lowest and highest pressure requirements.
+        D.        hoseline most likely to be used more during operations.
+                27.        For which of the following is a nozzle pressure of 50 psi (350 kPa) a safe and efficient nozzle pressure?  (219)
+        A.        Fog nozzle
+        B.        Low pressure fog nozzle
+        C.        Solid stream nozzle (handline)
+        D.        Solid stream nozzle (master stream)
+
+                28.        For which of the following is a nozzle pressure of 80 psi (560 kPa) a safe and efficient nozzle pressure?  (219)
+        A.        Fog nozzle
+        B.        Low pressure fog nozzle
+        C.        Solid stream nozzle (handline)
+        D.        Solid stream nozzle (master stream)
+                29.        For which of the following is a nozzle pressure of 100 psi (700 kPa) a safe and efficient nozzle pressure?  (219)
+        A.        Fog nozzle
+        B.        Low pressure fog nozzle
+        C.        Solid stream nozzle (handline)
+        D.        Solid stream nozzle (master stream)
+                30.        For which of the following is a nozzle pressure of 50 or 75 psi (350 or 525 kPa) a safe and efficient nozzle pressure?  (219)
+        A.        Fog nozzle
+        B.        Low pressure fog nozzle
+        C.        Solid stream nozzle (handline)
+        D.        Solid stream nozzle (master stream)
+                31.        When a pumper is being supplied by another pumper, net pump discharge pressure is the difference between pump discharge pressure and:  (219)
+        A.        outgoing pressure from supply source.
+        B.        incoming pressure from supply source.
+        C.        average total pressure of both pumpers.
+        D.        combined total pressure of both pumpers.
+                32.        Which is the correct formula for Net Pump Discharge Pressure? (219)
+        A.        Pump Discharge Pressure ÷ Total Pressure
+        B.        Pump Discharge Pressure + Intake Reading
+        C.        Pump Discharge Pressure − Intake Reading
+        D.        Pump Discharge Pressure − Residual Pressure
+
+
+Fire Protection Publications                Chapter Test
+Oklahoma State University                7-

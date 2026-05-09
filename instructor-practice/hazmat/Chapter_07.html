@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>HazMat A&O Chapter 07 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. During a fire, which of the following kills the most victims?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 166" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) Building collapse</label><br>
+        <label><input type="radio" name="q1" value="b"> b) Smoke</label><br>
+        <label><input type="radio" name="q1" value="c"> c) Flames</label><br>
+        <label><input type="radio" name="q1" value="d"> d) Heat</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. What makes smoke visible?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 167" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) particles of carbon monoxide</label><br>
+        <label><input type="radio" name="q2" value="b"> b) Nitrogen gas</label><br>
+        <label><input type="radio" name="q2" value="c"> c) Small carbon particles</label><br>
+        <label><input type="radio" name="q2" value="d"> d) Superheated hydrogen particles.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. When positioning the command post, what precautions should be taken in regards to smoke?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 167" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) Position downwind of the incident.</label><br>
+        <label><input type="radio" name="q3" value="b"> b) Position in the hot zone for better vision of the scene.</label><br>
+        <label><input type="radio" name="q3" value="c"> c) Position in an area away from drift smoke.</label><br>
+        <label><input type="radio" name="q3" value="d"> d) Position downhill of the incident.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. Which of the following compounds are released when polyurethane foam is exposed to heat?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Overview of Fire Smoke" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 168" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) Hydrogen chloride</label><br>
+        <label><input type="radio" name="q4" value="b"> b) Nitrogen</label><br>
+        <label><input type="radio" name="q4" value="c"> c) Carbon Dioxide</label><br>
+        <label><input type="radio" name="q4" value="d"> d) Oxygen</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. What disease occurs at a higher rate in firefighters than in the general population due to the components of fire smoke?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Overview of Fire Smoke" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 168" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) Heart disease</label><br>
+        <label><input type="radio" name="q5" value="b"> b) Diabetes</label><br>
+        <label><input type="radio" name="q5" value="c"> c) Cancer</label><br>
+        <label><input type="radio" name="q5" value="d"> d) Deafness</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. When looking at fire smoke, which of the following is something that you can see?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Overview of Fire Smoke" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 169" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) Carbon dioxide</label><br>
+        <label><input type="radio" name="q6" value="b"> b) Soot</label><br>
+        <label><input type="radio" name="q6" value="c"> c) Carbon monoxide</label><br>
+        <label><input type="radio" name="q6" value="d"> d) Sulfur dioxide</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. If you enter a scene with an active fire, you will probably be exposed to which of the following acutely toxic chemicals?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Carbon Monoxide and Hydrogen Cyanide: Silent Killers" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 170" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) Formaldehyde</label><br>
+        <label><input type="radio" name="q7" value="b"> b) Carbon monoxide</label><br>
+        <label><input type="radio" name="q7" value="c"> c) Water</label><br>
+        <label><input type="radio" name="q7" value="d"> d) Carbon dioxide</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. In the Dallas County study, about two-thirds of patients died when the hydrogen cyanide levels in their blood exceeded:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Carbon Monoxide and Hydrogen Cyanide: Silent Killers" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 170" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) 0.5 mg/L.</label><br>
+        <label><input type="radio" name="q8" value="b"> b) 1 mg/L.</label><br>
+        <label><input type="radio" name="q8" value="c"> c) 2 mg/L.</label><br>
+        <label><input type="radio" name="q8" value="d"> d) 4 mg/L.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. Cyanide blocks what key part of human biochemistry?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Carbon Monoxide and Hydrogen Cyanide: Silent Killers" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 171" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) Aerobic metabolism</label><br>
+        <label><input type="radio" name="q9" value="b"> b) Digestion in the intestine</label><br>
+        <label><input type="radio" name="q9" value="c"> c) Muscle building</label><br>
+        <label><input type="radio" name="q9" value="d"> d) Neurotransmission</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. Cyanide most directly damages which part of the cell?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Carbon Monoxide and Hydrogen Cyanide: Silent Killers" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 172" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) Nucleus</label><br>
+        <label><input type="radio" name="q10" value="b"> b) Cytoplasm</label><br>
+        <label><input type="radio" name="q10" value="c"> c) Mitochondria</label><br>
+        <label><input type="radio" name="q10" value="d"> d) Cell membrane</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. After smoke inhalation, when is normal oxygenation possible?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Smoke Inhalation Treatment" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 173" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) After about an hour</label><br>
+        <label><input type="radio" name="q11" value="b"> b) When the underlying cellular cause is reversed</label><br>
+        <label><input type="radio" name="q11" value="c"> c) When mucus is suctioned out of the mouth</label><br>
+        <label><input type="radio" name="q11" value="d"> d) With the application of oxygen</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. Cyanide poisoning is reversed by the presence of:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Smoke Inhalation Treatment" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 173" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) carbon dioxide.</label><br>
+        <label><input type="radio" name="q12" value="b"> b) oxygen.</label><br>
+        <label><input type="radio" name="q12" value="c"> c) hemoglobin.</label><br>
+        <label><input type="radio" name="q12" value="d"> d) methemoglobin.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. Hydroxocobalamin reacts with cyanide to form which vitamin?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Smoke Inhalation Treatment" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 175" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) C</label><br>
+        <label><input type="radio" name="q13" value="b"> b) K</label><br>
+        <label><input type="radio" name="q13" value="c"> c) B12</label><br>
+        <label><input type="radio" name="q13" value="d"> d) B6</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. Who is most responsible for postfire detection and monitoring?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Postfire Detection and Monitoring" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 175" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) Frontline firefighter</label><br>
+        <label><input type="radio" name="q14" value="b"> b) Police</label><br>
+        <label><input type="radio" name="q14" value="c"> c) Authority having jurisdiction</label><br>
+        <label><input type="radio" name="q14" value="d"> d) Occupational Safety and Health Administration</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. Which of the following is a common factor among firefighters that would make the NIOSH safe exposure levels questionable for them?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Postfire Detection and Monitoring" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 176" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) Elevated heart rate</label><br>
+        <label><input type="radio" name="q15" value="b"> b) Obesity</label><br>
+        <label><input type="radio" name="q15" value="c"> c) Asthma</label><br>
+        <label><input type="radio" name="q15" value="d"> d) Hearing problems</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. Over how many hours of exposure is the permissible exposure limit calculated?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Postfire Detection and Monitoring" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 176" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) 1 hour</label><br>
+        <label><input type="radio" name="q16" value="b"> b) 2 hours</label><br>
+        <label><input type="radio" name="q16" value="c"> c) 4 hours</label><br>
+        <label><input type="radio" name="q16" value="d"> d) 8 hours</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. Which of the following toxic gases is heavier than air?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Postfire Detection and Monitoring" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 177" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) Carbon dioxide</label><br>
+        <label><input type="radio" name="q17" value="b"> b) Carbon monoxide</label><br>
+        <label><input type="radio" name="q17" value="c"> c) Hydrogen cyanide</label><br>
+        <label><input type="radio" name="q17" value="d"> d) Ammonia</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. Which kind of postfire monitoring device uses ultraviolet light?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Postfire Detection and Monitoring" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 179" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) Electrochemical sensor for carbon monoxide</label><br>
+        <label><input type="radio" name="q18" value="b"> b) Photoionization detector</label><br>
+        <label><input type="radio" name="q18" value="c"> c) Colorimetric tube</label><br>
+        <label><input type="radio" name="q18" value="d"> d) Electrochemical sensor for ammonia</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. Which factor precludes use of monitoring devices during active firefighting?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Fire Scene Detection and Monitoring Practices" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 181" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) Firefighter training</label><br>
+        <label><input type="radio" name="q19" value="b"> b) Occupational Safety and health Administration rules</label><br>
+        <label><input type="radio" name="q19" value="c"> c) High heat</label><br>
+        <label><input type="radio" name="q19" value="d"> d) Battery life</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. Which of the following is the first step in fire scene detection?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Fire Scene Detection and Monitoring Practices" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 181" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) Evaluate the fire footprint.</label><br>
+        <label><input type="radio" name="q20" value="b"> b) Measure the amount of water used.</label><br>
+        <label><input type="radio" name="q20" value="c"> c) Replace damaged detectors.</label><br>
+        <label><input type="radio" name="q20" value="d"> d) Conduct an Occupational Safety and Health Administration inspection.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. Despite improving ventilation, gasoline-powered positive-pressure ventilation fans can add _______ to the space.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Fire Scene Detection and Monitoring Practices" data-subject="Chapter 07" data-title="Responder Health and Safety" data-feedback="Chapter 07; Page 182" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) carbon dioxide</label><br>
+        <label><input type="radio" name="q21" value="b"> b) carbon monoxide</label><br>
+        <label><input type="radio" name="q21" value="c"> c) ammonia</label><br>
+        <label><input type="radio" name="q21" value="d"> d) hydrogen cyanide</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+    </form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

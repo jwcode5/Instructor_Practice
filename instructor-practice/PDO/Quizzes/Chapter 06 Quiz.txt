@@ -1,0 +1,85 @@
+﻿Pumping Apparatus Driver/Operator                
+Handbook, 3rd Edition                Hose Nozzles and Flow Rates
+Chapter 6 Quiz 
+Name:  
+	
+
+	Date:  
+	
+
+	
+
+Directions:         Write the correct letter on the blank before each question.
+                1.        Which factor MOST determines the flow and reach of a solid stream?  (194)
+        A.        Water source 
+        B.        Fire conditions
+        C.        Length of hose lay
+        D.        Size of the discharge orifice
+                2.        Impinging stream nozzles MOST often provide a:  (196)
+        A.        straight stream.
+        B.        wide-angle fog pattern.
+        C.        combination fog pattern.
+        D.        narrow-angle fog pattern.
+                3.        A constant flow fog nozzle is designed to:  (197)
+        A.        provide a relatively low volume of water delivery.
+        B.        change patterns while also changing nozzle pressure.
+        C.        allow the firefighter operating the handline to select flow rate to suit the fire and operating conditions.
+        D.        flow a specific volume of water on all stream patterns at a specific nozzle discharge pressure.
+                4.        An automatic fog nozzle is designed to: (198)
+        A.        provide a relatively low volume of water delivery.
+        B.        change patterns while maintaining the same nozzle pressure.
+        C.        flow a specific volume of water on all stream patterns at a specific nozzle discharge pressure.
+        D.        allow the firefighter operating the handline to select flow rate to suit the fire and operating conditions.
+
+                5.        A high pressure fog nozzle is designed to: (199)
+        A.        provide a relatively low volume of water delivery.
+        B.        produce a stream that has very little forward velocity.
+        C.        provide efficient water flow at structural fire fighting.
+        D.        change patterns while maintaining the same nozzle pressure.
+                6.        If handlines would be ineffective at an incident, which would be the BEST option?  (199)
+        A.        Use master stream nozzles.
+        B.        Increase water pressure to handlines.
+        C.        Allow the the fire to burn out on its own.
+        D.        Use handlines on a smaller area of the fire.
+                7.        A nozzle that is commonly used in aircraft fire fighting or to apply water to voids, attics, or other areas inaccessible to standard fire streams is called a:   (201)
+        A.        cellar nozzle.
+        B.        piercing nozzle.
+        C.        impinging nozzle.
+        D.        combination nozzle.
+                8.        Which term refers to a counterforce that pushes back against firefighters operating the hoseline?  (202)
+        A.        Water hammer 
+        B.        Nozzle reaction
+        C.        Residual pressure
+        D.        Kickback pressure
+
+
+
+Directions:         Write a brief answer to the questions below.
+9.                What is the formula for the customary discharge rate?  (195)
+
+
+
+
+10.                What are the three types of master stream appliances?  (200)
+
+
+
+
+
+
+11.                In the formula for nozzle reaction for solid stream nozzles (customary), NR = 1.57 x d2 x NP, explain the meaning of NR, d, and NP. (203) 
+
+
+
+
+
+
+12.                In the formula for nozzle reaction for fog stream nozzles (metric), NR = 0.0156 x Q x √NP,  explain the meaning of Q and NP. (204)
+
+
+
+
+
+
+Fire Protection Publications                Chapter Quiz 
+Oklahoma State University                6-

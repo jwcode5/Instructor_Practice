@@ -1,0 +1,65 @@
+﻿Chapter 8 Quiz Answers
+        1.        A
+        2.        A
+        3.        D
+        4.        B
+        5.        D
+        6.        B
+        7.        C
+        8.        A
+        9.        C
+        10.        Answers may vary; students should include at least two of the following: 
+* Flow through any specific discharge 
+* Total water flow through pump in “real time”
+* Total water flowed through pump for duration of incident
+* Amount of foam being flowed
+        11.        Answers may vary; students should include points from the following:
+* Manual: Consists of a slide or dial that can be moved to cover or reveal rates of flow, size of hose, and length of hose layout in order to come to a conclusion to a problem 
+* Electronic: Specially programmed to allow driver/operator to input variables of each hose layout, calculator then applies preprogrammed formulas to arrive at pump discharge pressure
+        12.        Answers may vary; students should include points from the following: 
+* Locate the nozzle or the layout in question on the chart
+* Account for the number of feet (meters) in the layout
+* Plot where each column intersects to find the required pump discharge pressure 
+        13.        3-inch hose FL = Q²
+        14.        4-inch hose FL = Q²/5
+        15.        5-inch hose FL = Q²/15
+
+Chapter 8 Test Answers
+
+
+Objective 1
+        1.        B
+        2.        D
+        3.        D
+        4.        B
+        5.        B
+        6.        D
+        7.        D
+        8.        B        
+        9.        B
+        10.        A
+        11.        D
+        12.        C
+        13.        B
+
+
+Objective 2
+        14.        D
+        15.        C
+        16.        C
+
+
+Objective 3
+        17.        C
+        18.        D
+        19.        C
+        20.        A
+        21.        C
+        
+Objective 4
+        22.        D
+        23.        B
+        24.        C
+        25.        C
+        26.        C
+        27.        A

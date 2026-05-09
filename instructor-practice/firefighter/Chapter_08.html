@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>Firefighter Chapter 08 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. The _____ is the weight limit that a rope can safely support.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Understanding Ropes and Webbing" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 272" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) maximum breaking point</label><br>
+        <label><input type="radio" name="q1" value="b"> b) rope strength system</label><br>
+        <label><input type="radio" name="q1" value="c"> c) minimum breaking strength</label><br>
+        <label><input type="radio" name="q1" value="d"> d) breaking point</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. A(n) _____ is used for suspending one or more people.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Rope Types and Webbing" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 273" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) utility rope</label><br>
+        <label><input type="radio" name="q2" value="b"> b) throwline for water rescues</label><br>
+        <label><input type="radio" name="q2" value="c"> c) escape rope</label><br>
+        <label><input type="radio" name="q2" value="d"> d) life safety rope</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. _____ is the most common life safety rope carried by the fire service in the United States.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Rope Types and Webbing" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 273" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) Technical use life safety rope</label><br>
+        <label><input type="radio" name="q3" value="b"> b) General use life safety rope</label><br>
+        <label><input type="radio" name="q3" value="c"> c) Escape rope</label><br>
+        <label><input type="radio" name="q3" value="d"> d) Utility Rope</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. A _____ is an object constructed of fibers that is designed to sustain a weight.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Understanding Ropes and Webbing" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 272" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) lifeline</label><br>
+        <label><input type="radio" name="q4" value="b"> b) rope</label><br>
+        <label><input type="radio" name="q4" value="c"> c) webbing</label><br>
+        <label><input type="radio" name="q4" value="d"> d) strap</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. _____ is designed to carry the weight of only one person and to be used only one time.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Rope Types and Webbing" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 274" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) Webbing</label><br>
+        <label><input type="radio" name="q5" value="b"> b) Utility rope</label><br>
+        <label><input type="radio" name="q5" value="c"> c) Escape rope</label><br>
+        <label><input type="radio" name="q5" value="d"> d) Life safety rope</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. A(n) _____ for water rescue is a type of rope that is used during water rescue operations and that floats on top of the water.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Rope Types and Webbing" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 274" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) webbing</label><br>
+        <label><input type="radio" name="q6" value="b"> b) life safety rope</label><br>
+        <label><input type="radio" name="q6" value="c"> c) utility rope</label><br>
+        <label><input type="radio" name="q6" value="d"> d) throwline</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. _____ is used in most cases when it is not necessary to support the weight of a person, such as when hoisting or lowering tools or equipment.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Rope Types and Webbing" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 274" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) Webbing</label><br>
+        <label><input type="radio" name="q7" value="b"> b) Utility rope</label><br>
+        <label><input type="radio" name="q7" value="c"> c) Throwline</label><br>
+        <label><input type="radio" name="q7" value="d"> d) Block creel constructed rope</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. _____ is a general term used when building a lifting and lowering system with ropes and rope equipment.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Rope Types and Webbing" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 276" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) Webbing</label><br>
+        <label><input type="radio" name="q8" value="b"> b) Rigging</label><br>
+        <label><input type="radio" name="q8" value="c"> c) Building</label><br>
+        <label><input type="radio" name="q8" value="d"> d) Prepping</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. According to NFPA 2500, _____ is the minimum required breakage strength for escape webbing.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Rope Types and Webbing" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 276" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) 1065 lbf</label><br>
+        <label><input type="radio" name="q9" value="b"> b) 2134 lbf</label><br>
+        <label><input type="radio" name="q9" value="c"> c) 3034 1bf</label><br>
+        <label><input type="radio" name="q9" value="d"> d) 4200 1bf</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. The _____ is intended for emergency self-rescue situations.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Rope Types and Webbing" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 274" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) accessory rope</label><br>
+        <label><input type="radio" name="q10" value="b"> b) escape rope</label><br>
+        <label><input type="radio" name="q10" value="c"> c) utility rope</label><br>
+        <label><input type="radio" name="q10" value="d"> d) go rope</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. An advantage of synthetic ropes over natural fiber ropes is that synthetic ropes _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Rope Materials" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 276" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) absorb more water when wet</label><br>
+        <label><input type="radio" name="q11" value="b"> b) degrade more rapidly</label><br>
+        <label><input type="radio" name="q11" value="c"> c) have a longer life span</label><br>
+        <label><input type="radio" name="q11" value="d"> d) are less resistant to rotting</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. Polypropylene is often used for throwlines but is not suitable for life safety or escape ropes because polypropylene _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Rope Materials" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 276" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) is strong and lightweight</label><br>
+        <label><input type="radio" name="q12" value="b"> b) has a high melting temperature</label><br>
+        <label><input type="radio" name="q12" value="c"> c) does not absorb water and floats</label><br>
+        <label><input type="radio" name="q12" value="d"> d) is not as strong and has a low melting point</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. _____ is made of individual fibers twisted into strands.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Rope Construction" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 277" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) Fiber rope</label><br>
+        <label><input type="radio" name="q13" value="b"> b) Laid rope</label><br>
+        <label><input type="radio" name="q13" value="c"> c) Strand rope</label><br>
+        <label><input type="radio" name="q13" value="d"> d) Braided rope</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. _____ is constructed by weaving or intertwining strands.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Rope Construction" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 277" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) Braided rope</label><br>
+        <label><input type="radio" name="q14" value="b"> b) Twisted rope</label><br>
+        <label><input type="radio" name="q14" value="c"> c) Laid rope</label><br>
+        <label><input type="radio" name="q14" value="d"> d) Strand rope</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. A primary difference between dynamic and static ropes is _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Rope Construction" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 278" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) the length of the rope</label><br>
+        <label><input type="radio" name="q15" value="b"> b) the color of the rope</label><br>
+        <label><input type="radio" name="q15" value="c"> c) that static rope stretches when up to 60 percent under load</label><br>
+        <label><input type="radio" name="q15" value="d"> d) that dynamic rope stretches more when under a sudden load</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. _____ rope consists of two distinct parts: the kern and the mantle.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Rope Construction" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 278" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) Sheath</label><br>
+        <label><input type="radio" name="q16" value="b"> b) Kernmantle</label><br>
+        <label><input type="radio" name="q16" value="c"> c) Twisted</label><br>
+        <label><input type="radio" name="q16" value="d"> d) Braided</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. The _____ is the center core of the rope.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Rope Construction" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 278" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) mantle</label><br>
+        <label><input type="radio" name="q17" value="b"> b) dynamic</label><br>
+        <label><input type="radio" name="q17" value="c"> c) kern</label><br>
+        <label><input type="radio" name="q17" value="d"> d) cord</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. A _____ is a load on a rope that suddenly drops or stops.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Rope Maintenance" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 279" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) load stop</label><br>
+        <label><input type="radio" name="q18" value="b"> b) stop/drop</label><br>
+        <label><input type="radio" name="q18" value="c"> c) shock load</label><br>
+        <label><input type="radio" name="q18" value="d"> d) shore stop</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. The _____ is a braided covering that protects the kern from dirt and abrasion.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Rope Construction" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Pages 278" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) sheath</label><br>
+        <label><input type="radio" name="q19" value="b"> b) wrap</label><br>
+        <label><input type="radio" name="q19" value="c"> c) kern</label><br>
+        <label><input type="radio" name="q19" value="d"> d) cord</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. Life safety rope that is no longer usable must be _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Rope Maintenance" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 281" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) designated for training purposes only</label><br>
+        <label><input type="radio" name="q20" value="b"> b) clearly marked as downgraded and kept for utility use</label><br>
+        <label><input type="radio" name="q20" value="c"> c) donated to another fire department in need</label><br>
+        <label><input type="radio" name="q20" value="d"> d) stored until it can be repaired and placed back in service</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. Each inspection of a life safety rope or utility rope should be recorded in a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Rope Maintenance" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 282" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) rope log</label><br>
+        <label><input type="radio" name="q21" value="b"> b) rope table</label><br>
+        <label><input type="radio" name="q21" value="c"> c) inspection record</label><br>
+        <label><input type="radio" name="q21" value="d"> d) rope record</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. Ropes should be stored away from areas with fumes from gasoline, oils, hydraulic fluids, or other petroleum products to _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Rope Maintenance" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 282" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) prevent ropes from absorbing strong odors</label><br>
+        <label><input type="radio" name="q22" value="b"> b) keep ropes dry and prevent moisture damage</label><br>
+        <label><input type="radio" name="q22" value="c"> c) ensure ropes remain cool and flexible</label><br>
+        <label><input type="radio" name="q22" value="d"> d) avoid potential damage from exposure to fumes</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. A _____ is a prescribed way of fastening lengths of rope or webbing to objects or to each other.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 284" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) rounded end</label><br>
+        <label><input type="radio" name="q23" value="b"> b) push through</label><br>
+        <label><input type="radio" name="q23" value="c"> c) knot</label><br>
+        <label><input type="radio" name="q23" value="d"> d) loop</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. The _____ is the part of the rope you hold as you form the knot.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 285" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) running end</label><br>
+        <label><input type="radio" name="q24" value="b"> b) working end</label><br>
+        <label><input type="radio" name="q24" value="c"> c) standing part</label><br>
+        <label><input type="radio" name="q24" value="d"> d) loop</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q25">
+    <p><strong>25. The _____ is the part of the rope that is not used for forming the knot.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 285" style="display: none;"></div>
+        <label><input type="radio" name="q25" value="a"> a) working end</label><br>
+        <label><input type="radio" name="q25" value="b"> b) round turn</label><br>
+        <label><input type="radio" name="q25" value="c"> c) running end</label><br>
+        <label><input type="radio" name="q25" value="d"> d) loop</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q26">
+    <p><strong>26. The _____ is used to back up or finish knots that have a tendency to become loose when they are not continuously loaded or that can slip when loaded.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 286" style="display: none;"></div>
+        <label><input type="radio" name="q26" value="a"> a) hitch knot</label><br>
+        <label><input type="radio" name="q26" value="b"> b) dress knot</label><br>
+        <label><input type="radio" name="q26" value="c"> c) back up knot</label><br>
+        <label><input type="radio" name="q26" value="d"> d) safety knot</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q27">
+    <p><strong>27. The primary purpose of a figure eight knot is to _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 288" style="display: none;"></div>
+        <label><input type="radio" name="q27" value="a"> a) create a decorative knot for aesthetic purposes</label><br>
+        <label><input type="radio" name="q27" value="b"> b) make the rope easier to coil and store</label><br>
+        <label><input type="radio" name="q27" value="c"> c) prevent the end of the rope from passing through a device like a pulley</label><br>
+        <label><input type="radio" name="q27" value="d"> d) add extra complexity to knot-tying exercises</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q28">
+    <p><strong>28. A key advantage of using hitches is that they _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 289" style="display: none;"></div>
+        <label><input type="radio" name="q28" value="a"> a) provide the highest load-carrying capacity</label><br>
+        <label><input type="radio" name="q28" value="b"> b) can be tied and removed quickly</label><br>
+        <label><input type="radio" name="q28" value="c"> c) are ideal for irregularly shaped objects</label><br>
+        <label><input type="radio" name="q28" value="d"> d) are the most secure knots for long-term use</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q29">
+    <p><strong>29. A(n) _____ is a knot that can be slipped over or tied around an object to secure the rope to the object and is easily untied when the object is removed.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 289" style="display: none;"></div>
+        <label><input type="radio" name="q29" value="a"> a) hitch</label><br>
+        <label><input type="radio" name="q29" value="b"> b) safety</label><br>
+        <label><input type="radio" name="q29" value="c"> c) eight</label><br>
+        <label><input type="radio" name="q29" value="d"> d) tag</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q30">
+    <p><strong>30. A _____ is used to form a loop in the end of a rope.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 293" style="display: none;"></div>
+        <label><input type="radio" name="q30" value="a"> a) tag knot</label><br>
+        <label><input type="radio" name="q30" value="b"> b) loop knot</label><br>
+        <label><input type="radio" name="q30" value="c"> c) safety knot</label><br>
+        <label><input type="radio" name="q30" value="d"> d) pulley knot</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q31">
+    <p><strong>31. The three common loop knots that firefighters need to know how to tie are the figure eight on a bight, the figure eight follow-through, and the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 293" style="display: none;"></div>
+        <label><input type="radio" name="q31" value="a"> a) loop knot</label><br>
+        <label><input type="radio" name="q31" value="b"> b) bowline</label><br>
+        <label><input type="radio" name="q31" value="c"> c) round knot</label><br>
+        <label><input type="radio" name="q31" value="d"> d) clove hitch</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q32">
+    <p><strong>32. The _____ knot can be used to join rope to a chain or cable.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 298" style="display: none;"></div>
+        <label><input type="radio" name="q32" value="a"> a) sheet bend</label><br>
+        <label><input type="radio" name="q32" value="b"> b) webbing</label><br>
+        <label><input type="radio" name="q32" value="c"> c) figure eight</label><br>
+        <label><input type="radio" name="q32" value="d"> d) bowline</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q33">
+    <p><strong>33. The _____ knot is used to join two webbing of the same or different widths together.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 300" style="display: none;"></div>
+        <label><input type="radio" name="q33" value="a"> a) bowline</label><br>
+        <label><input type="radio" name="q33" value="b"> b) figure eight</label><br>
+        <label><input type="radio" name="q33" value="c"> c) water knot</label><br>
+        <label><input type="radio" name="q33" value="d"> d) hitch</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q34">
+    <p><strong>34. A separate rope that personnel on the ground use to guide an object that is being hoisted or lowered is known as a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Hoisting" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 302" style="display: none;"></div>
+        <label><input type="radio" name="q34" value="a"> a) hoist rope</label><br>
+        <label><input type="radio" name="q34" value="b"> b) utility rope</label><br>
+        <label><input type="radio" name="q34" value="c"> c) tag line</label><br>
+        <label><input type="radio" name="q34" value="d"> d) guide rope</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q35">
+    <p><strong>35. The tag line should be attached with a knot that is easily untied, such as a _____, so that it can be removed easily to allow the equipment to be place into service quickly.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Hoisting" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 302" style="display: none;"></div>
+        <label><input type="radio" name="q35" value="a"> a) double granny</label><br>
+        <label><input type="radio" name="q35" value="b"> b) double loop figure eight</label><br>
+        <label><input type="radio" name="q35" value="c"> c) bowline</label><br>
+        <label><input type="radio" name="q35" value="d"> d) quick release knot</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q36">
+    <p><strong>36. The mantle is often referred to as the ______.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Rope Construction" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 278" style="display: none;"></div>
+        <label><input type="radio" name="q36" value="a"> a) anchor</label><br>
+        <label><input type="radio" name="q36" value="b"> b) coil</label><br>
+        <label><input type="radio" name="q36" value="c"> c) kern</label><br>
+        <label><input type="radio" name="q36" value="d"> d) sheath</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q37">
+    <p><strong>37. An axe should be hoisted in a vertical position with the head of the axe _____ the handle.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Hoisting" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 303" style="display: none;"></div>
+        <label><input type="radio" name="q37" value="a"> a) higher than</label><br>
+        <label><input type="radio" name="q37" value="b"> b) lower than</label><br>
+        <label><input type="radio" name="q37" value="c"> c) taken off</label><br>
+        <label><input type="radio" name="q37" value="d"> d) hoisted separately from</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q38">
+    <p><strong>38. A _____ is a hose line filled with water and under pressure from the pump.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Hoisting" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 308" style="display: none;"></div>
+        <label><input type="radio" name="q38" value="a"> a) pre-cut line</label><br>
+        <label><input type="radio" name="q38" value="b"> b) charged hose line</label><br>
+        <label><input type="radio" name="q38" value="c"> c) pressure line</label><br>
+        <label><input type="radio" name="q38" value="d"> d) pump filled line</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q39">
+    <p><strong>39. A hose line that is not filled with water and not under pressure from a pump is called a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Hoisting" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 308" style="display: none;"></div>
+        <label><input type="radio" name="q39" value="a"> a) pressure free line</label><br>
+        <label><input type="radio" name="q39" value="b"> b) no-pump line</label><br>
+        <label><input type="radio" name="q39" value="c"> c) uncharged hose line</label><br>
+        <label><input type="radio" name="q39" value="d"> d) ready-to-fill hose line</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q40">
+    <p><strong>40. The recommended procedure for preparing an uncharged hose line for hoisting is to _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Hoisting" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 309" style="display: none;"></div>
+        <label><input type="radio" name="q40" value="a"> a) remove the nozzle from the hose</label><br>
+        <label><input type="radio" name="q40" value="b"> b) fold the hose and place the nozzle in the middle</label><br>
+        <label><input type="radio" name="q40" value="c"> c) fold it back on itself and place the nozzle about 3 feet from the bend</label><br>
+        <label><input type="radio" name="q40" value="d"> d) ensure the hose is fully extended and ensure the nozzle is at the bottom</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q41">
+    <p><strong>41. The knot commonly used to secure a hoisting rope to tools or equipment with strong, closed handles, like an exhaust fan, is the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Hoisting" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 309" style="display: none;"></div>
+        <label><input type="radio" name="q41" value="a"> a) clove hitch</label><br>
+        <label><input type="radio" name="q41" value="b"> b) bowline with a safety knot</label><br>
+        <label><input type="radio" name="q41" value="c"> c) square knot</label><br>
+        <label><input type="radio" name="q41" value="d"> d) taut-line hitch</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q42">
+    <p><strong>42. The four types of rope primarily used in the fire service are life safety, escape rope, throwline, and _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Rope Types and Webbing" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 272" style="display: none;"></div>
+        <label><input type="radio" name="q42" value="a"> a) fast</label><br>
+        <label><input type="radio" name="q42" value="b"> b) utility</label><br>
+        <label><input type="radio" name="q42" value="c"> c) speed</label><br>
+        <label><input type="radio" name="q42" value="d"> d) highline</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q43">
+    <p><strong>43. An ideal knot for hoisting a cylindrical tool such as a pike pole or axe is the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Choosing the Appropriate Knot" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 312" style="display: none;"></div>
+        <label><input type="radio" name="q43" value="a"> a) clove hitch</label><br>
+        <label><input type="radio" name="q43" value="b"> b) figure eight</label><br>
+        <label><input type="radio" name="q43" value="c"> c) bowline with a safety knot</label><br>
+        <label><input type="radio" name="q43" value="d"> d) square knot</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q44">
+    <p><strong>44. The “standing part” of the rope is best describe as _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 285" style="display: none;"></div>
+        <label><input type="radio" name="q44" value="a"> a) the part of the rope between the working end and the running end</label><br>
+        <label><input type="radio" name="q44" value="b"> b) rope used as a tag line</label><br>
+        <label><input type="radio" name="q44" value="c"> c) the leftover rope after forming the knot</label><br>
+        <label><input type="radio" name="q44" value="d"> d) the rope on the truck most frequently used</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q45">
+    <p><strong>45. The three types of bends are _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 285" style="display: none;"></div>
+        <label><input type="radio" name="q45" value="a"> a) bight, loop, and round turn</label><br>
+        <label><input type="radio" name="q45" value="b"> b) bend, turn, and hitch</label><br>
+        <label><input type="radio" name="q45" value="c"> c) loop, twist, and bight</label><br>
+        <label><input type="radio" name="q45" value="d"> d) bight, twist, and bend</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q46">
+    <p><strong>46. The _____ is formed by making a loop and then bringing the two ends of the rope parallel to each other.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Ropes and Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 285" style="display: none;"></div>
+        <label><input type="radio" name="q46" value="a"> a) bight</label><br>
+        <label><input type="radio" name="q46" value="b"> b) reverse</label><br>
+        <label><input type="radio" name="q46" value="c"> c) round turn</label><br>
+        <label><input type="radio" name="q46" value="d"> d) reverse loop</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q47">
+    <p><strong>47. A dynamic rope is designed to _____ than a static rope when it is loaded.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Rope Construction" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 278" style="display: none;"></div>
+        <label><input type="radio" name="q47" value="a"> a) stretch less</label><br>
+        <label><input type="radio" name="q47" value="b"> b) break quicker</label><br>
+        <label><input type="radio" name="q47" value="c"> c) be longer</label><br>
+        <label><input type="radio" name="q47" value="d"> d) stretch more</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q48">
+    <p><strong>48. A static rope has a _____ than dynamic rope.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Rope Construction" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 278" style="display: none;"></div>
+        <label><input type="radio" name="q48" value="a"> a) better set of instructions</label><br>
+        <label><input type="radio" name="q48" value="b"> b) longer shelf life</label><br>
+        <label><input type="radio" name="q48" value="c"> c) lower range of elasticity</label><br>
+        <label><input type="radio" name="q48" value="d"> d) higher range of elasticity</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q49">
+    <p><strong>49. Some types of rope are stored in a _____ to protect them and to make it easy to deploy them.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Rope Maintenance" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 283" style="display: none;"></div>
+        <label><input type="radio" name="q49" value="a"> a) vinyl protector</label><br>
+        <label><input type="radio" name="q49" value="b"> b) hard case</label><br>
+        <label><input type="radio" name="q49" value="c"> c) vacuum-sealed plastic bag</label><br>
+        <label><input type="radio" name="q49" value="d"> d) rope bag</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q50">
+    <p><strong>50. A _____ is formed by reversing the direction of the rope to form a U bend without crossing the rope so it has two parallel ends.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 285" style="display: none;"></div>
+        <label><input type="radio" name="q50" value="a"> a) loop</label><br>
+        <label><input type="radio" name="q50" value="b"> b) bight</label><br>
+        <label><input type="radio" name="q50" value="c"> c) round turn</label><br>
+        <label><input type="radio" name="q50" value="d"> d) stand</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q51">
+    <p><strong>51. The sheet bend is also referred to as the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 286" style="display: none;"></div>
+        <label><input type="radio" name="q51" value="a"> a) water knot</label><br>
+        <label><input type="radio" name="q51" value="b"> b) Becket bend</label><br>
+        <label><input type="radio" name="q51" value="c"> c) ring bend</label><br>
+        <label><input type="radio" name="q51" value="d"> d) safety knot</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q52">
+    <p><strong>52. The water knot is sometimes referred to as the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Knots" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 286" style="display: none;"></div>
+        <label><input type="radio" name="q52" value="a"> a) wet bend</label><br>
+        <label><input type="radio" name="q52" value="b"> b) flat bend</label><br>
+        <label><input type="radio" name="q52" value="c"> c) round bend</label><br>
+        <label><input type="radio" name="q52" value="d"> d) ring bend</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q53">
+    <p><strong>53. ____ rope has a high melting temperature, a high resistance to abrasion, is strong but lightweight, and resistant to most acids and alkalis.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Rope Materials" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 276" style="display: none;"></div>
+        <label><input type="radio" name="q53" value="a"> a) Nylon</label><br>
+        <label><input type="radio" name="q53" value="b"> b) Cotton</label><br>
+        <label><input type="radio" name="q53" value="c"> c) Polyester</label><br>
+        <label><input type="radio" name="q53" value="d"> d) Polypropylene</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q54">
+    <p><strong>54. _____ is the lightest of the synthetic fibers used for ropes.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Rope Materials" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 276" style="display: none;"></div>
+        <label><input type="radio" name="q54" value="a"> a) Polypropylene</label><br>
+        <label><input type="radio" name="q54" value="b"> b) Cotton</label><br>
+        <label><input type="radio" name="q54" value="c"> c) Nylon</label><br>
+        <label><input type="radio" name="q54" value="d"> d) Polyester</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q55">
+    <p><strong>55. Twisted rope is also referred to as _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Rope Materials" data-subject="Chapter 8" data-title="Ropes and Knots" data-feedback="Chapter 8; Page 276" style="display: none;"></div>
+        <label><input type="radio" name="q55" value="a"> a) braided rope</label><br>
+        <label><input type="radio" name="q55" value="b"> b) laid rope</label><br>
+        <label><input type="radio" name="q55" value="c"> c) kernmantle</label><br>
+        <label><input type="radio" name="q55" value="d"> d) intertwined rope</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+</form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

@@ -1,0 +1,358 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Foam Equipment and Systems
+Chapter 14 Test
+Name:
+	
+
+	Date:
+	
+
+	
+
+Directions: Write the correct letter on the blank before each question.
+
+
+Objective 1:
+Summarize facts about principles of foam.
+                1.        In order to produce fire fighting foam, what three items must be educted or injected in correct ratios?  (480)
+        A.        Foam concentrate, water, and air
+        B.        Hydrocarbons, foam solution, and air
+        C.        Foam solutions, gelling agent, and water
+        D.        Polar solvents, foam concentrate, and water
+
+
+                2.        Which piece of equipment injects the correct amount of foam concentrate into the water stream to make the foam solution?  (480)
+        A.        Venturi device
+        B.        Aerating nozzle
+        C.        Mechanical blower 
+        D.        Foam proportioner
+                3.        Which are examples of polar solvent fuels requiring the use of special polymeric fire fighting foam?  (480)
+        A.        Water and acetone
+        B.        Alcohol and ketones
+        C.        Esters and cooking oils
+        D.        Kerosene and crude oils
+                4.        What is released as fire fighting foam breaks down, providing a cooling effect on the fuel and suppressing the process of heat-producing oxidation?  (481)
+        A.        Gel
+        B.        Water
+        C.        Proteins
+        D.        Polar solvents
+                5.        The act of mixing water with foam concentrate to form a foam solution is called: (482)
+        A.        aeration.
+        B.        eduction.
+        C.        hydrolization.
+        D.        proportioning.
+                6.        Which are designed to work in conjunction with proportioners to produce the best possible foam?  (482)
+        A.        Pickup tubes
+        B.        Foam nozzles
+        C.        In-line eductors
+        D.        Jet ratio controllers
+                7.        Which proportioning method uses an external pump to force foam concentrate into the fire stream at the proper ratio in comparison to the flow?  (483)
+        A.        Injection
+        B.        Induction
+        C.        Premixing
+        D.        Batch mixing
+                8.        Which statement about batch mixing is accurate?  (483)
+        A.        It is very complex.
+        B.        It is potentially inaccurate.
+        C.        It is most effective during large incidents.
+        D.        It uses the pressure of a water stream to draft foam.
+                9.        Which proportioning method uses premeasured portions of water and foam concentrate that are mixed in a container?  (484)
+        A.        Injection
+        B.        Induction
+        C.        Premixing
+        D.        Batch mixing
+                10.        What is the smallest type of foam storage container?  (485)
+        A.        Pails
+        B.        Totes
+        C.        Barrels
+        D.        Apparatus tanks
+                11.        In order to eliminate using pails or barrels to supply a foam eductor, fire apparatus equipped with onboard foam proportioning systems usually have ___ piped directly to the delivery system.  (485)
+        A.        in-line eductors
+        B.        jet ratio controllers
+        C.        in-line proportioners
+        D.        foam concentrate tanks
+                12.        Regardless of the type of tank, what is one characteristic that all foam storage containers share?  (486)
+        A.        Oxygenation
+        B.        Refrigeration
+        C.        Airtight storage
+        D.        Room for expansion
+
+
+Objective 2:
+Distinguish among types of foam concentrates used in fire fighting.
+                13.        The formula of Class A foam includes _____ that reduce the surface tension of water in the foam solution.  (487)
+        A.        gelling agents
+        B.        polar solvents
+        C.        hydrocarbon surfactants
+        D.        protein foam concentrates
+                14.        What is the commonly used guideline for proportioning Class A foam for exposure protection with standard fog nozzles?  (488)
+        A.        0.2 to 0.5 percent concentrate
+        B.        0.5 to 1.0 percent concentrate
+        C.        0.3 to 0.7 percent concentrate
+        D.        0.1 to 0.2 percent concentrate
+                15.        The minimum amount of foam solution that must be used on a fire per minute per square foot (square meter) of fire is called the:  (488)
+        A.        eduction rate.
+        B.        injection rate.
+        C.        application rate.
+        D.        proportioning rate.
+                16.        Because it forms a rigid coating that adheres well and is slow to drain, the best consistency of Class A foam for vertical surfaces is:  (488)
+        A.        dry foam.
+        B.        wet foam.
+        C.        hard foam.
+        D.        medium foam.
+                17.        What affects the breakdown process of Class A foam?  (488)
+        A.        Surface elevation
+        B.        Atmospheric pressure 
+        C.        Age of the burning fuel 
+        D.        Ambient air temperature
+                18.        Class B synthetic foam concentrate is made from:  (489)
+        A.        animal proteins.
+        C.        film forming fluoroprotein.
+        B.        a mixture of gelling agents.
+        D.        a mixture of fluorosurfactants.
+                19.        What are Mil-Spec concentrates?  (489)
+        A.        Experimental foams still in the development phase
+        B.        Foam concentrates used only in U.S. Military operations
+        C.        Foam concentrates manufactured to U.S. Military specifications
+        D.        Foam concentrates manufactured by the Milhouse Specialty Company
+                20.        Which factor is MOST likely to affect the degree of expansion in a foam solution?  (490)
+        A.        Biodegradability
+        B.        Rate of application 
+        C.        Method of aeration
+        D.        Decomposition rate 
+                21.        Which variable affects a foam’s rate of application?  (490)
+        A.        Environmental considerations
+        B.        The type of foam proportioner used
+        C.        Whether the fuel is contained or uncontained
+        D.        The ambient temperature at the incident site
+                22.        Driver/operators calculate the application rate available from a specific nozzle by:  (491)
+        A.        dividing the area of the fire by the flow rate.
+        B.        dividing the flow rate by the area of the fire.
+        C.        multiplying the flow rate by the area of the fire.
+        D.        multiplying nozzle pressure by the area of the fire.
+                23.        Why might fuel and fire consume a portion or the entire foam blanket?  (491)
+        A.        Presence of polar solvents
+        B.        Presence of thermal drafts
+        C.        Inconsistent application time
+        D.        Incorrect type or concentration used
+                24.        Which statement about regular protein foams is MOST accurate?  (492)
+        A.        They are more fluid than most other low expansion foams.
+        B.        They degrade more quickly and are becoming increasingly rare.
+        C.        They are a combination of protein-based foam and synthetic foam.
+        D.        They are derived from animal protein and contain no additives or chemicals.
+                25.        Which foam consists of fluorochemical and hydrocarbon surfactants combined with solvents to create a high boiling point?  (492)
+        A.        Fluoroprotein foam
+        B.        High-expansion foam
+        C.        Aqueous film forming foam (AFFF)
+        D.        Film forming fluoroprotein foam (FFFP)
+                26.        Which foam is MOST likely to be used to combat concealed space fires in cellars or other subterranean spaces?  (494)
+        A.        Fluoroprotein foam
+        B.        High-expansion foam
+        C.        Aqueous film forming foam (AFFF)
+        D.        Film forming fluoroprotein foam (FFFP)
+
+
+
+Objective 3:
+Explain the operation of low energy foam proportioning systems. 
+                27.        Low energy foam systems impart pressure on the foam solution with the use of the:  (494)
+        A.        main fire pump.
+        B.        mechanical blower.
+        C.        self-educting pickup tube.
+        D.        variable-flow variable-rate direct-injection system.
+                28.        Which is a basic foam proportioner that is designed to be attached directly to the pump panel discharge or connected at some point in the hose lay?  (494)
+        A.        In-line foam eductors
+        B.        Foam nozzle eductors
+        C.        Jet ratio controller (JRC)
+        D.        Self-educting master stream nozzle
+                29.        When operating an in-line foam eductor, which of the following operating guidelines must be followed to achieve properly proportioned finished foam?  (495)
+        A.        The inlet pressure should be decreased as much as possible in order to create the Venturi effect.
+        B.        Back pressure should be increased as much as possible in order to create the best foam induction.
+        C.        The flow in gallons per minute (L/min) through the eductor must not exceed its rated capacity.
+        D.        The pressure at the discharge side of the eductor must not be less than 70 percent of the eductor inlet pressure.
+                30.        Viscosity, or the thickness and ability of a liquid to flow freely, is MOST likely to be affected by:  (495)
+        A.        humidity.
+        B.        elevation.
+        C.        temperature.
+        D.        nozzle pressure.
+
+                31.        Which of the following has a pickup tube that is located in the center bore of the nozzle and uses a modified Venturi design to draw concentrate into its water stream?  (496)
+        A.        Jet ratio controller 
+        B.        Foam nozzle eductors
+        C.        In-line foam eductors
+        D.        Self-educting master stream foam nozzle
+                32.        A type of in-line eductor that may be used to supply foam concentrate to a self-educting master stream foam nozzle is called a:  (497)
+        A.        handline eductor.
+        B.        jet ratio controller.
+        C.        mechanical blower.
+        D.        fog nozzle eductor.
+                33.        In some installed in-line eductor systems, a(an) ___ proportioner is installed to reduce the friction loss across the eductor.  (497)
+        A.        bypass
+        B.        injection
+        C.        expansion
+        D.        around-the-pump
+                34.        Installed in-line eductors are most commonly used to proportion which class of foam?  (497)
+        A.        Class A
+        B.        Class B
+        C.        Class C
+        D.        Class K
+                35.        Which is the most common apparatus-mounted foam proportioner and consists of a small return (bypass) water line connected from the discharge side of the pump back to the intake side of the pump?  (498)
+        A.        Around-the-pump proportioner
+        B.        Bypass-type balanced pressure proportioner
+        C.        Variable-flow variable-rate direct injection proportioner
+        D.        Variable-flow demand-type balanced pressure proportioner
+                36.        Which is a proportioner used on large mobile apparatus installations, such as ARFF vehicles, and is one of the most accurate methods of foam proportioning?  (499)
+        A.        Around-the-pump proportioner
+        B.        Bypass-type balanced pressure proportioner
+        C.        Variable-flow variable-rate direct injection proportioner
+        D.        Variable-flow demand-type balanced pressure proportioner
+                37.        Which statement about variable-flow demand-type balanced pressure proportioners is MOST accurate?  (500)
+        A.        It is the simplest method of proportioning foam.
+        B.        It is a method compatible only with high energy foam systems.
+        C.        It consists of a variable speed mechanism driven electrically or hydraulically that operates a foam concentrate pump.
+        D.        It features the ability to monitor the demand for foam concentrate and adjust the amount of concentrate supplied.
+                38.        Batch mixing is generally only used with which types of foam concentrates?  (501)
+        A.        Class A and regular AFFF concentrates
+        B.        Class B and regular AFFF concentrates
+        C.        Class A and alcohol resistant AFFF concentrates
+        D.        Class B and alcohol resistant AFFF concentrates
+                39.        Class A foam solutions do not retain their foaming properties when mixed in water for more than:  (501)
+        A.        2 hours.
+        B.        24 hours.
+        C.        one week.
+        D.        one month.
+                40.        When using the batch mixing proportioning method, frothing can be avoided by:  (501)
+        A.        using a lower proportion of foam.
+        B.        slowly circulating water in the tank.
+        C.        draining and refilling the water tank.
+        D.        removing lubricants from pump seals.
+
+
+
+Objective 4:
+Describe high energy foam generating systems. 
+                41.        High-energy foam generating systems/CAFS differ from other methods because:  (502)
+        A.        the flow of concentrate matches the pressure demand better.
+        B.        the concentrate is supplied from atmospheric pressure foam tanks on the apparatus.
+        C.        they introduce compressed air into the foam solution prior to discharge into the hoseline.
+        D.        they introduce compressed air into the foam solution after discharge into the hoseline.
+                42.        Which is a limitation of CAFS?  (503)
+        A.        CAFS requires closer proximity to the fire.
+        B.        In event of a hose burst, compressed air will intensify the reaction of hoseline.
+        C.        Foam produced by a CAFS does not adhere to a fuel surface as well as low energy foam.
+        D.        Hoselines containing high energy foam solution weigh more than those containing plain water.
+                43.        Due to the low eduction rates on a CAFS apparatus, what is required to supply the fire stream at the rate of 0.1 to 1.0 percent?  (503)
+        A.        A handline nozzle
+        B.        Gelling agents in the foam solution
+        C.        Film forming fluoroprotein foam (FFFP)
+        D.        A variable flow rate sensing proportioner
+
+
+
+
+Objective 5:
+Distinguish among portable foam application devices.
+                44.        For a portable foam application device, once foam concentrate and water have mixed to form a foam solution, the solution must be:  (503)
+        A.        aerated.
+        B.        pre-mixed.
+        C.        hydrolyzed.
+        D.        proportioned.
+                45.        Which is a common handline nozzle used for foam application?  (503)
+        A.        Fog nozzle
+        B.        Jet ratio nozzle
+        C.        Mechanical nozzle
+        D.        Balanced pressure nozzle
+                46.        A smooth bore nozzle is limited to application of which classification of foam?  (504)
+        A.        Any Class A foam 
+        B.        Any Class B foam 
+        C.        Class A foam from a CAFS
+        D.        Class B foam from a CAFS
+                47.        Which kind of nozzle allows firefighters the option of operating fixed flow, selective flow, or automatic flow when applying a low expansion, short duration foam blanket?  (504)
+        A.        Fog nozzles
+        B.        Smooth bore nozzles
+        C.        Air-aspirating foam nozzles
+        D.        Master stream foam nozzles
+                48.        Which kind of nozzle inducts air into foam solution by a Venturi action and is the only nozzle that should be used with protein and fluoroprotein concentrates?  (504)
+        A.        Fog nozzles
+        B.        Smooth bore nozzles
+        C.        Air-aspirating foam nozzles
+        D.        Master stream foam nozzles
+                49.        What are the two basic types of medium- and high-expansion foam generators?  (505)
+        A.        Water aspirating and hydrolyzed
+        B.        Hydrolyzed and burnback resistant
+        C.        Water aspirating and mechanical blower
+        D.        Burnback resistant and mechanical blower 
+
+                50.        Both of the basic types of medium- and high-expansion foam generators produce foam containing:  (505)
+        A.        low air content.
+        B.        high air content.
+        C.        low water content.
+        D.        high water content.
+
+
+Objective 6:
+Identify reasons for the production of poor quality foam or the lack of foam production when using an in-line proportioner.
+                51.        Which statement is true about the adequate and/or inadequate production of foam when an in-line proportioner is used?  (505)
+        A.        A nozzle placed too far above the eductor will result in excessive foaming.
+        B.        Too long an attack line on the discharge side of the eductor will diminish the Venturi effect.
+        C.        A partially closed nozzle will result in a flow rate that will not allow the creation of a Venturi effect.
+        D.        It is acceptable to mix foam concentrates from different manufacturers as long as they are the same class.
+                52.        In which situation is it acceptable to mix together different manufacturers’ foam concentrates?  (505)
+        A.        If they are Class A CAFS foams 
+        B.        If they are mil-spec concentrates
+        C.        If they are not mil-spec concentrates
+        D.        If they are Class B polar solvent foams
+
+
+Objective 7:
+Identify foam application techniques. 
+                53.        Direct application is a method of attack that is BEST used with:  (506)
+        A.        Class A foam.
+        B.        Class B foam.
+        C.        aqueous film forming foam.
+        D.        film forming fluoroprotein foam.
+                54.        Which method for Class B foam application involves directing the foam onto a vertical surface and allowing it to run down and spread across pooled fuel product?  (506)
+        A.        Roll-on method
+        B.        Rain-down method
+        C.        Bank-down method
+        D.        Direct application method
+
+
+Objective 8:
+Explain the environmental impact of foam.
+                55.        What is determined by the rate at which natural bacteria can degrade foam?  (508)
+        A.        Hydrolization
+        B.        Decomposition
+        C.        Biodegradability
+        D.        Burnback resistance
+                56.        The process of foam decomposition results in the consumption of:  (508)
+        A.        oxygen.
+        B.        aquatic life.
+        C.        fresh water.
+        D.        carbon dioxide.
+                57.        Why is it important to avoid direct application of Class A foam to natural bodies of water?  (508)
+        A.        It can harm aquatic life.
+        B.        It will lose its effectiveness.
+        C.        It is oil-based and will not mix with water.
+        D.        Water increases the ambient temperature of the foam.
+
+
+Objective 9:
+Identify durable agents.
+                58.        In what way are durable agents similar to Class A foam?  (509)
+        A.        Both products are used in a similar fashion.
+        B.        Both products are water absorbent polymers.
+        C.        Both products are inexpensive and easily stored.
+        D.        Both products form small bubbles filled with water.
+
+                59.        What is a disadvantage of durable agents?  (509)
+        A.        The products are not biodegradable and can be toxic to the environment.
+        B.        These products do not retain their fire retarding properties as long as Class A foam.
+        C.        These products can only be batch mixed and may result in discarding expensive product.
+        D.        Once applied, surfaces coated with these products become very slippery for walking or driving.
+
+
+
+
+Fire Protection Publications                Chapter Test
+Oklahoma State University                14-

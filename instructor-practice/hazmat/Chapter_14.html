@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>HazMat A&O Chapter 14 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. Which type of awareness could help you identify the site of an illicit laboratory?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 322, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) Social</label><br>
+        <label><input type="radio" name="q1" value="b"> b) Situational</label><br>
+        <label><input type="radio" name="q1" value="c"> c) Organizational</label><br>
+        <label><input type="radio" name="q1" value="d"> d) Self</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. What is the chance that an illicit laboratory of some kind is operating in your response area right now?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 323, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) Likely</label><br>
+        <label><input type="radio" name="q2" value="b"> b) Improbable</label><br>
+        <label><input type="radio" name="q2" value="c"> c) About 25%</label><br>
+        <label><input type="radio" name="q2" value="d"> d) Unlikely unless you live in an urban setting.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. Of the following, who is the most likely to first discover a local illicit laboratory that has been using flammable solvents in a reckless way?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 323, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) Police</label><br>
+        <label><input type="radio" name="q3" value="b"> b) Firefighters</label><br>
+        <label><input type="radio" name="q3" value="c"> c) Delivery personnel</label><br>
+        <label><input type="radio" name="q3" value="d"> d) Landscapers</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. Which vehicle is least likely to be used as an illicit laboratory?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Identifying Illicit Laboratories" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 323, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) Motorcycle</label><br>
+        <label><input type="radio" name="q4" value="b"> b) Van</label><br>
+        <label><input type="radio" name="q4" value="c"> c) Motor home</label><br>
+        <label><input type="radio" name="q4" value="d"> d) Box truck</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. You are investigating the site of a possible illicit drug laboratory. What smell would indicate the possibility of an illicit laboratory?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Identifying Illicit Laboratories" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 324, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) Smell of something burning from a kitchen</label><br>
+        <label><input type="radio" name="q5" value="b"> b) Smell of ammonia from an attic</label><br>
+        <label><input type="radio" name="q5" value="c"> c) Smell of gasoline from a garage</label><br>
+        <label><input type="radio" name="q5" value="d"> d) Smell of sewage from a basement</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. When you have located a clandestine drug lab, and police have arrested the perpetrators, which of the following would you be least likely to find while cleaning up the site?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Identifying Illicit Laboratories" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 325, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) Open flames</label><br>
+        <label><input type="radio" name="q6" value="b"> b) Pill bottles</label><br>
+        <label><input type="radio" name="q6" value="c"> c) Personal protective equipment</label><br>
+        <label><input type="radio" name="q6" value="d"> d) Solvents</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. Which ingredient for making methamphetamine can be obtained from an auto supply store?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Identifying Illicit Laboratories" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 325, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) Anhydrous ammonia</label><br>
+        <label><input type="radio" name="q7" value="b"> b) Toluene</label><br>
+        <label><input type="radio" name="q7" value="c"> c) Sodium hydroxide</label><br>
+        <label><input type="radio" name="q7" value="d"> d) Muriatic acid</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. Which household appliance is often used in illicit drug production?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Identifying Illicit Laboratories" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 325, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) Blender</label><br>
+        <label><input type="radio" name="q8" value="b"> b) Coffee maker</label><br>
+        <label><input type="radio" name="q8" value="c"> c) Refrigerator</label><br>
+        <label><input type="radio" name="q8" value="d"> d) Slow cooker</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. The presence of which of the following most clearly indicates that a methamphetamine lab is in operation?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Identifying Illicit Laboratories" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 325, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) Ephedrine</label><br>
+        <label><input type="radio" name="q9" value="b"> b) Gasoline</label><br>
+        <label><input type="radio" name="q9" value="c"> c) Aspirin</label><br>
+        <label><input type="radio" name="q9" value="d"> d) Vitamin D</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. Which is the least specific sign of a weapon of mass destruction laboratory?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Weapons of Mass Destruction Laboratories" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 326, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) Terrorist propaganda</label><br>
+        <label><input type="radio" name="q10" value="b"> b) Booby traps</label><br>
+        <label><input type="radio" name="q10" value="c"> c) Solvents</label><br>
+        <label><input type="radio" name="q10" value="d"> d) Computer</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. Who do you need to call if you are at the site of a weapon of mass destruction laboratory and find an unexploded but armed dirty bomb?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Weapons of Mass Destruction Laboratories" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 326, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) Local police</label><br>
+        <label><input type="radio" name="q11" value="b"> b) Federal Bureau of Investigation</label><br>
+        <label><input type="radio" name="q11" value="c"> c) Authority having jurisdiction</label><br>
+        <label><input type="radio" name="q11" value="d"> d) Hazardous devices personnel</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. What provides the raw material for making ricin?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Weapons of Mass Destruction Laboratories" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 327, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) Castor beans</label><br>
+        <label><input type="radio" name="q12" value="b"> b) Sprouted potatoes</label><br>
+        <label><input type="radio" name="q12" value="c"> c) Mung beans</label><br>
+        <label><input type="radio" name="q12" value="d"> d) Rice</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. What do viruses need to survive for a lengthy amount of time?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Weapons of Mass Destruction Laboratories" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 327, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) A host</label><br>
+        <label><input type="radio" name="q13" value="b"> b) Solvents</label><br>
+        <label><input type="radio" name="q13" value="c"> c) Light</label><br>
+        <label><input type="radio" name="q13" value="d"> d) Carbon monoxide</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. Which domesticated animal is most likely to be found at an illicit drug laboratory?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Tasks and Operations" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 327, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) Cat</label><br>
+        <label><input type="radio" name="q14" value="b"> b) Bird</label><br>
+        <label><input type="radio" name="q14" value="c"> c) Rat</label><br>
+        <label><input type="radio" name="q14" value="d"> d) Dog</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. If an operator of an illicit lab tries to distract your attention, they will most likely use which of the following?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Tasks and Operations" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 329, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) Weapons</label><br>
+        <label><input type="radio" name="q15" value="b"> b) Loud music</label><br>
+        <label><input type="radio" name="q15" value="c"> c) Fire</label><br>
+        <label><input type="radio" name="q15" value="d"> d) Dogs</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. What is the first thing you should do if you discover a lab making weapons of mass destruction?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Tasks and Operations" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 330, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) Establish a perimeter</label><br>
+        <label><input type="radio" name="q16" value="b"> b) Arrest the suspect</label><br>
+        <label><input type="radio" name="q16" value="c"> c) Put on a respirator</label><br>
+        <label><input type="radio" name="q16" value="d"> d) Evacuate bystanders</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. Which entity would likely be involved in a later stage of the investigation of an illicit drug laboratory that has leaked a large amount of toluene?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Tasks and Operations" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 330, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) National Fire Protection Association</label><br>
+        <label><input type="radio" name="q17" value="b"> b) Federal Bureau of Investigation</label><br>
+        <label><input type="radio" name="q17" value="c"> c) Environmental Protection Agency</label><br>
+        <label><input type="radio" name="q17" value="d"> d) Occupational Safety and Health Administration</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. Who needs decontamination at the scene of an illicit drug laboratory?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Tasks and Operations" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 332, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) Responders</label><br>
+        <label><input type="radio" name="q18" value="b"> b) Suspects</label><br>
+        <label><input type="radio" name="q18" value="c"> c) Anyone who has been in the hot zone for more than 5 minutes</label><br>
+        <label><input type="radio" name="q18" value="d"> d) Everyone</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. What is the estimated time frame for remediation of an illicit drug lab?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Remediation Efforts" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 332, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) About a month</label><br>
+        <label><input type="radio" name="q19" value="b"> b) About a day</label><br>
+        <label><input type="radio" name="q19" value="c"> c) As long as it takes</label><br>
+        <label><input type="radio" name="q19" value="d"> d) Investigations have a one-year maximum investigative period</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. The clean-up from a weapons of mass destruction event will likely involve which of the following?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Remediation Efforts" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 332, NFPA 470 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) Extra funding from government agencies</label><br>
+        <label><input type="radio" name="q20" value="b"> b) A lawsuit</label><br>
+        <label><input type="radio" name="q20" value="c"> c) Scavengers</label><br>
+        <label><input type="radio" name="q20" value="d"> d) Media attention</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. You are on week two of the cleanup of a methamphetamine lab. One person has come by each day without talking to you, taking pictures. That person is most likely:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Remediation Efforts" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 332, NFPA 470: 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) A member of the media</label><br>
+        <label><input type="radio" name="q21" value="b"> b) An uncaptured suspect</label><br>
+        <label><input type="radio" name="q21" value="c"> c) the Federal Bureau of Investigation</label><br>
+        <label><input type="radio" name="q21" value="d"> d) the Occupational Safety and Health Administration</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. If toluene spilled from a methamphetamine lab has soaked the walls and soil near the lab, which sits near a large stream, what may be needed?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Remediation Efforts" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 332, NFPA 470: 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) A building inspection</label><br>
+        <label><input type="radio" name="q22" value="b"> b) Removal of structure and soil</label><br>
+        <label><input type="radio" name="q22" value="c"> c) Cleanup using flames</label><br>
+        <label><input type="radio" name="q22" value="d"> d) A dam</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. Ultimately, an illicit laboratory is to be treated as:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Reporting and Documenting Scene Activities" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 332, NFPA 470: 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) toxic waste</label><br>
+        <label><input type="radio" name="q23" value="b"> b) a funding opportunity</label><br>
+        <label><input type="radio" name="q23" value="c"> c) a hot zone</label><br>
+        <label><input type="radio" name="q23" value="d"> d) a crime scene</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. Who is responsible for documenting the names of all persons on scene at an illicit drug laboratory?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Reporting and Documenting Scene Activities" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 332, NFPA 470: 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) Federal Bureau of Investigation</label><br>
+        <label><input type="radio" name="q24" value="b"> b) Local police</label><br>
+        <label><input type="radio" name="q24" value="c"> c) Incident commander</label><br>
+        <label><input type="radio" name="q24" value="d"> d) Authority having jurisdiction</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q25">
+    <p><strong>25. Arriving criminal investigators should be given what at the scene of an illicit drug laboratory, if possible?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Reporting and Documenting Scene Activities" data-subject="Chapter 14" data-title="Response to Illicit Laboratories" data-feedback="Chapter 14; Page 332, NFPA 470: 9.9.1" style="display: none;"></div>
+        <label><input type="radio" name="q25" value="a"> a) Chemical analysis of drugs found</label><br>
+        <label><input type="radio" name="q25" value="b"> b) Drug samples</label><br>
+        <label><input type="radio" name="q25" value="c"> c) Photographs and/or a sketch</label><br>
+        <label><input type="radio" name="q25" value="d"> d) Results of suspect interrogations</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+    </form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

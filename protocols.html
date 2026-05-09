@@ -341,7 +341,7 @@
 
         <!-- Failsafe Refresh -->
         <div style="margin-top: 4rem; padding: 2rem 0; border-top: 1px solid rgba(255,255,255,0.05); text-align: center;">
-            <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 1rem;">App Version: 2026.05.08.14</p>
+            <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 1rem;">App Version: 2026.05.09.15</p>
             <button onclick="forceAppUpdate()" style="background:none; border: 1px solid var(--text-dim); color: var(--text-dim); padding: 0.5rem 1rem; border-radius: 6px; font-size: 0.75rem; cursor: pointer;">Force App Update / Clear Cache</button>
         </div>
     </div>
@@ -360,10 +360,15 @@
             </div>
             
             <!-- Row 2: Search & Close -->
-            <div style="display: flex; gap: 0.5rem; width: 100%;">
+            <div style="display: flex; gap: 0.5rem; width: 100%; position: relative;">
                 <input type="text" id="pdf-search" placeholder="Search keyword..." style="flex: 1; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; padding: 12px; border-radius: 8px; font-size: 1rem;">
                 <button onclick="executeSearch()" style="background:var(--accent-color); border:none; color:black; padding: 0 15px; border-radius: 8px; font-weight: bold;">Search</button>
                 <button class="close-viewer" onclick="closeViewer()" style="background:#ef4444; border:none; color:white; padding: 0 15px; border-radius: 8px; font-weight: bold;">Exit</button>
+
+                <!-- Search Results Dropdown -->
+                <div id="search-results" style="display:none; position: absolute; top: 100%; left: 0; right: 0; background: #1a1a1a; border: 1px solid var(--accent-color); border-radius: 8px; z-index: 1001; max-height: 250px; overflow-y: auto; box-shadow: 0 10px 25px rgba(0,0,0,0.8); margin-top: 5px;">
+                    <!-- Results populated by JS -->
+                </div>
             </div>
         </div>
         <div id="pdf-canvas-container">

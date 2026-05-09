@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>Firefighter Chapter 11 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. Fire hose used to deliver water to an attack engine from a pressurized source is called a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Fire Hose" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 386" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) attack hose</label><br>
+        <label><input type="radio" name="q1" value="b"> b) supply line</label><br>
+        <label><input type="radio" name="q1" value="c"> c) handline</label><br>
+        <label><input type="radio" name="q1" value="d"> d) SDH</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. Attack hose that is held by a single firefighter to attack fire is called a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Fire Hose" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 386" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) supply hose</label><br>
+        <label><input type="radio" name="q2" value="b"> b) LDH</label><br>
+        <label><input type="radio" name="q2" value="c"> c) MDH</label><br>
+        <label><input type="radio" name="q2" value="d"> d) handline</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. For fire suppression, _____ is the term for any hose that discharges water under pressure onto a fire.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Fire Hose" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 386" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) attack hose</label><br>
+        <label><input type="radio" name="q3" value="b"> b) large-diameter hose</label><br>
+        <label><input type="radio" name="q3" value="c"> c) supply hose</label><br>
+        <label><input type="radio" name="q3" value="d"> d) soft suction hose</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. NFPA _____ defines the specifications and the inspection and testing requirements for the design and construction of new fire hose.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Fire Hose" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 386" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) 1981</label><br>
+        <label><input type="radio" name="q4" value="b"> b) 1960</label><br>
+        <label><input type="radio" name="q4" value="c"> c) 1241</label><br>
+        <label><input type="radio" name="q4" value="d"> d) 1961</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. A 2½-in. hose is most often used for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Hose Sizes" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 387" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) one-firefighter interior fire attacks</label><br>
+        <label><input type="radio" name="q5" value="b"> b) delivering water to master stream appliances</label><br>
+        <label><input type="radio" name="q5" value="c"> c) interior attacks in large buildings and exterior attacks</label><br>
+        <label><input type="radio" name="q5" value="d"> d) connecting a pressurized water source to an attack engine</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. The _____ is the inside diameter of a hose when it is filled with water and under pressure.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Hose Sizes" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 386" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) coupling dimension</label><br>
+        <label><input type="radio" name="q6" value="b"> b) hose size</label><br>
+        <label><input type="radio" name="q6" value="c"> c) pressurization scope</label><br>
+        <label><input type="radio" name="q6" value="d"> d) hose capacity</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. A 1½-in. coupling is used for _____ hose.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Hose Sizes" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 386" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) 1½-in. or smaller</label><br>
+        <label><input type="radio" name="q7" value="b"> b) 1¾-in. or larger</label><br>
+        <label><input type="radio" name="q7" value="c"> c) 1-in. to 2-in.</label><br>
+        <label><input type="radio" name="q7" value="d"> d) 1½-in. or 1¾-in.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. A _____ hose is considered a medium-diameter hose.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Hose Sizes" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 387" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) 4 in.</label><br>
+        <label><input type="radio" name="q8" value="b"> b) 2½ in.</label><br>
+        <label><input type="radio" name="q8" value="c"> c) 1¾ in.</label><br>
+        <label><input type="radio" name="q8" value="d"> d) 1½ in.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. Standard large-diameter hose includes _____ hose.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Hose Sizes" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 387" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) 2-in.</label><br>
+        <label><input type="radio" name="q9" value="b"> b) 2½-in.</label><br>
+        <label><input type="radio" name="q9" value="c"> c) 3-in.</label><br>
+        <label><input type="radio" name="q9" value="d"> d) 4-in.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. _____ is constructed with one layer of woven fiber.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Hose Construction" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 387" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) Rubber-covered hose</label><br>
+        <label><input type="radio" name="q10" value="b"> b) Single-jacket hose</label><br>
+        <label><input type="radio" name="q10" value="c"> c) Double-jacket hose</label><br>
+        <label><input type="radio" name="q10" value="d"> d) Collapsible fire hose</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. In a _____ hose, the outer layer is bonded to an inner woven layer.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Hose Construction" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 387" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) double jacket</label><br>
+        <label><input type="radio" name="q11" value="b"> b) rigid fire</label><br>
+        <label><input type="radio" name="q11" value="c"> c) collapsible fire</label><br>
+        <label><input type="radio" name="q11" value="d"> d) single jacket</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. Collapsible fire hose is designed to _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Hose Construction" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 387" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) maintain its circular shape when not pressurized</label><br>
+        <label><input type="radio" name="q12" value="b"> b) be handled with or without gloves</label><br>
+        <label><input type="radio" name="q12" value="c"> c) lay flat for storage</label><br>
+        <label><input type="radio" name="q12" value="d"> d) prevent kinking</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. The performance requirements for hose couplings and the specifications for the connections of the couplings are defined in NFPA _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Hose Couplings" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 388" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) 1948</label><br>
+        <label><input type="radio" name="q13" value="b"> b) 1960</label><br>
+        <label><input type="radio" name="q13" value="c"> c) 1971</label><br>
+        <label><input type="radio" name="q13" value="d"> d) 1983</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. A coupling with threads on the outside is a _____ coupling.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Hose Couplings" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 388" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) female</label><br>
+        <label><input type="radio" name="q14" value="b"> b) Higbee</label><br>
+        <label><input type="radio" name="q14" value="c"> c) male</label><br>
+        <label><input type="radio" name="q14" value="d"> d) Storz</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. The _____ is a notch or cut on one of the rocker lugs that indicates the position of the first thread on a coupling.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Hose Couplings" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 389" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) Higbee indicator</label><br>
+        <label><input type="radio" name="q15" value="b"> b) swivel</label><br>
+        <label><input type="radio" name="q15" value="c"> c) pin lug</label><br>
+        <label><input type="radio" name="q15" value="d"> d) rocker lug</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. The best way to prevent leaks at coupling connections is to ensure the _____ are not missing or damaged.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Hose Couplings" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 390" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) swivel gaskets</label><br>
+        <label><input type="radio" name="q16" value="b"> b) pin lug gaskets</label><br>
+        <label><input type="radio" name="q16" value="c"> c) liner gaskets</label><br>
+        <label><input type="radio" name="q16" value="d"> d) thread gaskets</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. A _____ hose coupling is a nonthreaded coupling that consists of two halves that interlock with each other to form a tight seal.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Hose Couplings" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 390" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) Storz</label><br>
+        <label><input type="radio" name="q17" value="b"> b) male</label><br>
+        <label><input type="radio" name="q17" value="c"> c) female</label><br>
+        <label><input type="radio" name="q17" value="d"> d) double-sided</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. The most appropriate method for one firefighter to couple fire hose is the _____ method.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Hose Couplings" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Pages 391-392" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) one-firefighter twist</label><br>
+        <label><input type="radio" name="q18" value="b"> b) one-firefighter stiff-arm</label><br>
+        <label><input type="radio" name="q18" value="c"> c) one-firefighter foot-tilt</label><br>
+        <label><input type="radio" name="q18" value="d"> d) one-firefighter knee-press</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. Filling a hose line with water under pressure is referred to as _____ the hose line.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Hose Couplings" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 394" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) channeling</label><br>
+        <label><input type="radio" name="q19" value="b"> b) soaking</label><br>
+        <label><input type="radio" name="q19" value="c"> c) charging</label><br>
+        <label><input type="radio" name="q19" value="d"> d) loading</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. The most appropriate method for one firefighter to uncouple a fire hose is the _____ method.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Hose Couplings" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 394" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) one-firefighter twist</label><br>
+        <label><input type="radio" name="q20" value="b"> b) one-firefighter stiff-arm</label><br>
+        <label><input type="radio" name="q20" value="c"> c) one-firefighter foot-tilt</label><br>
+        <label><input type="radio" name="q20" value="d"> d) one-firefighter knee-press</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. Supply hose must be tested annually at a pressure of _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Types of Hose" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 397" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) 100 psi or less</label><br>
+        <label><input type="radio" name="q21" value="b"> b) no more than 150 psi</label><br>
+        <label><input type="radio" name="q21" value="c"> c) at least 200 psi</label><br>
+        <label><input type="radio" name="q21" value="d"> d) 400 psi or more</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. A short section of rigid fire hose used to draft water from a static water source is called a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Types of Hose" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 397" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) single-jacket hose</label><br>
+        <label><input type="radio" name="q22" value="b"> b) hard sleeve hose</label><br>
+        <label><input type="radio" name="q22" value="c"> c) booster hose</label><br>
+        <label><input type="radio" name="q22" value="d"> d) hard suction hose</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. Attack hose is often stored on an engine as a _____, in lengths ranging from 150 to 350 feet.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Types of Hose" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Pages 397–398" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) preconnect</label><br>
+        <label><input type="radio" name="q23" value="b"> b) stow line</label><br>
+        <label><input type="radio" name="q23" value="c"> c) layered line</label><br>
+        <label><input type="radio" name="q23" value="d"> d) stored line</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. Attack hose must be tested annually at a pressure of _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Types of Hose" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 398" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) 100 psi or less</label><br>
+        <label><input type="radio" name="q24" value="b"> b) exactly 150 psi</label><br>
+        <label><input type="radio" name="q24" value="c"> c) no more than 275 psi</label><br>
+        <label><input type="radio" name="q24" value="d"> d) at least 300 psi</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q25">
+    <p><strong>25. The common diameters for attack hose are _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Types of Hose" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page397" style="display: none;"></div>
+        <label><input type="radio" name="q25" value="a"> a) 1½-in. or 1¾-in.</label><br>
+        <label><input type="radio" name="q25" value="b"> b) 3-in. or 3½-in.</label><br>
+        <label><input type="radio" name="q25" value="c"> c) 2-in. or 3-in.</label><br>
+        <label><input type="radio" name="q25" value="d"> d) 2½-in. or larger</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q26">
+    <p><strong>26. A _____ hose roll is used for general handling and transportation of hose as well as to prepare hose to be stored on a rack.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Hose Rolls" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 399" style="display: none;"></div>
+        <label><input type="radio" name="q26" value="a"> a) twin-doughnut</label><br>
+        <label><input type="radio" name="q26" value="b"> b) single-doughnut</label><br>
+        <label><input type="radio" name="q26" value="c"> c) straight</label><br>
+        <label><input type="radio" name="q26" value="d"> d) self-locking twin-doughnut</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q27">
+    <p><strong>27. When hose will be put into use directly from its rolled state, the _____ hose roll is used.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Hose Rolls" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 399" style="display: none;"></div>
+        <label><input type="radio" name="q27" value="a"> a) twin-doughnut</label><br>
+        <label><input type="radio" name="q27" value="b"> b) single-doughnut</label><br>
+        <label><input type="radio" name="q27" value="c"> c) straight</label><br>
+        <label><input type="radio" name="q27" value="d"> d) self-locking twin-doughnut</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q28">
+    <p><strong>28. The _____ hose roll is similar to the twin-doughnut roll, except that it forms its own carry loop.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Hose Rolls" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 399" style="display: none;"></div>
+        <label><input type="radio" name="q28" value="a"> a) single-doughnut</label><br>
+        <label><input type="radio" name="q28" value="b"> b) storage</label><br>
+        <label><input type="radio" name="q28" value="c"> c) straight</label><br>
+        <label><input type="radio" name="q28" value="d"> d) self-locking twin-doughnut</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q29">
+    <p><strong>29. In a _____ arrangement, both couplings are on the outside of the roll, and the rolled hose can be connected and extended by one firefighter.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Hose Rolls" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 399" style="display: none;"></div>
+        <label><input type="radio" name="q29" value="a"> a) straight hose roll</label><br>
+        <label><input type="radio" name="q29" value="b"> b) self-locking twin-doughnut hose roll</label><br>
+        <label><input type="radio" name="q29" value="c"> c) double-Higbee hose roll</label><br>
+        <label><input type="radio" name="q29" value="d"> d) single-doughnut hose roll</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q30">
+    <p><strong>30. The straight hose roll is also referred to as a _____ hose roll.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Hose Rolls" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 399" style="display: none;"></div>
+        <label><input type="radio" name="q30" value="a"> a) storage</label><br>
+        <label><input type="radio" name="q30" value="b"> b) forestry</label><br>
+        <label><input type="radio" name="q30" value="c"> c) locking</label><br>
+        <label><input type="radio" name="q30" value="d"> d) booster</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q31">
+    <p><strong>31. A(n) _____ nozzle flows between 60 and 350 gpm.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Nozzles" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 401" style="display: none;"></div>
+        <label><input type="radio" name="q31" value="a"> a) low-volume</label><br>
+        <label><input type="radio" name="q31" value="b"> b) master stream</label><br>
+        <label><input type="radio" name="q31" value="c"> c) handline</label><br>
+        <label><input type="radio" name="q31" value="d"> d) air-aspirating</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q32">
+    <p><strong>32. The valve used to control the flow of water in low-volume and handline nozzles is called a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Nozzles" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 404" style="display: none;"></div>
+        <label><input type="radio" name="q32" value="a"> a) post-indicator valve</label><br>
+        <label><input type="radio" name="q32" value="b"> b) gate valve</label><br>
+        <label><input type="radio" name="q32" value="c"> c) shut-off valve</label><br>
+        <label><input type="radio" name="q32" value="d"> d) butterfly valve</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q33">
+    <p><strong>33. A nozzle that allows firefighters to shut off the flow, unscrew the nozzle tip, and then add more lengths of hose to extend the hose without shutting off the valve at the engine is called a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Nozzles" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 405" style="display: none;"></div>
+        <label><input type="radio" name="q33" value="a"> a) fog nozzle</label><br>
+        <label><input type="radio" name="q33" value="b"> b) breakaway fire nozzle</label><br>
+        <label><input type="radio" name="q33" value="c"> c) straight stream nozzle</label><br>
+        <label><input type="radio" name="q33" value="d"> d) solid stream nozzle</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q34">
+    <p><strong>34. A(n) _____ stream is a hollow cone pattern of water composed of tiny droplets.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Nozzles" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 406" style="display: none;"></div>
+        <label><input type="radio" name="q34" value="a"> a) straight</label><br>
+        <label><input type="radio" name="q34" value="b"> b) solid</label><br>
+        <label><input type="radio" name="q34" value="c"> c) aspirated</label><br>
+        <label><input type="radio" name="q34" value="d"> d) fog</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q35">
+    <p><strong>35. A _____ stream is very dispersed and provides the shortest reach.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Nozzles" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 406" style="display: none;"></div>
+        <label><input type="radio" name="q35" value="a"> a) fog</label><br>
+        <label><input type="radio" name="q35" value="b"> b) master</label><br>
+        <label><input type="radio" name="q35" value="c"> c) straight</label><br>
+        <label><input type="radio" name="q35" value="d"> d) solid</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q36">
+    <p><strong>36. When using a smooth-bore nozzle for a master stream appliance, the stream size can be quickly changed by _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Nozzles" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 406" style="display: none;"></div>
+        <label><input type="radio" name="q36" value="a"> a) switching to a different nozzle</label><br>
+        <label><input type="radio" name="q36" value="b"> b) adding or removing stacked tips</label><br>
+        <label><input type="radio" name="q36" value="c"> c) increasing water pressure</label><br>
+        <label><input type="radio" name="q36" value="d"> d) decreasing water pressure</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q37">
+    <p><strong>37. The nozzle that produces a solid stream and discharges water in a compact, unbroken flow with limited turbulence or friction loss is called a _____ nozzle.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Nozzles" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 406" style="display: none;"></div>
+        <label><input type="radio" name="q37" value="a"> a) solid stream</label><br>
+        <label><input type="radio" name="q37" value="b"> b) fog</label><br>
+        <label><input type="radio" name="q37" value="c"> c) smooth-bore</label><br>
+        <label><input type="radio" name="q37" value="d"> d) master stream</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q38">
+    <p><strong>38. The three types of _____ nozzles are fixed-gallonage, adjustable-gallonage, and automatic-adjusting.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Nozzles" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 409" style="display: none;"></div>
+        <label><input type="radio" name="q38" value="a"> a) straight stream</label><br>
+        <label><input type="radio" name="q38" value="b"> b) solid stream</label><br>
+        <label><input type="radio" name="q38" value="c"> c) smoothbore stream</label><br>
+        <label><input type="radio" name="q38" value="d"> d) fog stream</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q39">
+    <p><strong>39. A _____ nozzle is used to make a hole in automobile sheet metal, aircraft, or a building’s walls, floors, or roof to extinguish fires behind these surfaces.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Nozzles" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 410" style="display: none;"></div>
+        <label><input type="radio" name="q39" value="a"> a) smooth-bore</label><br>
+        <label><input type="radio" name="q39" value="b"> b) cellar</label><br>
+        <label><input type="radio" name="q39" value="c"> c) piercing</label><br>
+        <label><input type="radio" name="q39" value="d"> d) combination</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q40">
+    <p><strong>40. A nozzle that is lowered vertically through a hole to fight fires in cellars, basements, and attics is called a _____ nozzle.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Nozzles" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 410" style="display: none;"></div>
+        <label><input type="radio" name="q40" value="a"> a) chimney</label><br>
+        <label><input type="radio" name="q40" value="b"> b) water curtain</label><br>
+        <label><input type="radio" name="q40" value="c"> c) Bresnan distributor</label><br>
+        <label><input type="radio" name="q40" value="d"> d) piercing</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q41">
+    <p><strong>41. The serrations or grooves around a fog-stream nozzle’s orifice that break up the water stream and create a fog pattern are called _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Nozzles" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 411" style="display: none;"></div>
+        <label><input type="radio" name="q41" value="a"> a) bales</label><br>
+        <label><input type="radio" name="q41" value="b"> b) feet</label><br>
+        <label><input type="radio" name="q41" value="c"> c) teeth</label><br>
+        <label><input type="radio" name="q41" value="d"> d) fingers</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q42">
+    <p><strong>42. An appliance used to attach a smaller-diameter hose to a larger-diameter hose is called a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 412" style="display: none;"></div>
+        <label><input type="radio" name="q42" value="a"> a) adapter</label><br>
+        <label><input type="radio" name="q42" value="b"> b) reducer</label><br>
+        <label><input type="radio" name="q42" value="c"> c) fire hose tool</label><br>
+        <label><input type="radio" name="q42" value="d"> d) hose appliance</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q43">
+    <p><strong>43. A(n) _____ is a device that assists firefighters with handling, manipulating, connecting, and using a fire hose.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 412" style="display: none;"></div>
+        <label><input type="radio" name="q43" value="a"> a) adapter</label><br>
+        <label><input type="radio" name="q43" value="b"> b) hose appliance</label><br>
+        <label><input type="radio" name="q43" value="c"> c) hose tool</label><br>
+        <label><input type="radio" name="q43" value="d"> d) reducer</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q44">
+    <p><strong>44. Connecting a 1¾-in. hose line to a 2½-in. hose line requires a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 412" style="display: none;"></div>
+        <label><input type="radio" name="q44" value="a"> a) 2½-in. double female adapter</label><br>
+        <label><input type="radio" name="q44" value="b"> b) 1¾-in. double female adapter</label><br>
+        <label><input type="radio" name="q44" value="c"> c) 2½-in. male to 1¾-in. female reducer</label><br>
+        <label><input type="radio" name="q44" value="d"> d) 2½-in. female to 1½-in. male reducer</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q45">
+    <p><strong>45. A _____ is used to join two female hose couplings.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 412" style="display: none;"></div>
+        <label><input type="radio" name="q45" value="a"> a) double-female adapter</label><br>
+        <label><input type="radio" name="q45" value="b"> b) double-male adapter</label><br>
+        <label><input type="radio" name="q45" value="c"> c) male-to-male reducer</label><br>
+        <label><input type="radio" name="q45" value="d"> d) female-to-female reducer</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q46">
+    <p><strong>46. An appliance equipped with two valves so that the flow of water to each line can be controlled independently is referred to as a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 413" style="display: none;"></div>
+        <label><input type="radio" name="q46" value="a"> a) split wye</label><br>
+        <label><input type="radio" name="q46" value="b"> b) water thief</label><br>
+        <label><input type="radio" name="q46" value="c"> c) gated wye</label><br>
+        <label><input type="radio" name="q46" value="d"> d) gate valve</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q47">
+    <p><strong>47. A(n) _____ is a hose appliance that combines two or more hose lines into one.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 413" style="display: none;"></div>
+        <label><input type="radio" name="q47" value="a"> a) wye</label><br>
+        <label><input type="radio" name="q47" value="b"> b) coupler</label><br>
+        <label><input type="radio" name="q47" value="c"> c) water thief</label><br>
+        <label><input type="radio" name="q47" value="d"> d) adapter</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q48">
+    <p><strong>48. Slowly opening and slowly closing a valve or nozzle _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 414" style="display: none;"></div>
+        <label><input type="radio" name="q48" value="a"> a) prevents water hammer</label><br>
+        <label><input type="radio" name="q48" value="b"> b) causes valves and nozzles to stick</label><br>
+        <label><input type="radio" name="q48" value="c"> c) initiates corrosion</label><br>
+        <label><input type="radio" name="q48" value="d"> d) creates a surge in pressure</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q49">
+    <p><strong>49. A _____ is attached to a fire hydrant outlet so that the attack engine can connect to the water supply, and then a second engine can connect to provide additional pressure without first disconnecting the attack engine’s supply.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 414" style="display: none;"></div>
+        <label><input type="radio" name="q49" value="a"> a) clapper valve</label><br>
+        <label><input type="radio" name="q49" value="b"> b) water thief</label><br>
+        <label><input type="radio" name="q49" value="c"> c) four-way hydrant valve</label><br>
+        <label><input type="radio" name="q49" value="d"> d) ball valve</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q50">
+    <p><strong>50. A device called a _____ is permanently mounted on and operated from a vehicle and is equipped with a piping system that delivers water to it.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 415" style="display: none;"></div>
+        <label><input type="radio" name="q50" value="a"> a) deck gun</label><br>
+        <label><input type="radio" name="q50" value="b"> b) portable monitor</label><br>
+        <label><input type="radio" name="q50" value="c"> c) four-way hydrant valve</label><br>
+        <label><input type="radio" name="q50" value="d"> d) remote hydrant valve</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q51">
+    <p><strong>51. A small leak in the jacket of an attack hose that is in use can be temporarily stopped using a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 416" style="display: none;"></div>
+        <label><input type="radio" name="q51" value="a"> a) chafing block</label><br>
+        <label><input type="radio" name="q51" value="b"> b) hose roller</label><br>
+        <label><input type="radio" name="q51" value="c"> c) hose jacket</label><br>
+        <label><input type="radio" name="q51" value="d"> d) hose bridge</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q52">
+    <p><strong>52. A _____ is used to prevent chafing or kinking at a sharp edge while hose is being hoisted over the edge of a roof or over a windowsill.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 416" style="display: none;"></div>
+        <label><input type="radio" name="q52" value="a"> a) hose clamp</label><br>
+        <label><input type="radio" name="q52" value="b"> b) chafing block</label><br>
+        <label><input type="radio" name="q52" value="c"> c) hose ramp</label><br>
+        <label><input type="radio" name="q52" value="d"> d) hose roller</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q53">
+    <p><strong>53. A sturdy rubber, plastic, or wooden block placed under a fire hose to raise the hose off the ground and to provide a smooth contact surface is called a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 417" style="display: none;"></div>
+        <label><input type="radio" name="q53" value="a"> a) hose hoist</label><br>
+        <label><input type="radio" name="q53" value="b"> b) hose clamp</label><br>
+        <label><input type="radio" name="q53" value="c"> c) hose jacket</label><br>
+        <label><input type="radio" name="q53" value="d"> d) chafing block</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q54">
+    <p><strong>54. A _____ is a hose tool that protects a hose when it is necessary to drive a vehicle over a hose line.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 417" style="display: none;"></div>
+        <label><input type="radio" name="q54" value="a"> a) hose bridge</label><br>
+        <label><input type="radio" name="q54" value="b"> b) hose roller</label><br>
+        <label><input type="radio" name="q54" value="c"> c) chafing block</label><br>
+        <label><input type="radio" name="q54" value="d"> d) hose jacket</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q55">
+    <p><strong>55. A _____ is an adjustable metal device used to temporarily cut off water flow in a fire hose rather than shutting down the entire hose system.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Fire Hose Appliances and Tools" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 417" style="display: none;"></div>
+        <label><input type="radio" name="q55" value="a"> a) hose clamp</label><br>
+        <label><input type="radio" name="q55" value="b"> b) gate valve</label><br>
+        <label><input type="radio" name="q55" value="c"> c) hose hoist</label><br>
+        <label><input type="radio" name="q55" value="d"> d) ball valve</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q56">
+    <p><strong>56. NFPA _____ includes procedures for the inspection and testing of fire service hose.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Hose Care, Maintenance, and Inspection" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 418" style="display: none;"></div>
+        <label><input type="radio" name="q56" value="a"> a) 1948</label><br>
+        <label><input type="radio" name="q56" value="b"> b) 1951</label><br>
+        <label><input type="radio" name="q56" value="c"> c) 1962</label><br>
+        <label><input type="radio" name="q56" value="d"> d) 1971</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q57">
+    <p><strong>57. Damage caused by particles of grit getting caught in the hose jacket is categorized as _____ damage.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Hose Care, Maintenance, and Inspection" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 418" style="display: none;"></div>
+        <label><input type="radio" name="q57" value="a"> a) superficial</label><br>
+        <label><input type="radio" name="q57" value="b"> b) mechanical</label><br>
+        <label><input type="radio" name="q57" value="c"> c) negligible</label><br>
+        <label><input type="radio" name="q57" value="d"> d) cosmetic</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q58">
+    <p><strong>58. Hose that has come into contact with petroleum-based products must be cleaned with _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Hose Care, Maintenance, and Inspection" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 419" style="display: none;"></div>
+        <label><input type="radio" name="q58" value="a"> a) 1:1 bleach and water solution</label><br>
+        <label><input type="radio" name="q58" value="b"> b) mild detergent and water</label><br>
+        <label><input type="radio" name="q58" value="c"> c) scouring pad and laundry soap</label><br>
+        <label><input type="radio" name="q58" value="d"> d) 1:2 vinegar and water solution</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q59">
+    <p><strong>59. When inspecting fire hose, lengths of hose found to have defects should be _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Hose Care, Maintenance, and Inspection" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 420" style="display: none;"></div>
+        <label><input type="radio" name="q59" value="a"> a) removed from service and tagged</label><br>
+        <label><input type="radio" name="q59" value="b"> b) reported and returned to the manufacturer</label><br>
+        <label><input type="radio" name="q59" value="c"> c) marked and put back on the apparatus</label><br>
+        <label><input type="radio" name="q59" value="d"> d) noted on the form and placed back in service</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q60">
+    <p><strong>60. A written history of individual lengths of fire hose is called a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Hose Care, Maintenance, and Inspection" data-subject="Chapter 11" data-title="Fire Hose, Fire Appliances and Tools, and Nozzles" data-feedback="Chapter 11; Page 420" style="display: none;"></div>
+        <label><input type="radio" name="q60" value="a"> a) hose record</label><br>
+        <label><input type="radio" name="q60" value="b"> b) manufacturer’s log</label><br>
+        <label><input type="radio" name="q60" value="c"> c) service record</label><br>
+        <label><input type="radio" name="q60" value="d"> d) maintenance log</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+</form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

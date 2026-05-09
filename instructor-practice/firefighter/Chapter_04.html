@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>Firefighter Chapter 04 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. A _____ is a combination of a radio receiver and a transmitter that receives a signal and retransmits it to a wider geographical area.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Radio Systems" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 150" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) simplex</label><br>
+        <label><input type="radio" name="q1" value="b"> b) repeater</label><br>
+        <label><input type="radio" name="q1" value="c"> c) satellite</label><br>
+        <label><input type="radio" name="q1" value="d"> d) duo-com</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. A _____ is a radio permanently mounted in a building, communications center, or a remote transmitter site.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Radio Systems" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 148" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) base station</label><br>
+        <label><input type="radio" name="q2" value="b"> b) duo-com</label><br>
+        <label><input type="radio" name="q2" value="c"> c) mobile radio</label><br>
+        <label><input type="radio" name="q2" value="d"> d) direct channel</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. A(n) _____ radio system is a repeater system that operates on the same principles as a conventional radio repeater system, except that a computer connected to a control channel sets the operating frequencies.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Radio Systems" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 151" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) simplex</label><br>
+        <label><input type="radio" name="q3" value="b"> b) duplex</label><br>
+        <label><input type="radio" name="q3" value="c"> c) trunked</label><br>
+        <label><input type="radio" name="q3" value="d"> d) interoperable</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. _____ means to select units to respond to a reported incident, alert those units, and then communicate the request for service by transmitting the information.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 134" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) Delegate</label><br>
+        <label><input type="radio" name="q4" value="b"> b) Relay</label><br>
+        <label><input type="radio" name="q4" value="c"> c) Dispatch</label><br>
+        <label><input type="radio" name="q4" value="d"> d) Communications</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. The standard assignment to each type of incident in each geographic response area is stored on _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 144" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) run cards</label><br>
+        <label><input type="radio" name="q5" value="b"> b) dispatch cards</label><br>
+        <label><input type="radio" name="q5" value="c"> c) telecommunicator logs</label><br>
+        <label><input type="radio" name="q5" value="d"> d) com-logs</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. The “A” in CAD stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Communications Centers" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 136" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) automatic</label><br>
+        <label><input type="radio" name="q6" value="b"> b) automated</label><br>
+        <label><input type="radio" name="q6" value="c"> c) aided</label><br>
+        <label><input type="radio" name="q6" value="d"> d) assisted</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. When a unit goes to an incident, it is called going on a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 138" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) dispatch</label><br>
+        <label><input type="radio" name="q7" value="b"> b) call</label><br>
+        <label><input type="radio" name="q7" value="c"> c) evolution</label><br>
+        <label><input type="radio" name="q7" value="d"> d) run</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. Fire department communications systems rely on _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Radio Systems" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 147" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) two-way radios</label><br>
+        <label><input type="radio" name="q8" value="b"> b) multiuse radios</label><br>
+        <label><input type="radio" name="q8" value="c"> c) base sets</label><br>
+        <label><input type="radio" name="q8" value="d"> d) cell phones</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. Most fire departments have specified a standard _____ to warn all personnel to pull back to a safe location.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 156" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) extraction signal</label><br>
+        <label><input type="radio" name="q9" value="b"> b) emergency signal</label><br>
+        <label><input type="radio" name="q9" value="c"> c) evacuation signal</label><br>
+        <label><input type="radio" name="q9" value="d"> d) mayday signal</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. The concept that each person reports to only one direct supervisor, each supervisor answers to only one boss, and so on, is called _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Incident Command System and Fire Department Communications" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 153" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) common command</label><br>
+        <label><input type="radio" name="q10" value="b"> b) chain command</label><br>
+        <label><input type="radio" name="q10" value="c"> c) unified command</label><br>
+        <label><input type="radio" name="q10" value="d"> d) unity of command</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. People with a speech or hearing impairment can communicate by phone using a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 140" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) TBY</label><br>
+        <label><input type="radio" name="q11" value="b"> b) TTY/TDD</label><br>
+        <label><input type="radio" name="q11" value="c"> c) EV911</label><br>
+        <label><input type="radio" name="q11" value="d"> d) ANI</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. The most advanced type of CAD system utilizes _____ data devices to confirm the location of the fire department units.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Communications Centers" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 137" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) GPS</label><br>
+        <label><input type="radio" name="q12" value="b"> b) MDT</label><br>
+        <label><input type="radio" name="q12" value="c"> c) ANI</label><br>
+        <label><input type="radio" name="q12" value="d"> d) GTA</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. CAD systems can provide information such as preincident plans, lockbox locations, and hazardous materials lists directly to _____ on an apparatus.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Communication Center" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 137" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) CMDs</label><br>
+        <label><input type="radio" name="q13" value="b"> b) GPSs</label><br>
+        <label><input type="radio" name="q13" value="c"> c) MDTs</label><br>
+        <label><input type="radio" name="q13" value="d"> d) LBJs</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. A(n) _____ is a system that records communications over the phones and the radio.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Communications Centers" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 137" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) voice recording system</label><br>
+        <label><input type="radio" name="q14" value="b"> b) activity logging system</label><br>
+        <label><input type="radio" name="q14" value="c"> c) mobile data terminal</label><br>
+        <label><input type="radio" name="q14" value="d"> d) computer-aided voice patch</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. As stated in NFPA 1225, the generally accepted performance objective is to dispatch units to the highest priority of calls within _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 138" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) 120 seconds</label><br>
+        <label><input type="radio" name="q15" value="b"> b) 90 seconds</label><br>
+        <label><input type="radio" name="q15" value="c"> c) 60 seconds</label><br>
+        <label><input type="radio" name="q15" value="d"> d) 30 seconds</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. The communications center must have _____ ways to send a dispatch message from the communications center to each fire station.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 145" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) at least 2</label><br>
+        <label><input type="radio" name="q16" value="b"> b) 3 or more</label><br>
+        <label><input type="radio" name="q16" value="c"> c) a minimum of 4</label><br>
+        <label><input type="radio" name="q16" value="d"> d) 5</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. Many communities have implemented the _____ system to handle non-emergency calls.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 139" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) 912</label><br>
+        <label><input type="radio" name="q17" value="b"> b) 311</label><br>
+        <label><input type="radio" name="q17" value="c"> c) 811</label><br>
+        <label><input type="radio" name="q17" value="d"> d) 911</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. The first two pieces of information the dispatcher needs to know are the location of the emergency and the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 139" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) caller’s address</label><br>
+        <label><input type="radio" name="q18" value="b"> b) nature of the problem</label><br>
+        <label><input type="radio" name="q18" value="c"> c) caller’s number</label><br>
+        <label><input type="radio" name="q18" value="d"> d) callback name</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. A direct-line phone may also be referred to as a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 140" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) MLTS</label><br>
+        <label><input type="radio" name="q19" value="b"> b) CAD</label><br>
+        <label><input type="radio" name="q19" value="c"> c) PSAP</label><br>
+        <label><input type="radio" name="q19" value="d"> d) ring-down phone</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. The acronym “FCC” stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 140" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) Federal Communications Center</label><br>
+        <label><input type="radio" name="q20" value="b"> b) Field Communications Center</label><br>
+        <label><input type="radio" name="q20" value="c"> c) First Community Communications</label><br>
+        <label><input type="radio" name="q20" value="d"> d) Federal Communications Commission</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. If a call is made with a land line, _____ provides the phone number of the phone making the call and the location where the call originated.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 143" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) MLTS</label><br>
+        <label><input type="radio" name="q21" value="b"> b) E911</label><br>
+        <label><input type="radio" name="q21" value="c"> c) CAD</label><br>
+        <label><input type="radio" name="q21" value="d"> d) GPS</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. A(n) _____ system allows all types of digital information, including voice, text messages, photos, and video, to be transmitted to a PSAP or stand-alone communications center.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 144" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) 311</label><br>
+        <label><input type="radio" name="q22" value="b"> b) Advanced 911</label><br>
+        <label><input type="radio" name="q22" value="c"> c) E911</label><br>
+        <label><input type="radio" name="q22" value="d"> d) NG911</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. _____ is the process of assigning a response category based on the nature of the reported problem.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 144" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) Level of call priority</label><br>
+        <label><input type="radio" name="q23" value="b"> b) Incident prioritization</label><br>
+        <label><input type="radio" name="q23" value="c"> c) Call classification and prioritization</label><br>
+        <label><input type="radio" name="q23" value="d"> d) Dispatch priority</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. Being able to communicate across different radio bands and between different agencies is called _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Radio Systems" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 150" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) interoperability</label><br>
+        <label><input type="radio" name="q24" value="b"> b) fluid transmission</label><br>
+        <label><input type="radio" name="q24" value="c"> c) open communication</label><br>
+        <label><input type="radio" name="q24" value="d"> d) simplex communication</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q25">
+    <p><strong>25. The most commonly used bands for public safety communication are _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Radio Systems" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 149" style="display: none;"></div>
+        <label><input type="radio" name="q25" value="a"> a) VHF and DHF</label><br>
+        <label><input type="radio" name="q25" value="b"> b) DHF and UHF</label><br>
+        <label><input type="radio" name="q25" value="c"> c) VHF and UHF</label><br>
+        <label><input type="radio" name="q25" value="d"> d) FCC and DHF</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q26">
+    <p><strong>26. _____ communication systems allow communication to flow in only one direction at a time.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Radio Systems" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 150" style="display: none;"></div>
+        <label><input type="radio" name="q26" value="a"> a) Duplex</label><br>
+        <label><input type="radio" name="q26" value="b"> b) Simplex</label><br>
+        <label><input type="radio" name="q26" value="c"> c) Trunked</label><br>
+        <label><input type="radio" name="q26" value="d"> d) Repeated</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q27">
+    <p><strong>27. FirstNet was designed to work with _____ so that responders can get the same information that is sent to the communications center.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Radio Systems" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 152" style="display: none;"></div>
+        <label><input type="radio" name="q27" value="a"> a) E911</label><br>
+        <label><input type="radio" name="q27" value="b"> b) 911</label><br>
+        <label><input type="radio" name="q27" value="c"> c) NG911</label><br>
+        <label><input type="radio" name="q27" value="d"> d) 311</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q28">
+    <p><strong>28. The _____ is a nationwide broadband network for communication among first responders and communications centers to provide a national coordinated response to emergencies.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 152" style="display: none;"></div>
+        <label><input type="radio" name="q28" value="a"> a) FCC</label><br>
+        <label><input type="radio" name="q28" value="b"> b) Frontline Response Network Association</label><br>
+        <label><input type="radio" name="q28" value="c"> c) First Response Network Agency</label><br>
+        <label><input type="radio" name="q28" value="d"> d) First Responder Network Authority</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q29">
+    <p><strong>29. The National Incident Management System and the National Fire Protection Agency recommend that fire departments use _____ for radio communications.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 153" style="display: none;"></div>
+        <label><input type="radio" name="q29" value="a"> a) ten-codes</label><br>
+        <label><input type="radio" name="q29" value="b"> b) jargon</label><br>
+        <label><input type="radio" name="q29" value="c"> c) short words</label><br>
+        <label><input type="radio" name="q29" value="d"> d) plain English</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q30">
+    <p><strong>30. _____ minimizes confusion by ensuring that each individual at an incident reports to only one supervisor so that important messages are communicated to the correct person.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 153" style="display: none;"></div>
+        <label><input type="radio" name="q30" value="a"> a) Unity of command</label><br>
+        <label><input type="radio" name="q30" value="b"> b) Incident command</label><br>
+        <label><input type="radio" name="q30" value="c"> c) Span of control</label><br>
+        <label><input type="radio" name="q30" value="d"> d) Chain of command</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q31">
+    <p><strong>31. Yonkers Fire Department Chief Chris Kiernan used to say that a good command structure created an environment of _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 153" style="display: none;"></div>
+        <label><input type="radio" name="q31" value="a"> a) accountability</label><br>
+        <label><input type="radio" name="q31" value="b"> b) freelancing</label><br>
+        <label><input type="radio" name="q31" value="c"> c) actionability</label><br>
+        <label><input type="radio" name="q31" value="d"> d) controlled chaos</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q32">
+    <p><strong>32. The first arriving unit at an incident needs to give a brief initial _____ report and establish command.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 153" style="display: none;"></div>
+        <label><input type="radio" name="q32" value="a"> a) 360-walkaround</label><br>
+        <label><input type="radio" name="q32" value="b"> b) accountability</label><br>
+        <label><input type="radio" name="q32" value="c"> c) time</label><br>
+        <label><input type="radio" name="q32" value="d"> d) size-up</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q33">
+    <p><strong>33. The communications center should prompt the IC to report at set intervals, known as _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 155" style="display: none;"></div>
+        <label><input type="radio" name="q33" value="a"> a) command prompts</label><br>
+        <label><input type="radio" name="q33" value="b"> b) size-ups</label><br>
+        <label><input type="radio" name="q33" value="c"> c) time marks</label><br>
+        <label><input type="radio" name="q33" value="d"> d) dispatched marks</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q34">
+    <p><strong>34. _____ is an urgent message that takes priority over all other communications.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 155" style="display: none;"></div>
+        <label><input type="radio" name="q34" value="a"> a) A trouble report</label><br>
+        <label><input type="radio" name="q34" value="b"> b) Emergency traffic</label><br>
+        <label><input type="radio" name="q34" value="c"> c) A priority call</label><br>
+        <label><input type="radio" name="q34" value="d"> d) A critical report</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q35">
+    <p><strong>35. Most departments use the word _____ to indicate that a firefighter is in imminent danger and requires immediate assistance, is lost, or is missing.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 155" style="display: none;"></div>
+        <label><input type="radio" name="q35" value="a"> a) SOS</label><br>
+        <label><input type="radio" name="q35" value="b"> b) emergency</label><br>
+        <label><input type="radio" name="q35" value="c"> c) mayday</label><br>
+        <label><input type="radio" name="q35" value="d"> d) danger</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q36">
+    <p><strong>36. The “N” in the acronym LUNAR stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 155" style="display: none;"></div>
+        <label><input type="radio" name="q36" value="a"> a) notated</label><br>
+        <label><input type="radio" name="q36" value="b"> b) name</label><br>
+        <label><input type="radio" name="q36" value="c"> c) number</label><br>
+        <label><input type="radio" name="q36" value="d"> d) need</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q37">
+    <p><strong>37. The “A” in the acronym LUNAR stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 155" style="display: none;"></div>
+        <label><input type="radio" name="q37" value="a"> a) activity</label><br>
+        <label><input type="radio" name="q37" value="b"> b) acknowledge</label><br>
+        <label><input type="radio" name="q37" value="c"> c) air</label><br>
+        <label><input type="radio" name="q37" value="d"> d) actions needed</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q38">
+    <p><strong>38. The “L” in the acronym LUNAR stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 155" style="display: none;"></div>
+        <label><input type="radio" name="q38" value="a"> a) latitude</label><br>
+        <label><input type="radio" name="q38" value="b"> b) limitations</label><br>
+        <label><input type="radio" name="q38" value="c"> c) load</label><br>
+        <label><input type="radio" name="q38" value="d"> d) location</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q39">
+    <p><strong>39. High-low sirens, three blasts of the airhorn, and _____ are recommended methods of signaling an emergency evacuation.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 156" style="display: none;"></div>
+        <label><input type="radio" name="q39" value="a"> a) setting off department pagers</label><br>
+        <label><input type="radio" name="q39" value="b"> b) an IC announcement on the radio</label><br>
+        <label><input type="radio" name="q39" value="c"> c) flashing lights</label><br>
+        <label><input type="radio" name="q39" value="d"> d) yelling, “EVACUATE!”</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q40">
+    <p><strong>40. A communications center may be a stand-alone communications center that serves a single specific fire department, or a _____ that serves many fire departments.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Communications Centers" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 135" style="display: none;"></div>
+        <label><input type="radio" name="q40" value="a"> a) regional center</label><br>
+        <label><input type="radio" name="q40" value="b"> b) joint center</label><br>
+        <label><input type="radio" name="q40" value="c"> c) collective center</label><br>
+        <label><input type="radio" name="q40" value="d"> d) mutual aid center</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q41">
+    <p><strong>41. The Americans with Disabilities Act requires every call-taking position within a PSAP must have its own _____ and be able to receive call via the system.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 140" style="display: none;"></div>
+        <label><input type="radio" name="q41" value="a"> a) TPL</label><br>
+        <label><input type="radio" name="q41" value="b"> b) TTY-compatible equipment</label><br>
+        <label><input type="radio" name="q41" value="c"> c) direct line to a supervisor</label><br>
+        <label><input type="radio" name="q41" value="d"> d) access to a translator</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q42">
+    <p><strong>42. The “U” in the acronym LUNAR stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 155" style="display: none;"></div>
+        <label><input type="radio" name="q42" value="a"> a) unit</label><br>
+        <label><input type="radio" name="q42" value="b"> b) unity</label><br>
+        <label><input type="radio" name="q42" value="c"> c) unified</label><br>
+        <label><input type="radio" name="q42" value="d"> d) under</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q43">
+    <p><strong>43. Time marking allows the _____ to assess the progress of the incident and decide whether the strategy or tactics should be changed.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 155" style="display: none;"></div>
+        <label><input type="radio" name="q43" value="a"> a) safety officer</label><br>
+        <label><input type="radio" name="q43" value="b"> b) incident commander</label><br>
+        <label><input type="radio" name="q43" value="c"> c) interior crews</label><br>
+        <label><input type="radio" name="q43" value="d"> d) dispatchers</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q44">
+    <p><strong>44. In E911 systems, the automatic number identification (ANI) displays the _____ of the phone making the call.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 143" style="display: none;"></div>
+        <label><input type="radio" name="q44" value="a"> a) region</label><br>
+        <label><input type="radio" name="q44" value="b"> b) name</label><br>
+        <label><input type="radio" name="q44" value="c"> c) number</label><br>
+        <label><input type="radio" name="q44" value="d"> d) address</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q45">
+    <p><strong>45. The _____ shows the location of the telephone making the call, the subscriber’s name, and other details.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 143" style="display: none;"></div>
+        <label><input type="radio" name="q45" value="a"> a) TDD</label><br>
+        <label><input type="radio" name="q45" value="b"> b) ALI</label><br>
+        <label><input type="radio" name="q45" value="c"> c) ANI</label><br>
+        <label><input type="radio" name="q45" value="d"> d) TTY</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q46">
+    <p><strong>46. A _____ radio allows the transmission of digital signals to transmit data or analog signals to transmit voices that have been digitized and compressed by a computer.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Radio Systems" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 151" style="display: none;"></div>
+        <label><input type="radio" name="q46" value="a"> a) simplex</label><br>
+        <label><input type="radio" name="q46" value="b"> b) duplex</label><br>
+        <label><input type="radio" name="q46" value="c"> c) repeater</label><br>
+        <label><input type="radio" name="q46" value="d"> d) digital</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q47">
+    <p><strong>47. The performance requirements in NFPA _____ govern the design and construction of public safety communications centers.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Communications Centers" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 136" style="display: none;"></div>
+        <label><input type="radio" name="q47" value="a"> a) 1010</label><br>
+        <label><input type="radio" name="q47" value="b"> b) 1225</label><br>
+        <label><input type="radio" name="q47" value="c"> c) 1403</label><br>
+        <label><input type="radio" name="q47" value="d"> d) 1500</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q48">
+    <p><strong>48. A(n) _____ is a computer system that keeps a detailed record of every incident and activity that occurs.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Communications Centers" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 137" style="display: none;"></div>
+        <label><input type="radio" name="q48" value="a"> a) critical equipment system</label><br>
+        <label><input type="radio" name="q48" value="b"> b) incident recorder</label><br>
+        <label><input type="radio" name="q48" value="c"> c) incident logging system</label><br>
+        <label><input type="radio" name="q48" value="d"> d) activity logging system</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q49">
+    <p><strong>49. A(n) _____ is an application that layers a wide variety of data about a community on top of a map of the community.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Communications Centers" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 136" style="display: none;"></div>
+        <label><input type="radio" name="q49" value="a"> a) SPG</label><br>
+        <label><input type="radio" name="q49" value="b"> b) ISG</label><br>
+        <label><input type="radio" name="q49" value="c"> c) GPS</label><br>
+        <label><input type="radio" name="q49" value="d"> d) GIS</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q50">
+    <p><strong>50. _____ converts a person’s voice into a digital signal that is sent via the Internet instead of over traditional phone lines.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 139" style="display: none;"></div>
+        <label><input type="radio" name="q50" value="a"> a) VIntPro</label><br>
+        <label><input type="radio" name="q50" value="b"> b) TTTC</label><br>
+        <label><input type="radio" name="q50" value="c"> c) VoIP</label><br>
+        <label><input type="radio" name="q50" value="d"> d) Text-to-talk center</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q51">
+    <p><strong>51. Fire department _____ and dispatch protocols dictate the type and number of units to dispatch to each category of incident.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 144" style="display: none;"></div>
+        <label><input type="radio" name="q51" value="a"> a) first responders</label><br>
+        <label><input type="radio" name="q51" value="b"> b) SOGs</label><br>
+        <label><input type="radio" name="q51" value="c"> c) SOPs</label><br>
+        <label><input type="radio" name="q51" value="d"> d) ICs</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q52">
+    <p><strong>52. The process of receiving a call for service and obtaining the information necessary to initiate a response is known as _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 139" style="display: none;"></div>
+        <label><input type="radio" name="q52" value="a"> a) unit selection</label><br>
+        <label><input type="radio" name="q52" value="b"> b) call receipt</label><br>
+        <label><input type="radio" name="q52" value="c"> c) classification and prioritization</label><br>
+        <label><input type="radio" name="q52" value="d"> d) call validation</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q53">
+    <p><strong>53. A _____ box transmits a coded signal to the communications center and, in some cases, directly to individual fire departments.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 141" style="display: none;"></div>
+        <label><input type="radio" name="q53" value="a"> a) signal</label><br>
+        <label><input type="radio" name="q53" value="b"> b) code alarm</label><br>
+        <label><input type="radio" name="q53" value="c"> c) fire alarm</label><br>
+        <label><input type="radio" name="q53" value="d"> d) com-alarm</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q54">
+    <p><strong>54. A(n) _____ is a dispatcher who is trained to provide medical self-help instructions to callers based on the caller’s description of the patient’s symptoms.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 140" style="display: none;"></div>
+        <label><input type="radio" name="q54" value="a"> a) emergency navigation manager</label><br>
+        <label><input type="radio" name="q54" value="b"> b) emergency medical dispatcher</label><br>
+        <label><input type="radio" name="q54" value="c"> c) medical telecommunications officer</label><br>
+        <label><input type="radio" name="q54" value="d"> d) medical director</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q55">
+    <p><strong>55. A _____ is a phone system that allows multiple users throughout an organization, such as a business, a hotel, or a university, to make and receive calls at the same time.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Communications Center Operations" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 140" style="display: none;"></div>
+        <label><input type="radio" name="q55" value="a"> a) multi-line telephone system</label><br>
+        <label><input type="radio" name="q55" value="b"> b) direct-line system</label><br>
+        <label><input type="radio" name="q55" value="c"> c) multiplex system</label><br>
+        <label><input type="radio" name="q55" value="d"> d) ring-down system</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q56">
+    <p><strong>56. The phase in a 911 call during which the telecommunicator asks questions to obtain vital information such as the location of the emergency, is called _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Taking Calls at the Fire Station" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 146" style="display: none;"></div>
+        <label><input type="radio" name="q56" value="a"> a) information gathering</label><br>
+        <label><input type="radio" name="q56" value="b"> b) telephone interrogation</label><br>
+        <label><input type="radio" name="q56" value="c"> c) information request</label><br>
+        <label><input type="radio" name="q56" value="d"> d) telephone harassment</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q57">
+    <p><strong>57. A _____ radio is permanently mounted in the vehicle and powered by the electrical system in the vehicle.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Radio Systems" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 148" style="display: none;"></div>
+        <label><input type="radio" name="q57" value="a"> a) base</label><br>
+        <label><input type="radio" name="q57" value="b"> b) mobile</label><br>
+        <label><input type="radio" name="q57" value="c"> c) portable</label><br>
+        <label><input type="radio" name="q57" value="d"> d) cellular</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q58">
+    <p><strong>58. _____ are coded messages that begin with the number 10.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 153" style="display: none;"></div>
+        <label><input type="radio" name="q58" value="a"> a) TDDs</label><br>
+        <label><input type="radio" name="q58" value="b"> b) VoIPs</label><br>
+        <label><input type="radio" name="q58" value="c"> c) Ten-codes</label><br>
+        <label><input type="radio" name="q58" value="d"> d) TTYs</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q59">
+    <p><strong>59. In disaster situations, the larger cellular network providers can deploy 5G-capable, portable cell signal towers called _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 153" style="display: none;"></div>
+        <label><input type="radio" name="q59" value="a"> a) CPCTs</label><br>
+        <label><input type="radio" name="q59" value="b"> b) PCSTs</label><br>
+        <label><input type="radio" name="q59" value="c"> c) 5GPCs</label><br>
+        <label><input type="radio" name="q59" value="d"> d) COWS</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q60">
+    <p><strong>60. Many fire departments use the acronym _____ to report a mayday.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Using a Radio" data-subject="Chapter 4" data-title="Fire Service Communications" data-feedback="Chapter 4; Page 155" style="display: none;"></div>
+        <label><input type="radio" name="q60" value="a"> a) PHYSDAP</label><br>
+        <label><input type="radio" name="q60" value="b"> b) LUNAR</label><br>
+        <label><input type="radio" name="q60" value="c"> c) SOS</label><br>
+        <label><input type="radio" name="q60" value="d"> d) CAN</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+</form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

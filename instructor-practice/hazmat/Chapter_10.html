@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>HazMat A&O Chapter 10 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. Job performance requirements for operations level responders can be found in which National Fire Protection Association document?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 234, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) NFPA 470</label><br>
+        <label><input type="radio" name="q1" value="b"> b) NFPA 1933</label><br>
+        <label><input type="radio" name="q1" value="c"> c) NFPA 872</label><br>
+        <label><input type="radio" name="q1" value="d"> d) NFPA 740</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. Who should guide technical decontamination work?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 234, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) Police chief</label><br>
+        <label><input type="radio" name="q2" value="b"> b) Head of the authority having jurisdiction</label><br>
+        <label><input type="radio" name="q2" value="c"> c) Hazardous materials technician</label><br>
+        <label><input type="radio" name="q2" value="d"> d) Registered nurse</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. Which type of decontamination involves a planned and systematic process to reduce contamination?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 234, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) Mass Decontamination</label><br>
+        <label><input type="radio" name="q3" value="b"> b) Emergency Decontamination</label><br>
+        <label><input type="radio" name="q3" value="c"> c) Specialized Decontamination</label><br>
+        <label><input type="radio" name="q3" value="d"> d) Technical Decontamination</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. Contaminated responders who are able to walk under their own power are considered to be:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Technical Decontamination" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 235, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) ambulatory.</label><br>
+        <label><input type="radio" name="q4" value="b"> b) non-ambulatory.</label><br>
+        <label><input type="radio" name="q4" value="c"> c) able to decontaminate themselves.</label><br>
+        <label><input type="radio" name="q4" value="d"> d) free to leave the scene.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. When decontaminating specialized equipment in an electronics-manufacturing facility, be sure to consult:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Technical Decontamination" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 235, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) a representative of the National Fire Protection Association.</label><br>
+        <label><input type="radio" name="q5" value="b"> b) someone who knows the equipment well.</label><br>
+        <label><input type="radio" name="q5" value="c"> c) state regulators.</label><br>
+        <label><input type="radio" name="q5" value="d"> d) local police.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. Who first deals with subjects during technical decontamination?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Technical Decontamination" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 236, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) Greeter</label><br>
+        <label><input type="radio" name="q6" value="b"> b) Washer</label><br>
+        <label><input type="radio" name="q6" value="c"> c) Rinser</label><br>
+        <label><input type="radio" name="q6" value="d"> d) Bagger</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. At a weapon of mass destruction site, you see a responder near black catch basins partly full of water. This person likely performs which of the following activities?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Technical Decontamination" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 236, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) Greeting subjects</label><br>
+        <label><input type="radio" name="q7" value="b"> b) Rinsing PPE</label><br>
+        <label><input type="radio" name="q7" value="c"> c) Bagging items</label><br>
+        <label><input type="radio" name="q7" value="d"> d) Administering medical response</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. When standing near the cold zone of a decontamination corridor, you will most likely be near the:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Technical Decontamination" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Pages 236, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) head of the authority having jurisdiction.</label><br>
+        <label><input type="radio" name="q8" value="b"> b) greeter.</label><br>
+        <label><input type="radio" name="q8" value="c"> c) bagger.</label><br>
+        <label><input type="radio" name="q8" value="d"> d) rinser.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. Which of the following is a physical technique that is involved in some types of technical decontamination?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Methods of Technical Decontamination" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 237, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) Absorption</label><br>
+        <label><input type="radio" name="q9" value="b"> b) Boiling</label><br>
+        <label><input type="radio" name="q9" value="c"> c) Acidification</label><br>
+        <label><input type="radio" name="q9" value="d"> d) Plasma formation</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. Natural soil or sawdust might be used during which of the following decontamination methods?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Methods of Technical Decontamination" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 237, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) Absorption</label><br>
+        <label><input type="radio" name="q10" value="b"> b) Adsorption</label><br>
+        <label><input type="radio" name="q10" value="c"> c) Disinfection</label><br>
+        <label><input type="radio" name="q10" value="d"> d) Solidification</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. If you are diluting a hazardous material at a weapon of mass destruction explosion site, you probably need to request large amounts of:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Methods of Technical Decontamination" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 238, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) cotton.</label><br>
+        <label><input type="radio" name="q11" value="b"> b) PPE.</label><br>
+        <label><input type="radio" name="q11" value="c"> c) water.</label><br>
+        <label><input type="radio" name="q11" value="d"> d) nitrogen gas.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. What describes many responders who have been working in PPE?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="The Technical Decontamination Process" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 243, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) Rested and alert</label><br>
+        <label><input type="radio" name="q12" value="b"> b) Hot and fatigued</label><br>
+        <label><input type="radio" name="q12" value="c"> c) Amped and dehydrated</label><br>
+        <label><input type="radio" name="q12" value="d"> d) Confused and disoriented</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. If two contaminated rescuers return to the decontamination corridor at the same time while using SCBA, who enters first?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="The Technical Decontamination Process" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 243, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) The rescuer with lower air pressure</label><br>
+        <label><input type="radio" name="q13" value="b"> b) The rescuer with the smaller SCBA tank</label><br>
+        <label><input type="radio" name="q13" value="c"> c) The rescuer with more obvious contamination</label><br>
+        <label><input type="radio" name="q13" value="d"> d) The rescuer with one with more complaints</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. How many wash-and-rinse stations are usually involved in technical decontamination?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="The Technical Decontamination Process" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 243, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) 1 to 3</label><br>
+        <label><input type="radio" name="q14" value="b"> b) 2 to 4</label><br>
+        <label><input type="radio" name="q14" value="c"> c) 2 to 5</label><br>
+        <label><input type="radio" name="q14" value="d"> d) More than 3</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. What should contaminated PPE touch?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="The Technical Decontamination Process" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 244, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) Other contaminated material</label><br>
+        <label><input type="radio" name="q15" value="b"> b) Rinse basins</label><br>
+        <label><input type="radio" name="q15" value="c"> c) Floor</label><br>
+        <label><input type="radio" name="q15" value="d"> d) Only itself</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. What is the first step in evaluating the effectiveness of technical decontamination?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Evaluating the Effectiveness of Technical Decontamination" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 244, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) Use of pH paper</label><br>
+        <label><input type="radio" name="q16" value="b"> b) Smell test</label><br>
+        <label><input type="radio" name="q16" value="c"> c) Visual inspection</label><br>
+        <label><input type="radio" name="q16" value="d"> d) Feeling the PPE</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. Which of the following controls how the effectiveness of decontamination is determined?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Evaluating the Effectiveness of Technical Decontamination" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 244, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) National Fire Protection Association guidelines</label><br>
+        <label><input type="radio" name="q17" value="b"> b) Local police standards</label><br>
+        <label><input type="radio" name="q17" value="c"> c) Nature of the contaminant</label><br>
+        <label><input type="radio" name="q17" value="d"> d) Federal regulations</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. A responder tasked with evaluating the effectiveness of technical decontamination should be:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Evaluating the Effectiveness of Technical Decontamination" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 246, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) a clear communicator.</label><br>
+        <label><input type="radio" name="q18" value="b"> b) well rested.</label><br>
+        <label><input type="radio" name="q18" value="c"> c) a creative thinker.</label><br>
+        <label><input type="radio" name="q18" value="d"> d) a chemist.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. Who should complete paperwork on the effectiveness of technical decontamination?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Reports and Documentation" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 246, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) Person in charge of decontamination corridor</label><br>
+        <label><input type="radio" name="q19" value="b"> b) Registered nurse</label><br>
+        <label><input type="radio" name="q19" value="c"> c) Representative of the authority having jurisdiction</label><br>
+        <label><input type="radio" name="q19" value="d"> d) Police chief</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. Which information should be included in documentation on technical decontamination?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Reports and Documentation" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 246, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) Solutions used</label><br>
+        <label><input type="radio" name="q20" value="b"> b) Press contacts</label><br>
+        <label><input type="radio" name="q20" value="c"> c) Number of family members per subject decontaminated</label><br>
+        <label><input type="radio" name="q20" value="d"> d) Reproductive history of subjects</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. What especially should be noted in documentation of technical decontamination activities?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Reports and Documentation" data-subject="Chapter 10" data-title="Technical Decontamination" data-feedback="Chapter 10; Page 246, NFPA 470 9.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) Cost of PPE used</label><br>
+        <label><input type="radio" name="q21" value="b"> b) PPE breaches</label><br>
+        <label><input type="radio" name="q21" value="c"> c) PPE color coding</label><br>
+        <label><input type="radio" name="q21" value="d"> d) PPE preferences of the authority having jurisdiction</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+    </form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>HazMat A&O Chapter 05 Practice</h1>
+    <form id="quizForm">
+
+<div class="question" id="q1">
+    <p><strong>1. At a WMD incident, what should be the first response objective?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 124, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) Occupational Safety and Health Administration regulations</label><br>
+        <label><input type="radio" name="q1" value="b"> b) Personal safety</label><br>
+        <label><input type="radio" name="q1" value="c"> c) National Fire Protection Association checklist</label><br>
+        <label><input type="radio" name="q1" value="d"> d) Finding the authority having jurisdiction</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. Which kind of safety generally comes first at a hazardous materials incident?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 124, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) Property</label><br>
+        <label><input type="radio" name="q2" value="b"> b) Life</label><br>
+        <label><input type="radio" name="q2" value="c"> c) Community</label><br>
+        <label><input type="radio" name="q2" value="d"> d) Transportation</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. When considering life safety, which of the following is a key question to ask at a hazardous materials incident?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 124, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) Can a given subject wait long enough for specialized treatment?</label><br>
+        <label><input type="radio" name="q3" value="b"> b) What source of funding will pay for medical transport?</label><br>
+        <label><input type="radio" name="q3" value="c"> c) How many more agencies need to be involved?</label><br>
+        <label><input type="radio" name="q3" value="d"> d) At what elevation did the incident occur?</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. If most people who have been doused with an unknown chemical start to show signs of delirium at an estimated dose of 0.5 grams per 100 kilograms weight, then that is probably close to the:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Estimating the Potential Harm or Severity of the Incident" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 125, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) legal exposure limit.</label><br>
+        <label><input type="radio" name="q4" value="b"> b) threshold limit value.</label><br>
+        <label><input type="radio" name="q4" value="c"> c) maximum safe dose.</label><br>
+        <label><input type="radio" name="q4" value="d"> d) threshold limit value/ceiling</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. What concentration of a hazardous material can a person be exposed to for up to 15 minutes per day, four times per day, without showing ill effects?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Estimating the Potential Harm or Severity of the Incident" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 125, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) Threshold limit value/short term exposure limit</label><br>
+        <label><input type="radio" name="q5" value="b"> b) Threshold limit value /time-weighted average</label><br>
+        <label><input type="radio" name="q5" value="c"> c) Threshold limit value/ceiling</label><br>
+        <label><input type="radio" name="q5" value="d"> d) Threshold limit value/skin</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. What kind of atmosphere would be encountered in a basement where nitrogen gas had displaced all of the normal air?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Estimating the Potential Harm or Severity of the Incident" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 126, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) Toxic</label><br>
+        <label><input type="radio" name="q6" value="b"> b) Flammable</label><br>
+        <label><input type="radio" name="q6" value="c"> c) Oxygen deficient</label><br>
+        <label><input type="radio" name="q6" value="d"> d) Explosive</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. The initial call for help from a hazardous material event should be used to plan which of the following?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Plan an Initial Response" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 126, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) Whether police should be involved</label><br>
+        <label><input type="radio" name="q7" value="b"> b) How many ambulances will ultimately be needed</label><br>
+        <label><input type="radio" name="q7" value="c"> c) Where to place the press</label><br>
+        <label><input type="radio" name="q7" value="d"> d) Safe route to the scene</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. Where should rescuers usually approach an incident involving toxic gas?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Plan an Initial Response" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 127, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) Uphill and upwind</label><br>
+        <label><input type="radio" name="q8" value="b"> b) Uphill and downwind</label><br>
+        <label><input type="radio" name="q8" value="c"> c) Downhill and downwind</label><br>
+        <label><input type="radio" name="q8" value="d"> d) Downhill and upwind</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. The response objectives at a hazardous materials incident should be:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Plan an Initial Response" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 127, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) inexpensive.</label><br>
+        <label><input type="radio" name="q9" value="b"> b) measurable.</label><br>
+        <label><input type="radio" name="q9" value="c"> c) inflexible.</label><br>
+        <label><input type="radio" name="q9" value="d"> d) secret.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. The most serious kind of incident is one that threatens:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Protective Actions at the Operations Level" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 128, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) life.</label><br>
+        <label><input type="radio" name="q10" value="b"> b) civil order.</label><br>
+        <label><input type="radio" name="q10" value="c"> c) the financial markets.</label><br>
+        <label><input type="radio" name="q10" value="d"> d) the atmosphere.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. What is most important to do with people living in a neighborhood downwind from a large release of ammonia gas?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Protective Actions at the Operations Level" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 128, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) Inform</label><br>
+        <label><input type="radio" name="q11" value="b"> b) Evacuate</label><br>
+        <label><input type="radio" name="q11" value="c"> c) Question</label><br>
+        <label><input type="radio" name="q11" value="d"> d) Alarm</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. A suicide bomber can carry about how many pounds of explosives?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Protective Actions at the Operations Level" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 129, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) 2 pounds</label><br>
+        <label><input type="radio" name="q12" value="b"> b) 5 pounds</label><br>
+        <label><input type="radio" name="q12" value="c"> c) 20 pounds</label><br>
+        <label><input type="radio" name="q12" value="d"> d) 35 pounds</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. Which of the following is a trigger for ordering an evacuation?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Protective Actions at the Operations Level" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 130, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) Sanitation</label><br>
+        <label><input type="radio" name="q13" value="b"> b) Habitation</label><br>
+        <label><input type="radio" name="q13" value="c"> c) Nutrition</label><br>
+        <label><input type="radio" name="q13" value="d"> d) Contamination</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. You are at an incident in which a tanker truck carrying gasoline has been slowly leaking onto a gravel parking lot. What device would be most helpful in estimating the amount of gasoline left in the tank?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Reporting the Size and Scope of the Incident" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 133, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) Measuring stick</label><br>
+        <label><input type="radio" name="q14" value="b"> b) Sonar</label><br>
+        <label><input type="radio" name="q14" value="c"> c) Thermometer</label><br>
+        <label><input type="radio" name="q14" value="d"> d) Thermal imager</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. If you are dealing with a leaking 55-gallon drum of herbicide, but you do not know how much was in it before the leak started, what kind of estimate can you produce?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Reporting the Size and Scope of the Incident" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 134, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) Underestimate</label><br>
+        <label><input type="radio" name="q15" value="b"> b) Logical estimate</label><br>
+        <label><input type="radio" name="q15" value="c"> c) Worst-case estimate</label><br>
+        <label><input type="radio" name="q15" value="d"> d) Most likely estimate</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. The smallest area that might be reported for a hazardous materials release would be in square:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Reporting the Size and Scope of the Incident" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 134, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) feet.</label><br>
+        <label><input type="radio" name="q16" value="b"> b) yards.</label><br>
+        <label><input type="radio" name="q16" value="c"> c) acres.</label><br>
+        <label><input type="radio" name="q16" value="d"> d) miles.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. Which of the following is a key factor in the selection of appropriate personal protective equipment?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Personal Protective Equipment" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 134, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) Cost of personal protective equipment</label><br>
+        <label><input type="radio" name="q17" value="b"> b) Physical state of the hazardous material</label><br>
+        <label><input type="radio" name="q17" value="c"> c) Communication needs</label><br>
+        <label><input type="radio" name="q17" value="d"> d) Opacity</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. When leading a team of responders in personal protective equipment, monitor others for:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Personal Protective Equipment" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 135, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) fever.</label><br>
+        <label><input type="radio" name="q18" value="b"> b) focus.</label><br>
+        <label><input type="radio" name="q18" value="c"> c) enthusiasm.</label><br>
+        <label><input type="radio" name="q18" value="d"> d) dehydration.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. Which of the following is an example of a hazardous material that can cause danger due to cold exposure?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Personal Protective Equipment" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 135, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) Liquefied gas</label><br>
+        <label><input type="radio" name="q19" value="b"> b) Large volumes of water</label><br>
+        <label><input type="radio" name="q19" value="c"> c) Granular solids</label><br>
+        <label><input type="radio" name="q19" value="d"> d) Organic chemicals</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. Personal protective equipment in a hazardous respiratory environment is only as strong as:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Respiratory Protection" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 137, NFPA 470 7.3.1, 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) its weakest part.</label><br>
+        <label><input type="radio" name="q20" value="b"> b) its outer layer.</label><br>
+        <label><input type="radio" name="q20" value="c"> c) the metal used to make it.</label><br>
+        <label><input type="radio" name="q20" value="d"> d) the user.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. Use of a self-contained breathing apparatus should be mandatory for _______ at a hazardous materials incident.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Respiratory Protection" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 137, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) bystanders</label><br>
+        <label><input type="radio" name="q21" value="b"> b) firefighters</label><br>
+        <label><input type="radio" name="q21" value="c"> c) incident command</label><br>
+        <label><input type="radio" name="q21" value="d"> d) rope rescuers</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. What kind of respiratory device should be used when a longer work period is required at a weapon of mass destruction site?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Respiratory Protection" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 138, NFPA 470 7.3.1, 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) Closed-circuit self-contained breathing</label><br>
+        <label><input type="radio" name="q22" value="b"> b) Air-purifying respirator</label><br>
+        <label><input type="radio" name="q22" value="c"> c) Powered air-purifying respirator</label><br>
+        <label><input type="radio" name="q22" value="d"> d) Supplied-air respirator</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. Use of an air-purifying respirator requires what percentage of oxygen in the ambient air?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Respiratory Protection" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 138, NFPA 470 7.3.1, 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) 14.1%</label><br>
+        <label><input type="radio" name="q23" value="b"> b) 17.3%</label><br>
+        <label><input type="radio" name="q23" value="c"> c) 19.5%</label><br>
+        <label><input type="radio" name="q23" value="d"> d) 21.2%</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. When personal protective equipment becomes contaminated, it must be removed:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Decontamination" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 140, NFPA 470 7.3.1, 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) neutrally.</label><br>
+        <label><input type="radio" name="q24" value="b"> b) systematically.</label><br>
+        <label><input type="radio" name="q24" value="c"> c) with reserve.</label><br>
+        <label><input type="radio" name="q24" value="d"> d) outdoors.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q25">
+    <p><strong>25. Mass decontamination involves cleanup of:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Decontamination" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 140, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q25" value="a"> a) large geographic areas.</label><br>
+        <label><input type="radio" name="q25" value="b"> b) large numbers of people.</label><br>
+        <label><input type="radio" name="q25" value="c"> c) animals.</label><br>
+        <label><input type="radio" name="q25" value="d"> d) bodies of water.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q26">
+    <p><strong>26. What kind of decontamination comes first?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Decontamination" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 141, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q26" value="a"> a) Mass</label><br>
+        <label><input type="radio" name="q26" value="b"> b) Gross</label><br>
+        <label><input type="radio" name="q26" value="c"> c) Technical</label><br>
+        <label><input type="radio" name="q26" value="d"> d) Official</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q27">
+    <p><strong>27. Liquid runoff from decontamination work needs to be:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Emergency/Field Expedient Decontamination" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 141, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q27" value="a"> a) minimal.</label><br>
+        <label><input type="radio" name="q27" value="b"> b) boiled.</label><br>
+        <label><input type="radio" name="q27" value="c"> c) filtered.</label><br>
+        <label><input type="radio" name="q27" value="d"> d) contained.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q28">
+    <p><strong>28. How should victims be decontaminated before being placed in an ambulance?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Emergency/Field Expedient Decontamination" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 141, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q28" value="a"> a) As much as possible</label><br>
+        <label><input type="radio" name="q28" value="b"> b) Partially</label><br>
+        <label><input type="radio" name="q28" value="c"> c) Adequately</label><br>
+        <label><input type="radio" name="q28" value="d"> d) With water only</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q29">
+    <p><strong>29. What kind of drains are found in indoor safety showers?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Emergency/Field Expedient Decontamination" data-subject="Chapter 05" data-title="Estimating Potential Harm and Planning a Response" data-feedback="Chapter 05; Page 142, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q29" value="a"> a) Less than 6-inch diameter</label><br>
+        <label><input type="radio" name="q29" value="b"> b) Vacuum</label><br>
+        <label><input type="radio" name="q29" value="c"> c) None</label><br>
+        <label><input type="radio" name="q29" value="d"> d) Powered</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+    </form>    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+    </form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

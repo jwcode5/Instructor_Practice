@@ -1,0 +1,177 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Fireground Hydraulic Calculations
+Chapter 8 Test
+Name:
+	
+
+	Date:
+	
+
+	
+
+Directions: Write the correct letter on the blank before each question.
+
+
+Objective 1:
+Describe flowmeters and flowmeter applications. 
+                1.        Flowmeters reflect water pressure that will be discharged through the nozzle:  (282)
+        A.        in ideal conditions.
+        B.        if the hoseline is functioning at its rated capacity.
+        C.        if the hoseline is functioning at least 75% of its rated capacity.
+        D.        after the hoseline has been operational for more than two to three minutes.
+                2.        Flowmeters are especially advantageous when automatic nozzles are employed with handlines or master stream devices because automatic nozzles may lead driver/operators to:  (282)
+        A.        allow the discharge pressure to vary excessively. 
+        B.        allow the discharge pressure to quickly overtake the water supply.
+        C.        supply excessive discharge pressures, creating a high gallon (liter) per minute flow. 
+        D.        supply insufficient discharge pressures, creating a low gallon (liter) per minute flow.
+                3.        Which statement about the flowmeter is MOST accurate? (282)
+        A.        It is generally accurate within 10 percent of actual water flow.
+        B.        It is generally accurate within 25 percent of actual water flow.
+        C.        It serves as a check to verify calculations based on friction loss, elevation pressure, and length of hoseline.
+        D.        It relieves you from relying on calculations based on friction loss, elevation pressure, and length of hoseline.
+
+                4.        Which type of flowmeter is mounted at the top of a straight section of discharge pipe so that only a small portion of the device extends into the waterway?  (282)
+        A.        Bypass
+        B.        Paddlewheel
+        C.        Front mount
+        D.        Spring probe
+                5.        Which type of flowmeter uses a sensor to measure the speed at which it spins and translates the information into a flow measurement?  (282)
+        A.        Bypass
+        B.        Paddlewheel
+        C.        Front mount 
+        D.        Spring probe
+                6.        Which type of flowmeter employs a stainless steel spring probe to detect water movement in discharge piping?  (282)
+        A.        Bypass
+        B.        Paddlewheel
+        C.        Front mount 
+        D.        Spring probe
+                7.        Which type of flowmeter has only one simple moving part and tends to require little maintenance?  (282)
+        A.        Bypass
+        B.        Paddlewheel
+        C.        Front mount 
+        D.        Spring probe
+                8.        A flowmeter should be accurate to a tolerance of plus or minus: (282)
+        A.        1 percent.
+        B.        3 percent.
+        C.        6 percent.
+        D.        10 percent.
+
+                9.        Each discharge equipped with a flowmeter must have a digital readout display mounted within: (282)
+        A.        2 inches (50 mm) of the control valve for that discharge.
+        B.        6 inches (150 mm) of the control valve for that discharge.
+        C.        8 inches (200 mm) of the control valve for that discharge.
+        D.        12 inches (300 mm) of the control valve for that discharge.
+                10.        Which is MOST likely to be the cause if a driver/operator receives a message from an attack team that the volume of water at the nozzle has suddenly decreased without a corresponding change at the flowmeter?  (283)
+        A.        A hoseline may have burst.
+        B.        The water supply has been compromised.
+        C.        An object has fallen on top of the hoseline.
+        D.        The attack team is improperly using appliances.
+                11.        Why are flowmeters useful in relay pumping operations?  (283)
+        A.        A volume of water flowing from a receiving pumper can be increased substantially.
+        B.        A receiving pumper can refill at a much quicker pace and the driver/operator can focus on tasks.
+        C.        All pumpers in the operation can refill with the use of fewer personnel.
+        D.        The driver/operator may feed a supply line without having to know the volume of water flowing from receiving pumper.
+                12.        When a line from a standpipe operation is shut down, the pressure:  (283)
+        A.        must be entirely shut down and the system restarted.
+        B.        must be increased, or the standpipe system will not flow enough water through remaining hoselines.
+        C.        must be lowered accordingly, or the standpipe system will attempt to flow excess water through remaining hoselines.
+        D.        can remain the same, as the standpipe system will automatically adjust and the remaining hoselines will flow correctly.
+
+                13.        The driver/operator must consider that when a standpipe or hoseline is charged, there:  (284)
+        A.        may be residual pressure that will cause flow before nozzle is opened.
+        B.        is no flow through the system or hose layout until the nozzle is opened.
+        C.        will be a significant delay from the time the nozzle is opened until full flow.
+        D.        can be significant flow through the system even when the nozzle is unopened.
+
+
+Objective 2:
+Distinguish between manual and electronic hydraulic calculators. 
+                14.        Which statement about manual hydraulic calculators is MOST accurate?  (284)
+        A.        Consists of a graph in which the intersections of variables provide pump discharge pressure
+        B.        Consists of multiple charts in which the user finds rates of flow, size of hose, and length of hose layout
+        C.        Consists of index cards that are cross-referenced to rates of flow, size of hose, and length of hose layout
+        D.        Consists of a slide or dial that can be moved to cover or reveal rates of flow, size of hose, and length of hose layout  
+                15.        Which statement about electronic hydraulic calculators is MOST accurate?  (284)
+        A.        Once pump discharge pressure is determined, it must also be manually verified.
+        B.        After variables have been entered, the user must enter the correct formula to arrive at pump discharge pressure.
+        C.        Once variables have been entered, the calculator applies preprogrammed formulas to arrive at pump discharge pressure.
+        D.        Once variables have been entered, the correct formula is shown and the user must manually arrive at pump discharge pressure.
+
+                16.        Electronic hydraulic calculators may be handheld or may be:  (284)
+        A.        permanently affixed to the inside of the driver’s door. 
+        B.        integrated into the mobile data communications device.
+        C.        permanently affixed to a location near the pump operator’s panel.
+        D.        located at the station and calculations are provided over the radio as they are needed.
+
+
+Objective 3:
+Describe how pump charts are used in the fire service. 
+                17.        Which statement about pump charts is MOST accurate?  (284)
+        A.        They contain information that must be updated at least monthly for accuracy.
+        B.        They contain guidelines for determining pump discharge pressure, but not actual numbers.
+        C.        They contain information specific to a jurisdiction’s equipment and common hose layout operations.
+        D.        They contain generic information regarding the most common hose layouts used by departments.
+                18.        When developing a customized pump chart, column headings should include information such as flow, nozzle pressure, and:  (284)
+        A.        number of personnel.
+        B.        type of fire strategy used.
+        C.        average range of fire streams.
+        D.        distance in feet for hose layouts.
+                19.        Which is a guideline for initial calculations when developing a customized pump chart?  (284)
+        A.        Develop a main scenario and use it as a basis.
+        B.        Include friction loss for all handline appliances.
+        C.        Include friction loss for master stream appliances.
+        D.        Pump discharge pressure can exceed test pressure for calculations.
+
+                20.        A guideline when developing a customized pump chart is to:  (285)
+        A.        round pump discharge pressure calculations to the nearest 5 psi (35 kPa).
+        B.        round pump discharge pressure calculations to the nearest 10 psi (70 kPa).
+        C.        round pump discharge pressure calculations to the nearest 20 psi (140 kPa).
+        D.        use exact numbers from the pump chart rather than rounding pump discharge pressure calculations.
+                21.        A driver/operator uses a pump chart by locating the nozzle or the layout in question on the chart, accounting for the number of feet (meters) in the layout, and: (285)
+        A.        reading across the row to find the required pump discharge pressure.
+        B.        multiplying the number of feet by the diameter of the hose used in layout.
+        C.        plotting where each column intersects to find the required pump discharge pressure.
+        D.        inserting the required numbers into an electronic calculator to come up with correct pump discharge pressure.
+
+
+Objective 4:
+Explain how the condensed Q formula is used on the fireground. 
+                22.        The condensed Q formula may be used for operations in which the friction loss can be determined for:  (287)
+        A.        any handline hose.
+        B.        any diameter of hose.
+        C.        1½ - or 2½ -inch hose.
+        D.        3, 4, or 5- inch hose.
+                23.        The condensed Q formula FL = Q² is used with:  (287)
+        A.        2½ -inch hose.
+        B.        3-inch hose.
+        C.        4-inch hose.
+        D.        5-inch hose.
+
+                24.        Using the condensed Q formula, what is the total pressure loss in 500 feet of 4-inch hose flowing 1,000 gallons per minute?  (288)
+        A.        20 psi
+        B.        60 psi
+        C.        100 psi
+        D.        500 psi
+                25.        Using the condensed Q formula for 5-inch hose, what is Q² divided by?  (288)
+        A.        5
+        B.        10
+        C.        15
+        D.        20
+
+
+Objective 5:
+Describe the gpm flowing method. 
+                26.        Which statement about the gpm flowing method is MOST accurate?  (288)
+        A.        It is only applicable to fog streams.
+        B.        It is only applicable to solid streams.
+        C.        It is applicable to both solid and fog streams.
+        D.        It is applicable only when flows are greater than 250 gpm (1 000 L/min).
+                27.        The gpm flowing method may be used:  (288)
+        A.        for various diameter hose.
+        B.        only on small diameter hose.
+        C.        for 3-inch hose manufactured within the past 5 years.
+        D.        for 5-inch hose manufactured within the past 7 years.
+
+
+Fire Protection Publications                Chapter Test
+Oklahoma State University                8-

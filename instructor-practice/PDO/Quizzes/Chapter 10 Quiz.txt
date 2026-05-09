@@ -1,0 +1,115 @@
+﻿Pumping Apparatus Driver/Operator                
+Handbook, 3rd Edition                Operating Fire Pumps
+Chapter 10 Quiz 
+Name:  
+	
+
+	Date:  
+	
+
+	
+
+Directions:         Write the correct letter on the blank before each question.
+                1.        From what location is the procedure for making the pump operational performed for most apparatus?  (336)
+        A.        Cab of the vehicle
+        B.        Location varies depending upon incident 
+        C.        Outside the vehicle near the driver’s door
+        D.        Anywhere driver/operator is located with remote controls
+                2.        What is used to prevent the pump from overheating during fire attack if water is not flowing for an extended period of time?  (338)
+        A.        Rotary valve
+        B.        Piston gear valve 
+        C.        Inline gated valve
+        D.        Booster cooling valve
+                3.        What residual pressure should be maintained on the master intake gauge during pumping operations when operating from a pressurized supply source?  (340)
+        A.        At least 10 psi (70 kPa)
+        B.        At least 20 psi (140 kPa)
+        C.        At least 30 psi (210 kPa)
+        D.        At least 40 psi (140 kPa)
+                4.        When is residual pressure shown on the intake gauge of a pumper that is connected to a hydrant? (347)
+        A.        When a pumper is discharging water
+        B.        When a pumper is totally shut down 
+        C.        When a pumper is not discharging water
+        D.        When a pumper is transitioning to another water source
+
+                5.        One indication that a pump is cavitating is that:  (354)
+        A.        the pressure gauge will rise suddenly and continue rising.
+        B.        increases in the throttle cause significant reaction on the pressure gauge.
+        C.        the pump itself will become extremely quiet with no apparent sounds at all.
+        D.        the pump itself may make noises described as sounding like gravel passing through the pump.
+                6.        What should be done if priming has not been achieved within the acceptable time period for a particular situation?  (359)
+        A.        Mutual aid resources called to the scene
+        B.        Wait 5-10 minutes and try priming again
+        C.        Priming should continue until a prime is achieved
+        D.        Priming attempt should be stopped and the problem traced
+                7.        An inability to prime is MOST likely caused by: (359)
+        A.        lift that is too low.  
+        B.        inexperienced personnel.
+        C.        engine speed (rpm) that is too high.
+        D.        insufficient fluid in the priming reservoir.
+                8.        Where is a driver/operator MOST likely to find suggested discharge pressures for a sprinkler system?  (363)
+        A.        Printed on a plate at the FDC
+        B.        Nearest utility pole to the FDC 
+        C.        Building entrance layout diagram
+        D.        On the sidewalk/concrete near the FDC
+                9.        When initiating standpipe operations, why should fire attack crews bring attack lines when house hose is installed?  (364)
+        A.        Attack lines are used alongside the house hose.
+        B.        Attack lines are used to supplement the house hose.
+        C.        Fire department will have to replace any house hose that they use during operations.
+        D.        House hose has not been manufactured or tested to the same standard as fire department hose.
+
+                10.        Which standpipe system must be charged with water from a source such as the fire department pumper?  (364)
+        A.        Dry pipe systems 
+        B.        Wet pipe systems  
+        C.        Combination pipe systems  
+        D.        Any type of pipe system in an occupancy 
+
+
+Directions:         Write a brief answer to the questions below.
+11.                Explain the difference between a forward lay and a reverse lay.  (341-344) 
+
+
+
+
+
+
+
+
+12.                During drafting operations, what are the three primary factors that determine friction loss in the intake hose?  (352) 
+
+
+
+
+
+
+13.                During drafting operations, what are the main considerations when selecting a drafting site?  (355) 
+
+
+
+
+
+
+
+14.                Who should a driver/operator notify if there is an indication that the water supply or pumping ability may be unattainable or interrupted?  (366) 
+
+
+
+
+15.                When a supply line that has been charged suddenly loses water during drafting operations, what are some possible causes?  (366) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fire Protection Publications                Chapter Quiz 
+Oklahoma State University                10-

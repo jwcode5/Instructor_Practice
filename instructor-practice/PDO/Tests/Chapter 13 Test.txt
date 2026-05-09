@@ -1,0 +1,288 @@
+﻿Pumping Apparatus Driver/Operator                
+Handbook, 3rd Edition                Water Shuttle Operations
+Chapter 13 Test
+Name:
+	
+
+	Date:
+	
+
+	
+
+Directions: Write the correct letter on the blank before each question.
+
+
+Objective 1:
+Identify water shuttle apparatus.
+                1.        With the exception of operations that feature a vacuum tanker or the use of a hydrant, most water shuttles require at least ___ pumpers for water supply.  (445)
+        A.        two
+        B.        three
+        C.        four
+        D.        five
+                2.        In accordance with NFPA® 1901, water tenders must be designed to be filled at a rate of at least:  (445)
+        A.        750 gpm (3 000 L/min).
+        B.        1,000 gpm (4 000 L/min).
+        C.        1,250 gpm (5 000 L/min).
+        D.        1,500 gpm (6 000 L/min).
+                3.        Which BEST describes a pumper/tender apparatus?  (446)
+        A.        Large capacity water tender 
+        B.        Pumper with an onboard water tank
+        C.        Pumper with a capacity of 2,000 gallons (8 000 L) or greater
+        D.        Tender featuring pumps of 750 gpm (3 000 L/min) or greater
+
+                4.        What is an advantage provided by vacuum tenders?  (446)
+        A.        A vacuum tender is more maneuverable and therefore reduces travel time.
+        B.        A vacuum tender connects to pumpers at the fill site faster than standard water tenders.
+        C.        A vacuum tender uses a small diameter supply hose with two external fill connections.
+        D.        A vacuum tender can self-fill from a static water source at a rate of up to 2,000 gpm (8 000 L/min).
+                5.        Successful water shuttle operations are BEST achieved by:  (446-447)
+        A.        improving initial response time.
+        B.        designing larger water tenders.
+        C.        reducing travel time of the shuttle operation.
+        D.        using efficient filling and dumping operations.
+                6.        Which statement about using large diameter hose during a fill operation is MOST accurate?  (447)
+        A.        Handling times will be shorter.
+        B.        It may actually provide little advantage.
+        C.        The hose will be light and easy to handle.
+        D.        More than one fill connection will be required.
+                7.        NFPA® 1901 requires that water be capable of being dumped from the:  (448)
+        A.        front and rear of the apparatus.
+        B.        left and right of the apparatus.
+        C.        left, right, and rear of the apparatus.
+        D.        left, right, and front of the apparatus.
+                8.        Which action generally increases the safety of a gravity dump?  (448)
+        A.        Installation of extension piping
+        B.        Installation of a remote dump valve
+        C.        Installation of a manual dump valve
+        D.        Installation of 8-inch or larger square piping
+
+                9.        On water tenders, remote controlled vents are preferable to manually operated vents because:  (449)
+        A.        if the apparatus is parked on a grade, water may run out of the vents.
+        B.        the vents may freeze between dumping operations in cold weather climates.
+        C.        manually operated vents may require the driver/operator to climb on top of the tank.
+        D.        inadequate venting during dumping operations may result in a suction effect that collapses the tank.
+
+
+Objective 2:
+Summarize considerations taken for the setup of a water shuttle.
+                10.        Why should departments predetermine the most advantageous sites and routes for water shuttle operations during preincident planning?  (450)
+        A.        It is nearly impossible for the Incident Commander to think clearly in the chaos of the incident.
+        B.        The IC or Water Supply Group Supervisor will be able to establish a reliable water supply more quickly during an incident.
+        C.        During some incidents, several water tenders may make multiple round trips to keep the scene supplied with water.
+        D.        When incidents occur on streets with two-way access, the area near the fire may be encumbered by apparatus and hoselines.
+                11.        Which location would make the BEST dump site to allow continual forward movement?  (450)
+        A.        A dead end street
+        B.        A private driveway
+        C.        A well-travelled street
+        D.        A large, nearby parking lot
+
+                12.        Which statement about selecting the fill site location is MOST accurate? (450)
+        A.        Water shuttle operations rarely require the use of multiple fill and dump sites.
+        B.        The most suitable site to meet the needs of an incident is always the geographically closest site.
+        C.        The most suitable site to meet the needs of the incident is always the one with the largest water supply.
+        D.        Driver/operators and fire officers should be familiar with the water supply capability in the response area prior to an incident.
+                13.        Which may be one of the most hazardous tasks for the driver/operator during water shuttle operations?  (453)
+        A.        Opening the vents
+        B.        Driving the travel route
+        C.        Operating the vacuum pump
+        D.        Operating the remote dump valve
+                14.        Although it is not always possible, why is it advantageous to have roadways closed to nonemergency vehicles during water shuttle operations?  (453)
+        A.        To lessen traffic congestion and reduce the possibility of collision
+        B.        To keep the public from seeing the operation and reduce onlookers
+        C.        To reduce the driver/operator’s temptation to “make up time” by speeding
+        D.        To eliminate the need for traffic control assistance from local law enforcement
+                15.        What is the MOST advisable method of addressing safety hazards such as blind curves and intersections on a water shuttle route?  (454)
+        A.        Use a pilot vehicle to scout ahead.
+        B.        Give two short blasts of the siren before continuing.
+        C.        Ask a nearby citizen to signal if there is oncoming traffic.
+        D.        Have police officers or fire police control traffic at these points.
+
+                16.        Which statement BEST exemplifies a problem that steep grades can cause during a water shuttle operation?  (454)
+        A.        Shuttles cannot be filled as fully in order to prevent overflow during shuttle operation.
+        B.        Water is more likely to spill from apparatus during shuttle operations on a steep grade.
+        C.        Uphill grades slow the operation, and downhill grades require constant attention to control the vehicle.
+        D.        Uphill grades require constant attention to vehicle speed control, and downhill grades slow the operation.
+                17.        A water shuttle operation must be integrated into the Incident Command structure, which should adhere to:  (454)
+        A.        Title 29 CFR 1910.120 regulations.
+        B.        the National Incident Management System (NIMS).
+        C.        the Environmental Protection Agency (EPA) standards.
+        D.        the Federal Emergency Management Agency (FEMA) standards.
+                18.        Anyone assigned to the position of Water Supply Group Supervisor must:  (454-455)
+        A.        be local to the area in question.
+        B.        be well liked and easy to work with.
+        C.        have extensive training in group supervision or management.
+        D.        have considerable experience in pumper, water supply, and shuttle operations.
+                19.        What should the Water Supply Group Supervisor do if water demand begins to outpace supply?  (455)
+        A.        Find a new fill site
+        B.        Speed up operations
+        C.        Summon additional tenders
+        D.        Find an additional dump site
+                20.        During large-scale incidents, it may be necessary to establish two or more water shuttle operations under the immediate coordination of a (an):  (455)
+        A.        first-arriving officer.
+        B.        Pumper Group Manager.
+        C.        Operations Section Chief.
+        D.        Water Supply Branch Director.
+Objective 3:
+Describe fill site operations. 
+                21.        The goal of the fill site is BEST described as:  (455)
+        A.        setting up portable tanks for jet siphoning.
+        B.        loading tenders as safely and efficiently as possible.
+        C.        discharging water from tenders in a continuous supply.
+        D.        ensuring that all pumping systems are operating correctly.
+                22.        Ideally, the fill site pumper should be positioned so as to allow a view of both the:  (456)
+        A.        approach and departure routes.
+        B.        hydrant and the portable pumps.
+        C.        water source and the water tender to be filled.
+        D.        driver/operator and the firefighter maneuvering the fill line.
+                23.        Which may increase the options available for using static water supply at many incidents? (456)
+        A.        Booster lines
+        B.        Discharge lines
+        C.        Portable pumps
+        D.        Top-mounted pumps
+                24.        Commonly, water tenders have at least ___ 2½ inch (65 mm) direct tank fill connection(s) or one LDH direct tank fill connection on the rear of the apparatus.  (456)
+        A.        one
+        B.        two
+        C.        three
+        D.        four
+                25.        Which is the BEST way to control flow from the fill site pumper?  (457)
+        A.        Shutting down the fill site pumper
+        B.        Closing the direct tank fill valve on the tender
+        C.        Using the discharge gates on the pumping apparatus
+        D.        Using a manifold between the last two sections of hose to act as a valve
+                26.        At the fill site, how should the stopping point for the water tender driver/operator be denoted once the exact fill spot has been determined?  (456)
+        A.        With a portable water tank 
+        B.        With a designated firefighter
+        C.        With an additional apparatus
+        D.        With a traffic cone or similar marker
+                27.        When should an overhead pipe be used during water tender top-fill procedures?  (457)
+        A.        When there is no other way of filling through the top opening
+        B.        When a limited number of water tenders are available, because it is faster
+        C.        When an abundance of water tenders is available, because it takes more time
+        D.        When a pumper is not available to draft from the site and pump directly into the tender
+                28.        At the fill site, ___ firefighter(s) should be assigned to maneuver and connect each fill line that is laid out.  (458)
+        A.        one
+        B.        two
+        C.        three
+        D.        four
+                29.        Why should the tender driver/operator remain in the apparatus cab at the fill site?  (458)
+        A.        To reduce risk of injury or accident
+        B.        To ensure peak efficiency in apparatus movement
+        C.        To allow for short break periods for adequate rehabilitation 
+        D.        To be able to operate various parts of the tender via remote control
+
+                30.        After the onboard water tank is full, what is the next step in the fill operation?  (459)
+        A.        The driver/operator can then be signaled to proceed.
+        B.        A signal should be given for the next tender to move into position.
+        C.        The fill site personnel should slowly close the valve(s) on the gate or manifold.
+        D.        The direct tank fill valve on the tender should be closed and the hose(s) removed from the inlet and placed away from the path of any apparatus.
+                31.        Why should all responding tenders fill their tanks before returning to quarters at the conclusion of an incident?  (459)
+        A.        It is required by OSHA regulations.
+        B.        It returns the apparatus to a “ready” status after an incident.
+        C.        It flushes the apparatus to lessen the chance of contamination.
+         D.        It is necessary in order to shut down all the rest of the equipment.
+
+
+Objective 4:
+Distinguish among dump site operational methods. 
+                32.        Direct pumping operations are typically accomplished by having the attack pumper lay out a supply line that is equipped with a(an) _____ in an area accessible to tenders.  (459-460)
+        A.        baffle
+        B.        open butt
+        C.        portable tank
+        D.        gated or clappered Siamese
+                33.        What is the primary advantage of using a nurse tanker (tender) during dump site operations?  (460)
+        A.        Capacity of its tank
+        B.        Training of driver/operators
+        C.        cost of maintaining the apparatus
+        D.        Time required to pump water from a shuttle tender
+
+                34.        During portable water tank operations, once a tank is positioned, a ___ deploys a hard intake hose with a low-level strainer into the tank.  (460-461)
+        A.        hoseline pumper
+        B.        dump site pumper
+        C.        attack site pumper
+        D.        portable water tank pumper
+                35.        Which dumping method is generally considered to be the simplest, quickest method to ensure a constant water supply for fire attack operations?  (461)
+        A.        Nurse tender operations
+        B.        Attack pumper operations
+        C.        Direct pumping operations
+        D.        Portable water tank operations
+                36.        During dump site operations, the ___ must have an opening of sufficient size to allow free movement of water at the bottom of the tank and movement of air at the top during rapid filling or unloading.  (461-462)
+        A.        vent
+        B.        open butt 
+        C.        water tank
+        D.        tank baffles
+                37.        The most common style of portable tank:  (462)
+        A.        consists of a large bladder with a floating collar around the opening.
+        B.        has a hose connection near its bottom to aid drafting operations.
+        C.        folds and is mounted and removed from the apparatus, as with a ground ladder.
+        D.        requires that framework be assembled at the scene and the liner attached to the inside.
+
+                38.        Any portable tank, regardless of type, should be set up on a surface that is as level as possible and have a capacity at least ___ larger than the water tank on the apparatus that will supply it.  (462)
+        A.        250 gallons (1 000 L)
+        B.        500 gallons (2 000 L)
+        C.        750 gallons (3 000 L)
+        D.        1000 gallons (4 000 L)
+                39.        What should the dump site pumper do to ensure that prime is not lost when other discharges are shut down?  (462)
+        A.        Flow a small waste line back into the tank
+        B.        Prime its pump and begin to draft from the tank
+        C.        Utilize a low-level strainer to allow for continuous drafting
+        D.        Make sure the dump valve is properly aligned with the tank
+                40.        What is the goal of a portable multi-tank operation?  (463)
+        A.        Maintain the same level of water in all tanks
+        B.        Reduce wear and damage on tank liners by distributing the work
+        C.        Keep the tank from which the attack pumper is drafting full at all times
+        D.        Minimize backing and turning by offering multiple dumping locations
+                41.        The MOST efficient way to transfer water between portable tanks is through the use of a(an):  (463)
+        A.        jet siphon.
+        B.        drain opening.
+        C.        additional pumper.
+        D.        1½-inch (38 mm) hoseline.
+                42.        During a jet siphon operation, the pump’s prime will be lost if: (463)
+        A.        the hoseline is too small or too large.
+        B.        the apparatus tank is allowed to run dry.
+        C.        parallel jet siphons are used to transfer water.
+        D.        the dump site pumper is used to supply hoselines for all jet siphons.
+
+                43.        Which statement about shutting down the dump site is MOST accurate? (464)
+        A.        Portable tanks should be disassembled, cleaned, and removed from service during site shutdown.
+        B.        The dump site should not be disassembled until law enforcement has given approval to do so. 
+        C.        In some weather, it may be necessary to call for a sanding truck to make roadways safe again for civilian travel.
+        D.        Portable water tanks should be drained of any sediment, debris, or nonpotable water and placed back on the apparatus.
+
+
+Objective 5:
+Explain methods of evaluating tender performance. 
+                44.        Which of the following maintains certain criteria for determining the proper specifications for water tender apparatus?  (464)
+        A.        National guidelines 
+        B.        State/provincial guidelines
+        C.        Each individual jurisdiction
+        D.        Incident Command System (ICS)
+                45.        How is the gpm (L/min) data for a water tender MOST likely to be used during preplanning?  (464)
+        A.        To decide how much gas the vehicle will need during the incident
+        B.        To determine how fast a specific type of fire can be extinguished
+        C.        To determine how many tenders are required to provide a particular flow for a given target hazard
+        D.        To report the information to the National Incident Management System (NIMS) for comparison with other tenders
+
+                46.        One method of calculating a flow rate for a specific tender relies on actual field tests conducted under realistic water shuttle conditions and measures the data by:  (465)
+        A.        timing the water tender during an incident.
+        B.        recording times during a series of incidents and taking an average.
+        C.        using a series of formulas originally developed by the Insurance Services Office (ISO).
+        D.        dividing the amount of water the tender dumped during a trial run by the time the round trip took.
+                47.        Another method of calculating a flow rate for a specific tender rates the water supply performance of fire departments that protect rural areas and measures data by:  (465-466)
+        A.        timing the water tender during an incident.
+        B.        recording times during a series of incidents and taking an average.
+        C.        using a series of formulas originally developed by the Insurance Services Office (ISO).
+        D.        dividing the amount of water the tender dumped during a trial run by the time the round trip took.
+                48.        In the formulas originally developed by the Insurance Services Office (ISO), what factor is built into the “travel time” formula?  (466)
+        A.        Time it takes to position the water tender 
+        B.        Times to make and break connections at the fill and dump sites
+        C.        Average travel speed between the fill and dump site of 50 mph (80 km/h)
+        D.        Acceleration and deceleration times as the vehicle approaches the fill and dump sites
+                49.        The Insurance Services Office (ISO) formula uses ___ of a tender’s total tank capacity to account for water lost or undischarged and remaining in the tank after the dump valve is closed.  (467)
+        A.        50 percent
+        B.        66 percent
+        C.        70 percent
+        D.        90 percent 
+
+
+Fire Protection Publications                Chapter Test
+Oklahoma State University                13-

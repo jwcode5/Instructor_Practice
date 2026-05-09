@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>HazMat A&O Chapter 04 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. Which of the following is an example of a type of chemical transport that a terrorist could easily turn into a bomb?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 90, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) Gasoline tanker truck</label><br>
+        <label><input type="radio" name="q1" value="b"> b) Milk tanker</label><br>
+        <label><input type="radio" name="q1" value="c"> c) Plumber’s repair truck</label><br>
+        <label><input type="radio" name="q1" value="d"> d) Moving van</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. What do you need to determine to differentiate between an accident and a terrorist incident?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 90, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) Severity</label><br>
+        <label><input type="radio" name="q2" value="b"> b) Intent</label><br>
+        <label><input type="radio" name="q2" value="c"> c) National origin</label><br>
+        <label><input type="radio" name="q2" value="d"> d) Number of people injured</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. Which of the following commonly use explosives in day to day operations</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 90, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) Farmers</label><br>
+        <label><input type="radio" name="q3" value="b"> b) Manufacturing plants</label><br>
+        <label><input type="radio" name="q3" value="c"> c) Construction companies</label><br>
+        <label><input type="radio" name="q3" value="d"> d) Demolition companies</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. Bulk packaging contains at least how many liters?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Operations Level Container Recognition" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 90, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) 80 L</label><br>
+        <label><input type="radio" name="q4" value="b"> b) 150 L</label><br>
+        <label><input type="radio" name="q4" value="c"> c) 300 L</label><br>
+        <label><input type="radio" name="q4" value="d"> d) 450 L</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. At an incident involving a ton container, which of the following is most likely to have leaked?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Operations Level Container Recognition" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 92, NF2PA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) Chlorine</label><br>
+        <label><input type="radio" name="q5" value="b"> b) Milk</label><br>
+        <label><input type="radio" name="q5" value="c"> c) Gasoline</label><br>
+        <label><input type="radio" name="q5" value="d"> d) Distilled water</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. What is the maximum allowable pressure inside a cryogenic IM tank?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Operations Level Container Recognition" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 94, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) 100 psi</label><br>
+        <label><input type="radio" name="q6" value="b"> b) 200 psi</label><br>
+        <label><input type="radio" name="q6" value="c"> c) 600 psi</label><br>
+        <label><input type="radio" name="q6" value="d"> d) 1,200 psi</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. Which of the following volumes might be found in an intermediate bulk container?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Operations Level Container Recognition" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 95, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) 400 L</label><br>
+        <label><input type="radio" name="q7" value="b"> b) 1,100 L</label><br>
+        <label><input type="radio" name="q7" value="c"> c) 3,100 L</label><br>
+        <label><input type="radio" name="q7" value="d"> d) 3,600 L</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. What does “MC” on the designation for a cargo tank indicate?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Transporting Hazardous Materials" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 96, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) Minor carrier</label><br>
+        <label><input type="radio" name="q8" value="b"> b) Movable container</label><br>
+        <label><input type="radio" name="q8" value="c"> c) Motor carrier</label><br>
+        <label><input type="radio" name="q8" value="d"> d) Major container</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. An MC-306/DOT 406 tank full of liquid natural gas might contain how many gallons?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Transporting Hazardous Materials" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 96, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) 3,000 gallons</label><br>
+        <label><input type="radio" name="q9" value="b"> b) 4,500 gallons</label><br>
+        <label><input type="radio" name="q9" value="c"> c) 7,800 gallons</label><br>
+        <label><input type="radio" name="q9" value="d"> d) 13,000 gallons</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. The structure of a chemical cargo tank includes which of the following?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Transporting Hazardous Materials" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 97, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) Bungs</label><br>
+        <label><input type="radio" name="q10" value="b"> b) Reinforcing rings</label><br>
+        <label><input type="radio" name="q10" value="c"> c) Several thermometers</label><br>
+        <label><input type="radio" name="q10" value="d"> d) A triangular cross-section</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. In a derailment involving a nonpressure tank car, what might bystanders have been exposed to?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Transporting Hazardous Materials" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 99, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) Ammonia</label><br>
+        <label><input type="radio" name="q11" value="b"> b) Gasoline</label><br>
+        <label><input type="radio" name="q11" value="c"> c) Propane</label><br>
+        <label><input type="radio" name="q11" value="d"> d) Ethylene oxide</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. Who needs to keep records about hazardous materials that are being transported?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Collecting Hazard and Response Information" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 100, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) The person(s) responsible for transport.</label><br>
+        <label><input type="radio" name="q12" value="b"> b) Police who encounter materials en route</label><br>
+        <label><input type="radio" name="q12" value="c"> c) Occupational Safety and Health Administration</label><br>
+        <label><input type="radio" name="q12" value="d"> d) National Fire Protection Association</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. What organization serves as a clearinghouse for technical chemical information in the United States?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Collecting Hazard and Response Information" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 104, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) Chemical Transportation Emergency Center</label><br>
+        <label><input type="radio" name="q13" value="b"> b) Occupational Safety and Health Administration</label><br>
+        <label><input type="radio" name="q13" value="c"> c) National Fire Protection Association</label><br>
+        <label><input type="radio" name="q13" value="d"> d) Department of Transportation</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. When you call the Chemical Transportation Emergency Center after a leak of ammonia gas from an industrial plant, you need to provide:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Collecting Hazard and Response Information" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 104, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) your name.</label><br>
+        <label><input type="radio" name="q14" value="b"> b) the price of ammonia per liter.</label><br>
+        <label><input type="radio" name="q14" value="c"> c) the ambient temperature.</label><br>
+        <label><input type="radio" name="q14" value="d"> d) the names of all bystanders.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. When talking with the National Response Center, you will be talking with someone from:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Collecting Hazard and Response Information" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 104, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) the Navy.</label><br>
+        <label><input type="radio" name="q15" value="b"> b) the Occupational Safety and Health Administration.</label><br>
+        <label><input type="radio" name="q15" value="c"> c) the U.S. Coast Guard.</label><br>
+        <label><input type="radio" name="q15" value="d"> d) industry.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. The most common terrorist acts are:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Potential Terrorist Incidents" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 106, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) theft.</label><br>
+        <label><input type="radio" name="q16" value="b"> b) stabbings.</label><br>
+        <label><input type="radio" name="q16" value="c"> c) shootings.</label><br>
+        <label><input type="radio" name="q16" value="d"> d) bombings.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. Mount Rushmore would be what kind of target for a terrorist?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Potential Terrorist Incidents" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 106, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) Infrastructure</label><br>
+        <label><input type="radio" name="q17" value="b"> b) Symbolic</label><br>
+        <label><input type="radio" name="q17" value="c"> c) Civilian</label><br>
+        <label><input type="radio" name="q17" value="d"> d) Industrial</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. A key consideration for working with law enforcement during and after a terrorist incident is:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Potential Terrorist Incidents" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 107, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) avoiding liability.</label><br>
+        <label><input type="radio" name="q18" value="b"> b) the need to preserve evidence.</label><br>
+        <label><input type="radio" name="q18" value="c"> c) taking pictures.</label><br>
+        <label><input type="radio" name="q18" value="d"> d) staying out of the hot zone.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. Incident command for a terrorist incident should be located:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Potential Terrorist Incidents" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 107, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) beyond where a secondary device may be planted.</label><br>
+        <label><input type="radio" name="q19" value="b"> b) in the hot zone.</label><br>
+        <label><input type="radio" name="q19" value="c"> c) less than 1,000 feet from the incident.</label><br>
+        <label><input type="radio" name="q19" value="d"> d) more than 3,000 feet from the incident.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. If an unexploded bomb has been found on the site of a planned terrorist attack, who is most needed?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Potential Terrorist Incidents" data-subject="Chapter 04" data-title="Understanding the Hazards" data-feedback="Chapter 04; Page 108, NFPA 470 7.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) Explosive ordinance disposal personnel</label><br>
+        <label><input type="radio" name="q20" value="b"> b) State police</label><br>
+        <label><input type="radio" name="q20" value="c"> c) Many emergency medical technicians</label><br>
+        <label><input type="radio" name="q20" value="d"> d) Local police</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+    </form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>Firefighter Chapter 07 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. _____ tools operate using simple mechanical principles and are used to extend or multiply the actions of your body and to increase your effectiveness in performing specific functions.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="General Considerations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 244" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) Power</label><br>
+        <label><input type="radio" name="q1" value="b"> b) Hydraulic</label><br>
+        <label><input type="radio" name="q1" value="c"> c) Pneumatic</label><br>
+        <label><input type="radio" name="q1" value="d"> d) Hand</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. A _____ uses pressurized fluid to exert force.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="General Considerations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 244" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) hand tool</label><br>
+        <label><input type="radio" name="q2" value="b"> b) hydraulic tool</label><br>
+        <label><input type="radio" name="q2" value="c"> c) power tool</label><br>
+        <label><input type="radio" name="q2" value="d"> d) hydro tool</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. To be _____ means that you produce the desired effect without wasting time or energy.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="General Considerations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 244" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) effective</label><br>
+        <label><input type="radio" name="q3" value="b"> b) efficient</label><br>
+        <label><input type="radio" name="q3" value="c"> c) task-minded</label><br>
+        <label><input type="radio" name="q3" value="d"> d) confident</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. Many fire departments have _____ (SOPs) that suggest which tools and equipment could be used in various situations.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="General Considerations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 245" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) suggested operating procedures</label><br>
+        <label><input type="radio" name="q4" value="b"> b) supplemental official policies</label><br>
+        <label><input type="radio" name="q4" value="c"> c) standard operating procedures</label><br>
+        <label><input type="radio" name="q4" value="d"> d) stated operational policies</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. When carrying long tools, the head of the tool should be _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="General Considerations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 245" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) down toward the ground</label><br>
+        <label><input type="radio" name="q5" value="b"> b) pointing upward</label><br>
+        <label><input type="radio" name="q5" value="c"> c) straight forward</label><br>
+        <label><input type="radio" name="q5" value="d"> d) held in the firefighter’s hand</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. A screwdriver is an example of a _____ tool.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 245" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) rotating</label><br>
+        <label><input type="radio" name="q6" value="b"> b) striking</label><br>
+        <label><input type="radio" name="q6" value="c"> c) prying</label><br>
+        <label><input type="radio" name="q6" value="d"> d) push/pull</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. A hydrant wrench is an example of a _____ tool.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 245" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) rotating</label><br>
+        <label><input type="radio" name="q7" value="b"> b) push/pull</label><br>
+        <label><input type="radio" name="q7" value="c"> c) prying</label><br>
+        <label><input type="radio" name="q7" value="d"> d) striking</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. A reciprocating saw is an example of a _____ tool.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 246" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) rotating</label><br>
+        <label><input type="radio" name="q8" value="b"> b) striking</label><br>
+        <label><input type="radio" name="q8" value="c"> c) cutting</label><br>
+        <label><input type="radio" name="q8" value="d"> d) prying</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. _____ tools are used to apply an impact force to an object.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 254" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) Rotating</label><br>
+        <label><input type="radio" name="q9" value="b"> b) Spreading</label><br>
+        <label><input type="radio" name="q9" value="c"> c) Prying</label><br>
+        <label><input type="radio" name="q9" value="d"> d) Striking</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. Firefighters often use special chainsaws called _____ to cut ventilation openings in roofs constructed of wood, metal, or tar.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 249" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) top saws</label><br>
+        <label><input type="radio" name="q10" value="b"> b) ventilation saws</label><br>
+        <label><input type="radio" name="q10" value="c"> c) reciprocating saws</label><br>
+        <label><input type="radio" name="q10" value="d"> d) shingle saws</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. Tools used for _____ are metal hooks on a head at the end of a pole.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 249" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) striking</label><br>
+        <label><input type="radio" name="q11" value="b"> b) pushing/pulling</label><br>
+        <label><input type="radio" name="q11" value="c"> c) cutting</label><br>
+        <label><input type="radio" name="q11" value="d"> d) prying</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. A hand tool used to cut wire and small-diameter cable is a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 249" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) cable cutter</label><br>
+        <label><input type="radio" name="q12" value="b"> b) belt cutter</label><br>
+        <label><input type="radio" name="q12" value="c"> c) tubed cutter</label><br>
+        <label><input type="radio" name="q12" value="d"> d) diagonal cutter</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. A specialized prying tool made of flat steel with prying ends suitable for performing forced entry is called a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 254" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) Halligan bar</label><br>
+        <label><input type="radio" name="q13" value="b"> b) Clemens bar</label><br>
+        <label><input type="radio" name="q13" value="c"> c) flat bar</label><br>
+        <label><input type="radio" name="q13" value="d"> d) crowbar</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. A mechanically driven rescue tool that enables a firefighter to apply several tons of force on a small area is called a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 255" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) iron</label><br>
+        <label><input type="radio" name="q14" value="b"> b) hydraulic spreader</label><br>
+        <label><input type="radio" name="q14" value="c"> c) Hux bar</label><br>
+        <label><input type="radio" name="q14" value="d"> d) Kelly tool</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. A(n) _____ is a straight bar made of steel or iron with a forked chisel on the working end.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 254" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) pick</label><br>
+        <label><input type="radio" name="q15" value="b"> b) bevel</label><br>
+        <label><input type="radio" name="q15" value="c"> c) adze</label><br>
+        <label><input type="radio" name="q15" value="d"> d) crowbar</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. A _____ is a manually powered hydraulic spreading tool used to pry open doors that swing inward by prying the door away from the door jamb.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 255" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) spreader</label><br>
+        <label><input type="radio" name="q16" value="b"> b) hydro-ram</label><br>
+        <label><input type="radio" name="q16" value="c"> c) force pocket</label><br>
+        <label><input type="radio" name="q16" value="d"> d) rabbit tool</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. The _____ is a compact, pocket-size, multiple-function tool that combines several different tools, such as a knife, scissors, wire cutters, pliers, and a screwdriver.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 258" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) multi-tool</label><br>
+        <label><input type="radio" name="q17" value="b"> b) Swiss knife</label><br>
+        <label><input type="radio" name="q17" value="c"> c) leather-man</label><br>
+        <label><input type="radio" name="q17" value="d"> d) combi-tool</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. A _____ is a specialized striking tool what weighs 6 pounds or more, and has an axe on one side of the head and a sledgehammer on the other side.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 257" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) chisel</label><br>
+        <label><input type="radio" name="q18" value="b"> b) mallet</label><br>
+        <label><input type="radio" name="q18" value="c"> c) maul</label><br>
+        <label><input type="radio" name="q18" value="d"> d) full hammer</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. A _____ is usually 2 to 4 ft long and is used in smaller, tight spaces such as closets and crawl spaces.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 253" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) Clemens hook</label><br>
+        <label><input type="radio" name="q19" value="b"> b) closet hook</label><br>
+        <label><input type="radio" name="q19" value="c"> c) Kelly bar</label><br>
+        <label><input type="radio" name="q19" value="d"> d) Hux tool</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. _____ is multiple-function tool with a combination flat-head and pick-head axe.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 258" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) THE PIG</label><br>
+        <label><input type="radio" name="q20" value="b"> b) THE HOG</label><br>
+        <label><input type="radio" name="q20" value="c"> c) THE BEEF</label><br>
+        <label><input type="radio" name="q20" value="d"> d) THE ROCK</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. A _____ is used to break tempered glass in automobile windows and windows in some buildings.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 258" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) window punch</label><br>
+        <label><input type="radio" name="q21" value="b"> b) shove knife</label><br>
+        <label><input type="radio" name="q21" value="c"> c) K tool</label><br>
+        <label><input type="radio" name="q21" value="d"> d) spring-loaded center punch</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. A _____ is a lock pulling tool that is used with a Halligan and a mallet to pull out a lock cylinder mounted in a wood or heavy metal door.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 258" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) K tool</label><br>
+        <label><input type="radio" name="q22" value="b"> b) shove knife</label><br>
+        <label><input type="radio" name="q22" value="c"> c) door lock hook</label><br>
+        <label><input type="radio" name="q22" value="d"> d) Bam-Bam tool</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. A(n) _____ is a small, hand-operated winch used for lifting or moving heavy objects.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 259" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) air bag</label><br>
+        <label><input type="radio" name="q23" value="b"> b) hydraulic spreader</label><br>
+        <label><input type="radio" name="q23" value="c"> c) jack</label><br>
+        <label><input type="radio" name="q23" value="d"> d) come along</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. _____ is the deployment of fire companies to an emergency incident.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Operations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 259" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) Operation</label><br>
+        <label><input type="radio" name="q24" value="b"> b) Response</label><br>
+        <label><input type="radio" name="q24" value="c"> c) Size-up</label><br>
+        <label><input type="radio" name="q24" value="d"> d) Dispatch</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q25">
+    <p><strong>25. The _____ is the rapid evaluation and analysis of an incident by an officer or the IC to determine resources needed and actions to be undertaken.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Operations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 259" style="display: none;"></div>
+        <label><input type="radio" name="q25" value="a"> a) 180 walk-around</label><br>
+        <label><input type="radio" name="q25" value="b"> b) size-up</label><br>
+        <label><input type="radio" name="q25" value="c"> c) needs assessment</label><br>
+        <label><input type="radio" name="q25" value="d"> d) 360 walk-around</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q26">
+    <p><strong>26. During the _____ phase, firefighters should consider what the initial actions will be and which tools they will need for the job, even with the limited amount of information available at that point.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Operations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 260" style="display: none;"></div>
+        <label><input type="radio" name="q26" value="a"> a) response</label><br>
+        <label><input type="radio" name="q26" value="b"> b) job duty</label><br>
+        <label><input type="radio" name="q26" value="c"> c) forcible entry</label><br>
+        <label><input type="radio" name="q26" value="d"> d) RIT</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q27">
+    <p><strong>27. A flat-head axe and a Halligan used in conjunction to pry open a door are collectively called the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Operations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 260" style="display: none;"></div>
+        <label><input type="radio" name="q27" value="a"> a) metals</label><br>
+        <label><input type="radio" name="q27" value="b"> b) pair</label><br>
+        <label><input type="radio" name="q27" value="c"> c) irons</label><br>
+        <label><input type="radio" name="q27" value="d"> d) hard bars</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q28">
+    <p><strong>28. The objective of _____ is to provide openings so that fresh air can enter a burning structure and hot gases and products of combustion can escape from the building.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Operations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 262" style="display: none;"></div>
+        <label><input type="radio" name="q28" value="a"> a) rescue</label><br>
+        <label><input type="radio" name="q28" value="b"> b) ventilation</label><br>
+        <label><input type="radio" name="q28" value="c"> c) suppression</label><br>
+        <label><input type="radio" name="q28" value="d"> d) escape procedures</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q29">
+    <p><strong>29. In addition to making or controlling openings to influence ventilation, firefighters can use hydraulic or _____ ventilation to direct the flow of fresh air and combustion gases.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Operations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 262" style="display: none;"></div>
+        <label><input type="radio" name="q29" value="a"> a) forcible</label><br>
+        <label><input type="radio" name="q29" value="b"> b) controlled</label><br>
+        <label><input type="radio" name="q29" value="c"> c) mechanical</label><br>
+        <label><input type="radio" name="q29" value="d"> d) opened</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q30">
+    <p><strong>30. The purpose of _____ is to protect property and belongings from damage and ensure that all hidden fire is located and extinguished,</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Operations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 262" style="display: none;"></div>
+        <label><input type="radio" name="q30" value="a"> a) fire suppression</label><br>
+        <label><input type="radio" name="q30" value="b"> b) mechanical ventilation</label><br>
+        <label><input type="radio" name="q30" value="c"> c) salvage and overhaul</label><br>
+        <label><input type="radio" name="q30" value="d"> d) vertical ventilation</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q31">
+    <p><strong>31. Painting tools used for fire fighting and rescue may _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Maintenance" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Pages 262–263" style="display: none;"></div>
+        <label><input type="radio" name="q31" value="a"> a) cause the tool to rust</label><br>
+        <label><input type="radio" name="q31" value="b"> b) increase its flammability</label><br>
+        <label><input type="radio" name="q31" value="c"> c) cause the tool to miss its target</label><br>
+        <label><input type="radio" name="q31" value="d"> d) hide defects or visible damage</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q32">
+    <p><strong>32. Painting a(n) _____ hides defects and stress fractures in the metal and may cause the head to stick and bind when using.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Maintenance" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 263" style="display: none;"></div>
+        <label><input type="radio" name="q32" value="a"> a) axe handle</label><br>
+        <label><input type="radio" name="q32" value="b"> b) axe head</label><br>
+        <label><input type="radio" name="q32" value="c"> c) Halligan</label><br>
+        <label><input type="radio" name="q32" value="d"> d) screwdriver</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q33">
+    <p><strong>33. During the _____, potential hot spots in enclosed spaces behind walls, above ceilings, and under floors need to be exposed.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Operations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 262" style="display: none;"></div>
+        <label><input type="radio" name="q33" value="a"> a) salvage phase</label><br>
+        <label><input type="radio" name="q33" value="b"> b) suppression phase</label><br>
+        <label><input type="radio" name="q33" value="c"> c) recovery phase</label><br>
+        <label><input type="radio" name="q33" value="d"> d) overhaul phase</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q34">
+    <p><strong>34. Prying tools, such as _____, can be used to open closed spaces and remove baseboards and window or door casings.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Operations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 262" style="display: none;"></div>
+        <label><input type="radio" name="q34" value="a"> a) chainsaws and chaps</label><br>
+        <label><input type="radio" name="q34" value="b"> b) crowbars and Halligans</label><br>
+        <label><input type="radio" name="q34" value="c"> c) airbags and jacks</label><br>
+        <label><input type="radio" name="q34" value="d"> d) hacksaws and spring-loaded punches</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q35">
+    <p><strong>35. Firefighters use screwdrivers , wrenches, and pliers to _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 246" style="display: none;"></div>
+        <label><input type="radio" name="q35" value="a"> a) use centrifugal force to push</label><br>
+        <label><input type="radio" name="q35" value="b"> b) assemble or disassemble parts connected with threaded fasteners</label><br>
+        <label><input type="radio" name="q35" value="c"> c) change torque positioning for application</label><br>
+        <label><input type="radio" name="q35" value="d"> d) cut something with a blade</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q36">
+    <p><strong>36. A _____ is a handsaw with a narrow blade set between the ends of a U-shaped frame.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 248" style="display: none;"></div>
+        <label><input type="radio" name="q36" value="a"> a) keyhole saw</label><br>
+        <label><input type="radio" name="q36" value="b"> b) hacksaw</label><br>
+        <label><input type="radio" name="q36" value="c"> c) coping saw</label><br>
+        <label><input type="radio" name="q36" value="d"> d) carpenter’s saw</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q37">
+    <p><strong>37. _____ is the last step in the phases of incident scene operations.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Operations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 259" style="display: none;"></div>
+        <label><input type="radio" name="q37" value="a"> a) Overhaul</label><br>
+        <label><input type="radio" name="q37" value="b"> b) Forcible entry</label><br>
+        <label><input type="radio" name="q37" value="c"> c) Search</label><br>
+        <label><input type="radio" name="q37" value="d"> d) Size-up</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q38">
+    <p><strong>38. A _____ is used to tighten or loosen a fire hose coupling.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 247" style="display: none;"></div>
+        <label><input type="radio" name="q38" value="a"> a) hydrant wrench</label><br>
+        <label><input type="radio" name="q38" value="b"> b) speed wrench</label><br>
+        <label><input type="radio" name="q38" value="c"> c) spanner wrench</label><br>
+        <label><input type="radio" name="q38" value="d"> d) pipe wrench</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q39">
+    <p><strong>39. One drawback of a _____ is that it cannot be used in situations where flammable fuels are present.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Functions" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 248" style="display: none;"></div>
+        <label><input type="radio" name="q39" value="a"> a) band saw</label><br>
+        <label><input type="radio" name="q39" value="b"> b) cutting torch</label><br>
+        <label><input type="radio" name="q39" value="c"> c) diagonal cutter</label><br>
+        <label><input type="radio" name="q39" value="d"> d) reciprocating saw</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q40">
+    <p><strong>40. _____ is the first phase of incident scene operations.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Operations" data-subject="Chapter 7" data-title="Firefighter Tools and Equipment" data-feedback="Chapter 7; Page 259" style="display: none;"></div>
+        <label><input type="radio" name="q40" value="a"> a) Forcible entry</label><br>
+        <label><input type="radio" name="q40" value="b"> b) Ventilation</label><br>
+        <label><input type="radio" name="q40" value="c"> c) Response</label><br>
+        <label><input type="radio" name="q40" value="d"> d) SAR</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+</form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

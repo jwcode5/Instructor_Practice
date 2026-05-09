@@ -1,0 +1,131 @@
+﻿Pumping Apparatus Driver/Operator                
+Handbook, 3rd Edition                Fire Pump Theory
+Chapter 9 Quiz 
+Name:  
+	
+
+	Date:  
+	
+
+	
+
+Directions:         Write the correct letter on the blank before each question.
+                1.        The positive displacement pump that operates by using a piston that moves back and forth in a cylinder is the:  (296)
+        A.        rotary pump.
+        B.        piston pump.
+        C.        cylindrical pump.
+        D.        immersible pump.
+                2.        The positive displacement pump that consists of two gears that rotate in a tightly meshed pattern inside a watertight case is the:  (296)
+        A.        rotary vane pump.
+        B.        rotary gear pump.
+        C.        piston gear pump.
+        D.        piston vane pump.
+                3.        Which statement about centrifugal pumps is MOST accurate?  (298)
+        A.        The centrifugal pump is classified as a positive displacement pump.
+        B.        The centrifugal pump is a secondary pump on most modern fire apparatus.
+        C.        The centrifugal pump moves a definite amount of water with each revolution.
+        D.        Nearly all modern fire apparatus feature a centrifugal pump as the main pump.
+
+
+
+                4.        In a centrifugal pump, what dictates the volume capacity of the pump? (299)
+        A.        Water pressure
+        B.        Age of the pump
+        C.        Size of the impeller
+        D.        Experience of operators
+                5.        If the driver/operator has any question as to the correct position for the transfer valve while operating a multistage centrifugal fire pump, it is best to:  (303)
+        A.        wait to operate the pump until a decision is made.
+        B.        switch between parallel (volume) and series (pressure).
+        C.        operate in parallel (volume) rather than series (pressure).
+        D.        operate in series (pressure) rather than parallel (volume).
+                6.        When particles of sand pass between the impeller and pump cases, wearing down metal surfaces, what can be done to restore pumping capacity? (304)
+        A.        Run pump at decreased engine rpm
+        B.        Add a protective coating to metal surfaces
+        C.        Flush pump with clean water containing no sediments
+        D.        Replace wear rings or clearance rings in pump casing
+                7.        Which pump is MOST likely to be offered in a design that is driven off the engine’s flywheel?  (307)
+        A.        Midship pumps  
+        B.        Rear-mount pumps
+        C.        Power take-off (PTO) drive  
+        D.        Auxiliary engine driven pumps 
+                8.        Which involves an extended front bumper with a pump mounted between the bumper and grill of the vehicle?  (308)
+        A.        Midship pump
+        B.        Front-mount pump
+        C.        Power take-off (PTO) drive 
+        D.        Auxiliary engine driven pump
+
+                9.        Which pump is mounted laterally across the frame behind the engine and transmission?  (309)
+        A.        Midship pump
+        B.        Rear-mount pump
+        C.        Power take-off (PTO) drive  
+        D.        Auxiliary engine driven pump
+                10.        In order to minimize pressure loss within an apparatus, all piping and hoses must be designed: (312)
+        A.        so the turns occur later in the system.
+        B.        so the turns occur early in the system.
+        C.        with a minimum number of bends or turns.
+        D.        so that bends or turns are as far apart as possible.
+                11.        When multiple attack lines that require different pressures are being operated, the driver/operator must set the engine discharge pressure to the:   (314)
+        A.        lowest level needed.
+        B.        highest level needed.
+        C.        average level needed.
+        D.        difference between highest and lowest levels.
+                12.        What is the purpose of automatic pressure regulation?  (318)
+        A.        Ensure ease of operation for fire fighting personnel 
+        B.        Ensure the safety of personnel operating hoselines
+        C.        Regulate timing of water volume so supply is not depleted
+        D.        Allow firefighters to focus on operational tactics, not equipment
+                13.        What is the purpose of intake pressure relief valves?  (320)
+        A.        Regulate inadequate pressure within the pump discharge
+        B.        Relieve responsibility of firefighters in monitoring pressure
+        C.        Reduce the possibility of excessive water damage to property
+        D.        Reduce the possibility of damage to the pump and discharge hoselines caused by water hammer
+
+                14.        In modern centrifugal fire pumps, a priming device: (322)
+        A.        is not necessary in order to draft.
+        B.        is required only on larger fire pumps.
+        C.        makes drafting easier, but is not a necessity.
+        D.        is needed to create a vacuum that makes drafting possible.
+                15.        Which type of primer uses a line connected from the intake manifold of the engine to the intake of the fire pump with a valve connected in the line to control it?  (323)
+        A.        Air primers
+        B.        Exhaust primers
+        C.        Vacuum primers
+        D.        Positive displacement primers
+                16.        Which piece of equipment provides a reading of the vacuum present at the intake of the pump during priming or when the pump is operating from draft?  (324)
+        A.        Tachometer
+        B.        Master intake gauge
+        C.        Master discharge gauge 
+        D.        Pumping engine throttle
+                17.        What is used to increase or decrease the speed of the engine that powers the fire pump?  (327)
+        A.        Voltmeter 
+        B.        Tachometer
+        C.        Master intake gauge 
+        D.        Pumping engine throttle
+                18.        Which type of auxiliary cooling device features a number of small tubes surrounded by a water jacket connected to the discharge of the fire pump?  (329)
+        A.        Marine cooler
+        B.        Outboard cooler
+        C.        Inline front-mounted cooler 
+        D.        Immersion type auxiliary cooler
+
+
+
+Directions:         Write a brief answer to the questions below.
+19.                What are the three main factors that influence a centrifugal fire pump’s discharge pressure?  (300) 
+
+
+
+
+
+
+
+
+
+
+20.                What are the two primary gauges used by the driver/operator to determine water pressure entering and leaving the pump?  (324) 
+
+
+
+
+
+
+Fire Protection Publications                Chapter Quiz 
+Oklahoma State University                9-

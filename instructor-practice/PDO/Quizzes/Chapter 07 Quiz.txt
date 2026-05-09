@@ -1,0 +1,81 @@
+﻿Pumping Apparatus Driver/Operator                
+Handbook, 3rd Edition                Theoretical Pressure Calculations
+Chapter 7 Quiz 
+Name:  
+	
+
+	Date:  
+	
+
+	
+
+Directions:         Write the correct letter on the blank before each question.
+                1.        The primary consideration for friction loss is the:  (210)
+        A.        diameter of the hose.
+        B.        type of nozzle used.
+        C.        length of the hose lay.
+        D.        volume of water flowing per minute.
+                2.        Which BEST describes total pressure loss?  (210)
+        A.        Friction loss and residual pressure
+        B.        Friction loss, elevation loss, and appliance loss
+        C.        Friction loss and elevation loss, minus intake pressure
+        D.        Friction loss and appliance loss multiplied by elevation loss
+                3.        Which statement about friction loss for handline nozzles, as part of the overall pressure loss of a hose assembly, is MOST accurate?  (213)
+        A.        It is generally insignificant.
+        B.        10 psi (70 kPa) loss is average.
+        C.        25 psi (175 kPa) loss is the maximum loss.
+        D.        Loss is between 10 psi (70 kPa) and 25 psi (175 kPa).
+                4.        When using multiple hoselines of equal length but different diameter, calculations must be done for each hoseline, and the pump discharge pressure may then be set based on the: (215)
+        A.        lower pressure.
+        B.        higher pressure.
+        C.        median of the hoselines.
+        D.        average of the hoselines.
+
+                5.        What would be the FIRST step when determining friction loss in in Siamesed hoselines?  (216)
+        A.        Determine the friction loss in the Attack Line.
+        B.        Determine the friction loss in the Supply Line.
+        C.        Compute the total gallons per minute (L/min) flowing.
+        D.        Determine the amount of friction loss in the Siamesed lines.
+                6.        When calculating pressure loss with a master stream device, the driver/operator must:   (217)
+        A.        add 10 psi (70 kPa) to the pressure loss calculation.
+        B.        subtract 10 psi (70 kPa) to the pressure loss calculation.
+        C.        add 25 psi (175 kPa) to the pressure loss calculation.
+        D.        subtract 25 psi (175 kPa) to the pressure loss calculation.
+                7.        Which statement about pressure loss in elevated waterways is MOST accurate?  (218)
+        A.        Assume a pressure loss of 10 psi (70 kPa).
+        B.        Each apparatus’ pressure loss will vary slightly.
+        C.        Pressure loss is the same for various apparatus.
+        D.        Elevation of the master stream is not considered.
+                8.        Which of the following are necessary to calculate pump discharge pressure?  (218)
+        A.        Length of hose lay and elevation
+        B.        Fire stream type and friction loss 
+        C.        Water supply and residual pressure
+        D.        Nozzle pressure and sum of the total pressure loss
+
+
+
+Directions:         Write a brief answer to the questions below.
+9.                What are the methods used to determine friction loss?  (211)
+
+
+
+
+10.                What is the formula for friction loss?  (212)
+
+
+11.                What is the customary formula for elevation pressure loss?  (214)
+
+
+12.                What is the metric formula for elevation pressure loss?  (214)
+
+
+13.                In the customary formula for pump discharge pressure, what does TPL stand for?  (218)
+
+
+14.                What is the formula for net pump discharge pressure?  (219)
+
+
+
+
+Fire Protection Publications                Chapter Quiz 
+Oklahoma State University                7-

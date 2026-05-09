@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>Firefighter Chapter 21 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. A _____ is a wildland fire that burns fuels such as grass, leaves, and branches.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 890" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) rubbish fire</label><br>
+        <label><input type="radio" name="q1" value="b"> b) green fire</label><br>
+        <label><input type="radio" name="q1" value="c"> c) ground cover fire</label><br>
+        <label><input type="radio" name="q1" value="d"> d) grass fire</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. In 1910, the United States experienced large, wind-driven fires across Idaho, Montana, Washington, and Oregon called _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="History of Wildland Fire Management" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 890" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) the Great Conflagration</label><br>
+        <label><input type="radio" name="q2" value="b"> b) America Burning</label><br>
+        <label><input type="radio" name="q2" value="c"> c) the Big Blowup</label><br>
+        <label><input type="radio" name="q2" value="d"> d) the Great Fires</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. The U.S. Forest Service operates under the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="History of Wildland Fire Management" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 890" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) Department of Agriculture</label><br>
+        <label><input type="radio" name="q3" value="b"> b) U.S. Fire Administration</label><br>
+        <label><input type="radio" name="q3" value="c"> c) Department of Transportation</label><br>
+        <label><input type="radio" name="q3" value="d"> d) Department of Homeland Security</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. The traveling edge of the fire is called the _____ of the fire.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Anatomy of a Wildland Fire" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 891" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) head</label><br>
+        <label><input type="radio" name="q4" value="b"> b) heel</label><br>
+        <label><input type="radio" name="q4" value="c"> c) rear</label><br>
+        <label><input type="radio" name="q4" value="d"> d) flank</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. The _____ is an area that has already been burned.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Anatomy of a Wildland Fire" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 891" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) green area</label><br>
+        <label><input type="radio" name="q5" value="b"> b) island</label><br>
+        <label><input type="radio" name="q5" value="c"> c) black area</label><br>
+        <label><input type="radio" name="q5" value="d"> d) pocket</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. Wildland fire behavior is the flame length and the rate of spread of a fire, which are all affected by the fuel, weather, and _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 891" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) flame height</label><br>
+        <label><input type="radio" name="q6" value="b"> b) topography</label><br>
+        <label><input type="radio" name="q6" value="c"> c) accessibility</label><br>
+        <label><input type="radio" name="q6" value="d"> d) elevation</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. The _____ is an area big enough to accommodate all of the personnel working in an area to be safe as all the fire moves around them.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 891" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) flame length</label><br>
+        <label><input type="radio" name="q7" value="b"> b) green zone</label><br>
+        <label><input type="radio" name="q7" value="c"> c) safety zone</label><br>
+        <label><input type="radio" name="q7" value="d"> d) safety flank</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. _____ is the flame height measured from the burning fuel to the tip of the flame.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 891" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) Flame flow</label><br>
+        <label><input type="radio" name="q8" value="b"> b) Flame length</label><br>
+        <label><input type="radio" name="q8" value="c"> c) Fire length</label><br>
+        <label><input type="radio" name="q8" value="d"> d) Fire height</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. _____ are located close to the surface of the ground and include grasses, shrubs, timber litter, and slash.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 892" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) Subsurface fuels</label><br>
+        <label><input type="radio" name="q9" value="b"> b) Canopy fuels</label><br>
+        <label><input type="radio" name="q9" value="c"> c) Aerial fuels</label><br>
+        <label><input type="radio" name="q9" value="d"> d) Surface fuels</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. The amount of moisture in the fuel is known as _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 892" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) physical fuel</label><br>
+        <label><input type="radio" name="q10" value="b"> b) chemical fuel</label><br>
+        <label><input type="radio" name="q10" value="c"> c) fuel moisture</label><br>
+        <label><input type="radio" name="q10" value="d"> d) fuel composition</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. _____ fuels are partially decomposed matter beneath the ground, such as roots, moss and decomposed stumps.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 892" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) Canopy</label><br>
+        <label><input type="radio" name="q11" value="b"> b) Subsurface</label><br>
+        <label><input type="radio" name="q11" value="c"> c) Mulch</label><br>
+        <label><input type="radio" name="q11" value="d"> d) Surface</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. More firefighters have died from _____ than in fires fueled by any other type of fuel.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 893" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) grass</label><br>
+        <label><input type="radio" name="q12" value="b"> b) slash</label><br>
+        <label><input type="radio" name="q12" value="c"> c) timber litter</label><br>
+        <label><input type="radio" name="q12" value="d"> d) shrubs</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. ____ are located more than 6 ft above the ground.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 892" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) Tree fuels</label><br>
+        <label><input type="radio" name="q13" value="b"> b) Elevated fuels</label><br>
+        <label><input type="radio" name="q13" value="c"> c) Canopy fuels</label><br>
+        <label><input type="radio" name="q13" value="d"> d) Head fuels</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. ____ is the most powerful and dangerous of the three major influences of wildland fire behavior.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 893" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) Weather</label><br>
+        <label><input type="radio" name="q14" value="b"> b) Fuel type</label><br>
+        <label><input type="radio" name="q14" value="c"> c) Topography</label><br>
+        <label><input type="radio" name="q14" value="d"> d) Fuel level</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. Fuels that ignite easily, such as pine needles and leaves, are called _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 893" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) fine fuel</label><br>
+        <label><input type="radio" name="q15" value="b"> b) easy burn fuel</label><br>
+        <label><input type="radio" name="q15" value="c"> c) susceptible fuel</label><br>
+        <label><input type="radio" name="q15" value="d"> d) medium fuel</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. _____ is the vertical movement of air into the atmosphere.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 894" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) Air humidity</label><br>
+        <label><input type="radio" name="q16" value="b"> b) Air stability</label><br>
+        <label><input type="radio" name="q16" value="c"> c) Air movement</label><br>
+        <label><input type="radio" name="q16" value="d"> d) Air measurement</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. A(n) _____ is a layer of warmer air above the cooler air layer on the ground.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 894" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) wind layer</label><br>
+        <label><input type="radio" name="q17" value="b"> b) barometric layer</label><br>
+        <label><input type="radio" name="q17" value="c"> c) inversion layer</label><br>
+        <label><input type="radio" name="q17" value="d"> d) atmospheric layer</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. _____ is fuel that ignites slowly because it has a large diameter, such as large brush or branches.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 893" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) Light fuel</label><br>
+        <label><input type="radio" name="q18" value="b"> b) Medium fuel</label><br>
+        <label><input type="radio" name="q18" value="c"> c) Heavy fuel</label><br>
+        <label><input type="radio" name="q18" value="d"> d) Fine fuel</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. _____ dramatically increases both flame length and rate of spread.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 894" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) Humidity</label><br>
+        <label><input type="radio" name="q19" value="b"> b) Wind</label><br>
+        <label><input type="radio" name="q19" value="c"> c) Topography</label><br>
+        <label><input type="radio" name="q19" value="d"> d) Inversion effect</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. The horizontal movement of air over the surface of the Earth is known as _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 894" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) shear</label><br>
+        <label><input type="radio" name="q20" value="b"> b) wind</label><br>
+        <label><input type="radio" name="q20" value="c"> c) humidity</label><br>
+        <label><input type="radio" name="q20" value="d"> d) cooling</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. Foehn winds are also referred to as _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 895" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) Ave Maria winds</label><br>
+        <label><input type="radio" name="q21" value="b"> b) aspect winds</label><br>
+        <label><input type="radio" name="q21" value="c"> c) West winds</label><br>
+        <label><input type="radio" name="q21" value="d"> d) East winds</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. _____ are responsible for the largest fatality and structural loss fires in United States history.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 895" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) Tropical depression winds</label><br>
+        <label><input type="radio" name="q22" value="b"> b) High pressure system winds</label><br>
+        <label><input type="radio" name="q22" value="c"> c) Foehn winds</label><br>
+        <label><input type="radio" name="q22" value="d"> d) Cold front winds</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. In the U.S., _____ aspects tend to be hotter and dryer and the fuels are drier and lighter.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 895" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) northern</label><br>
+        <label><input type="radio" name="q23" value="b"> b) southern</label><br>
+        <label><input type="radio" name="q23" value="c"> c) western</label><br>
+        <label><input type="radio" name="q23" value="d"> d) eastern</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. _____ is the direction the side of the mountain is facing.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Pages 895" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) Sheer</label><br>
+        <label><input type="radio" name="q24" value="b"> b) Steep</label><br>
+        <label><input type="radio" name="q24" value="c"> c) Aspect</label><br>
+        <label><input type="radio" name="q24" value="d"> d) Foehn</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q25">
+    <p><strong>25. _____ is the most constant of the three major influences on wildland fire behavior.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Fire Behavior" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 895" style="display: none;"></div>
+        <label><input type="radio" name="q25" value="a"> a) Topography</label><br>
+        <label><input type="radio" name="q25" value="b"> b) Slope intercept</label><br>
+        <label><input type="radio" name="q25" value="c"> c) Wind</label><br>
+        <label><input type="radio" name="q25" value="d"> d) Moisture</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q26">
+    <p><strong>26. _____ is a method of wildland fire attack in which firefighters focus on containing and extinguishing the fire at its burning edge.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Strategy for Wildland Fires" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 896" style="display: none;"></div>
+        <label><input type="radio" name="q26" value="a"> a) Interior attack</label><br>
+        <label><input type="radio" name="q26" value="b"> b) Offensive attack</label><br>
+        <label><input type="radio" name="q26" value="c"> c) Direct attack</label><br>
+        <label><input type="radio" name="q26" value="d"> d) Transitional attack</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q27">
+    <p><strong>27. A(n) _____ attack is a method of wildland fire attack in which a fire control line is located along natural fuel breaks, at favorable breaks in the topography, or at considerable distance from the fire.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Strategy for Wildland Fires" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 896" style="display: none;"></div>
+        <label><input type="radio" name="q27" value="a"> a) flanking</label><br>
+        <label><input type="radio" name="q27" value="b"> b) indirect</label><br>
+        <label><input type="radio" name="q27" value="c"> c) direct</label><br>
+        <label><input type="radio" name="q27" value="d"> d) McLeod</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q28">
+    <p><strong>28. The active perimeter of the fire is the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Strategy for Wildland Fires" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 896" style="display: none;"></div>
+        <label><input type="radio" name="q28" value="a"> a) never go</label><br>
+        <label><input type="radio" name="q28" value="b"> b) fire control line</label><br>
+        <label><input type="radio" name="q28" value="c"> c) burning edge</label><br>
+        <label><input type="radio" name="q28" value="d"> d) anchor point</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q29">
+    <p><strong>29. The _____ attack is the safest, most reliable, and most widely accepted method of offensive attack.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Strategy for Wildland Fires" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 897" style="display: none;"></div>
+        <label><input type="radio" name="q29" value="a"> a) pincer</label><br>
+        <label><input type="radio" name="q29" value="b"> b) flanking</label><br>
+        <label><input type="radio" name="q29" value="c"> c) parallel</label><br>
+        <label><input type="radio" name="q29" value="d"> d) slope</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q30">
+    <p><strong>30. The acronym “PACE” stands for primary plan, alternative plan, contingency plan, and _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Strategy for Wildland Fires" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 898" style="display: none;"></div>
+        <label><input type="radio" name="q30" value="a"> a) emergency plan</label><br>
+        <label><input type="radio" name="q30" value="b"> b) exit plan</label><br>
+        <label><input type="radio" name="q30" value="c"> c) extinguishment plan</label><br>
+        <label><input type="radio" name="q30" value="d"> d) execution plan</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q31">
+    <p><strong>31. The _____ attack is a method of direct attack that requires only one team of firefighters.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Strategy for Wildland Fires" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 899" style="display: none;"></div>
+        <label><input type="radio" name="q31" value="a"> a) slope burn</label><br>
+        <label><input type="radio" name="q31" value="b"> b) single crew</label><br>
+        <label><input type="radio" name="q31" value="c"> c) single unit</label><br>
+        <label><input type="radio" name="q31" value="d"> d) flanking</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q32">
+    <p><strong>32. A(n) _____ attack is a type of indirect method of attack used when the fire edge is too hot to approach through a direct attack.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Strategy for Wildland Fires" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 898" style="display: none;"></div>
+        <label><input type="radio" name="q32" value="a"> a) perpendicular</label><br>
+        <label><input type="radio" name="q32" value="b"> b) constructed</label><br>
+        <label><input type="radio" name="q32" value="c"> c) parallel</label><br>
+        <label><input type="radio" name="q32" value="d"> d) edge-fire</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q33">
+    <p><strong>33. Direct attack on wildland fires can be undertaken with hand tools if flames are _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Strategy for Wildland Fires" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 899" style="display: none;"></div>
+        <label><input type="radio" name="q33" value="a"> a) smaller than 2 ft</label><br>
+        <label><input type="radio" name="q33" value="b"> b) 4 ft or less</label><br>
+        <label><input type="radio" name="q33" value="c"> c) up to 6 ft</label><br>
+        <label><input type="radio" name="q33" value="d"> d) no more than 8 ft</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q34">
+    <p><strong>34. A _____ combines an adze and an axe for brush removal.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Strategy for Wildland Fires" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 901" style="display: none;"></div>
+        <label><input type="radio" name="q34" value="a"> a) Hazel hoe</label><br>
+        <label><input type="radio" name="q34" value="b"> b) McLeod</label><br>
+        <label><input type="radio" name="q34" value="c"> c) Reinhart</label><br>
+        <label><input type="radio" name="q34" value="d"> d) Pulaski axe</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q35">
+    <p><strong>35. To _____ means setting a fire along the inner edge of a fire control line to consume the fuel between the fire control line and the fire’s edge.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Strategy for Wildland Fires" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 901" style="display: none;"></div>
+        <label><input type="radio" name="q35" value="a"> a) flame out</label><br>
+        <label><input type="radio" name="q35" value="b"> b) fire out</label><br>
+        <label><input type="radio" name="q35" value="c"> c) control the flow</label><br>
+        <label><input type="radio" name="q35" value="d"> d) prevent a slope</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q36">
+    <p><strong>36. A _____ combines foam concentrate, water, and compressed air to produce a foam that will stick to vegetation and structures that are in the path of a wildland and ground cover fire.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Strategy for Wildland Fires" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 902" style="display: none;"></div>
+        <label><input type="radio" name="q36" value="a"> a) COOF</label><br>
+        <label><input type="radio" name="q36" value="b"> b) CAFS</label><br>
+        <label><input type="radio" name="q36" value="c"> c) CRAF</label><br>
+        <label><input type="radio" name="q36" value="d"> d) FACS</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q37">
+    <p><strong>37. _____ is the Standard for Aircraft Rescue and Firefighting Vehicles, Automotive Fire Apparatus, Wildland Fire Apparatus, and Automotive Ambulances.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Fire Apparatus Used for Wildland Fires" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 904" style="display: none;"></div>
+        <label><input type="radio" name="q37" value="a"> a) NFPA 1971</label><br>
+        <label><input type="radio" name="q37" value="b"> b) NFPA 1843</label><br>
+        <label><input type="radio" name="q37" value="c"> c) NFPA 1900</label><br>
+        <label><input type="radio" name="q37" value="d"> d) NFPA 1500</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q38">
+    <p><strong>38. _____ are designed to transport water to the scene of a wildland fire.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Fire Apparatus Used for Wildland Fires" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 904" style="display: none;"></div>
+        <label><input type="radio" name="q38" value="a"> a) Brush trucks</label><br>
+        <label><input type="radio" name="q38" value="b"> b) Water tenders</label><br>
+        <label><input type="radio" name="q38" value="c"> c) Tractors</label><br>
+        <label><input type="radio" name="q38" value="d"> d) Type VI trucks</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q39">
+    <p><strong>39. The NWCG Incident Pocket Response Guide was created by _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 905" style="display: none;"></div>
+        <label><input type="radio" name="q39" value="a"> a) the National Wildfire Coordinating Group</label><br>
+        <label><input type="radio" name="q39" value="b"> b) the National Wildland Coalition Group</label><br>
+        <label><input type="radio" name="q39" value="c"> c) OSHA</label><br>
+        <label><input type="radio" name="q39" value="d"> d) NFPA</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q40">
+    <p><strong>40. Current guidelines state that whenever firefighters engage the fire at the head of the fire and the flame lengths are _____, they should be working in a safety zone.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 905" style="display: none;"></div>
+        <label><input type="radio" name="q40" value="a"> a) higher than 8 ft</label><br>
+        <label><input type="radio" name="q40" value="b"> b) at least 5 ft high</label><br>
+        <label><input type="radio" name="q40" value="c"> c) 2 ft or higher</label><br>
+        <label><input type="radio" name="q40" value="d"> d) 4 ft high</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q41">
+    <p><strong>41. A _____ is when the live and dead fuels in a tree off the ground are on fire.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 905" style="display: none;"></div>
+        <label><input type="radio" name="q41" value="a"> a) crown fire</label><br>
+        <label><input type="radio" name="q41" value="b"> b) cover fire</label><br>
+        <label><input type="radio" name="q41" value="c"> c) treetop fire</label><br>
+        <label><input type="radio" name="q41" value="d"> d) canopy fire</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q42">
+    <p><strong>42. The three types of crown fires are passive crown, active crown, and _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 906" style="display: none;"></div>
+        <label><input type="radio" name="q42" value="a"> a) leafy crown</label><br>
+        <label><input type="radio" name="q42" value="b"> b) bare crown</label><br>
+        <label><input type="radio" name="q42" value="c"> c) independent crown</label><br>
+        <label><input type="radio" name="q42" value="d"> d) dependent crown</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q43">
+    <p><strong>43. A(n) _____ fire is when an individual tree or group of trees catches fire and then runs all the way up the tree, so the tree or trees look like a giant torch.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 905" style="display: none;"></div>
+        <label><input type="radio" name="q43" value="a"> a) active crown</label><br>
+        <label><input type="radio" name="q43" value="b"> b) bare crown</label><br>
+        <label><input type="radio" name="q43" value="c"> c) passive crown</label><br>
+        <label><input type="radio" name="q43" value="d"> d) leafy crown</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q44">
+    <p><strong>44. The 10 Standard Firefighting Orders are broken into three categories: fireline safety, fire behavior, and _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Pages 906–907" style="display: none;"></div>
+        <label><input type="radio" name="q44" value="a"> a) fire control</label><br>
+        <label><input type="radio" name="q44" value="b"> b) organizational control</label><br>
+        <label><input type="radio" name="q44" value="c"> c) crew safety</label><br>
+        <label><input type="radio" name="q44" value="d"> d) fire management</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q45">
+    <p><strong>45. A(n) _____ fire is when the ground fire burns beneath the trees and then the aerial fuels burn as the ground fire progresses.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 906" style="display: none;"></div>
+        <label><input type="radio" name="q45" value="a"> a) active crown</label><br>
+        <label><input type="radio" name="q45" value="b"> b) passive crown</label><br>
+        <label><input type="radio" name="q45" value="c"> c) dependent crown</label><br>
+        <label><input type="radio" name="q45" value="d"> d) independent crown</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q46">
+    <p><strong>46. The 18 Watch Out Situations are an expansion of the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 907" style="display: none;"></div>
+        <label><input type="radio" name="q46" value="a"> a) Elite NFPA standards</label><br>
+        <label><input type="radio" name="q46" value="b"> b) 10 Standard Firefighting Orders</label><br>
+        <label><input type="radio" name="q46" value="c"> c) 16 Life Safety Initiatives</label><br>
+        <label><input type="radio" name="q46" value="d"> d) Red Card standards</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q47">
+    <p><strong>47. If _____ Watch Out Situations exist, firefighters should reconsider engaging in the assignment.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 907" style="display: none;"></div>
+        <label><input type="radio" name="q47" value="a"> a) two</label><br>
+        <label><input type="radio" name="q47" value="b"> b) at least three</label><br>
+        <label><input type="radio" name="q47" value="c"> c) four</label><br>
+        <label><input type="radio" name="q47" value="d"> d) five or more</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q48">
+    <p><strong>48. In the mnemonic LCES, the “L” stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 907" style="display: none;"></div>
+        <label><input type="radio" name="q48" value="a"> a) locations</label><br>
+        <label><input type="radio" name="q48" value="b"> b) life safety</label><br>
+        <label><input type="radio" name="q48" value="c"> c) limits</label><br>
+        <label><input type="radio" name="q48" value="d"> d) lookouts</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q49">
+    <p><strong>49. Firefighters carrying wildland firefighting tools should do so with _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 908" style="display: none;"></div>
+        <label><input type="radio" name="q49" value="a"> a) sharp edges facing the ground</label><br>
+        <label><input type="radio" name="q49" value="b"> b) the tool in a sling over the back or shoulder</label><br>
+        <label><input type="radio" name="q49" value="c"> c) a gloved hand covering the sharp edge</label><br>
+        <label><input type="radio" name="q49" value="d"> d) sharp edges facing the sky</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q50">
+    <p><strong>50. When the lower parts of a tree burn away and weaken the support for the rest of the tree so it falls, it is called a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 908" style="display: none;"></div>
+        <label><input type="radio" name="q50" value="a"> a) branch give-way</label><br>
+        <label><input type="radio" name="q50" value="b"> b) snag</label><br>
+        <label><input type="radio" name="q50" value="c"> c) widow maker</label><br>
+        <label><input type="radio" name="q50" value="d"> d) tree burn</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q51">
+    <p><strong>51. _____ are branches broken at the tops of trees by lightning, snow, or wind that can fall without a sound.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 908" style="display: none;"></div>
+        <label><input type="radio" name="q51" value="a"> a) Widow makers</label><br>
+        <label><input type="radio" name="q51" value="b"> b) Fallers</label><br>
+        <label><input type="radio" name="q51" value="c"> c) Snags</label><br>
+        <label><input type="radio" name="q51" value="d"> d) Silencers</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q52">
+    <p><strong>52. All federal hand crews have one or more qualified persons trained to operate chainsaws who are called _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 909" style="display: none;"></div>
+        <label><input type="radio" name="q52" value="a"> a) operators</label><br>
+        <label><input type="radio" name="q52" value="b"> b) cutters</label><br>
+        <label><input type="radio" name="q52" value="c"> c) fallers</label><br>
+        <label><input type="radio" name="q52" value="d"> d) sawyers</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q53">
+    <p><strong>53. NFPA _____ describes proper wildland firefighting clothing and equipment.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 909" style="display: none;"></div>
+        <label><input type="radio" name="q53" value="a"> a) 1010</label><br>
+        <label><input type="radio" name="q53" value="b"> b) 1403</label><br>
+        <label><input type="radio" name="q53" value="c"> c) 1977</label><br>
+        <label><input type="radio" name="q53" value="d"> d) 2400</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q54">
+    <p><strong>54. Respiratory protection for wildland firefighting is usually limited to a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 910" style="display: none;"></div>
+        <label><input type="radio" name="q54" value="a"> a) PAPR</label><br>
+        <label><input type="radio" name="q54" value="b"> b) filter mask</label><br>
+        <label><input type="radio" name="q54" value="c"> c) SCBA</label><br>
+        <label><input type="radio" name="q54" value="d"> d) supplied air system</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q55">
+    <p><strong>55. A _____ is a thin reflective-foil layer attached to a layer of fiberglass.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Safety in Wildland Firefighting" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 910" style="display: none;"></div>
+        <label><input type="radio" name="q55" value="a"> a) fire tent</label><br>
+        <label><input type="radio" name="q55" value="b"> b) fire cover</label><br>
+        <label><input type="radio" name="q55" value="c"> c) fire blanket</label><br>
+        <label><input type="radio" name="q55" value="d"> d) fire shelter</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q56">
+    <p><strong>56. A _____ is an area around a structure where combustible vegetation that can spread fire has been cleared, reduced, or replaced.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Strategic Considerations for the Wildland/Urban Interface" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 915" style="display: none;"></div>
+        <label><input type="radio" name="q56" value="a"> a) defense area</label><br>
+        <label><input type="radio" name="q56" value="b"> b) defensible space</label><br>
+        <label><input type="radio" name="q56" value="c"> c) house protection zone</label><br>
+        <label><input type="radio" name="q56" value="d"> d) clear zone</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q57">
+    <p><strong>57. In the acronym S-FACTS, the first “S” stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Strategic Considerations for the Wildland/Urban Interface" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 915" style="display: none;"></div>
+        <label><input type="radio" name="q57" value="a"> a) survival</label><br>
+        <label><input type="radio" name="q57" value="b"> b) structures</label><br>
+        <label><input type="radio" name="q57" value="c"> c) space</label><br>
+        <label><input type="radio" name="q57" value="d"> d) strategic</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q58">
+    <p><strong>58. The _____ is the area where undeveloped land with vegetative fuels meets with human-made structures.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Strategic Considerations for the Wildland/Urban Interface" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 915" style="display: none;"></div>
+        <label><input type="radio" name="q58" value="a"> a) wildland/urban interface</label><br>
+        <label><input type="radio" name="q58" value="b"> b) wildfire/urban intermix</label><br>
+        <label><input type="radio" name="q58" value="c"> c) wilderness/urban intersect</label><br>
+        <label><input type="radio" name="q58" value="d"> d) strategic development area</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q59">
+    <p><strong>59. _____ is a strategy used when wildland fire comes in contact with suburban areas with a good water supply.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Strategic Considerations for the Wildland/Urban Interface" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 917" style="display: none;"></div>
+        <label><input type="radio" name="q59" value="a"> a) Tactical patrol</label><br>
+        <label><input type="radio" name="q59" value="b"> b) Anchor and hold</label><br>
+        <label><input type="radio" name="q59" value="c"> c) Bump and run</label><br>
+        <label><input type="radio" name="q59" value="d"> d) Fire front following</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q60">
+    <p><strong>60. The _____ is a place firefighters can go to wait until fire behavior conditions improve so they can reassess the fire.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Strategic Considerations for the Wildland/Urban Interface" data-subject="Chapter 21" data-title="Wildland and Ground Cover Fires" data-feedback="Chapter 21; Page 916" style="display: none;"></div>
+        <label><input type="radio" name="q60" value="a"> a) topological refuge area</label><br>
+        <label><input type="radio" name="q60" value="b"> b) temporary refuge area</label><br>
+        <label><input type="radio" name="q60" value="c"> c) transient retreat area</label><br>
+        <label><input type="radio" name="q60" value="d"> d) tactical retreat area</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+</form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

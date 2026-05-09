@@ -1,0 +1,182 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Static Water Supply Sources
+Chapter 11 Test
+Name:
+	
+
+	Date:
+	
+
+	
+
+Directions: Write the correct letter on the blank before each question.
+
+
+Objective 1:
+Explain the principles of lift. 
+                1.        Lift can be described as the difference in elevation between the surface of the static water supply and the:  (403)
+        A.        nozzle.
+        B.        fire scene itself.
+        C.        center of the pump intake.
+        D.        highest point on the fire apparatus.
+                2.        During the process of drafting, which results in water being forced into the hose and pump because of a partial vacuum created in the pump?  (404)
+        A.        Pressure in the intake hose and pump equals atmospheric pressure. 
+        B.        Pressure in the intake hose and pump fluctuates more than ten percent. 
+        C.        Pressure in the intake hose and pump drops to lower than atmospheric pressure. 
+        D.        Pressure in the intake hose and pump increases to higher than atmospheric pressure.
+                3.        When drafting, water is forced in and continues to rise until the pump is full of water or pressure within the pump and intake hose:  (404)
+        A.        begins to vary.
+        B.        equals atmospheric pressure.
+        C.        is less than atmospheric pressure. 
+        D.        is greater than atmospheric pressure. 
+
+                4.        Maximum lift at a given altitude:  (404)
+        A.        will be less than theoretical lift. 
+        B.        will be the same as theoretical lift.
+        C.        will be greater than theoretical lift.
+        D.        may be either greater or less than theoretical lift.
+                5.        Theoretical lift can be calculated by determining the actual atmospheric pressure of an area and:  (404)
+        A.        adding that number to the water’s pressure per square foot (kPa) while it is in the intake hose. 
+        B.        subtracting that number from the water’s pressure per square foot (kPa) while it is in the intake hose.
+        C.        dividing that number by the water’s pressure per square foot (kPa) while it is in the intake hose. 
+        D.        multiplying that number by the water’s pressure per square foot (kPa) while it is in the intake hose.
+                6.        In most circumstances, maximum lift is approximately:  (404)
+        A.        10 feet (3 m).
+        B.        15 feet (4.5 m).
+        C.        25 feet (7.5 m).
+        D.        40 feet (12 m).
+                7.        As the point of maximum lift is approached, the volume of water available for the fire pump:  (404)
+        A.        varies widely.
+        B.        becomes too difficult to estimate.
+        C.        is sufficient water for fire suppression.
+        D.        may be too low to be of value in fire suppression.
+                8.        The height that a column of water may be lifted in sufficient quantity to provide a reliable fire flow is called:  (406)
+        A.        minimum lift.
+        B.        maximum lift.
+        C.        theoretical lift.
+        D.        dependable lift.
+
+                9.        After factoring in surrounding atmospheric pressure and friction loss in the intake hose, every fire pump operating properly should have a dependable lift of:  (406)
+        A.        exactly 10 feet (3 m).
+        B.        at least 14.7 feet (4.5 m).
+        C.        at least 21.5 feet (6.5 m).
+        D.        between 20 (6 m) and 25 feet (7.5 m).
+                10.        When drafting, as lift or friction loss in hard intake hose is increased, water supply capability of the pump:  (406)
+        A.        increases.
+        B        decreases.
+        C.        remains the same.
+        D.        may either increase or decrease.  
+                11.        When at draft, the sum of the pump discharge pressure and intake pressure correction that takes into account friction loss in the intake hose and height of the lift is called:  (407)
+        A.        net pump discharge pressure.
+        B.        average pump discharge pressure.
+        C.        practical pump discharge pressure.
+        D.        theoretical pump discharge pressure.
+
+
+Objective 2:
+Summarize considerations when drafting from a natural static water supply source. 
+                12.        When should driver/operators become familiar with drafting sources within their jurisdiction?  (410)
+        A.        Preincident planning
+        B.        During mutual aid exercises
+        C.        Annual community awareness days
+        D.        When scene conditions require drafting
+
+                13.        When evaluating adequacy of smaller natural sources, why should caution be used regarding their suitability as a water supply for fire fighting?  (410)
+        A.        They may have more aquatic life than larger bodies of water.
+        B.        Nearby residents may become upset when small streams or ponds are used for fire fighting.
+        C.        Environmental regulations often prohibit the use of small streams or ponds for drafting.
+        D.        They may be more susceptible to fluctuations in adequacy during periods of drought than larger bodies of water.
+                14.        What is MOST likely to impede access to a natural static water source?  (410)
+        A.        Wildlife concerns
+        B.        Traffic congestion
+        C.        Recreational water activities
+        D.        Wet/soft ground approaches
+                15.        Which situation is MOST likely to make it necessary to position portable pumps at the supply source during drafting operations?  (411)
+        A.        When it is a mutual aid incident
+        B.        When personnel are limited in number
+        C.        When the fire is limited in scope and size
+        D.        When fire apparatus cannot make required approach
+                16.        Which would be the MOST likely concern after traversing frozen ground in order to reach a drafting site?  (411)
+        A.        Ice may build up on apparatus parts.
+        B.        Chocking wheels is not possible in icy conditions.
+        C.        Thawing may occur from an increase in air temperature. 
+        D.        Temperatures will decrease resulting in ground becoming even more solid.
+                17.        What water depth is generally considered minimum around a barrel-type strainer?  (412)
+        A.        6 inches (150 mm)
+        B.        8 inches (200 mm)
+        C.        1 foot (300 mm)
+        D.        2 feet (600 mm)
+                18.        When providing flow required to reach the capacity of the pumping apparatus, floating strainers may be used for water as shallow as:  (412)
+        A.        3 inches (75 mm).
+        B.        6 inches (150 mm).
+        C.        8 inches (200 mm).
+        D.        1 foot (300 mm).
+                19.        Low-level strainers are most commonly used to draft from:  (412)
+        A.        lakes.
+        B.        small ponds.
+        C.        portable water tanks.
+        D.        running streams or creeks. 
+                20.        What do some jurisdictions do to help avoid problems with silt and debris?  (412)
+        A.        Use a double-layered strainer
+        B.        Avoid drafting from these areas
+        C.        Install dry hydrants at favorable drafting locations
+        D.        Designate equipment that is used only in these locations 
+                21.        Any operation that causes salt or dirty water to be drawn into a pump requires the pump be flushed with:  (412)
+        A.        foam solution after pumping operation is complete.
+        B.        distilled water after pumping operation is complete.
+        C.        clean fresh water after pumping operation is complete.
+        D.        special cleaning solution after pumping operation is complete.
+                 22.        All firefighters working in close proximity to bodies of water must wear personal flotation devices and use safety lines:  (414)
+        A.        if the depth is greater than 3 feet. 
+        B.        if the depth is greater than 5 feet.
+        C.        regardless of the assumed depth.
+        D.        unless a certified water safety swimmer.
+
+
+
+Objective 3:
+Describe types of artificial static water supply sources. 
+                23.        Which is an underground water storage receptacle usually found in an area not serviced by a hydrant system?  (415)
+        A.        Cistern 
+        B.        Ground reservoir 
+        C.        Private water storage tank  
+        D.        Agricultural irrigation system
+                24.        Which water source is the fire department MOST likely to require the owner to equip with appropriate connection points for fire department use?  (415)
+        A.        Cistern 
+        B.        Ground reservoir 
+        C.        Private water storage tank  
+        D.        Agricultural irrigation system
+                25.        Which water source typically contains many millions of gallons (liters) of water and may be found on large commercial or industrial properties?  (415)
+        A.        Cistern 
+        B.        Ground reservoir 
+        C.        Private water storage tank  
+        D.        Agricultural irrigation system
+                26.        Which water source is MOST likely to have access that may be difficult because of their backyard location and the presence of fences?  (415)
+        A.        Cisterns 
+        B.        Ground reservoirs 
+        C.        Swimming pools
+        D.        Private water storage tanks
+                27.        The water supply in a typical residential swimming pool:  (416)
+        A.        is not suitable for any operation.
+        B.        is generally sufficient for extended operations.
+        C.        provides water supply for fires while in the incipient stage.
+        D.        may contain adequate water supply for a fire in a single family dwelling.
+                28.        Which water source may be equipped with connections similar to a dry hydrant for quick fire department hook-ups?  (418)
+        A.        Cisterns
+        B.        Agricultural irrigation systems
+        C.        Large indoor or outdoor pools
+        D.        Small private residential pools
+                29.        Which water source generally supplies water via open canals and portable pipes?  (418)
+        A.        Cisterns
+        B.        Private water storage tanks
+        C.        Agricultural irrigation systems
+        D.        Large indoor or outdoor pools
+                30.        Which water source is MOST likely to require specially threaded adapters or other tools to operate the system?  (418)
+        A.        Cisterns
+        B.        Private water storage tanks
+        C.        Agricultural irrigation systems
+        D.        Large indoor or outdoor pools
+
+
+Fire Protection Publications                Chapter Test
+Oklahoma State University                11-

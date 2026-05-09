@@ -1,0 +1,223 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Apparatus Testing
+Chapter 15 Test
+Name:
+	
+
+	Date:
+	
+
+	
+
+Directions: Write the correct letter on the blank before each question.
+
+
+Objective 1:
+Distinguish among preperformance tests for pumping apparatus. 
+                1.        Which standard is commonly used as a basis for most apparatus bid specifications?  (516)
+        A.        NFPA® 1500
+        B.        NFPA® 1521
+        C.        NFPA® 1901
+        D.        NFPA® 1931
+                2.        When road tests are conducted as part of manufacturers’ testing, what type of conditions should be present?  (516)
+        A.        Flat, dry, paved roads in good condition
+        B.        Flat, dry, unpaved roads in good condition
+        C.        Both flat and hilly roads, regardless of condition
+        D.        A mixture of paved and unpaved roads in good condition
+                3.        If a jurisdiction seeks special requirements from the manufacturer to ensure that the apparatus will perform as required under local conditions, they may be written into the bid specifications as: (516)
+        A.        recommendations.
+        B.        policies and procedures.
+        C.        engineering specifications.
+        D.        performance requirements.
+
+                4.        What is MOST likely to happen if an apparatus fails to comply with bid specifications?  (517)
+        A.        The apparatus will be rejected by the purchaser.
+        B.        The manufacturer will offer the apparatus at a reduced price.
+        C.        All apparatus-mounted equipment will be replaced before retesting.
+        D.        The failure will be documented and the apparatus will be placed into service.
+                5.        What is the maximum speed that must be reached by apparatus during road tests?  (516)
+        A.        40 mph (65 km/h)
+        B.        50 mph (80 km/h)
+        C.        60 mph (95 km/h)
+        D.        70 mph (110 km/h)
+                6.        Which test is performed to ensure that the pumps and associated piping are capable of withstanding high pressure pumping demands?  (517)
+        A.        Hydrostatic testing
+        B.        Hydrophobic testing
+        C.        Pumping output testing
+        D.        Pumping overload testing
+                7.        Who is in charge of performing pump certification tests?  (517)
+        A.        Driver/operators
+        B.        Apparatus mechanics
+        C.        Manufacturer representatives
+        D.        Independent testing organizations
+                8.        The engine speed interlock test is part of which category of preperformance tests?  (517)
+        A.        Acceptance tests
+        B.        Manufacturers’ tests
+        C.        Pump certification tests
+        D.        Engineering system tests
+
+                9.        What is the purpose of acceptance testing?  (517)
+        A.        To ensure that driver/operators are well qualified to operate all onboard apparatus equipment        
+        B.        To demonstrate to the purchaser that the apparatus conforms to all bid specifications at the time of delivery
+        C.        To ensure that pumps and associated piping are capable of withstanding high pressure pumping demands
+        D.        To allow purchasers to test multiple apparatus models and accept the model that best suits their jurisdictional needs
+                10.        Pump testing should be performed: (517)
+        A.        only during acceptance testing.
+        B.        only during certification testing.
+        C.        both certification tests and road tests.
+        D.        both acceptance tests and certification tests.
+                11.        Which test is more important for jurisdictions located at least 2,000 ft (600 m) above sea level? (518)
+        A.        Onboard tank capacity test
+        B.        Onboard tank overload test 
+        C.        Priming system overload test
+        D.        Pumping engine overload test
+
+
+Objective 2:
+Summarize facts about performance testing of fire pumps.
+                12.        In addition to yearly testing as required by NFPA® 1911, when should pumper performance be tested?  (518)
+        A.        After any major incident involving multiple jurisdictions
+        B.        Whenever an oil change or other routine maintenance is done
+        C.        If the apparatus operates during extreme temperature conditions
+        D.        Whenever the apparatus has undergone major pump or powertrain repair
+
+                13.        Which test is included in the minimum requirements of NFPA® 1901 for apparatus performance testing?  (518)
+        A.        Overload test
+        B.        Overdrive test
+        C.        Hydrostatic test
+        D.        Primer control test
+                14.        When conducting pump performance tests using a static water source, how deep must the water be?  (518)
+        A.        4 ft (1.2 m)
+        B.        6 ft (1.8 m)
+        C.        8 ft (2.4 m)
+        D.        10 ft (3.0 m)
+                15.        When conducting pumper performance testing, the air temperature should always be above:  (518)
+        A.        0°F (-18°C).
+        B.        10°F (-12°C).
+        C.        25°F (-4°C).
+        D.        32°F (0°C).
+                16.        Which factor would be MOST important to consider when correcting net pump discharge pressure for apparatus testing? (519)
+        A.        Pump capacity 
+        B.        Age of the apparatus 
+        C.        Diameter of the intake hose 
+        D.        Friction loss in the intake hose
+                17.        According to NFPA® 1911, all gauges used for service testing must be calibrated within _____ of testing. (521)
+        A.        30 days
+        B.        60 days
+        C.        6 months
+        D.        12 months
+
+                18.        A pitot tube is required if a ___ is not used during performance testing.  (522)
+        A.        flowmeter
+        B.        stop watch
+        C.        pitot clamp
+        D.        gauge stand
+                19.        If a flowmeter is used during performance testing, what piece of equipment may be used in place of smooth bore nozzles?  (522)
+        A.        Fog nozzles
+        B.        Any handline nozzle
+        C.        Master stream nozzles
+        D.        Air aspirating foam nozzles
+                20.        A flowmeter might be used instead of a pitot gauge during a pump performance test, because flowmeters are:  (522)
+        A.        more efficient.
+        B.        more accurate.
+        C.        less expensive.
+        D.        easier to operate.
+                21.        During service testing, personnel should operate the engine throttle slowly in order to help prevent which potentially dangerous situation from occurring?  (523)
+        A.        Sudden speed changes
+        B.        Gradual speed changes
+        C.        Sudden pressure changes
+        D.        Gradual pressure changes
+                22.        Which dangerous substance should be monitored for during service testing? (523)
+        A.        Sulfur dioxide
+        B.        Carbon dioxide
+        C.        Hydrogen sulfide
+        D.        Carbon monoxide
+
+                23.        What piece of equipment is used to determine engine speed during performance testing?  (523)
+        A.        Flow meter
+        B.        Pitot gauge
+        C.        Tachometer
+        D.        Speedometer
+                24.        Which pieces of equipment are evaluated for air leaks using a vacuum test? (523)
+        A.        Priming device, pump, and intake hose
+        B.        Priming device, pump, and output hose
+        C.        Onboard water tank seals and intake hose
+        D.        Onboard water tank seals and priming device
+                25.        What should be done if the pump fails to reach 22 inches of mercury (-75 kPa) during the vacuum test?  (523)
+        A.        Immediately retest the apparatus a second time.
+        B.        Document the test results and retest within two weeks.
+        C.        Immediately contact the manufacturer’s representative.
+        D.        Remove the apparatus from service until repairs can be made.
+                26.        For a pumper with a 1,250 gpm (5 000 L/min) capacity, how quickly must it achieve prime during the priming system performance test?  (524)
+        A.        15 seconds or less
+        B.        30 seconds or less
+        C.        1 minute or less
+        D.        2 minutes or less
+                27.        Which test is performed in a three-part sequence and may be completed while the pump is still set up after the pumping test?  (525)
+        A.        Priming system test
+        B.        Pressure control test
+        C.        Tank-to-pump flow test
+        D.        Flowmeter operational test
+
+                28.        When conducting discharge pressure gauge and flowmeter operational tests, a difference in readings between the flowmeter and pitot gauge must not be more than:  (525)
+        A.        10 percent.
+        B.        20 percent.
+        C.        30 percent.
+        D.        40 percent.
+                29.        Which test verifies that the piping between the onboard tank and pump is sufficient to supply the minimum amount of water as specified by NFPA® 1901 and the design of the manufacturer?  (525)
+        A.        Priming system test
+        B.        Pressure control test
+        C.        Tank-to-pump flow test
+        D.        Discharge pressure gauge test
+                30.        During the tank-to-pump flow test, pumpers with an onboard capacity of greater than 500 gallons (2 000 L) must be capable of flowing at least:  (526)
+        A.        100 gpm (400 L/min).
+        B.        200 gpm (800 L/min).
+        C.        300 gpm (1 200 L/min).
+        D.        500 gpm (2 000 L/min).
+                31.        Which apparatus performance tests require that a discharge hoseline from a second pumper be connected to the apparatus being tested? (526)
+        A.        Priming system test
+        B.        Tank-to-pump flow test
+        C.        Internal intake pressure relief valve test
+        D.        Discharge pressure gauge and flowmeter operational tests
+
+                32.        When completing performance testing, what is MOST likely to happen if an apparatus achieves results of less than 90 percent of its originally rated capabilities?  (526)
+        A.        It will be placed out of service and restored to its original capabilities.
+        B.        It will be documented as out of service but kept for training purposes.
+        C.        It will be given a higher rating based on the results of the most recent testing.
+        D.        It will be permanently placed out of service and replaced with a new apparatus.
+
+
+Objective 3:
+Describe methods for testing a foam proportioning system. 
+                33.        Foam proportioning equipment testing should occur before being placed in service and:  (527)
+        A.        after each use.
+        B.        periodically thereafter.
+        C.        only if the foam seems ineffective.
+        D.        when the type of foam is changed.
+                34.        Which foam proportioner test checks the volume of foam concentrate that is drawn through the system?  (527)
+        A.        Foam solution refractivity test
+        B.        Foam solution conductivity test
+        C.        Foam concentrate displacement method
+        D.        Foam concentrate pump discharge volume method
+                35.        Which foam proportioner test discharges foam at a predetermined flow into a calibrated tank for a specific period of time?  (528)
+        A.        Foam solution refractivity test
+        B.        Foam solution conductivity test
+        C.        Foam concentrate displacement method
+        D.        Foam concentrate pump discharge volume method
+
+                36.        Which foam proportioner test measures the velocity of light that travels through foam and compares it to a base reading?  (528)
+        A.        Foam solution refractivity test
+        B.        Foam solution conductivity test
+        C.        Foam concentrate displacement method
+        D.        Foam concentrate pump discharge volume method
+                37.        Which foam proportioner test verifies the ability of the foam product to conduct electricity?  (529)
+        A.        Foam solution refractivity test
+        B.        Foam solution conductivity test
+        C.        Foam concentrate displacement method
+        D.        Foam concentrate pump discharge method
+
+
+
+
+Fire Protection Publications                Chapter Test
+Oklahoma State University                15-

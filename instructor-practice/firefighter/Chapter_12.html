@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>Firefighter Chapter 12 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. Firefighters use _____ for a variety of tasks at an incident scene, including rescuing victims, gaining access to upper floors, and for delivering a master stream.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 432" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) Q jacks</label><br>
+        <label><input type="radio" name="q1" value="b"> b) ladders</label><br>
+        <label><input type="radio" name="q1" value="c"> c) portable monitors</label><br>
+        <label><input type="radio" name="q1" value="d"> d) Arizona Vortexes</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. Ladders must meet the performance requirements described in _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Ladder Construction and Components" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 432" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) NFPA 1901</label><br>
+        <label><input type="radio" name="q2" value="b"> b) NFPA 1010</label><br>
+        <label><input type="radio" name="q2" value="c"> c) NFPA 1960</label><br>
+        <label><input type="radio" name="q2" value="d"> d) NFPA 470</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. The _____ is the main structural component that runs the length of the ladder.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Ladder Construction and Components" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 432" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) beam</label><br>
+        <label><input type="radio" name="q3" value="b"> b) rung</label><br>
+        <label><input type="radio" name="q3" value="c"> c) dogs</label><br>
+        <label><input type="radio" name="q3" value="d"> d) derrick</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. Per _____, the surface area of rungs is required to be skid resistant.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Ladder Construction and Components" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 432" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) NFPA 1960</label><br>
+        <label><input type="radio" name="q4" value="b"> b) NFPA 1901</label><br>
+        <label><input type="radio" name="q4" value="c"> c) NFPA 1403</label><br>
+        <label><input type="radio" name="q4" value="d"> d) NFPA 1202</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. A disadvantage of a metal ladder is that it _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Ladder Construction and Components" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Pages 433" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) is relatively light in weight</label><br>
+        <label><input type="radio" name="q5" value="b"> b) has a higher cost</label><br>
+        <label><input type="radio" name="q5" value="c"> c) conducts electricity</label><br>
+        <label><input type="radio" name="q5" value="d"> d) may be combustible</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. The butt of the ladder is sometimes referred to as the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Ladder Construction and Components" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 433" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) spur</label><br>
+        <label><input type="radio" name="q6" value="b"> b) flange</label><br>
+        <label><input type="radio" name="q6" value="c"> c) tip</label><br>
+        <label><input type="radio" name="q6" value="d"> d) heel</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. The base of the ladder is also known as the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Ladder Construction and Components" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 433" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) butt</label><br>
+        <label><input type="radio" name="q7" value="b"> b) cross-member</label><br>
+        <label><input type="radio" name="q7" value="c"> c) beam</label><br>
+        <label><input type="radio" name="q7" value="d"> d) block</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. Two disadvantages of a(n) _____ ladder are heavier weight and higher cost.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Ladder Construction and Components" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 433" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) metal</label><br>
+        <label><input type="radio" name="q8" value="b"> b) wood</label><br>
+        <label><input type="radio" name="q8" value="c"> c) aluminum</label><br>
+        <label><input type="radio" name="q8" value="d"> d) fiberglass</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. The components that make up a trussed beam ladder are the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Ladder Construction and Components" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 433" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) channel and spur</label><br>
+        <label><input type="radio" name="q9" value="b"> b) block and tackle</label><br>
+        <label><input type="radio" name="q9" value="c"> c) rail and block</label><br>
+        <label><input type="radio" name="q9" value="d"> d) web and flange</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. The _____ of a ladder changes color when the ladder is exposed to the amount of heat that could damage the structural integrity of the ladder.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Ladder Construction and Components" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 433" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) heat plate</label><br>
+        <label><input type="radio" name="q10" value="b"> b) ladder beam sensor</label><br>
+        <label><input type="radio" name="q10" value="c"> c) heat sensor label</label><br>
+        <label><input type="radio" name="q10" value="d"> d) plate label</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. A heat sensor activates when exposed to a temperature of _____ plus or minus 5 percent.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Ladder Construction and Components" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 433" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) 200°F</label><br>
+        <label><input type="radio" name="q11" value="b"> b) 300°F</label><br>
+        <label><input type="radio" name="q11" value="c"> c) 450°F</label><br>
+        <label><input type="radio" name="q11" value="d"> d) 600°F</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. A(n) _____ ladder is a straight ground ladder that is equipped with roof hooks at one or both ends.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 434" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) aerial</label><br>
+        <label><input type="radio" name="q12" value="b"> b) hook</label><br>
+        <label><input type="radio" name="q12" value="c"> c) folding</label><br>
+        <label><input type="radio" name="q12" value="d"> d) combination</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. A roof ladder is sometimes referred to as a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 434" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) pompier ladder</label><br>
+        <label><input type="radio" name="q13" value="b"> b) access ladder</label><br>
+        <label><input type="radio" name="q13" value="c"> c) hook ladder</label><br>
+        <label><input type="radio" name="q13" value="d"> d) folding ladder</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. The _____ section of an extension ladder is raised or extended from the bed section.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 436" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) rail</label><br>
+        <label><input type="radio" name="q14" value="b"> b) guide</label><br>
+        <label><input type="radio" name="q14" value="c"> c) fly</label><br>
+        <label><input type="radio" name="q14" value="d"> d) dog</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. A _____ ladder is a narrow, two-section extension ladder specifically designed to provide attic access and to be used in any tight space.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 437" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) Fresno</label><br>
+        <label><input type="radio" name="q15" value="b"> b) roof</label><br>
+        <label><input type="radio" name="q15" value="c"> c) Pompier</label><br>
+        <label><input type="radio" name="q15" value="d"> d) Bangor</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. A _____ is an extension ladder with staypoles.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Pages 437" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) Fresno ladder</label><br>
+        <label><input type="radio" name="q16" value="b"> b) Bangor ladder</label><br>
+        <label><input type="radio" name="q16" value="c"> c) pole ladder</label><br>
+        <label><input type="radio" name="q16" value="d"> d) Pompier</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. A(n) _____ is a narrow, collapsible ladder that is designed to allow access to attic scuttle holes and confined areas.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 439" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) folding</label><br>
+        <label><input type="radio" name="q17" value="b"> b) combination</label><br>
+        <label><input type="radio" name="q17" value="c"> c) Pompier</label><br>
+        <label><input type="radio" name="q17" value="d"> d) A-frame</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. The proper way to clean a ladder is with a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Cleaning, Inspection, Maintenance, Service Testing, and Storing Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 442" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) soft-bristled brush, mild detergent, and warm water</label><br>
+        <label><input type="radio" name="q18" value="b"> b) soft-bristled brush, strong solvent, and hot water</label><br>
+        <label><input type="radio" name="q18" value="c"> c) shop rag, degreaser, and cold water</label><br>
+        <label><input type="radio" name="q18" value="d"> d) hard-bristled brush, strong detergent, and hot water</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. Ladders must be visually inspected _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Cleaning, Inspection, Maintenance, Service Testing, and Storing Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 442" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) at least monthly</label><br>
+        <label><input type="radio" name="q19" value="b"> b) bimonthly</label><br>
+        <label><input type="radio" name="q19" value="c"> c) annually</label><br>
+        <label><input type="radio" name="q19" value="d"> d) quarterly</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. _____ are aerial devices that deliver streams of water and contain high-capacity pre-piped waterways.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Pages 441" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) Flow towers</label><br>
+        <label><input type="radio" name="q20" value="b"> b) Tiller trucks</label><br>
+        <label><input type="radio" name="q20" value="c"> c) Elevated platforms</label><br>
+        <label><input type="radio" name="q20" value="d"> d) Water towers</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. _____ ladders can be damaged by prolonged exposure to direct sunlight.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Cleaning, Inspection, Maintenance, Service Testing, and Storing Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 444" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) Steel mill</label><br>
+        <label><input type="radio" name="q21" value="b"> b) Fiberglass</label><br>
+        <label><input type="radio" name="q21" value="c"> c) Wood</label><br>
+        <label><input type="radio" name="q21" value="d"> d) Aluminum</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. _____ is simply the regular process of keeping the ladder in proper operating condition.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Cleaning, Inspection, Maintenance, Service Testing, and Storing Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 442" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) Inspection</label><br>
+        <label><input type="radio" name="q22" value="b"> b) Replacement</label><br>
+        <label><input type="radio" name="q22" value="c"> c) Maintenance</label><br>
+        <label><input type="radio" name="q22" value="d"> d) Cleaning</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. The estimated height of a residential structure floor to floor is _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 447" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) 6 to 8 feet</label><br>
+        <label><input type="radio" name="q23" value="b"> b) 8 to 14 feet</label><br>
+        <label><input type="radio" name="q23" value="c"> c) 8 to 10 feet</label><br>
+        <label><input type="radio" name="q23" value="d"> d) 12 to 14 feet</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. For a commercial building, the estimated height from ground to the second story windowsill is _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 447" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) 4 to 6 feet</label><br>
+        <label><input type="radio" name="q24" value="b"> b) 8 to 12 feet</label><br>
+        <label><input type="radio" name="q24" value="c"> c) 14 to 16 feet</label><br>
+        <label><input type="radio" name="q24" value="d"> d) 16 to 22 feet</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q25">
+    <p><strong>25. When a ladder is used to access a roof, _____ rung(s) should show above the roofline.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 448" style="display: none;"></div>
+        <label><input type="radio" name="q25" value="a"> a) seven</label><br>
+        <label><input type="radio" name="q25" value="b"> b) five</label><br>
+        <label><input type="radio" name="q25" value="c"> c) three</label><br>
+        <label><input type="radio" name="q25" value="d"> d) one</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q26">
+    <p><strong>26. When you need to break a window for venting, enter a window for rescue operations, or help a victim climb out of a window, place the tip of the ladder _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 447" style="display: none;"></div>
+        <label><input type="radio" name="q26" value="a"> a) immediately below the windowsill</label><br>
+        <label><input type="radio" name="q26" value="b"> b) two rungs inside the window</label><br>
+        <label><input type="radio" name="q26" value="c"> c) just above the window</label><br>
+        <label><input type="radio" name="q26" value="d"> d) three rungs above the windowsill</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q27">
+    <p><strong>27. A _____ angle is sometimes referred to as the climbing angle.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 447" style="display: none;"></div>
+        <label><input type="radio" name="q27" value="a"> a) 40-degree</label><br>
+        <label><input type="radio" name="q27" value="b"> b) 65-degree</label><br>
+        <label><input type="radio" name="q27" value="c"> c) 75-degree</label><br>
+        <label><input type="radio" name="q27" value="d"> d) 90-degree</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q28">
+    <p><strong>28. The vertical reach of a ladder needed to access a third-story window in a commercial building would be _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 447" style="display: none;"></div>
+        <label><input type="radio" name="q28" value="a"> a) 18 feet</label><br>
+        <label><input type="radio" name="q28" value="b"> b) 28 feet</label><br>
+        <label><input type="radio" name="q28" value="c"> c) 36 feet</label><br>
+        <label><input type="radio" name="q28" value="d"> d) 40 feet</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q29">
+    <p><strong>29. A _____ angle is often called the rescue angle.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 448" style="display: none;"></div>
+        <label><input type="radio" name="q29" value="a"> a) 75-degree</label><br>
+        <label><input type="radio" name="q29" value="b"> b) 70-degree</label><br>
+        <label><input type="radio" name="q29" value="c"> c) 60-degree</label><br>
+        <label><input type="radio" name="q29" value="d"> d) 45-degree</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q30">
+    <p><strong>30. When bending to pick up a ladder, _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 450" style="display: none;"></div>
+        <label><input type="radio" name="q30" value="a"> a) twist your body to assist in momentum while lifting</label><br>
+        <label><input type="radio" name="q30" value="b"> b) attempt to carry all ladders alone first, then ask for help</label><br>
+        <label><input type="radio" name="q30" value="c"> c) bend at the waist to lift</label><br>
+        <label><input type="radio" name="q30" value="d"> d) bend at the knees, keeping your back straight</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q31">
+    <p><strong>31. With the _____ technique, the ladder is carried on its edge by a beam at arm’s length.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 453" style="display: none;"></div>
+        <label><input type="radio" name="q31" value="a"> a) suitcase carry</label><br>
+        <label><input type="radio" name="q31" value="b"> b) vertical carry</label><br>
+        <label><input type="radio" name="q31" value="c"> c) flat carry</label><br>
+        <label><input type="radio" name="q31" value="d"> d) shoulder carry</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q32">
+    <p><strong>32. When four firefighters are required to carry a ladder, they would use the _____ carry.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 455" style="display: none;"></div>
+        <label><input type="radio" name="q32" value="a"> a) under-the-arm</label><br>
+        <label><input type="radio" name="q32" value="b"> b) suitcase</label><br>
+        <label><input type="radio" name="q32" value="c"> c) flat</label><br>
+        <label><input type="radio" name="q32" value="d"> d) vertical</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q33">
+    <p><strong>33. Firefighters should always maintain _____ of clearance between a ladder and utility lines to prevent electrocution.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 460" style="display: none;"></div>
+        <label><input type="radio" name="q33" value="a"> a) about 5 feet</label><br>
+        <label><input type="radio" name="q33" value="b"> b) at least 10 feet</label><br>
+        <label><input type="radio" name="q33" value="c"> c) no less than 15 feet</label><br>
+        <label><input type="radio" name="q33" value="d"> d) 25 feet or more</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q34">
+    <p><strong>34. A Bangor ladder is also referred to as a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 437" style="display: none;"></div>
+        <label><input type="radio" name="q34" value="a"> a) take-down ladder</label><br>
+        <label><input type="radio" name="q34" value="b"> b) Fresno ladder</label><br>
+        <label><input type="radio" name="q34" value="c"> c) tormentor ladder</label><br>
+        <label><input type="radio" name="q34" value="d"> d) bridge-over ladder</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q35">
+    <p><strong>35. A firefighter checks ensures the climbing angle of a ladder is correct by _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 461" style="display: none;"></div>
+        <label><input type="radio" name="q35" value="a"> a) checking the level sensor on the beam of the ladder</label><br>
+        <label><input type="radio" name="q35" value="b"> b) standing on a rung and reaching out to confirm that the shoulder-height rung is an arm’s length away</label><br>
+        <label><input type="radio" name="q35" value="c"> c) squatting behind a ladder and reaching out to a rung to confirm that your body is at a 90-degree angle</label><br>
+        <label><input type="radio" name="q35" value="d"> d) standing on the ground to determine where your hands reach the beams</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q36">
+    <p><strong>36. A _____ raise is a method of raising a ladder by laying the ladder on one beam and then raising it by lifting the tip of the ladder while resting the butt of the ladder on the single beam.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 462" style="display: none;"></div>
+        <label><input type="radio" name="q36" value="a"> a) rung</label><br>
+        <label><input type="radio" name="q36" value="b"> b) flat</label><br>
+        <label><input type="radio" name="q36" value="c"> c) beam</label><br>
+        <label><input type="radio" name="q36" value="d"> d) perpendicular</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q37">
+    <p><strong>37. A _____ raise is a method of raising a ladder by positioning the ladder on the ground with the butt near the building and then lifting the tip to lean it against the building.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 462" style="display: none;"></div>
+        <label><input type="radio" name="q37" value="a"> a) flat</label><br>
+        <label><input type="radio" name="q37" value="b"> b) beam</label><br>
+        <label><input type="radio" name="q37" value="c"> c) perpendicular</label><br>
+        <label><input type="radio" name="q37" value="d"> d) tip</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q38">
+    <p><strong>38. A _____ is used for tying off the halyard.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 463" style="display: none;"></div>
+        <label><input type="radio" name="q38" value="a"> a) figure 8 follow through</label><br>
+        <label><input type="radio" name="q38" value="b"> b) half hitch</label><br>
+        <label><input type="radio" name="q38" value="c"> c) clove hitch</label><br>
+        <label><input type="radio" name="q38" value="d"> d) bowline</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q39">
+    <p><strong>39. To prevent the butt of the ladder from slipping as the tip is raised, the firefighter at the butt of the ladder needs to _____ it to secure it.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 466" style="display: none;"></div>
+        <label><input type="radio" name="q39" value="a"> a) tie</label><br>
+        <label><input type="radio" name="q39" value="b"> b) heel</label><br>
+        <label><input type="radio" name="q39" value="c"> c) chock</label><br>
+        <label><input type="radio" name="q39" value="d"> d) lock</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q40">
+    <p><strong>40. A 24-foot extension ladder should have _____ firefighter(s) on it at one time.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 475" style="display: none;"></div>
+        <label><input type="radio" name="q40" value="a"> a) only 1</label><br>
+        <label><input type="radio" name="q40" value="b"> b) no more than 2</label><br>
+        <label><input type="radio" name="q40" value="c"> c) 3 or fewer</label><br>
+        <label><input type="radio" name="q40" value="d"> d) a maximum of 4</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q41">
+    <p><strong>41. Straight ladders, roof ladders, extension ladders, and combination ladders are required to support a weight of _____ pounds.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 475" style="display: none;"></div>
+        <label><input type="radio" name="q41" value="a"> a) 1200</label><br>
+        <label><input type="radio" name="q41" value="b"> b) 1000</label><br>
+        <label><input type="radio" name="q41" value="c"> c) 750</label><br>
+        <label><input type="radio" name="q41" value="d"> d) 500</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q42">
+    <p><strong>42. When climbing a ladder, keep any bouncing and shifting to a minimum, and keep your eyes focused _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 475" style="display: none;"></div>
+        <label><input type="radio" name="q42" value="a"> a) at windows</label><br>
+        <label><input type="radio" name="q42" value="b"> b) upward</label><br>
+        <label><input type="radio" name="q42" value="c"> c) downward</label><br>
+        <label><input type="radio" name="q42" value="d"> d) forward</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q43">
+    <p><strong>43. The safest way get tools up a ladder is to _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 475" style="display: none;"></div>
+        <label><input type="radio" name="q43" value="a"> a) tie a harness for the tool and carry it up using both hands on the rungs</label><br>
+        <label><input type="radio" name="q43" value="b"> b) slide the tool up the beam while grabbing the rung with the other hand</label><br>
+        <label><input type="radio" name="q43" value="c"> c) carry the tool in one hand while grabbing the rungs with the other hand</label><br>
+        <label><input type="radio" name="q43" value="d"> d) hoist the tool rather than have a firefighter carry it up the ladder</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q44">
+    <p><strong>44. A _____ is a strip of metal, wood, or fiberglass that wraps around a fly section and the section below it or slots in the fly section or the section below it to guide the fly section as it is being extended.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 437" style="display: none;"></div>
+        <label><input type="radio" name="q44" value="a"> a) stop</label><br>
+        <label><input type="radio" name="q44" value="b"> b) dog</label><br>
+        <label><input type="radio" name="q44" value="c"> c) pawl</label><br>
+        <label><input type="radio" name="q44" value="d"> d) guide</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q45">
+    <p><strong>45. A _____ is a mechanical locking device used in pairs to secure and hold extended fly sections in place.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 437" style="display: none;"></div>
+        <label><input type="radio" name="q45" value="a"> a) pawl</label><br>
+        <label><input type="radio" name="q45" value="b"> b) stop</label><br>
+        <label><input type="radio" name="q45" value="c"> c) guide</label><br>
+        <label><input type="radio" name="q45" value="d"> d) dog</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q46">
+    <p><strong>46. A _____ is piece of equipment worn as a belt, which has a carabiner clip attached to it that the firefighter can attach to a rung or a solid object when working on an elevated surface.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 477" style="display: none;"></div>
+        <label><input type="radio" name="q46" value="a"> a) leg lock</label><br>
+        <label><input type="radio" name="q46" value="b"> b) ladder belt</label><br>
+        <label><input type="radio" name="q46" value="c"> c) ladder line</label><br>
+        <label><input type="radio" name="q46" value="d"> d) safety belt</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q47">
+    <p><strong>47. When climbing a ladder, _____ is more secure because it maintains three contact point with the ladder at all times.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 475" style="display: none;"></div>
+        <label><input type="radio" name="q47" value="a"> a) holding onto the rungs of the ladder</label><br>
+        <label><input type="radio" name="q47" value="b"> b) sliding the hands along the beam</label><br>
+        <label><input type="radio" name="q47" value="c"> c) using a safety belt</label><br>
+        <label><input type="radio" name="q47" value="d"> d) using a safety line</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q48">
+    <p><strong>48. Firefighters who dismount from a ladder onto a roof typically _____ before stepping onto the surface.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 478" style="display: none;"></div>
+        <label><input type="radio" name="q48" value="a"> a) start the saw</label><br>
+        <label><input type="radio" name="q48" value="b"> b) drop the rope down for hoisting tools</label><br>
+        <label><input type="radio" name="q48" value="c"> c) sound the roof</label><br>
+        <label><input type="radio" name="q48" value="d"> d) radio that they are transitioning to the roof</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q49">
+    <p><strong>49. Under heavy fire smoke conditions, firefighters dismount from a ladder at a window by _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Using Ground Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 479" style="display: none;"></div>
+        <label><input type="radio" name="q49" value="a"> a) climbing over the tip and sliding over the windowsill</label><br>
+        <label><input type="radio" name="q49" value="b"> b) sitting on the windowsill and entering the room with both feet</label><br>
+        <label><input type="radio" name="q49" value="c"> c) using the non-dominant foot to enter the window first</label><br>
+        <label><input type="radio" name="q49" value="d"> d) using the dominant foot to enter the window first</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q50">
+    <p><strong>50. A(n) _____ is sometimes referred to as an attic ladder.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 439" style="display: none;"></div>
+        <label><input type="radio" name="q50" value="a"> a) multipurpose ladder</label><br>
+        <label><input type="radio" name="q50" value="b"> b) roof ladder</label><br>
+        <label><input type="radio" name="q50" value="c"> c) A-Frame ladder</label><br>
+        <label><input type="radio" name="q50" value="d"> d) folding ladder</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q51">
+    <p><strong>51. A combination ladder is also known as a(n) _____ ladder.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 438" style="display: none;"></div>
+        <label><input type="radio" name="q51" value="a"> a) folding</label><br>
+        <label><input type="radio" name="q51" value="b"> b) A-Frame</label><br>
+        <label><input type="radio" name="q51" value="c"> c) residential</label><br>
+        <label><input type="radio" name="q51" value="d"> d) multipurpose</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q52">
+    <p><strong>52. A(n) _____ is a tractor-trailer apparatus that requires a second operator positioned at the back of the trailer to steer the back wheels.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 441" style="display: none;"></div>
+        <label><input type="radio" name="q52" value="a"> a) multi-truck</label><br>
+        <label><input type="radio" name="q52" value="b"> b) water tower</label><br>
+        <label><input type="radio" name="q52" value="c"> c) tiller truck</label><br>
+        <label><input type="radio" name="q52" value="d"> d) elevated truck</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q53">
+    <p><strong>53. A wall ladder is also known as a(n) _____ ladder.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 434" style="display: none;"></div>
+        <label><input type="radio" name="q53" value="a"> a) house ladder</label><br>
+        <label><input type="radio" name="q53" value="b"> b) pole ladder</label><br>
+        <label><input type="radio" name="q53" value="c"> c) extension</label><br>
+        <label><input type="radio" name="q53" value="d"> d) straight</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q54">
+    <p><strong>54. _____ are metal spikes attached to the butt of a ladder to prevent the butt from slipping out of position.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Ladder Construction and Components" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 433" style="display: none;"></div>
+        <label><input type="radio" name="q54" value="a"> a) Butt spikes</label><br>
+        <label><input type="radio" name="q54" value="b"> b) Butt spurs</label><br>
+        <label><input type="radio" name="q54" value="c"> c) Safety spurs</label><br>
+        <label><input type="radio" name="q54" value="d"> d) Spur plate</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q55">
+    <p><strong>55. A(n) _____ ladder is a ladder that is a permanently mounted, power-operated ladder on an apparatus with a working length of 50 to 137 feet and operated from that apparatus.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Types of Ladders" data-subject="Chapter 12" data-title="The Fire Service" data-feedback="Chapter 12; Page 433" style="display: none;"></div>
+        <label><input type="radio" name="q55" value="a"> a) aerial</label><br>
+        <label><input type="radio" name="q55" value="b"> b) quint</label><br>
+        <label><input type="radio" name="q55" value="c"> c) TDA</label><br>
+        <label><input type="radio" name="q55" value="d"> d) snorkel</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+</form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

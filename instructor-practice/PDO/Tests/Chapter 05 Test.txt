@@ -1,0 +1,372 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Principles of Water
+Chapter 5 Test
+Name:
+	
+
+	Date:
+	
+
+	
+
+Directions: Write the correct letter on the blank before each question.
+
+
+Objective 1:
+Describe the characteristics of water. 
+                1.        Which statement about the freezing point of water is MOST accurate?  (167)
+        A.        Below 32°F (0°C), water converts to a solid state of matter.
+        B.        Below 40°F (4°C), water is able to convert to a solid state of matter.
+        C.        Water will not freeze until ambient temperature and surface water temperature are the same.
+        D.        Water will not freeze until surface water temperature is lower than ambient temperature.
+                2.        When water converts to a gas, water vapor, or steam, the water:  (167)
+        A.        immediately dissipates so it is rarely visible. 
+        B.        changes to droplets that will fall back to the surface. 
+        C.        only becomes visible if the ambient air temperature is above 40°F (4°C).
+        D.        only becomes visible as it rises away from the surface of the liquid and begins to condense. 
+
+
+                3.        Water is: (167)
+        A.        compressible only in a vacuum.
+        B.        considered to be virtually incompressible.
+        C.        compressible only at very low temperatures.
+        D.        compressible only at very high temperatures.
+
+                4.        For fire protection purposes, ordinary fresh water is considered to weigh:  (167)
+        A.        5.5 lb/gal (.66 kg/L).
+        B.        8.3 lb/gal (1 kg/L).
+        C.        10.2 lb/gal (1.2 kg/L).
+        D.        12 lb/gal (1.5 kg/L).
+                5.        Water may be used to smother fires in a combustible liquid when the:  (168)
+        A.        liquid’s specific gravity is higher than 1.
+        B.        liquid’s specific gravity is less than than 1.
+        C.        ambient air temperature is below 32°F (0°C).
+        D.        ambient air temperature is above 32°F (0°C).
+                6.        When water converts to steam within a closed space, the fire:  (168)
+        A.        may react with the steam violently.
+        B.        may be extinguished by smothering.
+        C.        will become larger and more difficult to extinguish.
+        D.        will stay in the incipient stage until it is extinguished.
+
+
+Objective 2:
+Identify the advantages and disadvantages of water. 
+                7.        Which is a characteristic of water?  (169)
+        A.        Its heat-absorbing capacity is greatest when paired with other extinguishing agents.
+        B.        Its heat-absorbing capacity is reduced when paired with other extinguishing agents.
+        C.        It has lower heat-absorbing capacity than other common extinguishing agents.
+        D.        It has greater heat-absorbing capacity than other common extinguishing agents.
+
+                8.        At 212°F (100°C), water converted to steam occupies approximately: (169)
+        A.        20 times its original volume.
+        B.        100 times its original volume.
+        C.        1,200 times its original volume.
+        D.        1,700 times its original volume.
+                9.        As an extinguishing agent, water is generally an: (169)
+        A.        expensive but readily available commodity.
+        B.        inexpensive and readily available commodity.
+        C.        expensive and not readily available commodity.
+        D.        inexpensive but not readily available commodity.
+                10.        A characteristic of water as an extinguishing agent is that it:  (169)
+        A.        has a low surface tension that makes it easy to soak into dense materials.
+        B.        initially has a low surface tension but after being applied has a high surface tension.
+        C.        initially has a high surface tension but after being applied has a low surface tension.
+        D.        has a high surface tension that makes it somewhat difficult to soak into dense materials.
+                11.        Which statement about water curtains is MOST accurate?  (169)
+        A.        Radiant heat does not pass through water, so water curtains are very effective.
+        B.        Radiant heat easily passes through water, rendering water curtains ineffective.
+        C.        Radiant heat passes through water but with difficulty, so the effectiveness of water curtains is difficult to determine.
+        D.        Radiant heat passes through cold water but not warm water, so the effectiveness of water curtains depends on temperature.
+                12.        Which statement about water and electricity is accurate?  (170)
+        A.        Water is a poor conductor of electricity.
+        B.        Water is a good conductor of electricity. 
+        C.        Water conducts electricity only at very high voltages.
+        D.        Water can conduct electricity, but does not create hazardous situations.
+
+
+Objective 3:
+Summarize facts about water pressure and velocity. 
+                13.        Which is the BEST description of pressure?  (170)
+        A.        Force per unit area
+        B.        Weight per unit area
+        C.        Relative measure of weight
+        D.        Simple measure of movement
+                14.        The first principle of pressure states that fluid pressure is:  (172)
+        A.        greatest at the center of the vessel.
+        B.        different depending upon the vessel.
+        C.        congruent to any surface on which it acts.
+        D.        perpendicular to any surface on which it acts. 
+                15.        The second principle of pressure states that fluid pressure at a point in fluid at rest is:  (172)
+        A.        greater near the top. 
+        B.        greater near the bottom.
+        C.        the same intensity in all directions. 
+        D.        variable and not the same in all directions.
+                16.        The third principle of pressure states that pressure applied to a confined fluid is:  (172)
+        A.        greater near the top. 
+        B.        greater near the bottom.
+        C.        transmitted equally in all directions.
+        D.        variable and not the same in all directions.
+                17.        The fourth principle of pressure states that the pressure of a liquid in an open vessel is:  (173)
+        A.        proportional to its depth.
+        B.        independent of its depth.
+        C.        dependent upon the length of time in vessel.
+        D.        variable even when vessels remain the same.
+
+                18.        The fifth principle of pressure states that the pressure of a liquid in an open vessel is:  (173)
+        A.        variable for similar liquids.
+        B.        dependent upon the vessel size.
+        C.        independent of the density of the liquid.
+        D.        proportional to the density of the liquid.
+                19.        The sixth principle of pressure states that the pressure of a liquid at the bottom of a vessel is:  (174)
+        A.        greater at the center.
+        B.        independent of the shape of the vessel.
+        C.        greater toward the outside of the vessel.
+        D.        dependent upon the shape of the vessel. 
+                20.        Which statement describes the relationship between pressure and altitude? (174)
+        A.        Pressure is independent of the altitude.
+        B.        Pressure is similar at low and very high altitudes.
+        C.        Pressure is greatest at low altitudes and least at very high altitudes.
+        D.        Pressure is greatest at very high altitudes and least at low altitudes.
+                21.        Which term refers to any pressure less than atmospheric pressure? (175)
+        A.        Vacuum
+        B.        Head pressure
+        C.        Static pressure
+        D.        Perfect vacuum
+                22.        Which term refers to absolute zero pressure?  (175)
+        A.        Vacuum
+        B.        Head pressure
+        C.        Static pressure
+        D.        Perfect vacuum
+
+                23.        In order to convert head in feet to head pressure in psi, you must divide the number of feet by:  (175)
+        A.        1.50.
+        B.        2.304.
+        C.        4.302.
+        D.        6.32.
+                24.        Which term refers to stored potential energy available to force water through pipes, fittings, hose and adapters?  (175)
+        A.        Head pressure
+        B.        Static pressure
+        C.        Residual pressure
+        D.        Normal operating pressure
+                25.        Which term refers to the pressure found in a water distribution system during normal consumption demands?  (176)
+        A.        Head pressure
+        B.        Static pressure
+        C.        Residual pressure
+        D.        Normal operating pressure
+                26.        The difference between static pressure and normal operating pressure is:  (176)
+        A.        static pressure is normal operating pressure minus 1.0.
+        B.        static pressure is normal operating pressure minus 2.30.
+        C.        normal operating pressure is residual pressure plus static pressure.
+        D.        the friction caused by water flowing through the pipes, valves and fittings.
+                27.        Which term refers to the portion of total available pressure not used to overcome friction loss or gravity while forcing water through pipes, fittings, hoses, adapters?  (176)
+        A.        Flow pressure 
+        B.        Head pressure
+        C.        Residual pressure
+        D.        Normal operating pressure
+
+                28.        Which term refers to the forward velocity pressure while water is flowing from a discharge opening?  (176)
+        A.        Flow pressure
+        B.        Head pressure
+        C.        Residual pressure
+        D.        Normal operating pressure
+                29.        When a nozzle is above the level of the pump, there is:  (176)
+        A.        pressure loss.
+        B.        pressure gain.
+        C.        no change in pressure. 
+        D.        either pressure loss or pressure gain.
+                30.        When a nozzle is below the level of the pump, there is:  (176)
+        A.        pressure loss.
+        B.        pressure gain.
+        C.        no change in pressure. 
+        D.        either pressure loss or pressure gain.
+                31.        Why does altitude impact the production of fire  streams?  (176)
+        A.        Because atmospheric pressure affects temperature
+        B.        Because atmospheric pressure affects foam production 
+        C.        Because atmospheric pressure drops as height above sea level increases
+        D.        Because atmospheric pressure increases as height above sea level increases
+                32.        Friction loss is that part of the total pressure lost:  (177)
+        A.        while water is stationary in pipes.
+        B.        as water contacts its intended object.
+        C.        as water moves through the atmosphere.
+        D.        while forcing water through pipe, fittings, fire hose, and adapters.
+                33.        Which is a cause of friction loss in fire hose?  (177)
+        A.        Sharp bends
+        B.        Use of newer nozzles
+        C.        Ambient temperature
+        D.        Lack of adequate personnel
+                34.        Why is friction loss in newer, modern fire hose much less than in older fire hose? (177)
+        A.        Modern fire hose has shorter sections.
+        B.        Modern fire hose has much larger diameters.
+        C.        Modern fire hose has a smoother inner lining.
+        D.        Modern fire hose has a smoother outer lining.
+
+
+Objective 4:
+Summarize the principles of friction loss. 
+                35.        The first principle of friction loss states that if all other conditions are the same, friction loss:  (178)
+        A        varies directly with length of hose or pipe.
+        B.        is independent of the length of hose or pipe.
+        C.        is reduced by half each time the length of hose or pipe doubles.
+        D.        increases by 25% every time the length of hose or pipe doubles.
+                36.        The second principle of friction loss illustrates that  (178)
+        A.        friction loss and velocity are unrelated.
+        B.        friction loss develops much faster than change in velocity.
+        C.        friction loss develops much slower than change in velocity.
+        D.        friction loss develops at the same rate as change in velocity.
+                37.        Why does the third principle of friction loss demonstrate the advantage of larger size hose?  (179)
+        A.        For the same discharge, friction loss varies inversely as the second power of diameter of hose.
+        B.        For the same discharge, friction loss varies inversely as the third power of diameter of hose.
+        C.        For the same discharge, friction loss varies inversely as the fifth power of diameter of hose.
+        D.        For the same discharge, friction loss varies inversely as the tenth power of diameter of hose.
+
+                38.        The fourth principle of friction loss states that for a given velocity, friction loss is:  (179)
+        A.        widely variable, regardless of pressure on the water.
+        B.        inversely proportional to the pressure on the water.
+        C.        approximately the same, regardless of pressure on the water.
+        D.        increased by 25% for every 25% increase of pressure on the water.
+
+
+Objective 5:
+Identify how friction loss principles can be applied to the fire service. 
+                39.        Which statement about fire hose and friction loss is MOST accurate?  (179)
+        A.        Given the same velocity, small and large hose will deliver the same volume.
+        B.        Hose size has relatively little effect on velocity required to deliver water.
+        C.        The larger the hose, the greater the velocity needed to deliver the same volume.
+        D.        The smaller the hose, the greater the velocity needed to deliver the same volume.
+                40.        Which statement about friction loss is MOST accurate?  (180)
+        A.        Flow pressure is greatest at the farthest point in the system.
+        B.        Flow pressure will always be lowest closest to the source of supply.
+        C.        Friction loss in a water system decreases as length of hose or piping increases.
+        D.        Friction loss in a water system increases as length of hose or piping increases.
+                41.        Which would be the BEST option to reduce friction loss caused by hose length?  (181)
+        A.        Reduce the length of the lay
+        B.        Increase the length of the lay
+        C.        Use a different type of nozzle
+        D.        Increase the velocity of the water
+                42.        Which type of friction loss can usually be minimized by employing proper hose handling techniques? (181)
+        A.        Hose length
+        B.        Water presure
+        C.        Hose diameter
+        D.        Sharp bends in the hose
+                43.        Which of the following causes water hammer? (181)
+        A.        Increasing the water pressure
+        B.        Hoses or pipes that have deformities
+        C.        Suddenly stopping water moving through a hose or pipe
+        D.        Suddenly increasing the amount of water moving through a hose or pipe
+Objective 6:
+Identify the principles of municipal water supply systems. 
+                44.        Which action fire departments should take when a large volume of water is needed in an area?  (182)
+        A.        Request that water utility department increase water pressure
+        B.        Request that nearby homeowners and businesses stop water usage
+        C.        Completely fill pumpers with water then attempt an offensive fire attack
+        D.        Ration water used at the incident scene so that exposures are protected first
+                45.        When engineers estimate the amount of water that a large city needs, the:  (183)
+        A.        only needs taken into account are the industrial/domestic needs.
+        B.        domestic/industrial requirements will far exceed that required for fire protection.
+        C.        requirements for fire protection will far exceed those for domestic/industrial needs.
+        D.        needs for fire protection and domestic/industrial needs should be considered to be the same.
+
+                46.        Which means of moving water uses one or more pumps that take water from a primary source and discharge it through filtration and treatment processes?  (183)
+        A.        Direct pumping system
+        B.        Linear pumping system 
+        C.        Primary pumping system
+        D.        Forced distribution system
+                47.        Which statement about a gravity system is MOST accurate?  (183)
+        A.        Uses a primary water source at the same elevation as the distribution system
+        B.        Uses a primary water source located at a lower elevation than the distribution system
+        C.        Uses a primary water source located at a higher elevation than the distribution system
+        D.        Uses two primary water sources, one at a higher elevation and one at a lower elevation
+                48.        For water supply, most communities use a:  (183)
+        A.        gravity system. 
+        B.        direct pumping system.
+        C.        combination of the direct pumping and gravity systems.
+        D.        proprietary pumping system that is designed specifically for that community.
+                49.        What is the MAIN concern of fire departments regarding water treatment facilities?  (184)
+        A.        Amount of chemicals put into the water
+        B.        Cost of the water for the fire department
+        C.        Possible damage to apparatus tanks caused by treatment
+        D.        Maintenance failure or other events could disable pumping station(s) or severely hamper the purification process
+                50.        A dead-end fire hydrant is a fire hydrant that:  (184)
+        A.        is located last on a street.
+        B.        receives water from two directions.
+        C.        receives water from only one direction.
+        D.        is located where turn-around in not possible.
+
+                51.        Which describes a circulating feed or looped line?  (184)
+        A.        When a fire hydrant is located in a cul-de-sac  
+        B.        When a fire hydrant is located at an intersection
+        C.        When a fire hydrant receives water from only one direction
+        D.        When a fire hydrant receives water from two or more directions  
+                52.        In a grid system, large pipes (mains), with relatively widespread spacing, that convey large quantities of water to various points of the system for local distribution to smaller mains are called:  (184)
+        A.        distributors.  
+        B.        primary feeders.
+        C.        secondary feeders.
+        D.        circulating feeders. 
+                53.        In a grid system, a network of intermediate-sized pipes that reinforce the grid and aid the concentration of required fire flow at any point are called:  (185)
+        A.        distributors.  
+        B.        primary feeders.
+        C.        secondary feeders.
+        D.        circulating feeders. 
+                54.        The valves within a water distribution system should be:  (186)
+        A.        inspected and operated yearly by the fire department.
+        B.        inspected and operated monthly by the fire department.
+        C.        inspected and  operated yearly by the water supply utility. 
+        D.        inspected and  operated monthly by the water supply utility.
+                55.        Which type of valve is commonly used on private water supply systems and the words open or shut appear in a window as the valve approaches one position or the other?  (186)
+        A.        Gate valve
+        B.        Butterfly valve
+        C.        Post indicator (PIV) valve 
+        D.        Outside screw and yoke (OS&Y) valve
+
+                56.        Which type of valve has a yoke on the outside with threaded stem that controls the gate’s opening or closing and is most commonly used on sprinkler systems?  (186)
+        A.        Gate valve
+        B.        Butterfly valve
+        C.        Post indicator (PIV) valve
+        D.        Outside screw and yoke (OS&Y) valve
+                57.        Which are the most common type of valves used on most public water distribution systems?  (186)
+        A.        Primary valves
+        B.        Indicating valves
+        C.        Secondary valves
+        D.        Nonindicating valves
+                58.        If a gate valve resists turning after fewer than the indicated number of turns required to close the valve, the:  (187)
+        A.        valve should be considered closed.
+        B.        valve should be blown out with water.
+        C.        condition should be noted for later repair.
+        D.        condition should be reported to the responsible agency.
+                59.        Who should the fire department coordinate with before flushing hydrants in nonemergency situations?  (188)
+        A.        Law enforcement
+        B.        Local water authority
+        C.        Local transportation authority 
+        D.        Neighboring housing additions
+                60.        Rates of consumption allow engineers and fire protection personnel to determine:  (188)
+        A.        size of pumpers.
+        B.        charges for consumers.
+        C.        mutual aid agreements.
+        D.        adequacy of the water distribution system.
+
+
+
+Objective 7:
+Describe private water supply systems. 
+                61.        Most commonly, private water supply systems receive their water from a(an): (188)
+        A.        cistern.
+        B.        underground well.
+        C.        nearby lake or reservoir.
+        D.        municipal water supply system.
+                62.        If a property is served by both the municipal system and a private source consisting of nonpotable water:  (188)
+        A.        backflow measures are not needed.
+        B.        the systems can be interconnected.
+        C.        the private source cannot be considered usable.
+        D.        measures must be taken to prevent cross contamination.
+                63.        The piping for fire protection and domestic/industrial services for private water supply systems are:  (189)
+        A.        almost always separate.
+        B.        generally interconnected.
+        C.        cost prohibitive for businesses.
+        D.        prone to multiple breakdowns.
+                64.        Which is an advantage to having separate piping arrangements for a private water supply system?  (189)
+        A.        Allows business to not follow codes
+        B.        More cost effective than just one system
+        C.        Systems can be used as redundant supply systems
+        D.        Neither of the systems is affected by service interruptions to the other
+Fire Protection Publications                Chapter Test
+Oklahoma State University                5-

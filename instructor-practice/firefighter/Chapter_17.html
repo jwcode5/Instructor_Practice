@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>Firefighter Chapter 17 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. _____ is the highest priority at a fire scene.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 744" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) Property conservation</label><br>
+        <label><input type="radio" name="q1" value="b"> b) Incident stabilization</label><br>
+        <label><input type="radio" name="q1" value="c"> c) Life safety</label><br>
+        <label><input type="radio" name="q1" value="d"> d) Incident command</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. The purpose of _____ operations is to locate victims.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 744" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) search</label><br>
+        <label><input type="radio" name="q2" value="b"> b) rescue</label><br>
+        <label><input type="radio" name="q2" value="c"> c) primary</label><br>
+        <label><input type="radio" name="q2" value="d"> d) offensive</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. The purpose of _____ operations is to physically remove an occupant or victim from a hazardous environment.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 744" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) primary</label><br>
+        <label><input type="radio" name="q3" value="b"> b) offensive</label><br>
+        <label><input type="radio" name="q3" value="c"> c) search</label><br>
+        <label><input type="radio" name="q3" value="d"> d) rescue</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. The purpose of the _____ is to locate individuals who may be trapped, injured, or in immediate danger.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 744" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) suppression tactic</label><br>
+        <label><input type="radio" name="q4" value="b"> b) direct search</label><br>
+        <label><input type="radio" name="q4" value="c"> c) tertiary search</label><br>
+        <label><input type="radio" name="q4" value="d"> d) primary search</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. _____ is likely to place a search team in greater danger.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Pages 744–745" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) Cooling down the interior first</label><br>
+        <label><input type="radio" name="q5" value="b"> b) Opening a door or window</label><br>
+        <label><input type="radio" name="q5" value="c"> c) Performing a transitional attack</label><br>
+        <label><input type="radio" name="q5" value="d"> d) Controlling the flow path</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. The abbreviation “IAP” stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 745" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) Interior Access Plan</label><br>
+        <label><input type="radio" name="q6" value="b"> b) Interior Action Plan</label><br>
+        <label><input type="radio" name="q6" value="c"> c) Intelligence Action Plan</label><br>
+        <label><input type="radio" name="q6" value="d"> d) Incident Action Plan</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. Considerations for a search and rescue plan should include the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 745" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) response area demographic</label><br>
+        <label><input type="radio" name="q7" value="b"> b) occupancy type</label><br>
+        <label><input type="radio" name="q7" value="c"> c) success rates of similar rescues</label><br>
+        <label><input type="radio" name="q7" value="d"> d) affluency of the occupants</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. A(n) _____ identifies the areas to be searched, the priorities for searching different areas, the number of search teams required, and any additional actions needed to support the search and rescue activities.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 745" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) occupancy plan</label><br>
+        <label><input type="radio" name="q8" value="b"> b) search and rescue plan</label><br>
+        <label><input type="radio" name="q8" value="c"> c) incident access plan</label><br>
+        <label><input type="radio" name="q8" value="d"> d) RECEO-VS</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. Firefighters should _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 745" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) automatically assume that a building is unoccupied</label><br>
+        <label><input type="radio" name="q9" value="b"> b) assume that every building involved in fire is occupied</label><br>
+        <label><input type="radio" name="q9" value="c"> c) look for clues that indicate whether a building is occupied</label><br>
+        <label><input type="radio" name="q9" value="d"> d) begin rescue operations immediately upon arrival</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. Firefighters should first rescue the occupants who are _____, followed by those who are in _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 746" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) in the front of the structure; back of the structure</label><br>
+        <label><input type="radio" name="q10" value="b"> b) on the first floor; all floors above</label><br>
+        <label><input type="radio" name="q10" value="c"> c) in the most immediate danger; less danger</label><br>
+        <label><input type="radio" name="q10" value="d"> d) closest in proximity to the front door; most immediate danger</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. _____ victims are more likely to need assistance to evacuate than others.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 746" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) Elderly</label><br>
+        <label><input type="radio" name="q11" value="b"> b) Adult</label><br>
+        <label><input type="radio" name="q11" value="c"> c) Young adult</label><br>
+        <label><input type="radio" name="q11" value="d"> d) Adolescent</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. The _____ is a document developed by gathering general and detailed data that is used by responding personnel in effectively managing emergencies for the protection of occupants, participants, responding personnel, property, and the environment.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Key terms" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 790" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) incident action plan</label><br>
+        <label><input type="radio" name="q12" value="b"> b) pre-emptive plan</label><br>
+        <label><input type="radio" name="q12" value="c"> c) preincident plan</label><br>
+        <label><input type="radio" name="q12" value="d"> d) incident Access plan</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. Information assembled during the preincident survey is used to prepare a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 747" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) inspection action plan</label><br>
+        <label><input type="radio" name="q13" value="b"> b) preincident plan</label><br>
+        <label><input type="radio" name="q13" value="c"> c) pre-emptive plan</label><br>
+        <label><input type="radio" name="q13" value="d"> d) incident access plan</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. All incidents handled by the fire service have three priorities in the following order: _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 748" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) search and rescue, fire suppression, salvage and overhaul</label><br>
+        <label><input type="radio" name="q14" value="b"> b) fire suppression, search and rescue, salvage and overhaul</label><br>
+        <label><input type="radio" name="q14" value="c"> c) life safety, property conservation, incident stabilization</label><br>
+        <label><input type="radio" name="q14" value="d"> d) life safety, incident stabilization, property conservation</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. One or two search teams usually go through all of the rooms in a single-family dwelling in _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 748" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) no more than 5 minutes</label><br>
+        <label><input type="radio" name="q15" value="b"> b) less than 15 minutes</label><br>
+        <label><input type="radio" name="q15" value="c"> c) 20 to 25 minutes</label><br>
+        <label><input type="radio" name="q15" value="d"> d) a minimum of 30 minutes</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. _____ effect is the vertical airflow within a building caused by the differences in temperature inside and outside the building.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 749" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) Chimney</label><br>
+        <label><input type="radio" name="q16" value="b"> b) Airflow</label><br>
+        <label><input type="radio" name="q16" value="c"> c) Stack</label><br>
+        <label><input type="radio" name="q16" value="d"> d) Vertical</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. During a(n) _____ phenomenon, when the temperature outside is cool and the inside temperature is heated, smoke will rise to the upper floors.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 749" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) vertical effect</label><br>
+        <label><input type="radio" name="q17" value="b"> b) chimney effect</label><br>
+        <label><input type="radio" name="q17" value="c"> c) airflow effect</label><br>
+        <label><input type="radio" name="q17" value="d"> d) stack effect</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. In the case of high-rise buildings, officers must take the _____ effect into account and initiate search operations from the highest floor impacted by the fire’s by-products.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Search and Rescue Operations" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 749" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) airflow</label><br>
+        <label><input type="radio" name="q18" value="b"> b) stack</label><br>
+        <label><input type="radio" name="q18" value="c"> c) chimney</label><br>
+        <label><input type="radio" name="q18" value="d"> d) flue</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. On a hot summer day when the temperature is much cooler in the high-rise building than outside, the _____ effect can push the smoke down vertical openings, toward a lower-level exit.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Search and Rescue Safety" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 749" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) stack</label><br>
+        <label><input type="radio" name="q19" value="b"> b) chimney</label><br>
+        <label><input type="radio" name="q19" value="c"> c) flue</label><br>
+        <label><input type="radio" name="q19" value="d"> d) funnel</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. The _____ is responsible for managing the level of risk during emergency operations.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Search and Rescue Safety" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 749" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) fire chief</label><br>
+        <label><input type="radio" name="q20" value="b"> b) incident commander</label><br>
+        <label><input type="radio" name="q20" value="c"> c) safety officer</label><br>
+        <label><input type="radio" name="q20" value="d"> d) company officer</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. When there is no possibility of saving either lives or property, _____ risk is acceptable.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Search and Rescue Safety" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 749" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) limited</label><br>
+        <label><input type="radio" name="q21" value="b"> b) moderate</label><br>
+        <label><input type="radio" name="q21" value="c"> c) no</label><br>
+        <label><input type="radio" name="q21" value="d"> d) high</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. A(n) _____ is a tool used in smoke-filled buildings to locate victims and search for hidden fires during size-up.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Search and Rescue Safety" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 750" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) thermal imager</label><br>
+        <label><input type="radio" name="q22" value="b"> b) video camera</label><br>
+        <label><input type="radio" name="q22" value="c"> c) aerial ladder</label><br>
+        <label><input type="radio" name="q22" value="d"> d) chain saw</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. A(n) _____ is the rapid evaluation and analysis of an incident to determine which resources need to be deployed and which actions can be undertaken safely.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Search and Rescue Safety" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 750" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) action plan</label><br>
+        <label><input type="radio" name="q23" value="b"> b) initial size-up</label><br>
+        <label><input type="radio" name="q23" value="c"> c) ground plan</label><br>
+        <label><input type="radio" name="q23" value="d"> d) acting size-up</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. A(n) _____ may be used during search operations to provide searchers with an anchor point that will help them maintain their orientation while searching for victims.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Search and Rescue Safety" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 750" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) orientation line</label><br>
+        <label><input type="radio" name="q24" value="b"> b) search anchor</label><br>
+        <label><input type="radio" name="q24" value="c"> c) retrieval line</label><br>
+        <label><input type="radio" name="q24" value="d"> d) search rope</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q25">
+    <p><strong>25. Search line is another term for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Search and Rescue Safety" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 750" style="display: none;"></div>
+        <label><input type="radio" name="q25" value="a"> a) kernmantle</label><br>
+        <label><input type="radio" name="q25" value="b"> b) search anchor</label><br>
+        <label><input type="radio" name="q25" value="c"> c) search rope</label><br>
+        <label><input type="radio" name="q25" value="d"> d) retrieval line</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q26">
+    <p><strong>26. Dark black and turbulent smoke, blackened windows, and puffing smoke are signs of possible _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Search and Rescue Safety" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 751" style="display: none;"></div>
+        <label><input type="radio" name="q26" value="a"> a) rollover or backflow</label><br>
+        <label><input type="radio" name="q26" value="b"> b) flashover or backflow</label><br>
+        <label><input type="radio" name="q26" value="c"> c) flashover or backdraft</label><br>
+        <label><input type="radio" name="q26" value="d"> d) intense ventilation</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q27">
+    <p><strong>27. A _____ is a quick search of a structure to locate any potential victims who are in danger.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 751" style="display: none;"></div>
+        <label><input type="radio" name="q27" value="a"> a) priority search</label><br>
+        <label><input type="radio" name="q27" value="b"> b) primary search</label><br>
+        <label><input type="radio" name="q27" value="c"> c) secondary search</label><br>
+        <label><input type="radio" name="q27" value="d"> d) vent-entry search</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q28">
+    <p><strong>28. By necessity, the primary search is conducted quickly and gives priority to those areas _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 752" style="display: none;"></div>
+        <label><input type="radio" name="q28" value="a"> a) away from the fire location</label><br>
+        <label><input type="radio" name="q28" value="b"> b) below the fire level</label><br>
+        <label><input type="radio" name="q28" value="c"> c) outside the building</label><br>
+        <label><input type="radio" name="q28" value="d"> d) where victims are most likely to be located</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q29">
+    <p><strong>29. When conducting a primary search in a structure fire, _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 752" style="display: none;"></div>
+        <label><input type="radio" name="q29" value="a"> a) crawling is prohibited</label><br>
+        <label><input type="radio" name="q29" value="b"> b) speed is generally prioritized over crawling</label><br>
+        <label><input type="radio" name="q29" value="c"> c) first crawl along the floor when looking for victims</label><br>
+        <label><input type="radio" name="q29" value="d"> d) crawling is the most efficient approach</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q30">
+    <p><strong>30. A primary search should be completed in _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 751" style="display: none;"></div>
+        <label><input type="radio" name="q30" value="a"> a) 15 minutes or less</label><br>
+        <label><input type="radio" name="q30" value="b"> b) no more than 20 minutes</label><br>
+        <label><input type="radio" name="q30" value="c"> c) approximately 30 minutes</label><br>
+        <label><input type="radio" name="q30" value="d"> d) no less than 25 minutes</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q31">
+    <p><strong>31. During search operations, partners must remain _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 753" style="display: none;"></div>
+        <label><input type="radio" name="q31" value="a"> a) within 50 feet of each other</label><br>
+        <label><input type="radio" name="q31" value="b"> b) on the same floor when not close to each other</label><br>
+        <label><input type="radio" name="q31" value="c"> c) in radio contact when on different floors</label><br>
+        <label><input type="radio" name="q31" value="d"> d) in direct visual, voice, or physical contact</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q32">
+    <p><strong>32. If it is safe to do so, a search team usually starts a search _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 753" style="display: none;"></div>
+        <label><input type="radio" name="q32" value="a"> a) crawling</label><br>
+        <label><input type="radio" name="q32" value="b"> b) walking</label><br>
+        <label><input type="radio" name="q32" value="c"> c) running</label><br>
+        <label><input type="radio" name="q32" value="d"> d) in separate rooms</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q33">
+    <p><strong>33. If the search team finds a victim, they should _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 753" style="display: none;"></div>
+        <label><input type="radio" name="q33" value="a"> a) notify the IC</label><br>
+        <label><input type="radio" name="q33" value="b"> b) begin medical treatment</label><br>
+        <label><input type="radio" name="q33" value="c"> c) radio the other search teams</label><br>
+        <label><input type="radio" name="q33" value="d"> d) call for a rapid intervention team</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q34">
+    <p><strong>34. Search teams must be out of the _____ before their EOSTI sounds.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Pages 754" style="display: none;"></div>
+        <label><input type="radio" name="q34" value="a"> a) cold zone</label><br>
+        <label><input type="radio" name="q34" value="b"> b) IDLH zone</label><br>
+        <label><input type="radio" name="q34" value="c"> c) rehab area</label><br>
+        <label><input type="radio" name="q34" value="d"> d) warm zone</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q35">
+    <p><strong>35. A _____ is similar to a video camera, except that it displays images of heat emitted from surfaces instead of visible light images.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 754" style="display: none;"></div>
+        <label><input type="radio" name="q35" value="a"> a) thermal emitter</label><br>
+        <label><input type="radio" name="q35" value="b"> b) heat/light imager</label><br>
+        <label><input type="radio" name="q35" value="c"> c) thermal imager</label><br>
+        <label><input type="radio" name="q35" value="d"> d) thermal light indicator</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q36">
+    <p><strong>36. The _____ is a search method in which all members of the search team cover the same area at the same time.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 755" style="display: none;"></div>
+        <label><input type="radio" name="q36" value="a"> a) team search method</label><br>
+        <label><input type="radio" name="q36" value="b"> b) oriented search method</label><br>
+        <label><input type="radio" name="q36" value="c"> c) oriented-vent-enter-isolate-search method</label><br>
+        <label><input type="radio" name="q36" value="d"> d) standard search method</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q37">
+    <p><strong>37. The _____ involves an officer or team lead remaining outside the individual rooms that are being searched, and a single searcher or multiple searchers systematically searching one room at a time using the right- or left-handed search method.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 756" style="display: none;"></div>
+        <label><input type="radio" name="q37" value="a"> a) oriented-vent-enter-isolate-search method</label><br>
+        <label><input type="radio" name="q37" value="b"> b) oriented search method</label><br>
+        <label><input type="radio" name="q37" value="c"> c) standard search method</label><br>
+        <label><input type="radio" name="q37" value="d"> d) team search method</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q38">
+    <p><strong>38. O-VEIS is conducted by _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 760" style="display: none;"></div>
+        <label><input type="radio" name="q38" value="a"> a) three searchers working separately</label><br>
+        <label><input type="radio" name="q38" value="b"> b) the firefighters conducting the fire attack</label><br>
+        <label><input type="radio" name="q38" value="c"> c) an officer or team leader and one searcher</label><br>
+        <label><input type="radio" name="q38" value="d"> d) a single officer assessing potential rescue areas</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q39">
+    <p><strong>39. The _____ search method of conducting a primary search is performed by multiple members using a rope anchored by another team member.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 760" style="display: none;"></div>
+        <label><input type="radio" name="q39" value="a"> a) O-VEIS</label><br>
+        <label><input type="radio" name="q39" value="b"> b) oriented</label><br>
+        <label><input type="radio" name="q39" value="c"> c) standard</label><br>
+        <label><input type="radio" name="q39" value="d"> d) team</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q40">
+    <p><strong>40. _____ is generated when a fire sprinkler system is activated during a fire, cooling the smoke and causing it to bank down to the floor.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 761" style="display: none;"></div>
+        <label><input type="radio" name="q40" value="a"> a) Bank-down smoke</label><br>
+        <label><input type="radio" name="q40" value="b"> b) Cold smoke</label><br>
+        <label><input type="radio" name="q40" value="c"> c) Heat-deprived smoke</label><br>
+        <label><input type="radio" name="q40" value="d"> d) Cooling effect</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q41">
+    <p><strong>41. With the team search method, the _____ is responsible for developing the search plan, keeping the team safe, and communicating with the IC.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 761" style="display: none;"></div>
+        <label><input type="radio" name="q41" value="a"> a) officer</label><br>
+        <label><input type="radio" name="q41" value="b"> b) fire chief</label><br>
+        <label><input type="radio" name="q41" value="c"> c) incident safety officer</label><br>
+        <label><input type="radio" name="q41" value="d"> d) driver/operator</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q42">
+    <p><strong>42. Some departments use a short lateral rope, called a(n) _____ , that clips to the main rope and enables searchers to move a limited distance from the main search rope without losing contact with the rope.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Primary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 761" style="display: none;"></div>
+        <label><input type="radio" name="q42" value="a"> a) stop rope</label><br>
+        <label><input type="radio" name="q42" value="b"> b) rope tag</label><br>
+        <label><input type="radio" name="q42" value="c"> c) anchor rope</label><br>
+        <label><input type="radio" name="q42" value="d"> d) tether line</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q43">
+    <p><strong>43. The purpose of a _____ is to locate any occupants or victims who are unaccounted for and were not found and removed during the primary search.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Secondary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 762" style="display: none;"></div>
+        <label><input type="radio" name="q43" value="a"> a) principal search</label><br>
+        <label><input type="radio" name="q43" value="b"> b) secondary search</label><br>
+        <label><input type="radio" name="q43" value="c"> c) team search method</label><br>
+        <label><input type="radio" name="q43" value="d"> d) standard search method</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q44">
+    <p><strong>44. Firefighters conducting a secondary search should watch for signs of a _____, which is a return to flaming combustion after apparent but incomplete extinguishment.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Secondary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 762" style="display: none;"></div>
+        <label><input type="radio" name="q44" value="a"> a) flashover</label><br>
+        <label><input type="radio" name="q44" value="b"> b) flame-up</label><br>
+        <label><input type="radio" name="q44" value="c"> c) rekindle</label><br>
+        <label><input type="radio" name="q44" value="d"> d) flame-over</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q45">
+    <p><strong>45. _____ percent of particulates, suspended particles of toxic fire by-products, are visible to the human eye in a post-fire environment.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Secondary Search" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 763" style="display: none;"></div>
+        <label><input type="radio" name="q45" value="a"> a) Approximately 3</label><br>
+        <label><input type="radio" name="q45" value="b"> b) About 25 to 30</label><br>
+        <label><input type="radio" name="q45" value="c"> c) More than 50</label><br>
+        <label><input type="radio" name="q45" value="d"> d) Nearly 85</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q46">
+    <p><strong>46. The term _____ is generally applied to situations where the rescuer physically removes the victim from the dangerous area.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 764" style="display: none;"></div>
+        <label><input type="radio" name="q46" value="a"> a) salvage</label><br>
+        <label><input type="radio" name="q46" value="b"> b) overhaul</label><br>
+        <label><input type="radio" name="q46" value="c"> c) search</label><br>
+        <label><input type="radio" name="q46" value="d"> d) rescue</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q47">
+    <p><strong>47. A(n) _____ is a rescue technique in which the victim is responsive and able to walk but needs assistance.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 765" style="display: none;"></div>
+        <label><input type="radio" name="q47" value="a"> a) support</label><br>
+        <label><input type="radio" name="q47" value="b"> b) drag</label><br>
+        <label><input type="radio" name="q47" value="c"> c) carry</label><br>
+        <label><input type="radio" name="q47" value="d"> d) assist</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q48">
+    <p><strong>48. The _____ carry is used with victims who are disabled or paralyzed.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 769" style="display: none;"></div>
+        <label><input type="radio" name="q48" value="a"> a) two-person chair</label><br>
+        <label><input type="radio" name="q48" value="b"> b) two-person seat</label><br>
+        <label><input type="radio" name="q48" value="c"> c) two-person extremity</label><br>
+        <label><input type="radio" name="q48" value="d"> d) cradle in arms</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q49">
+    <p><strong>49. The _____ carry can be used by one firefighter to carry a child or a small adult.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 771" style="display: none;"></div>
+        <label><input type="radio" name="q49" value="a"> a) cradle in arms</label><br>
+        <label><input type="radio" name="q49" value="b"> b) two-person seat</label><br>
+        <label><input type="radio" name="q49" value="c"> c) two-person chair</label><br>
+        <label><input type="radio" name="q49" value="d"> d) two-person extremity</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q50">
+    <p><strong>50. The _____ carry is particularly suitable when a victim must be carried through doorways, along narrow corridors, or up or down stairs.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 770" style="display: none;"></div>
+        <label><input type="radio" name="q50" value="a"> a) two-person extremity</label><br>
+        <label><input type="radio" name="q50" value="b"> b) cradle in arms</label><br>
+        <label><input type="radio" name="q50" value="c"> c) two-person chair</label><br>
+        <label><input type="radio" name="q50" value="d"> d) two-person seat</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q51">
+    <p><strong>51. The _____ carry requires no equipment and can be performed in tight or narrow spaces, such as the corridors of mobile homes, small hallways, and narrow spaces between buildings.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 768" style="display: none;"></div>
+        <label><input type="radio" name="q51" value="a"> a) cradle in arms</label><br>
+        <label><input type="radio" name="q51" value="b"> b) two-person seat</label><br>
+        <label><input type="radio" name="q51" value="c"> c) two-person chair</label><br>
+        <label><input type="radio" name="q51" value="d"> d) two-person extremity</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q52">
+    <p><strong>52. The _____ drag provides a secure grip around the upper part of the victim’s body, allowing for a faster removal from the dangerous area.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 776" style="display: none;"></div>
+        <label><input type="radio" name="q52" value="a"> a) webbing sling</label><br>
+        <label><input type="radio" name="q52" value="b"> b) clothes</label><br>
+        <label><input type="radio" name="q52" value="c"> c) blanket</label><br>
+        <label><input type="radio" name="q52" value="d"> d) standing</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q53">
+    <p><strong>53. The _____ drag is used to move a victim who is not dressed or who is dressed in clothing that is too flimsy for the clothes drag.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 773" style="display: none;"></div>
+        <label><input type="radio" name="q53" value="a"> a) webbing sling</label><br>
+        <label><input type="radio" name="q53" value="b"> b) blanket</label><br>
+        <label><input type="radio" name="q53" value="c"> c) clothes</label><br>
+        <label><input type="radio" name="q53" value="d"> d) standing</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q54">
+    <p><strong>54. The _____ drag involves tying the victim’s wrists together, placing the victim’s hands around the rescuer’s neck, and dragging the victim by crawling on hands and knees.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 777" style="display: none;"></div>
+        <label><input type="radio" name="q54" value="a"> a) firefighter</label><br>
+        <label><input type="radio" name="q54" value="b"> b) clothes</label><br>
+        <label><input type="radio" name="q54" value="c"> c) webbing sling</label><br>
+        <label><input type="radio" name="q54" value="d"> d) standing</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q55">
+    <p><strong>55. A(n) _____ is performed when the victim must be quickly removed from a vehicle to save their life.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 777" style="display: none;"></div>
+        <label><input type="radio" name="q55" value="a"> a) webbing drag from a vehicle</label><br>
+        <label><input type="radio" name="q55" value="b"> b) emergency drag from a vehicle</label><br>
+        <label><input type="radio" name="q55" value="c"> c) firefighter drag from vehicle</label><br>
+        <label><input type="radio" name="q55" value="d"> d) standing drag from a vehicle</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q56">
+    <p><strong>56. A ladder used to rescue a person from a window should have its tip placed _____ the windowsill.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 779" style="display: none;"></div>
+        <label><input type="radio" name="q56" value="a"> a) just above</label><br>
+        <label><input type="radio" name="q56" value="b"> b) three rungs above</label><br>
+        <label><input type="radio" name="q56" value="c"> c) three feet below</label><br>
+        <label><input type="radio" name="q56" value="d"> d) just below</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q57">
+    <p><strong>57. When a rescue involves a conscious person, firefighters should establish _____ as quickly as possible to reassure the victim that help is on the way.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 779" style="display: none;"></div>
+        <label><input type="radio" name="q57" value="a"> a) eye contact</label><br>
+        <label><input type="radio" name="q57" value="b"> b) a rapport</label><br>
+        <label><input type="radio" name="q57" value="c"> c) physical contact</label><br>
+        <label><input type="radio" name="q57" value="d"> d) verbal contact</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q58">
+    <p><strong>58. Three or four firefighters using two ladders may be needed to rescue _____ from a window.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 786" style="display: none;"></div>
+        <label><input type="radio" name="q58" value="a"> a) very tall or heavy adults</label><br>
+        <label><input type="radio" name="q58" value="b"> b) extra-large pets</label><br>
+        <label><input type="radio" name="q58" value="c"> c) small, scared children</label><br>
+        <label><input type="radio" name="q58" value="d"> d) a pregnant woman</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q59">
+    <p><strong>59. An _____ is usually preferred for rescue work if one is available.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 787" style="display: none;"></div>
+        <label><input type="radio" name="q59" value="a"> a) aerial ladder</label><br>
+        <label><input type="radio" name="q59" value="b"> b) extension ladder</label><br>
+        <label><input type="radio" name="q59" value="c"> c) aerial platform</label><br>
+        <label><input type="radio" name="q59" value="d"> d) attic ladder</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q60">
+    <p><strong>60. The decision to follow a shelter-in-place strategy must be made by _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Rescue Techniques" data-subject="Chapter 17" data-title="Search and Rescue" data-feedback="Chapter 17; Page 788" style="display: none;"></div>
+        <label><input type="radio" name="q60" value="a"> a) law enforcement officers or structural engineers</label><br>
+        <label><input type="radio" name="q60" value="b"> b) victims inside the building that is involved in fire</label><br>
+        <label><input type="radio" name="q60" value="c"> c) rescue team members conducting the primary search</label><br>
+        <label><input type="radio" name="q60" value="d"> d) the IC or the officer in charge of the rescue team(s)</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+</form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

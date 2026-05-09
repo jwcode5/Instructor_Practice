@@ -1,0 +1,59 @@
+﻿Chapter 6 Quiz Answers
+        1.        D
+        2.        B
+        3.        D
+        4.        B
+        5.        A
+        6.        A
+        7.        B
+        8.        B
+        9.        GPM = 29.7 x dx2 √NP
+        10.        Fixed, combination, and portable
+        11.        NR = Nozzle Reaction in pounds (lb); d = Nozzle diameter in inches; NP = Nozzle Pressure in pounds per square inch (psi)
+        12.        Q = Total flow through the nozzle in liters per minute (L/min); NP = Nozzle Pressure in kilopascals (kPa)
+
+
+
+Chapter 6 Test Answers
+
+
+Objective 1
+        1.        A
+        2.        B
+        3.        D
+        4.        C
+        5.        B
+        6.        D
+        7.        A
+        8.        B
+        9.        D
+        10.        C        
+        11.        D
+        12.        B
+        13.        D
+        14.        A
+        15.        D
+        16.        A
+        17.        C
+
+
+Objective 2
+Objective 3
+        18.        D
+        19.        A
+        20.        D
+        21.        C
+        22.        C
+        23.        A
+        24.        A
+        25.        C
+        26.        D
+
+
+Objective 4
+        27.        D
+        28.        D
+        29.        B
+        30.        B
+        31.        C
+        32.        D

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>HazMat A&O Chapter 06 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. The size-up process can be described as:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 148, NFPA 470 7.1.5, 7.2.1, 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) cursory.</label><br>
+        <label><input type="radio" name="q1" value="b"> b) cautious.</label><br>
+        <label><input type="radio" name="q1" value="c"> c) complete.</label><br>
+        <label><input type="radio" name="q1" value="d"> d) rapid.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. An action plan is most clearly designed to achieve goals of the incident action plan:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 148, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) legally.</label><br>
+        <label><input type="radio" name="q2" value="b"> b) with minimal cost.</label><br>
+        <label><input type="radio" name="q2" value="c"> c) safely.</label><br>
+        <label><input type="radio" name="q2" value="d"> d) secretly.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. The first priority in any hazardous materials incident is to protect:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 148, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) air quality.</label><br>
+        <label><input type="radio" name="q3" value="b"> b) financial resources.</label><br>
+        <label><input type="radio" name="q3" value="c"> c) water.</label><br>
+        <label><input type="radio" name="q3" value="d"> d) life.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. The C in the DECIDE model for thinking about a HazMat situation stands for which of the following?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 149, NFPA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) Confidence</label><br>
+        <label><input type="radio" name="q4" value="b"> b) Choose</label><br>
+        <label><input type="radio" name="q4" value="c"> c) Capitalize</label><br>
+        <label><input type="radio" name="q4" value="d"> d) Certify</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. The I in the DECIDE model created by Benner stands for which of the following?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 149, NF2PA 470 7.2.1" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) Identify</label><br>
+        <label><input type="radio" name="q5" value="b"> b) Investigate</label><br>
+        <label><input type="radio" name="q5" value="c"> c) Instill</label><br>
+        <label><input type="radio" name="q5" value="d"> d) Inquire</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. At a hazardous materials site, a warm zone is also called a(n):</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Scene Control Procedures" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 149, NFPA 470 7.4.1, 7.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) exclusionary zone.</label><br>
+        <label><input type="radio" name="q6" value="b"> b) contamination reduction zone.</label><br>
+        <label><input type="radio" name="q6" value="c"> c) outer perimeter.</label><br>
+        <label><input type="radio" name="q6" value="d"> d) rest zone.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. The exclusionary zone at the site of a spill of ammonia is also called the _____ zone.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Scene Control Procedures" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 149, NFPA 470 7.4.1, 7.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) hot</label><br>
+        <label><input type="radio" name="q7" value="b"> b) warm</label><br>
+        <label><input type="radio" name="q7" value="c"> c) cold</label><br>
+        <label><input type="radio" name="q7" value="d"> d) unknown</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. At a hazardous materials incident, where does the entry team work?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Scene Control Procedures" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 150, NFPA 470 7.4.1, 7.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) Hot zone</label><br>
+        <label><input type="radio" name="q8" value="b"> b) Contamination reduction zone</label><br>
+        <label><input type="radio" name="q8" value="c"> c) Cold zone</label><br>
+        <label><input type="radio" name="q8" value="d"> d) Incident command</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. The incident command post at the site of a detonation of a weapon of mass destruction is most likely located:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Scene Control Procedures" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 150, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) at the local police station.</label><br>
+        <label><input type="radio" name="q9" value="b"> b) in the cold zone.</label><br>
+        <label><input type="radio" name="q9" value="c"> c) in the hot zone.</label><br>
+        <label><input type="radio" name="q9" value="d"> d) in the warm zone.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. What usually happens to the borders of control zones as an incident progresses?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Scene Control Procedures" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 151, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) They change.</label><br>
+        <label><input type="radio" name="q10" value="b"> b) They merge.</label><br>
+        <label><input type="radio" name="q10" value="c"> c) They are retained.</label><br>
+        <label><input type="radio" name="q10" value="d"> d) They are challenged by police.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. Operating alone at a weapon of mass destruction site:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="The Buddy System and Backup Personnel" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 155, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) should be admired.</label><br>
+        <label><input type="radio" name="q11" value="b"> b) is forbidden.</label><br>
+        <label><input type="radio" name="q11" value="c"> c) is cautiously allowed.</label><br>
+        <label><input type="radio" name="q11" value="d"> d) is the usual procedure.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. Which of the following mandates the use of the buddy system for hazardous materials incidents?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="The Buddy System and Backup Personnel" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 155, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) National Fire Protection Association</label><br>
+        <label><input type="radio" name="q12" value="b"> b) Police</label><br>
+        <label><input type="radio" name="q12" value="c"> c) Occupational Safety and Health Administration</label><br>
+        <label><input type="radio" name="q12" value="d"> d) Department of Transportation</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. What are the minimum number of workers required in a hot zone?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="The Buddy System and Backup Personnel" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 155, NFPA 470 7.4.1, 7.6.1" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) 1</label><br>
+        <label><input type="radio" name="q13" value="b"> b) 2</label><br>
+        <label><input type="radio" name="q13" value="c"> c) 3</label><br>
+        <label><input type="radio" name="q13" value="d"> d) 5</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. If you pass out while working in the hot zone of an ammonia release site, who will get you out?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="The Buddy System and Backup Personnel" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 155, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) Local firefighters</label><br>
+        <label><input type="radio" name="q14" value="b"> b) Incident commander</label><br>
+        <label><input type="radio" name="q14" value="c"> c) Police</label><br>
+        <label><input type="radio" name="q14" value="d"> d) Backup team</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. “Mayday” is called when the entry team needs more than _______ to resolve an issue in the hot zone.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="The Buddy System and Backup Personnel" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 155, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) 10 seconds</label><br>
+        <label><input type="radio" name="q15" value="b"> b) 30 seconds</label><br>
+        <label><input type="radio" name="q15" value="c"> c) 1 minute</label><br>
+        <label><input type="radio" name="q15" value="d"> d) 5 minutes</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. Which of the following entities is credited with the creation of the incident command system?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="The Incident Command System" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 106; Page 155, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) Department of Defense</label><br>
+        <label><input type="radio" name="q16" value="b"> b) Occupational Safety and health Administration</label><br>
+        <label><input type="radio" name="q16" value="c"> c) Fire Resources of Southern California Organized for Potential Emergencies</label><br>
+        <label><input type="radio" name="q16" value="d"> d) National Fire Protection Association</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. Span of control describes the work of:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="The Incident Command System" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 155, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) the local police.</label><br>
+        <label><input type="radio" name="q17" value="b"> b) one commander.</label><br>
+        <label><input type="radio" name="q17" value="c"> c) firefighters.</label><br>
+        <label><input type="radio" name="q17" value="d"> d) city officials.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. Which of the following sits at the top of the organizational chart for an incident response?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="The Incident Command System" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 156, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) Command</label><br>
+        <label><input type="radio" name="q18" value="b"> b) Planning</label><br>
+        <label><input type="radio" name="q18" value="c"> c) Logistics</label><br>
+        <label><input type="radio" name="q18" value="d"> d) Finance</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. The incident command post can be described as:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="The Incident Command System" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 157, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) the local police station.</label><br>
+        <label><input type="radio" name="q19" value="b"> b) a vehicle in the hot zone.</label><br>
+        <label><input type="radio" name="q19" value="c"> c) a physical field location.</label><br>
+        <label><input type="radio" name="q19" value="d"> d) a hypothetical entity.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. At a weapon of mass destruction incident, who helps cooperating agencies talk with one another?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="The Incident Command System" data-subject="Chapter 06" data-title="Implementing the Planned Response" data-feedback="Chapter 06; Page 158, NFPA 470 7.4.1" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) Public information officer</label><br>
+        <label><input type="radio" name="q20" value="b"> b) Liaison officer</label><br>
+        <label><input type="radio" name="q20" value="c"> c) Incident safety officer</label><br>
+        <label><input type="radio" name="q20" value="d"> d) Incident commander</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+    </form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

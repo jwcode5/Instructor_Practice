@@ -1,4 +1,4 @@
-const CACHE_VERSION = new URL(self.location.href).searchParams.get("v") || "2026-05-08-14";
+const CACHE_VERSION = new URL(self.location.href).searchParams.get("v") || "2026-05-09-15";
 const CACHE_NAME = `hfd-site-${CACHE_VERSION}`;
 
 const CORE_ASSETS = [

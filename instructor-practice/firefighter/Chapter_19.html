@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>Firefighter Chapter 19 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. _____ is an assessment of the potential risks and the potential benefits of a specific course of action.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Risk–Benefit Analysis" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 838" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) A tactical observation</label><br>
+        <label><input type="radio" name="q1" value="b"> b) The risk–benefit analysis</label><br>
+        <label><input type="radio" name="q1" value="c"> c) A strategic plan</label><br>
+        <label><input type="radio" name="q1" value="d"> d) Due diligence</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. A risk–benefit analysis is a key decision-making tool that _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Risk–Benefit Analysis" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 838" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) the general staff use for locating resources</label><br>
+        <label><input type="radio" name="q2" value="b"> b) only the incident commander is allowed to use</label><br>
+        <label><input type="radio" name="q2" value="c"> c) the incident safety officer assigns to a specific firefighter</label><br>
+        <label><input type="radio" name="q2" value="d"> d) all firefighters, officers, and chiefs use to reduce firefighter deaths and injuries</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. Firefighters train to identify, understand, and properly respond to both visible and hidden hazards; three observable factors a firefighter should evaluate are _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Hazardous Indicators" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 839" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) underground utilities, available water supply, and relative humidity</label><br>
+        <label><input type="radio" name="q3" value="b"> b) available water supply, type of construction, and wind direction</label><br>
+        <label><input type="radio" name="q3" value="c"> c) type of occupancy, type of construction, and weather conditions</label><br>
+        <label><input type="radio" name="q3" value="d"> d) time of day, emotional status of caller, and building contents</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. _____ describes a system of identifying specific hazards in a building or a container by using a combination of colors and numbers.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Hazardous Indicators" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 839" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) NFPA 704</label><br>
+        <label><input type="radio" name="q4" value="b"> b) FEMA 7.04</label><br>
+        <label><input type="radio" name="q4" value="c"> c) OSHA 1910</label><br>
+        <label><input type="radio" name="q4" value="d"> d) DOT 1001</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. To help define safe practices of structural firefighting, the IAFC and NVFC developed the _____ Rules of Engagement for Firefighter Survival.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Safe Operating Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 840" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) 9</label><br>
+        <label><input type="radio" name="q5" value="b"> b) 10</label><br>
+        <label><input type="radio" name="q5" value="c"> c) 11</label><br>
+        <label><input type="radio" name="q5" value="d"> d) 16</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. According to the Rules of Engagement for Firefighter Survival, firefighters must evaluate personal risk exposure and determine a safe approach for completing assigned objectives, which falls under _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Safe Operating Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 840" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) Rule 1: Size up tactical area of operation</label><br>
+        <label><input type="radio" name="q6" value="b"> b) Rule 2: Determine occupant survival profile</label><br>
+        <label><input type="radio" name="q6" value="c"> c) Rule 4: Extend limited risk to protect savable property</label><br>
+        <label><input type="radio" name="q6" value="d"> d) Rule 6 Go in together, stay together, exit together</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. According to the Rules of Engagement for Firefighter Survival, a firefighter should declare a mayday _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Safe Operating Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 840" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) only if you are trapped or blocked from exiting</label><br>
+        <label><input type="radio" name="q7" value="b"> b) when your PASS device activates</label><br>
+        <label><input type="radio" name="q7" value="c"> c) when your SCBA low-air alarm activates</label><br>
+        <label><input type="radio" name="q7" value="d"> d) as soon as you think you are in danger</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. Ensuring that a firefighting team stays together and works as a team, and that no single firefighter goes off on their own is referred to as _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Safe Operating Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 840" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) team exclusivity</label><br>
+        <label><input type="radio" name="q8" value="b"> b) team expectancy</label><br>
+        <label><input type="radio" name="q8" value="c"> c) team integrity</label><br>
+        <label><input type="radio" name="q8" value="d"> d) team cohesion</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. The standard operational team in firefighting is referred to as a _____ and usually consists of two to five firefighters working under the direct supervision of a company officer.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Safe Operating Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 841" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) gang</label><br>
+        <label><input type="radio" name="q9" value="b"> b) crew</label><br>
+        <label><input type="radio" name="q9" value="c"> c) team</label><br>
+        <label><input type="radio" name="q9" value="d"> d) company</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. A _____ provides a systematic way to keep track of every company, crew, or team of firefighters operating at the scene of an incident from the time they arrive until the time they are released.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Safe Operating Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 841" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) portable radios</label><br>
+        <label><input type="radio" name="q10" value="b"> b) personnel accountability system</label><br>
+        <label><input type="radio" name="q10" value="c"> c) thermal imaging system</label><br>
+        <label><input type="radio" name="q10" value="d"> d) crew monitor</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. A _____ is an accountability check or roll call taken by a supervisor at an emergency incident.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Complex" data-a_head="Safe Operating Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 842" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) personnel action report</label><br>
+        <label><input type="radio" name="q11" value="b"> b) personnel accountability report</label><br>
+        <label><input type="radio" name="q11" value="c"> c) personal accountability report</label><br>
+        <label><input type="radio" name="q11" value="d"> d) personal action report</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. A _____ consists of three firefighters and an officer and is established for the sole purpose of rescuing firefighters operating at emergency incidents.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Safe Operating Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 842" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) rescue team</label><br>
+        <label><input type="radio" name="q12" value="b"> b) quick rescue team</label><br>
+        <label><input type="radio" name="q12" value="c"> c) rapid intervention team</label><br>
+        <label><input type="radio" name="q12" value="d"> d) rapid response team</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. _____ includes training procedures for RIC operations.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Safe Operating Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 843" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) NFPA 1500</label><br>
+        <label><input type="radio" name="q13" value="b"> b) NFPA 1609</label><br>
+        <label><input type="radio" name="q13" value="c"> c) NFPA 1407</label><br>
+        <label><input type="radio" name="q13" value="d"> d) NFPA 1403</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. A rapid intervention crew should be in place at any incident where firefighters are operating in conditions that are _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Complex" data-a_head="Safe Operating Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 843" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) LDHC</label><br>
+        <label><input type="radio" name="q14" value="b"> b) NIOSH</label><br>
+        <label><input type="radio" name="q14" value="c"> c) IDLH</label><br>
+        <label><input type="radio" name="q14" value="d"> d) OSHA</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. The U.S. federal regulation that establishes requirements for using respiratory protection is _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Safe Operating Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Pages 843" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) USFR Statute 1910.b</label><br>
+        <label><input type="radio" name="q15" value="b"> b) NISOH 1910</label><br>
+        <label><input type="radio" name="q15" value="c"> c) NFPA 1910</label><br>
+        <label><input type="radio" name="q15" value="d"> d) OSHA 29 CFR 1910.134</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. Some firefighters use the phrase, _____, to help them remember which direction to travel.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 844" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) lugs in, threads out</label><br>
+        <label><input type="radio" name="q16" value="b"> b) smooth, bump, bump</label><br>
+        <label><input type="radio" name="q16" value="c"> c) bump, bump, smooth</label><br>
+        <label><input type="radio" name="q16" value="d"> d) threads in, lugs out</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. A _____ is a temporary location at an emergency scene that provides refuge for firefighters awaiting rescue.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 844" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) black area</label><br>
+        <label><input type="radio" name="q17" value="b"> b) safe haven</label><br>
+        <label><input type="radio" name="q17" value="c"> c) hot box</label><br>
+        <label><input type="radio" name="q17" value="d"> d) safe box</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. A “safe location” is sometimes referred to as a _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 844" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) safe place</label><br>
+        <label><input type="radio" name="q18" value="b"> b) safe haven</label><br>
+        <label><input type="radio" name="q18" value="c"> c) quiet place</label><br>
+        <label><input type="radio" name="q18" value="d"> d) rehab place</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. Firefighters often consume a 45-minute-rated air supply in _____ minutes.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 844" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) just 20 to 25</label><br>
+        <label><input type="radio" name="q19" value="b"> b) more than 45</label><br>
+        <label><input type="radio" name="q19" value="c"> c) less than 10</label><br>
+        <label><input type="radio" name="q19" value="d"> d) 40 to 45</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. _____ is an urgent message that takes priority over all other communications, except a mayday call.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 846" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) Evacuation traffic</label><br>
+        <label><input type="radio" name="q20" value="b"> b) Emergency traffic</label><br>
+        <label><input type="radio" name="q20" value="c"> c) Hold traffic</label><br>
+        <label><input type="radio" name="q20" value="d"> d) Imminent hazard traffic</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. The word/phrase _____ indicates that a firefighter is in trouble and requires immediate assistance.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 846" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) rescue required</label><br>
+        <label><input type="radio" name="q21" value="b"> b) urgent traffic</label><br>
+        <label><input type="radio" name="q21" value="c"> c) mayday</label><br>
+        <label><input type="radio" name="q21" value="d"> d) emergency traffic</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. Analysis of firefighter fatalities and serious injuries has shown that firefighters often wait too long before initiating a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 846" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) suppression activity</label><br>
+        <label><input type="radio" name="q22" value="b"> b) mayday call</label><br>
+        <label><input type="radio" name="q22" value="c"> c) self-rescue</label><br>
+        <label><input type="radio" name="q22" value="d"> d) emergency message</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. When using the LUNAR format to issue a mayday call for assistance, the “L” stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 847" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) lifting</label><br>
+        <label><input type="radio" name="q23" value="b"> b) location</label><br>
+        <label><input type="radio" name="q23" value="c"> c) label</label><br>
+        <label><input type="radio" name="q23" value="d"> d) liability</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. When using the LUNAR format to issue a mayday call for assistance, the “N” stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 847" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) next</label><br>
+        <label><input type="radio" name="q24" value="b"> b) noted</label><br>
+        <label><input type="radio" name="q24" value="c"> c) number</label><br>
+        <label><input type="radio" name="q24" value="d"> d) name</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q25">
+    <p><strong>25. When using the LUNAR format to issue a mayday call for assistance, the “R” stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 847" style="display: none;"></div>
+        <label><input type="radio" name="q25" value="a"> a) remaining</label><br>
+        <label><input type="radio" name="q25" value="b"> b) responder</label><br>
+        <label><input type="radio" name="q25" value="c"> c) resources</label><br>
+        <label><input type="radio" name="q25" value="d"> d) rescue</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q26">
+    <p><strong>26. After issuing a mayday call for assistance, the firefighter in distress should _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 847" style="display: none;"></div>
+        <label><input type="radio" name="q26" value="a"> a) initiate skip breathing</label><br>
+        <label><input type="radio" name="q26" value="b"> b) open the emergency bypass valve on their SCBA</label><br>
+        <label><input type="radio" name="q26" value="c"> c) activate their PASS device</label><br>
+        <label><input type="radio" name="q26" value="d"> d) toss hand tools out of a window to gain attention of incoming rescuers</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q27">
+    <p><strong>27. The _____ technique of escape involves a firefighter loosening their waist strap and one strap of their SCBA to reposition the SCBA as they twist through a wall breach.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 850" style="display: none;"></div>
+        <label><input type="radio" name="q27" value="a"> a) backhanded swim</label><br>
+        <label><input type="radio" name="q27" value="b"> b) backward crawl</label><br>
+        <label><input type="radio" name="q27" value="c"> c) forward dive</label><br>
+        <label><input type="radio" name="q27" value="d"> d) feet first slide</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q28">
+    <p><strong>28. The _____ technique of escape is preferred if the wall breach opening is small or if the wall has entanglement hazards such as wiring that must be avoided.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 852" style="display: none;"></div>
+        <label><input type="radio" name="q28" value="a"> a) forward dive</label><br>
+        <label><input type="radio" name="q28" value="b"> b) backhanded swim</label><br>
+        <label><input type="radio" name="q28" value="c"> c) forward swim</label><br>
+        <label><input type="radio" name="q28" value="d"> d) feet first crawl</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q29">
+    <p><strong>29. When the RIC team reaches a downed firefighter, the first step is to _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Rescuing a Downed Firefighter" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 854" style="display: none;"></div>
+        <label><input type="radio" name="q29" value="a"> a) place the firefighter on a backboard</label><br>
+        <label><input type="radio" name="q29" value="b"> b) assess the firefighter’s condition</label><br>
+        <label><input type="radio" name="q29" value="c"> c) remove the firefighter’s helmet and stabilize the C-spine</label><br>
+        <label><input type="radio" name="q29" value="d"> d) notify command the firefighter has been located</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q30">
+    <p><strong>30. A _____ is a portable air supply that provides an emergency source of breathing air for a single firefighter who has run out of air or whose air supply is insufficient to safely exit from an IDLH atmosphere.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Rescuing a Downed Firefighter" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 855" style="display: none;"></div>
+        <label><input type="radio" name="q30" value="a"> a) rapid interior plan</label><br>
+        <label><input type="radio" name="q30" value="b"> b) rescue interior pack</label><br>
+        <label><input type="radio" name="q30" value="c"> c) rescue intervention pack</label><br>
+        <label><input type="radio" name="q30" value="d"> d) rapid intervention pack</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q31">
+    <p><strong>31. The RIC team can use a downed firefighter’s _____ that is integrated in the structural firefighting protective coat to remove them from the hazardous area.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Rescuing a Downed Firefighter" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 856" style="display: none;"></div>
+        <label><input type="radio" name="q31" value="a"> a) drag rescue device</label><br>
+        <label><input type="radio" name="q31" value="b"> b) daring rescue device</label><br>
+        <label><input type="radio" name="q31" value="c"> c) drag rehab device</label><br>
+        <label><input type="radio" name="q31" value="d"> d) detachable rescue device</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q32">
+    <p><strong>32. As of 2018, all NFPA-certified open-circuit SCBA is required to include a universally compatible _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Rescuing a Downed Firefighter" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 859" style="display: none;"></div>
+        <label><input type="radio" name="q32" value="a"> a) breathing battery</label><br>
+        <label><input type="radio" name="q32" value="b"> b) buddy breather</label><br>
+        <label><input type="radio" name="q32" value="c"> c) air consumption valve</label><br>
+        <label><input type="radio" name="q32" value="d"> d) pressure equalizer</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q33">
+    <p><strong>33. A buddy breather is also referred to as a(n) _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Rescuing a Downed Firefighter" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 859" style="display: none;"></div>
+        <label><input type="radio" name="q33" value="a"> a) PASS device</label><br>
+        <label><input type="radio" name="q33" value="b"> b) universally compatible face piece</label><br>
+        <label><input type="radio" name="q33" value="c"> c) EBSS</label><br>
+        <label><input type="radio" name="q33" value="d"> d) heads-up display</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q34">
+    <p><strong>34. The primary purpose of the EBSS is to _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Rescuing a Downed Firefighter" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 859" style="display: none;"></div>
+        <label><input type="radio" name="q34" value="a"> a) provide a connection point for RIC UAC operations</label><br>
+        <label><input type="radio" name="q34" value="b"> b) provide an activation mechanism for the PASS device</label><br>
+        <label><input type="radio" name="q34" value="c"> c) allow two firefighters to share air if needed in an emergency situation</label><br>
+        <label><input type="radio" name="q34" value="d"> d) allow for the refilling capabilities of the user’s air supply</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q35">
+    <p><strong>35. _____ provides a reference guide on developing standard operating procedures for performing a risk–benefit analysis.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Risk–Benefit Analysis" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 838" style="display: none;"></div>
+        <label><input type="radio" name="q35" value="a"> a) NFPA 1901</label><br>
+        <label><input type="radio" name="q35" value="b"> b) NFPA 1407</label><br>
+        <label><input type="radio" name="q35" value="c"> c) NFPA 1403</label><br>
+        <label><input type="radio" name="q35" value="d"> d) NFPA 1550</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q36">
+    <p><strong>36. The _____ is responsible for analyzing the overall scene.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Risk–Benefit Analysis" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 838" style="display: none;"></div>
+        <label><input type="radio" name="q36" value="a"> a) systems analyst</label><br>
+        <label><input type="radio" name="q36" value="b"> b) incident commander</label><br>
+        <label><input type="radio" name="q36" value="c"> c) safety officer</label><br>
+        <label><input type="radio" name="q36" value="d"> d) fire inspector</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q37">
+    <p><strong>37. Knowledge of _____ helps firefighters anticipate fire behavior and recognize the potential for structural collapse.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Hazard Indicators" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 839" style="display: none;"></div>
+        <label><input type="radio" name="q37" value="a"> a) building construction</label><br>
+        <label><input type="radio" name="q37" value="b"> b) weather patterns</label><br>
+        <label><input type="radio" name="q37" value="c"> c) water distribution systems</label><br>
+        <label><input type="radio" name="q37" value="d"> d) fire hydraulics</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q38">
+    <p><strong>38. _____ Standard System for the Identification of the Hazards of Materials for Emergency Response describes a system for identifying specific hazards in a building or container.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Hazard Indicators" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 839" style="display: none;"></div>
+        <label><input type="radio" name="q38" value="a"> a) NFPA 470</label><br>
+        <label><input type="radio" name="q38" value="b"> b) NFPA 1403</label><br>
+        <label><input type="radio" name="q38" value="c"> c) NFPA 704</label><br>
+        <label><input type="radio" name="q38" value="d"> d) NFPA 1010</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q39">
+    <p><strong>39. A(n) _____ is two or more individuals working to achieve a common goal.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Easy" data-a_head="Safe Operating Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 840" style="display: none;"></div>
+        <label><input type="radio" name="q39" value="a"> a) squad</label><br>
+        <label><input type="radio" name="q39" value="b"> b) strike</label><br>
+        <label><input type="radio" name="q39" value="c"> c) unit</label><br>
+        <label><input type="radio" name="q39" value="d"> d) team</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q40">
+    <p><strong>40. One of the most basic methods of remaining oriented while performing interior fire attack is to _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 843" style="display: none;"></div>
+        <label><input type="radio" name="q40" value="a"> a) maintain sight of windows and doors</label><br>
+        <label><input type="radio" name="q40" value="b"> b) listen for sounds from the fire engine and other firefighters</label><br>
+        <label><input type="radio" name="q40" value="c"> c) always stay in contact with a hose line</label><br>
+        <label><input type="radio" name="q40" value="d"> d) continuously use a thermal imaging device</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q41">
+    <p><strong>41. The radio communication term _____ is universally used to indicate that a firefighter is in trouble.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 846" style="display: none;"></div>
+        <label><input type="radio" name="q41" value="a"> a) SOS</label><br>
+        <label><input type="radio" name="q41" value="b"> b) HELP</label><br>
+        <label><input type="radio" name="q41" value="c"> c) MAYDAY</label><br>
+        <label><input type="radio" name="q41" value="d"> d) PAR</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q42">
+    <p><strong>42. In the acronym LIP, “L” stands for _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Firefighter Survival Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 847" style="display: none;"></div>
+        <label><input type="radio" name="q42" value="a"> a) level</label><br>
+        <label><input type="radio" name="q42" value="b"> b) list</label><br>
+        <label><input type="radio" name="q42" value="c"> c) location</label><br>
+        <label><input type="radio" name="q42" value="d"> d) leverage</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q43">
+    <p><strong>43. When removing a downed firefighter quickly, the RIC team can use the firefighter’s _____ to create a rescue harness.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Rescuing a Downed Firefighter" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 855" style="display: none;"></div>
+        <label><input type="radio" name="q43" value="a"> a) SCBA straps</label><br>
+        <label><input type="radio" name="q43" value="b"> b) suspenders</label><br>
+        <label><input type="radio" name="q43" value="c"> c) turnout coat</label><br>
+        <label><input type="radio" name="q43" value="d"> d) turnout pants</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q44">
+    <p><strong>44. The rapid intervention team is an extension of the _____.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Safe Operating Procedures" data-subject="Chapter 19" data-title="Firefighter Survival" data-feedback="Chapter 19; Page 842" style="display: none;"></div>
+        <label><input type="radio" name="q44" value="a"> a) PASS rule</label><br>
+        <label><input type="radio" name="q44" value="b"> b) two-in/two-out rule</label><br>
+        <label><input type="radio" name="q44" value="c"> c) FAST rescue rule</label><br>
+        <label><input type="radio" name="q44" value="d"> d) low-air alarm rule</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+</form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

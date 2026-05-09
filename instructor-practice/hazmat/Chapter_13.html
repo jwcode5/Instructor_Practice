@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>HazMat A&O Chapter 13 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. Protecting life first in an emergency response means:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 298, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) acting as a human shield.</label><br>
+        <label><input type="radio" name="q1" value="b"> b) separating people from a problem.</label><br>
+        <label><input type="radio" name="q1" value="c"> c) keeping regulations out of the rescue.</label><br>
+        <label><input type="radio" name="q1" value="d"> d) keeping yourself out of harm’s way.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. When could rescuing victims of a weapon of mass destruction be impractical?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 298, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) Too much press attention</label><br>
+        <label><input type="radio" name="q2" value="b"> b) Excess regulations</label><br>
+        <label><input type="radio" name="q2" value="c"> c) Risk outweighs benefit</label><br>
+        <label><input type="radio" name="q2" value="d"> d) Victims outnumber rescuers</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. What can be said about knowing whether a rescue is feasible in a given scenario?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 298, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) There are no exact guidelines.</label><br>
+        <label><input type="radio" name="q3" value="b"> b) It’s all up to intuition.</label><br>
+        <label><input type="radio" name="q3" value="c"> c) The decision is made by local police.</label><br>
+        <label><input type="radio" name="q3" value="d"> d) State guidelines should be the sole guide.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. When a rescuer has to risk their own life, what is a key way to approach the situation?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 298, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) Act without regard to safety.</label><br>
+        <label><input type="radio" name="q4" value="b"> b) Act with a detached, nonemotional demeanor.</label><br>
+        <label><input type="radio" name="q4" value="c"> c) Maximize both risk and reward.</label><br>
+        <label><input type="radio" name="q4" value="d"> d) Assume that serious injury will follow.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. In which case is not attempting a rescue the right decision?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 299, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) When local police serve as incident command</label><br>
+        <label><input type="radio" name="q5" value="b"> b) When there is a lack of proper training</label><br>
+        <label><input type="radio" name="q5" value="c"> c) When the press are directly observing</label><br>
+        <label><input type="radio" name="q5" value="d"> d) When firefighters are already present</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. In a life-threatening situation, what is the normal minimum number of rescuers needed?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Tactical Considerations" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 299, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) 2</label><br>
+        <label><input type="radio" name="q6" value="b"> b) 4</label><br>
+        <label><input type="radio" name="q6" value="c"> c) 6</label><br>
+        <label><input type="radio" name="q6" value="d"> d) 7</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. You are working at a site at which a dirty bomb has exploded and several hundred civilians have been contaminated. If you are working on the rescue team, who will you be helping?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Tactical Considerations" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 299, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) Stricken rescuers</label><br>
+        <label><input type="radio" name="q7" value="b"> b) Worst civilian casualties</label><br>
+        <label><input type="radio" name="q7" value="c"> c) Incident commander</label><br>
+        <label><input type="radio" name="q7" value="d"> d) Firefighters</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. An entry team must have at least how many available rescuers?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Tactical Considerations" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 300, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) 1</label><br>
+        <label><input type="radio" name="q8" value="b"> b) 2</label><br>
+        <label><input type="radio" name="q8" value="c"> c) 4</label><br>
+        <label><input type="radio" name="q8" value="d"> d) 6</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. If possible, who should the entry team ask to lead victims out of the hot zone to safety?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Tactical Considerations" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 300, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) An EMT</label><br>
+        <label><input type="radio" name="q9" value="b"> b) A member of the backup team</label><br>
+        <label><input type="radio" name="q9" value="c"> c) Incident commander</label><br>
+        <label><input type="radio" name="q9" value="d"> d) One of the victims</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. The coding of victims in a triage system is usually based on which of the following?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Tactical Considerations" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 301, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) Color</label><br>
+        <label><input type="radio" name="q10" value="b"> b) Number</label><br>
+        <label><input type="radio" name="q10" value="c"> c) Letter</label><br>
+        <label><input type="radio" name="q10" value="d"> d) Fruit name</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. Aggressively searching a building may quickly lead to what issue?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Complex" data-a_head="Search, Rescue, and Recovery" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 304, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) Rescuer fatigue</label><br>
+        <label><input type="radio" name="q11" value="b"> b) Injuries</label><br>
+        <label><input type="radio" name="q11" value="c"> c) Regulatory sanctions</label><br>
+        <label><input type="radio" name="q11" value="d"> d) Negative press coverage</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. What could be used to reduce rescuer fatigue when victims need to be carried?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Search, Rescue, and Recovery" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 304, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) Help from other victims</label><br>
+        <label><input type="radio" name="q12" value="b"> b) Mechanical transport for victims</label><br>
+        <label><input type="radio" name="q12" value="c"> c) Stimulants</label><br>
+        <label><input type="radio" name="q12" value="d"> d) Supplemental oxygen</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. What is the minimum number of radios for a search team?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Search, Rescue, and Recovery" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 306, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) 1</label><br>
+        <label><input type="radio" name="q13" value="b"> b) 2</label><br>
+        <label><input type="radio" name="q13" value="c"> c) 3</label><br>
+        <label><input type="radio" name="q13" value="d"> d) 4</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. Which person is least likely to try to escape a dangerous system?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Search, Rescue, and Recovery" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 307, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) 40-year-old male with a laceration to the arm</label><br>
+        <label><input type="radio" name="q14" value="b"> b) 4-year-old child</label><br>
+        <label><input type="radio" name="q14" value="c"> c) 35-year-old female with moderate fatigue</label><br>
+        <label><input type="radio" name="q14" value="d"> d) 20-year-old uninjured male</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. In which scenario would sheltering-in-place make most sense?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Search, Rescue, and Recovery" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 308, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) Victims are on balconies of a building with hallways full of ammonia gas.</label><br>
+        <label><input type="radio" name="q15" value="b"> b) Victims are in a parking lot outside a burning building.</label><br>
+        <label><input type="radio" name="q15" value="c"> c) Victims have been moved to the warm zone to rest.</label><br>
+        <label><input type="radio" name="q15" value="d"> d) Victims are in an undivided barn with large, open doors with a fire in the back half of the barn.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. If you need to move a paralyzed adult victim through many doors, which technique is the best choice?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Victim Rescue Methods" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 310, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) Two-person seat carry</label><br>
+        <label><input type="radio" name="q16" value="b"> b) Two-person chair carry</label><br>
+        <label><input type="radio" name="q16" value="c"> c) Two-person extremity carry</label><br>
+        <label><input type="radio" name="q16" value="d"> d) Cradle-in-arms carry</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. A walking assist usually requires how many rescuers per victim?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Victim Rescue Methods" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 308, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) 1</label><br>
+        <label><input type="radio" name="q17" value="b"> b) 2</label><br>
+        <label><input type="radio" name="q17" value="c"> c) 3</label><br>
+        <label><input type="radio" name="q17" value="d"> d) 5</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. Which technique involves the most danger of the victim’s head hitting a door jamb?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Victim Rescue Methods" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 311, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) Two-person seat carry</label><br>
+        <label><input type="radio" name="q18" value="b"> b) Cradle-in-arms carry</label><br>
+        <label><input type="radio" name="q18" value="c"> c) Two-person extremity carry</label><br>
+        <label><input type="radio" name="q18" value="d"> d) Two-person chair carry</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. When performing an emergency drag, what part of the victim should be closest to the rescuer?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Victim Rescue Methods" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 311, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) Head</label><br>
+        <label><input type="radio" name="q19" value="b"> b) Feet</label><br>
+        <label><input type="radio" name="q19" value="c"> c) Hands</label><br>
+        <label><input type="radio" name="q19" value="d"> d) Stomach</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. You have come upon a vehicle crash that is leaking gasoline and you need to remove a victim from the passenger side of the vehicle. What tool is most needed?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Victim Rescue Methods" data-subject="Chapter 13" data-title="Victim Rescue and Recovery" data-feedback="Chapter 13; Page 315, NFPA 470 9.8.1" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) Chair</label><br>
+        <label><input type="radio" name="q20" value="b"> b) Hammer</label><br>
+        <label><input type="radio" name="q20" value="c"> c) Saw</label><br>
+        <label><input type="radio" name="q20" value="d"> d) Long backboard</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+    </form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

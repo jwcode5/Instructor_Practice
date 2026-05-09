@@ -1,0 +1,95 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Apparatus Inspection and Maintenance
+Chapter 2 Quiz 
+Name:  
+	
+
+	Date:  
+	
+
+	
+
+Directions:         Write the correct letter on the blank before each question.
+                1.        Standard operating procedures (SOPs) for a systematic maintenance program should specify maintenance procedures, when they are performed, and:  (30)
+        A.        who is responsible.
+        B.        bid sheets for repair procedures. 
+        C.        absolute costs for each procedure.
+        D.        how often maintenance procedures can be skipped.
+                2.        Who should perform repair work that involves complex tools, parts, or in-depth mechanical knowledge?  (30)
+        A.        Shift supervisor 
+        B.        Driver/operator
+        C.        Senior firefighter
+        D.        Certified mechanic 
+                3.        In which situation must immediate action be taken on apparatus maintenance and inspection issues?  (31)
+        A.        Whenever an issue is found, no matter how small
+        B.        When the department does not have a back-up apparatus
+        C.        When the average number of response calls is more than two per day 
+        D.        For serious issues or items meeting the NFPA® 1911 "Out-of-Service" criteria
+
+                4.        Which statement about vehicle cleanliness is MOST accurate? (32)
+        A.        Exterior cleanliness is not important; only interior cleanliness matters.
+        B.        Excessive vehicle cleanliness can often mask problems with the vehicle.
+        C.        Modern pumping apparatus rarely need to be cleaned of dirt and grime.
+        D.        Proper inspection of apparatus is easier when parts are free of dirt and grime.
+                5.        When beginning a walk-around inspection, the driver/operator begins at the driver’s door on the cab and works:  (36)
+        A.        in whatever pattern is comfortable.
+        B.        around apparatus in a clockwise pattern.
+        C.        around apparatus in a counterclockwise pattern.
+        D.        by going back and forth to each side of the apparatus.
+                6.        Tire selection for fire apparatus is based on:  (38)
+        A.        length of the apparatus.
+        B.        gross axle weight ratings for the apparatus.
+        C.        longevity of the apparatus and daily intended use.
+        D.        cost parameters of the authority having jurisdiction. 
+                7.        What is a function of antilock braking systems?  (43)
+        A.        Enable the apparatus to stop much faster 
+        B.        Decrease both brake time and reaction time
+        C.        Enable the driver/operator to focus on items other than braking
+        D.        Reduce the possibility of an apparatus going into a slide during heavy braking 
+                8.        Apparatus brakes should be thoroughly tested ____  using methods outlined in NFPA® 1911. (43)
+        A.        at least annually
+        B.        at least every two years
+        C.        a minimum of every three years
+        D.        whenever any new tires are placed on the apparatus
+
+                9.        Why can charging batteries to be hazardous?  (47)
+        A.        Batteries can give off carbon dioxide, which is highly toxic.
+        B.        Batteries can give off methane gas, which is highly explosive.
+        C.        Batteries can give off hydrogen gas, which is highly explosive.
+        D.        Batteries can explode violently when left on the charging station even a few minutes too long.
+                10.        Which statement about inspecting apparatus fire pumps is MOST accurate? (48)
+        A.        Fire pumps need only be inspected if showing problems.
+        B.        All items must be checked at the same time, either daily or weekly.
+        C.        Some items should be checked daily, but other checks may be performed weekly.
+        D.        All checks on fire pumps must be performed by mechanics, not driver/operators.
+
+
+
+
+Directions:         Write a brief answer to the questions below.
+11.                What are three items that should be checked when examining tires?  (39) 
+
+
+
+
+
+
+12.                What is the difference between a load sequencer and a load monitor?  (40) 
+
+
+
+
+
+
+
+
+
+
+
+
+Fire Protection Publications                Chapter Quiz 
+Oklahoma State University                2-
+[a]changed
+[b]changed
+[c]changed
+[d]changed

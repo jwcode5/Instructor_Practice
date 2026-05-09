@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bank Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .options {
+            margin-left: 20px;
+        }
+        .correct {
+            background-color: #e6ffe6;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4CAF50
+        }
+        .incorrect {
+            background-color: #ffe6e6;
+        }
+        .answer-text {
+            font-weight: bold;
+            color: #2E7D32
+        }
+        #results {
+            margin-top: 30px;
+            padding: 15px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            display: none;
+        }
+        #score {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+           min-height: 44px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../test_page_theme.css">
+</head>
+<body>
+    <h1>HazMat A&O Chapter 09 Practice</h1>
+    <form id="quizForm">
+<div class="question" id="q1">
+    <p><strong>1. At a weapon of mass destruction incident, which of the following should coordinate the work of the various responders?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 218, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q1" value="a"> a) Incident command</label><br>
+        <label><input type="radio" name="q1" value="b"> b) Local police</label><br>
+        <label><input type="radio" name="q1" value="c"> c) Authority having jurisdiction</label><br>
+        <label><input type="radio" name="q1" value="d"> d) Department of Transportation</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q2">
+    <p><strong>2. When considering decontamination procedures, what is one of the first things to obtain during the response to a weapon of mass destruction incident?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Introduction" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 218, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q2" value="a"> a) Press coverage</label><br>
+        <label><input type="radio" name="q2" value="b"> b) Water or other appropriate solvent</label><br>
+        <label><input type="radio" name="q2" value="c"> c) Approval from the authority having jurisdiction</label><br>
+        <label><input type="radio" name="q2" value="d"> d) A communications link with the state government</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q3">
+    <p><strong>3. When identifying the need for a mass decontamination operation, it is important for it to be identified as ____ as possible.</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="Introduction" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 219, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q3" value="a"> a) Cheaply</label><br>
+        <label><input type="radio" name="q3" value="b"> b) Frequently</label><br>
+        <label><input type="radio" name="q3" value="c"> c) Quickly</label><br>
+        <label><input type="radio" name="q3" value="d"> d) Efficiently</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q4">
+    <p><strong>4. What kind of contaminants are the priority in a mass contamination setting?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="Mass Decontamination" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 219, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q4" value="a"> a) Water soluble</label><br>
+        <label><input type="radio" name="q4" value="b"> b) Particulate</label><br>
+        <label><input type="radio" name="q4" value="c"> c) Adherent</label><br>
+        <label><input type="radio" name="q4" value="d"> d) Surface</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q5">
+    <p><strong>5. When performing mass decontamination after a dirty bomb has been exploded, what should the responder’s first priority be?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Mass Decontamination" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 219, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q5" value="a"> a) Public relations</label><br>
+        <label><input type="radio" name="q5" value="b"> b) Calling for backup</label><br>
+        <label><input type="radio" name="q5" value="c"> c) Speed</label><br>
+        <label><input type="radio" name="q5" value="d"> d) Federal regulations</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q6">
+    <p><strong>6. Which tool helps to show that a nerve agent has been removed from victims?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Mass Decontamination" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 220, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q6" value="a"> a) M8 paper</label><br>
+        <label><input type="radio" name="q6" value="b"> b) pH paper</label><br>
+        <label><input type="radio" name="q6" value="c"> c) M10 paper</label><br>
+        <label><input type="radio" name="q6" value="d"> d) Mineral oil with indicator pigment</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q7">
+    <p><strong>7. When using two fire trucks to make a mass decontamination corridor, what is an appropriate pressure to use for the water?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Mass Decontamination" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 221, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q7" value="a"> a) 10 psi</label><br>
+        <label><input type="radio" name="q7" value="b"> b) 20 psi</label><br>
+        <label><input type="radio" name="q7" value="c"> c) 40 psi</label><br>
+        <label><input type="radio" name="q7" value="d"> d) 60 psi</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q8">
+    <p><strong>8. During mass decontamination, when does medical evaluation occur?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Mass Decontamination" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 223, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q8" value="a"> a) After all other steps</label><br>
+        <label><input type="radio" name="q8" value="b"> b) After washing with water</label><br>
+        <label><input type="radio" name="q8" value="c"> c) Before movement</label><br>
+        <label><input type="radio" name="q8" value="d"> d) First thing</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q9">
+    <p><strong>9. In evaluating the effectiveness of a mass decontamination, responders should aim for:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Evaluating the Effectiveness of Mass Decontamination" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 225, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q9" value="a"> a) accuracy.</label><br>
+        <label><input type="radio" name="q9" value="b"> b) precision.</label><br>
+        <label><input type="radio" name="q9" value="c"> c) the fastest answer.</label><br>
+        <label><input type="radio" name="q9" value="d"> d) the best regulatory compliance.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q10">
+    <p><strong>10. A dirty bomb has exploded in your city center, and you have just mass decontaminated 200 subjects. What could you use to determine if the decontamination was successful?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Complex" data-a_head="Evaluating the Effectiveness of Mass Decontamination" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 225, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q10" value="a"> a) Blood pressure cuff</label><br>
+        <label><input type="radio" name="q10" value="b"> b) Thermometer</label><br>
+        <label><input type="radio" name="q10" value="c"> c) Photographic film detector</label><br>
+        <label><input type="radio" name="q10" value="d"> d) Radiological device</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q11">
+    <p><strong>11. Undetected inadequate decontamination could lead to:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Evaluating the Effectiveness of Mass Decontamination" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 225, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q11" value="a"> a) torn PPE.</label><br>
+        <label><input type="radio" name="q11" value="b"> b) contaminated ambulances.</label><br>
+        <label><input type="radio" name="q11" value="c"> c) heart attacks among rescuers.</label><br>
+        <label><input type="radio" name="q11" value="d"> d) cardiac arrest among rescuers.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q12">
+    <p><strong>12. Which of the following is the surest sign that an overturned tractor trailer has the potential to release toxic liquids?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="The Role of Reference Sources in Mass Decontamination" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 225, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q12" value="a"> a) Steam coming from the motor</label><br>
+        <label><input type="radio" name="q12" value="b"> b) Hazardous material placards on the trailer</label><br>
+        <label><input type="radio" name="q12" value="c"> c) A trailer painted red</label><br>
+        <label><input type="radio" name="q12" value="d"> d) An uneven number of tires on the trailer</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q13">
+    <p><strong>13. Which of the following is a useful quick reference for mass decontamination?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Easy" data-a_head="The Role of Reference Sources in Mass Decontamination" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 226, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q13" value="a"> a) Emergency Response Guidebook</label><br>
+        <label><input type="radio" name="q13" value="b"> b) Most documents from the National Fire Protection Association</label><br>
+        <label><input type="radio" name="q13" value="c"> c) Handbooks from the Occupational Safety and Health Administration</label><br>
+        <label><input type="radio" name="q13" value="d"> d) The Red Book</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q14">
+    <p><strong>14. The National Fire Protection Association 704 hazard identification system is designed to be used:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Easy" data-a_head="The Role of Reference Sources in Mass Decontamination" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 227, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q14" value="a"> a) on trucks.</label><br>
+        <label><input type="radio" name="q14" value="b"> b) on packages.</label><br>
+        <label><input type="radio" name="q14" value="c"> c) within fixed facilities.</label><br>
+        <label><input type="radio" name="q14" value="d"> d) on highways.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q15">
+    <p><strong>15. When working on a radiological site in Mexico City, if you have a fast Internet connection, you could best find information for mass decontamination at which website?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="d" data-complexity="Moderate" data-a_head="The Role of Reference Sources in Mass Decontamination" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 227, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q15" value="a"> a) Occupational Safety and Health Administration</label><br>
+        <label><input type="radio" name="q15" value="b"> b) Chemical Transportation Emergency Center</label><br>
+        <label><input type="radio" name="q15" value="c"> c) Canadian Transport Emergency Centre</label><br>
+        <label><input type="radio" name="q15" value="d"> d) Emergency Transportation System for the Chemical Industry, Mexico</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q16">
+    <p><strong>16. Which of the following is the most effective way to direct a moving crowd at a hazardous materials emergency?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Crowd Control" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 227, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q16" value="a"> a) A bullhorn</label><br>
+        <label><input type="radio" name="q16" value="b"> b) Natural barriers</label><br>
+        <label><input type="radio" name="q16" value="c"> c) Flags</label><br>
+        <label><input type="radio" name="q16" value="d"> d) Flashing lights</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q17">
+    <p><strong>17. Members of the general population who find themselves at a weapon of mass destruction detonation site are most likely to obey whom?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Crowd Control" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 227, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q17" value="a"> a) Uniformed police</label><br>
+        <label><input type="radio" name="q17" value="b"> b) EMTs</label><br>
+        <label><input type="radio" name="q17" value="c"> c) Awareness level responders</label><br>
+        <label><input type="radio" name="q17" value="d"> d) Nurses</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q18">
+    <p><strong>18. What makes it most difficult to get a crowd to move in a given direction?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="c" data-complexity="Moderate" data-a_head="Crowd Control" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 227, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q18" value="a"> a) Noise from a different direction</label><br>
+        <label><input type="radio" name="q18" value="b"> b) Wind</label><br>
+        <label><input type="radio" name="q18" value="c"> c) Existing movement in a different direction</label><br>
+        <label><input type="radio" name="q18" value="d"> d) Number of people</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q19">
+    <p><strong>19. Which of the following is most likely to destroy evidence?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Evidence Preservation" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 228, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q19" value="a"> a) Decontamination</label><br>
+        <label><input type="radio" name="q19" value="b"> b) Photography</label><br>
+        <label><input type="radio" name="q19" value="c"> c) Excessive heat</label><br>
+        <label><input type="radio" name="q19" value="d"> d) Cold temperatures</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q20">
+    <p><strong>20. Contaminated valuables taken from victims of a weapon of mass destruction should be stored:</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Easy" data-a_head="Evidence Preservation" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 228, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q20" value="a"> a) on a clean sheet.</label><br>
+        <label><input type="radio" name="q20" value="b"> b) in small bags.</label><br>
+        <label><input type="radio" name="q20" value="c"> c) in open boxes.</label><br>
+        <label><input type="radio" name="q20" value="d"> d) where originally found.</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q21">
+    <p><strong>21. Where should you be able to find instructions on how to secure and protect evidence at a weapon of mass destruction site?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Evidence Preservation" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 228, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q21" value="a"> a) Emergency Resource Guide</label><br>
+        <label><input type="radio" name="q21" value="b"> b) Incident plan</label><br>
+        <label><input type="radio" name="q21" value="c"> c) Handouts from the authority having jurisdiction</label><br>
+        <label><input type="radio" name="q21" value="d"> d) National Fire Protection Association website</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q22">
+    <p><strong>22. Which data are you least likely to be able to collect after mass decontamination?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="a" data-complexity="Moderate" data-a_head="Reports and Documentation" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 228, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q22" value="a"> a) Names of all those decontaminated</label><br>
+        <label><input type="radio" name="q22" value="b"> b) Detailed description of decontamination procedures</label><br>
+        <label><input type="radio" name="q22" value="c"> c) Level of protection worn by responders</label><br>
+        <label><input type="radio" name="q22" value="d"> d) General scene observations</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q23">
+    <p><strong>23. Who should prepare any decontamination reports required by the emergency response plan?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Reports and Documentation" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 228, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q23" value="a"> a) Head of the authority having jurisdiction</label><br>
+        <label><input type="radio" name="q23" value="b"> b) Person responsible for decontamination corridor</label><br>
+        <label><input type="radio" name="q23" value="c"> c) Local police chief</label><br>
+        <label><input type="radio" name="q23" value="d"> d) Incident commander</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+<div class="question" id="q24">
+    <p><strong>24. Accounts of a mass decontamination effort should be stored for what purpose?</strong></p>
+    <div class="options">
+        <div class="question-meta" data-correct="b" data-complexity="Moderate" data-a_head="Reports and Documentation" data-subject="Chapter 09" data-title="Mass Decontamination" data-feedback="Chapter 09; Page 228, NFPA 470 9.3.1" style="display: none;"></div>
+        <label><input type="radio" name="q24" value="a"> a) Liability limitations</label><br>
+        <label><input type="radio" name="q24" value="b"> b) Ease of later access</label><br>
+        <label><input type="radio" name="q24" value="c"> c) Release to the press</label><br>
+        <label><input type="radio" name="q24" value="d"> d) Insurance purposes</label><br>
+        <div class="correct-answer" style="display: none;">
+            Correct answer: <span class="answer-text"></span><br>
+        </div>
+    </div>
+</div>
+    <button type="button" onclick="gradeQuiz()">Submit Answers</button>
+	
+    </form>
+    
+    <div id="results">
+        <h2>Results</h2>
+        <p id="score"></p>
+        <div id="answerKey"></div>
+    </div>
+    
+    <script>
+        function gradeQuiz() {
+            let score = 0;
+            const resultsDiv = document.getElementById("results");
+            const scoreDisplay = document.getElementById("score");
+            const answerKeyDisplay = document.getElementById("answerKey");
+            const questionDivs = document.querySelectorAll(".question");
+            const totalQuestions = questionDivs.length;
+            
+            answerKeyDisplay.innerHTML = "";
+            
+            questionDivs.forEach((questionDiv) => {
+                const question = questionDiv.id;
+                const selectedOption = document.querySelector(`input[name="${question}"]:checked`);
+                const meta = questionDiv.querySelector(".question-meta");
+                const correctAnswer = (meta?.dataset?.correct || "").toLowerCase();
+                
+                const correctAnswerText = questionDiv.querySelector(".answer-text");
+                const correctAnswerContainer = questionDiv.querySelector(".correct-answer");
+                
+                if (correctAnswer) {
+                    const correctOption = questionDiv.querySelector(`input[value="${correctAnswer}"]`);
+                    const correctText = correctOption ? correctOption.parentElement.textContent.trim() : correctAnswer.toUpperCase();
+                    if (correctAnswerText) {
+                        correctAnswerText.textContent = correctText;
+                    }
+                }
+                
+                if (correctAnswerContainer) {
+                    correctAnswerContainer.style.display = "block";
+                }
+                
+                if (selectedOption && correctAnswer) {
+                    if (selectedOption.value === correctAnswer) {
+                        score++;
+                        questionDiv.classList.add("correct");
+                        questionDiv.classList.remove("incorrect");
+                    } else {
+                        questionDiv.classList.add("incorrect");
+                        questionDiv.classList.remove("correct");
+                    }
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        You selected ${selectedOption.value.toUpperCase()}.
+                        Correct answer is ${correctAnswer.toUpperCase()}.</p>`;
+                } else {
+                    questionDiv.classList.remove("correct", "incorrect");
+                    const selectedText = selectedOption
+                        ? `You selected ${selectedOption.value.toUpperCase()}.`
+                        : "You didn't answer.";
+                    answerKeyDisplay.innerHTML += `
+                        <p><strong>Question ${question.substring(1)}:</strong>
+                        ${selectedText}
+                        Correct answer is ${correctAnswer ? correctAnswer.toUpperCase() : "N/A"}.</p>`;
+                }
+            });
+            
+            const percentage = totalQuestions ? Math.round((score / totalQuestions) * 100) : 0;
+            scoreDisplay.textContent = `You scored ${score} out of ${totalQuestions} (${percentage}%)`;
+            resultsDiv.style.display = "block";
+        }
+    </script>
+    <script src="../test_page_theme.js"></script>
+</body>
+</html>

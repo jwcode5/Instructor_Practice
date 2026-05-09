@@ -1,0 +1,105 @@
+﻿Pumping Apparatus Driver/Operator                
+Handbook, 3rd Edition                Fireground Hydraulic Calculations
+Chapter 8 Quiz 
+Name:  
+	
+
+	Date:  
+	
+
+	
+
+Directions:         Write the correct letter on the blank before each question.
+                1.        Flowmeters measure and display water flow in gallons or liters per minute, and the number requires:  (282)
+        A.        no further calculation.
+        B.        the driver/operator to look at calculations on a chart.
+        C.        the driver/operator to perform additional calculations.
+        D.        that the driver/operator input variables into a calculator.
+                2.        The number displayed by a flowmeter reflects water pressure that will be discharged through the nozzle if the hoseline:  (282)
+        A.        is functioning at its rated capacity.
+        B.        has been charged for at least five minutes.
+        C.        has been charged for at least ten minutes.
+        D.        is functioning within 25% of its rated capacity.
+                3.        Which type of flowmeter has only one simple moving part and therefore tends to require little maintenance?  (282)
+        A.        Flapper 
+        B.        Butterfly
+        C.        Paddlewheel 
+        D.        Spring probe
+                4.        With the proper calibration, a flowmeter should be accurate to a tolerance of plus or minus:  (282)
+        A.        1 percent.
+        B.        3 percent.
+        C.        5 percent.
+        D.        10 percent.
+
+                5.        What effect will a kink or a partially closed valve in the hose layout have on the flowmeter?  (283)
+        A.        Will have no effect on the flowmeter’s reading
+        B.        Will cause the flowmeter to immediately shut down
+        C.        Will cause the flowmeter to malfunction, giving incorrect readings 
+        D.        Will cause the flowmeter to register a change in the meter’s reading
+                6.        When a line is shut down during standpipe operations and the driver/operator is operating an apparatus equipped with a flowmeter, the driver/operator should:  (283)
+        A.        allow the system to self-adjust.
+        B.        lower the pressure accordingly.
+        C.        increase the pressure accordingly.
+        D.        monitor the system for excess flow.
+                7.        A guideline when making initial calculations for a customized pump chart is to:  (285)
+        A.        exceed maximum discharge pressure by 10% to account for errors.
+        B.        disregard residual pressure at the intake of the pumper being supplied.
+        C.        ensure the length of the wyed hoseline layout is the distance between the pumper and the wye.
+        D.        ensure the length of the wyed hoseline layout is one-half the distance from the pumper and the wye.
+                8.        Which statement about the condensed Q method is MOST accurate?  (287)
+        A.        The formula cannot be used with metric measurements.
+        B.        The method may be used for operations with any size hose.
+        C.        The method provides the most accurate readings of any method.
+        D.        The formula can be used with both customary and metric measurements.
+
+                9.        Which statement about the gpm flowing method is MOST accurate?  (288)
+        A.        It can only be used on 3-inch hose.
+        B.        It can only be used on small diameter hose.
+        C.        It is not applicable to the metric system of measurement.
+        D.        It is applicable to the both the customary and metric systems of measurement.
+
+
+Directions:         Write a brief answer to the questions below.
+10.                List two items of information that may be provided by a monitoring device when an apparatus is equipped with a flowmeter.  (282-283)
+
+
+
+
+
+
+11.                Describe manual and electronic hydraulic calculators.  (284)
+
+
+
+
+
+
+
+
+
+
+
+12.                Explain how a driver/operator would use a pump chart.  (285)
+
+
+
+
+
+
+
+
+
+
+13.                What is the condensed Q formula for 3-inch hose? (287)
+
+
+14.                What is the condensed Q formula for 4-inch hose?  (287)
+
+
+15.                What is the condensed Q formula for 5-inch hose? (288)
+
+
+
+
+Fire Protection Publications                Chapter Quiz 
+Oklahoma State University                8-

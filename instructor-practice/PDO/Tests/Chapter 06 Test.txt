@@ -1,0 +1,197 @@
+﻿Pumping Apparatus Driver/Operator
+Handbook, 3rd Edition                Hose Nozzles and Flow Rates
+Chapter 6 Test
+Name:
+	
+
+	Date:
+	
+
+	
+
+Directions: Write the correct letter on the blank before each question.
+
+
+Objective 1:
+Distinguish among types of fire hose nozzles. 
+                1.        A solid stream nozzle produces a fire stream that has a:  (194)
+        A.        tight stream and little spray or shower effect.
+        B.        variable stream with little spray or shower effect.
+        C.        wide stream with intermittent spray or shower effect.
+        D.        tight stream that has significant spray or shower effect.
+                2.        A solid stream nozzle is designed so that the volume of water flowing through the nozzle:  (194)
+        A.        is intermittent and reaches the orifice in bursts.
+        B.        is gradually reduced until just before the orifice. 
+        C.        is gradually increased until just before the orifice. 
+        D.        may either increase or decrease before the orifice. 
+                3.        Which factor BEST determines the flow and reach of a solid stream? (194)
+        A.        Water piping and connections
+        B.        Age of nozzle and firefighter training
+        C.        Ambient temperature and wind direction
+        D.        Nozzle pressure and size of the discharge orifice
+                4.        Solid stream nozzles on handlines should generally be operated at a maximum of:  (194)
+        A.        20 psi (140 kPa) nozzle pressure.
+        B.        30 psi (210 kPa) nozzle pressure.
+        C.        50 psi (350 kPa) nozzle pressure.
+        D.        80 psi (560 kPa) nozzle pressure.
+
+                5.        Master stream appliances should be operated at a maximum of:  (194)
+        A.        50 psi (350 kPa).
+        B.        80 psi (560 kPa).
+        C.        110 psi (760 kPa).
+        D.        150 psi (1050 kPa).
+                6.        Which is a reason that driver/operators may need to determine the amount of water discharged from a solid stream nozzle?  (194-195)
+        A.        Determine cost of water per minute flowing
+        B.        Verify that the nozzle discharges stamped amount
+        C.        Calculate amount of foam solution to add to the nozzle
+        D.        Test the water supply when a nozzle is attached to a hydrant
+
+
+                7.        Which is the customary formula for discharge rate?  (195)
+        A.        GPM= 29.7 x d2 x √NP
+        B.        GPM= 14.7 x d2 x √NP
+        C.        GPM= d2 x √NP x 1.7
+        D.        GPM= d2 x √NP x 2.5
+
+
+                8.        Which is a constant in the metric formula for discharge rate?  (195)
+        A.        0.03
+        B.        0.067
+        C.        0.096
+        D.        1.75
+                9.        Which manner of producing fog streams occurs by deflecting water around an inside circular stem in the nozzle?  (196)
+        A.        Circular stream nozzles
+        B.        Impinging stream nozzles
+        C.        Pressure-deflected streams 
+        D.        Periphery-deflected streams
+
+                10.        Which pattern is MOST often provided by impinging stream nozzles? (196)
+        A.        Solid stream
+        B.        Variable stream
+        C.        Wide-angle fog pattern
+        D.        Narrow-angle fog pattern
+                11.        What directly affects the reach of the fog stream?  (197)
+        A.        Ambient temperature
+        B.        Stage of fire growth
+        C.        Number of personnel
+        D.        Volume of water flowing
+                12.        Which nozzle is designed to flow a specific volume of water on all stream patterns at a specific nozzle discharge pressure?  (197)
+        A.        Automatic fog nozzle
+        B.        Constant flow fog nozzle
+        C.        High pressure fog nozzle
+        D.        Selectable gallonage nozzle
+                13.        Which nozzle is designed to allow the firefighter operating the handline to select a flow rate to suit the fire and operating conditions?  (197)
+        A.        Automatic fog nozzle
+        B.        Constant flow fog nozzle
+        C.        High pressure fog nozzle
+        D.        Selectable gallonage nozzle
+                14.        Which is a type of variable flow nozzle with the ability to change patterns while maintaining the same nozzle pressure?  (198)
+        A.        Automatic fog nozzle
+        B.        Constant flow fog nozzle
+        C.        High pressure fog nozzle
+        D.        Selectable gallonage nozzle
+
+                15.        What happens to an automatic nozzle when the pump discharge pressure rises above the constant operating pressure?  (199)
+        A.        Automatic nozzle stops functioning efficiently
+        B.        Automatic nozzle increases its operating pressure to match that of the pump discharge
+        C.        Automatic nozzle decreases its operating pressure to compensate for the pump discharge
+        D.        Automatic nozzle maintains its constant operating pressure, within the limitation of its design
+                16.        High pressure fog nozzles are BEST suited for:  (199)
+        A.        wildland fires.
+        B.        structural fires.
+        C.        multiple alarm fires. 
+        D.        hazardous materials fires. 
+                17.        High pressure fog nozzles: (199)
+        A.        have very little forward velocity.
+        B.        produce a stream of slow-moving large spray.
+        C.        have a relatively low volume of water delivery.
+        D.        have a relatively high volume of water delivery.
+Objective 2:
+Identify considerations for selecting nozzles. 
+
+
+Objective 3:
+Distinguish among types of special purpose nozzles. 
+                18.        Generally, the maximum flow for a handline is 350 gpm (1 400 L/min) because greater flows will:  (199)
+        A.        cause the nozzle to malfunction.
+        B.        require the nozzle to be replaced during fire fighting efforts.
+        C.        place too much strain on the water supply system and nozzle itself.
+        D.        produce a nozzle reaction that is difficult or dangerous for firefighters to handle.
+
+                19.        Master stream nozzles would MOST likely be used at an incident where:  (199)
+        A.        handlines would be ineffective.
+        B.        water flow can be relatively low.
+        C.        extra personnel are available.
+        D.        conditions require an offensive posture.
+                20.        Which is a characteristic of master stream nozzles?  (199)
+        A.        Designed to be used from a mobile position 
+        B.        Require considerable personnel for operation
+        C.        Generate little nozzle reaction even at higher flow rates
+        D.        Offer ability to operate at a greater distance from the fire
+                21.        Which statement about master stream appliances is MOST accurate?  (200)
+        A.        Only fixed monitors are able to change the stream direction or angle while water is being discharged.
+        B.        Each type of monitor cannot change the stream direction or angle while water is being discharged.
+        C.        Each type of monitor has ability to change the stream direction or angle while water is being discharged. 
+        D.        Only combination monitors are able to change the stream direction or angle while water is being discharged.
+                22.        Pre-piped waterways on elevated master streams generally feature a master stream that may be remotely controlled from the apparatus turntable, and is generally able to move:  (200)
+        A.        only up and down. 
+        B.        only side to side up to 30 degrees.
+        C.        both up and down and side to side.
+        D.        ten degrees from initial position that was set.
+                23.        Which nozzle may also be referred to as a distributor? (200)
+        A.        Cellar nozzle
+        B.        Broken nozzle
+        C.        Piercing nozzle
+        D.        Chimney nozzle
+                24.        Which nozzle may require insertion of an inline shut off valve at a location back from the nozzle to increase safety and ease of operation? (201)
+        A.        Cellar nozzle
+        B.        Broken nozzle
+        C.        Piercing nozzle
+        D.        Chimney nozzle
+                25.        Which nozzle is commonly used in aircraft fire fighting or to apply water to voids, attics, or other areas inaccessible to standard fire streams? (201)
+        A.        Cellar nozzle
+        B.        Broken nozzle
+        C.        Piercing nozzle
+        D.        Chimney nozzle
+                26.        Which nozzle consists of a solid piece of brass or steel with many small impinging holes that produce a very fine mist? (201)
+        A.        Cellar nozzle
+        B.        Broken nozzle
+        C.        Piercing nozzle
+        D.        Chimney nozzle
+Objective 4:
+Summarize facts about nozzle pressure and reaction. 
+                27.        Nozzle reaction occurs as water is discharged from a nozzle at a given pressure and:  (202)
+        A.        a forward pressure pulls firefighters operating the hoseline.
+        B.        the resulting vibration of water against the nozzle damages the hose.
+        C.        firefighters anticipating the water discharge hold the nozzle stationary.
+        D.        a counterforce pushes back against firefighters operating the hoseline.
+
+                28.        Why are most fog nozzles designed to operate at or below 100 psi (700 kPa) nozzle pressure?  (202)
+        A.        Above this pressure, handlines will produce erratic fire streams.
+        B.        Above this pressure, nozzles will likely separate from the hose couplings.
+        C.        Above this pressure, pump discharges will not keep up with needed supply.
+        D.        Above this pressure, handlines become unwieldy for firefighters attempting fire suppression operations.
+                29.        Which is the customary formula for determining nozzle reaction for solid stream nozzles?  (203)
+        A.        NR = d² x NP
+        B.        NR = 1.57 x d² x NP
+        C.        NR = 0.057 x d² x NP
+        D.        NR = 29.7 x d2 √NP
+                30.        Which is a simple guideline for the customary system of measurement that may be used to achieve approximate solid stream nozzle reaction on the fireground?  (203)
+        A.        NR = Q/2
+        B.        NR = Q/3
+        C.        NR = Q x 1.5
+        D.        NR = Q x 2.7
+                31.        Which is the customary formula for nozzle reaction for a fog stream nozzle?  (204)
+        A.        NR = Q x √NP
+        B.        NR = 0.025 x Q x √NP
+        C.        NR = 0.0505 x Q x √NP
+        D.        NR = 0.50 x Q x √NP
+                32.        In the metric formula for nozzle reaction for a fog stream nozzle, what does Q stand for?  (204)
+        A.        Nozzle reaction in Newtons (N) 
+        B.        Nozzle pressure in kilopascals (kPa)
+        C.        The sum of nozzle reaction and nozzle pressure
+        D.        Total flow through the nozzle in liters per minute (L/min)
+
+
+Fire Protection Publications                Chapter Test
+Oklahoma State University                6-
