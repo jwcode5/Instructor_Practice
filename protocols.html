@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#0f3d4c">
     <title>EMS Protocols - HFD Hub</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest-ems.json?v=20260508-4">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="Images/StarOfLife.png">
+    <link rel="stylesheet" href="style.css?v=20260508-4">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -145,13 +149,17 @@
             flex: 1;
             overflow: auto;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
+            align-items: center;
             background: #222;
+            -webkit-overflow-scrolling: touch;
         }
 
         canvas {
             display: block;
-            margin: 20px auto;
+            max-width: 100%;
+            height: auto !important;
+            margin: 10px auto;
             box-shadow: 0 0 50px rgba(0,0,0,0.5);
         }
 
@@ -220,6 +228,31 @@
             font-weight: 600;
         }
 
+        .quick-btn {
+            background: #1e293b;
+            border: 1px solid #ef4444;
+            color: #f8fafc;
+            padding: 1rem;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-align: center;
+        }
+
+        .quick-btn:hover {
+            background: #ef4444;
+            color: #fff;
+            transform: scale(1.02);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.5); opacity: 0.5; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
         @media (max-width: 768px) {
             .protocol-grid {
                 grid-template-columns: 1fr;
@@ -233,6 +266,22 @@
             <h1>EMS Protocols</h1>
             <a href="index.html" class="back-btn">← Back to Hub</a>
         </header>
+
+        <!-- Rapid Response Quick Links -->
+        <section style="margin-bottom: 3rem;">
+            <h2 style="font-size: 1.25rem; color: #ef4444; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                <span style="display: inline-block; width: 10px; height: 10px; background: #ef4444; border-radius: 50%; animation: pulse 2s infinite;"></span>
+                Rapid Response Quick Links
+            </h2>
+            <div class="quick-link-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1rem;">
+                <button class="quick-btn" onclick="openToPage('protocols/adult_protocols.pdf', 'RSI / Intubation', 8)">RSI / Intubation</button>
+                <button class="quick-btn" onclick="openToPage('protocols/adult_protocols.pdf', 'STEMI / ACS', 33)">STEMI / ACS</button>
+                <button class="quick-btn" onclick="openToPage('protocols/adult_protocols.pdf', 'Cardiac Arrest (VF/VT)', 36)">Cardiac Arrest (VF/VT)</button>
+                <button class="quick-btn" onclick="openToPage('protocols/adult_protocols.pdf', 'Asystole / PEA', 41)">Asystole / PEA</button>
+                <button class="quick-btn" onclick="openToPage('protocols/adult_protocols.pdf', 'ROSC Protocol', 43)">ROSC Protocol</button>
+                <button class="quick-btn" onclick="openToPage('protocols/adult_protocols.pdf', 'Pain Management', 15)">Pain Management</button>
+            </div>
+        </section>
 
         <div class="protocol-grid">
             <!-- Adult Protocols -->
@@ -248,9 +297,27 @@
             <div class="protocol-card" onclick="openProtocol('protocols/pediatric_protocols.pdf', 'Pediatric Protocols')">
                 <div>
                     <h3>Pediatric Protocols</h3>
-                    <p>Comprehensive pediatric care guidelines. Revised 2026.03.31.</p>
+                    <p>Comprehensive pediatric care guidelines and medications.</p>
                 </div>
                 <div class="meta">Last Updated: March 2026</div>
+            </div>
+
+            <!-- Adult Flowcharts -->
+            <div class="protocol-card" onclick="openProtocol('protocols/flowchart_adult.pdf', 'Adult Flowcharts')">
+                <div>
+                    <h3>Adult Flowcharts</h3>
+                    <p>Visual decision trees for adult protocol sets.</p>
+                </div>
+                <div class="meta">Last Updated: Nov 2025</div>
+            </div>
+
+            <!-- Pediatric Flowcharts -->
+            <div class="protocol-card" onclick="openProtocol('protocols/flowchart_pediatric.pdf', 'Pediatric Flowcharts')">
+                <div>
+                    <h3>Pediatric Flowcharts</h3>
+                    <p>Visual decision trees for pediatric emergencies.</p>
+                </div>
+                <div class="meta">Last Updated: Dec 2025</div>
             </div>
 
             <!-- Medication Formulary -->
@@ -270,25 +337,33 @@
                 </div>
                 <div class="meta">Last Updated: Jan 2024</div>
             </div>
+        </div>
 
-            <!-- Flowcharts -->
-            <div class="protocol-card" onclick="openProtocol('protocols/flowchart_adult.pdf', 'Adult Flowcharts')">
-                <div>
-                    <h3>Adult Flowcharts</h3>
-                    <p>Visual decision trees for adult protocol sets.</p>
-                </div>
-                <div class="meta">Last Updated: Nov 2025</div>
-            </div>
+        <!-- Failsafe Refresh -->
+        <div style="margin-top: 4rem; padding: 2rem 0; border-top: 1px solid rgba(255,255,255,0.05); text-align: center;">
+            <p style="font-size: 0.8rem; color: var(--text-dim); margin-bottom: 1rem;">App Version: 2026.05.08.14</p>
+            <button onclick="forceAppUpdate()" style="background:none; border: 1px solid var(--text-dim); color: var(--text-dim); padding: 0.5rem 1rem; border-radius: 6px; font-size: 0.75rem; cursor: pointer;">Force App Update / Clear Cache</button>
         </div>
     </div>
 
-    <!-- PDF Viewer -->
+    <!-- PDF Viewer Overlay -->
     <div id="viewer-container">
-        <div id="viewer-header">
-            <h2 id="viewer-title" style="margin:0; font-size: 1rem; color: var(--accent-color);">Protocol Viewer</h2>
-            <div class="viewer-controls">
-                <span id="page-info" style="font-size: 0.8rem; color: var(--text-dim);">Page 1 of 1</span>
-                <button class="close-viewer" onclick="closeViewer()">Close</button>
+        <div id="viewer-header" style="flex-direction: column; gap: 0.75rem; padding: 0.75rem 1rem;">
+            <!-- Row 1: Title & Page Nav -->
+            <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                <h2 id="viewer-title" style="margin:0; font-size: 1rem; color: var(--accent-color); flex: 1;">Protocol</h2>
+                <div style="display: flex; gap: 1rem; align-items: center;">
+                    <button onclick="onPrevPage()" style="background:#1e293b; border:1px solid var(--accent-color); color:white; padding: 12px 18px; border-radius: 8px; font-weight: bold; font-size: 1.2rem;">&lt;</button>
+                    <span id="page-info" style="font-size: 1rem; color: var(--text-dim); min-width: 60px; text-align: center; font-weight: bold;">Pg 1</span>
+                    <button onclick="onNextPage()" style="background:#1e293b; border:1px solid var(--accent-color); color:white; padding: 12px 18px; border-radius: 8px; font-weight: bold; font-size: 1.2rem;">&gt;</button>
+                </div>
+            </div>
+            
+            <!-- Row 2: Search & Close -->
+            <div style="display: flex; gap: 0.5rem; width: 100%;">
+                <input type="text" id="pdf-search" placeholder="Search keyword..." style="flex: 1; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); color: white; padding: 12px; border-radius: 8px; font-size: 1rem;">
+                <button onclick="executeSearch()" style="background:var(--accent-color); border:none; color:black; padding: 0 15px; border-radius: 8px; font-weight: bold;">Search</button>
+                <button class="close-viewer" onclick="closeViewer()" style="background:#ef4444; border:none; color:white; padding: 0 15px; border-radius: 8px; font-weight: bold;">Exit</button>
             </div>
         </div>
         <div id="pdf-canvas-container">
@@ -307,7 +382,7 @@
         </div>
     </div>
 
-    <script src="js/pdf.min.js"></script>
-    <script src="js/pdf-viewer.js"></script>
+    <script src="js/pdf.min.js?v=20260508-4"></script>
+    <script src="js/pdf-viewer.js?v=20260508-4"></script>
 </body>
 </html>

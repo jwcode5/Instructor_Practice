@@ -7,8 +7,17 @@
         "firebase.json",
         "**/.*",
         "**/node_modules/**",
+        "protocols/**",
+        "instructor-practice/**",
         "protocols.html",
-        "js/pdf-viewer.js"
+        "js/pdf-viewer.js",
+        "manifest-ems.json",
+        "**/*.exe",
+        "**/*.dll",
+        "**/*.bat",
+        "**/*.cmd",
+        ".gemini/**",
+        ".agents/**"
       ]
     },
     {
@@ -18,14 +27,33 @@
         "firebase.json",
         "**/.*",
         "**/node_modules/**",
+        "instructor-practice/**",
         "index.html",
-        "education_request.html"
+        "education_request.html",
+        "manifest.json",
+        "**/*.exe",
+        "**/*.dll",
+        "**/*.bat",
+        "**/*.cmd",
+        ".gemini/**",
+        ".agents/**"
       ],
       "rewrites": [
         {
           "source": "**",
           "destination": "/protocols.html"
         }
+      ]
+    },
+    {
+      "target": "hfd-practice",
+      "public": "instructor-practice",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**",
+        "**/*.exe",
+        "**/*.dll"
       ]
     }
   ]
